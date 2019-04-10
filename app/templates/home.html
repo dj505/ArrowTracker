@@ -1,6 +1,7 @@
   {% extends "layout.html" %}
   {% block body %}
-    <h1>Recent Scores</h1>
+    <h1>Scores</h1>
+    <hr class="my-4">
     {% for score in scores %}
     <article class="media content-section">
       <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
