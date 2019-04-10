@@ -1,0 +1,15 @@
+  {% extends "layout.html" %}
+  {% block body %}
+    {% for score in scores %}
+    <h1>Recent Scores</h1>
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2" href="#">{{ score.author }}</a>
+        </div>
+        <h2><a class="article-title" href="#">{{ score.song }}</a></h2>
+        <p class="article-content">{{ score.content }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  {% endblock body %}

@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron text-center">
+  <h1 style="padding: 10px"><img src="{{ url_for('static', filename='newlogo-arrow-small.png') }}" alt="" />&nbsp&nbspWelcome to Arrow Tracker</h1>
+    <p class="lead">
+    This is an application meant for PIU players to submit and track their scores easily!
+    Scores can be submitted as either Keyboard/StepF2 or Pad, and an image/screenshot can also be provided as verification.
+    </p>
+    <hr class="my-4">
+    <h4>This site currently only supports the PIU XX songlist and scoring!</h4>
+  <h3>Quick Links</h3>
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <a href='/add_article' class="btn btn-secondary">Submit Score</a>
+    <a href='/scores' class="btn btn-secondary">View Scores</a>
+    <a href='/dashboard' class="btn btn-secondary">Dashboard</a>
+  </div>
+</div>
+{% if not current_user.is_authenticated %}
+<div class="card mx-auto" style="width: 25rem">
+  <div class="card-body">
+    <h5>It seems you aren't logged in!</h5>
+    <p class="card-text">Please log in or create an account to start submitting your scores!</p>
+    <div class="text-center">
+      <a href="{{ url_for('register') }}" class="btn btn-primary btn-lg">Register</a>
+      <a href="{{ url_for('login') }}" class="btn btn-success btn-lg">Login</a>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endblock %}
