@@ -116,3 +116,4 @@ dmypy.json
 # Other
 *.ini
 *.db
+app/static/profile_pics/*

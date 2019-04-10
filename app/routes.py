@@ -101,3 +101,13 @@ def score(score_id):
     score = Post.query.get_or_404(score_id)
     difficulty = str(score.difficulty)
     return render_template('score.html', title=score.song, score=score, difficulty=difficulty)
+
+@app.route('/post/<int:score_id>/delete', methods=["POST"])
+def delete_score(score_id):
+    score = Post.query.get_or_404(score_id)
+    if post.author != current_user:
+        abort(403)
+    db.session.delete(post)
+    db.session.commit()
+    flash('Your score has been deleted!', 'success')
+    return redirect(url_for('home'))
