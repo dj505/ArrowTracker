@@ -29,3 +29,6 @@ class Post(db.Model):
     stagepass = db.Column(db.String(5), nullable=False)
     ranked = db.Column(db.String(5), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+
+    def __repr__(self):
+        return f"User('{self.song}', '{self.score}', '{self.lettergrade}', '{self.type}', '{self.difficulty}', '{self.platform}', '{self.stagepass}', '{self.ranked}')"

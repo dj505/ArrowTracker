@@ -9,7 +9,10 @@ from flask_login import login_user, current_user, logout_user, login_required
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    scores = Post.query.all()
+    for score in scores:
+        difficulty = str(score.difficulty)
+    return render_template("home.html", scores=scores, difficulty=difficulty)
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
@@ -85,6 +88,16 @@ def dashboard():
 def new_score():
     form = ScoreForm()
     if form.validate_on_submit():
-        flash('Score has been submitted!')
+        post = Post(song = form.song.data, score = form.score.data, lettergrade = form.lettergrade.data, type = form.type.data, difficulty = form.difficulty.data, platform = form.platform.data, stagepass = form.stagepass.data, ranked = form.ranked.data, author = current_user)
+        db.session.add(post)
+        print(post)
+        db.session.commit()
+        flash('Score has been submitted!', 'success')
         return redirect(url_for('home'))
     return render_template("new_score.html", title="New Score", form=form)
+
+@app.route('/post/<int:score_id>')
+def score(score_id):
+    score = Post.query.get_or_404(score_id)
+    difficulty = str(score.difficulty)
+    return render_template('score.html', title=score.song, score=score, difficulty=difficulty)

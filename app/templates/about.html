@@ -11,9 +11,9 @@
     <h4>This site currently only supports the PIU XX songlist and scoring!</h4>
   <h3>Quick Links</h3>
   <div class="btn-group" role="group" aria-label="Basic example">
-    <a href='/add_article' class="btn btn-secondary">Submit Score</a>
-    <a href='/scores' class="btn btn-secondary">View Scores</a>
-    <a href='/dashboard' class="btn btn-secondary">Dashboard</a>
+    <a href="{{ url_for('new_score') }}" class="btn btn-secondary">Submit Score</a>
+    <a href="{{ url_for('home') }}" class="btn btn-secondary">Home</a>
+    <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">Dashboard</a>
   </div>
 </div>
 {% if not current_user.is_authenticated %}
