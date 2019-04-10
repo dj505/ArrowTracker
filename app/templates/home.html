@@ -2,12 +2,12 @@
   {% block body %}
     <h1>Scores</h1>
     <hr class="my-4">
-    {% for score in scores %}
+    {% for score in scores.items %}
     <article class="media content-section">
       <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
       <div class="media-body">
         <div class="article-metadata">
-          <a class="mr-2" href="#">{{ score.author.username }}</a>
+          <a class="mr-2" href="{{ url_for('user_posts', username=score.author.username) }}">{{ score.author.username }}</a>
           <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
         </div>
         <h2><a class="article-title" href="{{ url_for('score', score_id=score.id) }}">{{ score.song }}</a></h2>
@@ -18,5 +18,16 @@
         </p>
       </div>
     </article>
+    {% endfor %}
+    {% for page_num in scores.iter_pages(left_edge=1, right_edge=1) %}
+      {% if page_num %}
+        {% if scores.page == page_num %}
+          <a class="btn btn-info mb-4" href="{{ url_for('home', page=page_num) }}">{{ page_num }}</a>
+        {% else %}
+          <a class="btn btn-outline-info mb-4" href="{{ url_for('home', page=page_num) }}">{{ page_num }}</a>
+        {% endif %}
+      {% else %}
+        ...
+      {% endif %}
     {% endfor %}
   {% endblock body %}
