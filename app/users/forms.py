@@ -1,10 +1,9 @@
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileAllowed
-from flask_login import current_user
-from wtforms import StringField, PasswordField, BooleanField, SubmitField, SelectField, IntegerField
+from wtforms import StringField, PasswordField, SubmitField, BooleanField
 from wtforms.validators import DataRequired, Length, Email, EqualTo, ValidationError
+from flask_login import current_user
 from app.models import User
-from app import songlist_pairs, difficulties
 
 class RegisterForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired(), Length(min=1, max=20)])
@@ -46,17 +45,6 @@ class UpdateAccountForm(FlaskForm):
             user = User.query.filter_by(email=email.data).first()
             if user:
                 raise ValidationError('That email has already been taken!')
-
-class ScoreForm(FlaskForm):
-    song = SelectField('Song', coerce=str, choices=songlist_pairs, validators=[DataRequired()])
-    lettergrade = SelectField('Letter Grade', coerce=str, choices=(('f', 'F'), ('d', 'D'), ('c', 'C'), ('b', 'B'), ('a', 'A'), ('s', 'S'), ('ss', 'SS'), ('sss', 'SSS')), validators=[DataRequired()])
-    score = IntegerField('Score', validators=[DataRequired()])
-    stagepass = SelectField('Stage Pass', coerce=str, choices=(('True', 'True'), ('False', 'False')), validators=[DataRequired()])
-    type = SelectField('Type', coerce=str, choices=(('singles', 'Singles'), ('doubles', 'Doubles')), validators=[DataRequired()])
-    difficulty = SelectField('Difficulty', coerce=int, choices=difficulties, validators=[DataRequired()])
-    platform = SelectField('Platform', coerce=str, choices=(('pad', 'Pad'), ('keyboard', 'Keyboard')), validators=[DataRequired()])
-    ranked = SelectField('Ranked?', coerce=str, choices=(('True', 'Ranked'), ('False', 'Unranked')), validators=[DataRequired()])
-    submit = SubmitField('Submit')
 
 class RequestResetForm(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])

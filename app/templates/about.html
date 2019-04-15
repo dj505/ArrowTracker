@@ -11,9 +11,9 @@
     <h4>This site currently only supports the PIU XX songlist and scoring!</h4>
   <h3>Quick Links</h3>
   <div class="btn-group" role="group" aria-label="Basic example">
-    <a href="{{ url_for('new_score') }}" class="btn btn-secondary">Submit Score</a>
-    <a href="{{ url_for('home') }}" class="btn btn-secondary">Home</a>
-    <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">Dashboard</a>
+    <a href="{{ url_for('scores.new_score') }}" class="btn btn-secondary">Submit Score</a>
+    <a href="{{ url_for('main.home') }}" class="btn btn-secondary">Home</a>
+    <a href="{{ url_for('users.dashboard') }}" class="btn btn-secondary">Dashboard</a>
   </div>
 </div>
 {% if not current_user.is_authenticated %}
@@ -22,8 +22,8 @@
     <h5>It seems you aren't logged in!</h5>
     <p class="card-text">Please log in or create an account to start submitting your scores!</p>
     <div class="text-center">
-      <a href="{{ url_for('register') }}" class="btn btn-primary btn-lg">Register</a>
-      <a href="{{ url_for('login') }}" class="btn btn-success btn-lg">Login</a>
+      <a href="{{ url_for('users.register') }}" class="btn btn-primary btn-lg">Register</a>
+      <a href="{{ url_for('users.login') }}" class="btn btn-success btn-lg">Login</a>
     </div>
   </div>
 </div>
