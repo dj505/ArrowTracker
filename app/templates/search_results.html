@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h1 style="padding: 10px">Search Results</h1>
+<table class="table table-striped">
+  <th>Song</th>
+  <th>Difficulty</th>
+  <th>Letter Grade</th>
+  <th>Score</th>
+  <th>Stage Pass</th>
+  <th>Platform</th>
+  <th>Ranked?</th>
+  <th>Author</th>
+  {% for score in results %}
+  <tr>
+    <td><a href="/score/{{score.id}}">{{score.song}}</a>
+      {% if score.id in images %}
+        <span class="badge badge-pill badge-success">Verified!</span>
+      {% endif %}
+    </td>
+    <td>{{score.lvl_prefix + score.difficulty}}</td>
+    <td>{{score.lettergrade}}</td>
+    <td>{{score.score}}</td>
+    <td>{{score.stagepass}}</td>
+    <td>{{score.platform}}</td>
+    <td>{{score.ranked}}</td>
+    <td>{{score.author}}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
