@@ -1,4 +1,4 @@
-from flask import render_template, request, Blueprint, current_app
+from flask import render_template, request, Blueprint, current_app, session, redirect, url_for
 from app.main.forms import SearchForm
 from app.models import Post
 from app import songlist_pairs, difficulties
@@ -23,12 +23,11 @@ def search():
     if request.method == "POST" and form.validate():
         session['song_search'] = form.song.data
         session['filters'] = form.filters.data
-        return redirect(url_for('search_results'))
+        return redirect(url_for('main.search_results'))
     return render_template("search.html", songlist=songlist_pairs, form=form)
 
 @main.route('/search_results/')
 def search_results():
-    current_app.logger.info(session['song_search'])
     song = session['song_search']
     filter = session['filters']
     if filter == "score" or filter == "difficulty":
@@ -45,10 +44,11 @@ def search_results():
         query = 'SELECT * FROM piu WHERE song = "{}" AND platform = "pad"'.format(song)
     if filter == "keyboard":
         query = 'SELECT * FROM piu WHERE song = "{}" AND platform = "keyboard"'.format(song)
-    cur = mysql.connection.cursor()
-    result = cur.execute(query)
-    results = cur.fetchall()
-    results = list(results)
+    # cur = mysql.connection.cursor()
+    # result = cur.execute(query)
+    # results = cur.fetchall()
+    # results = list(results)
+    results = []
     if filter != "difficulty":
         results = sorted(results, key=lambda tup: tup['score'], reverse=True)
     else:
