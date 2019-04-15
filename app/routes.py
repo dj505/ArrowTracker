@@ -164,4 +164,4 @@ def reset_token(token):
         db.session.commit()
         flash(f'You password has been updated! You are now able to log in.', 'success')
         return redirect(url_for('login'))
-    return redirect(url_for('reset_token', title='Reset Password', form=form))
+    return render_template('reset_token.html', title='Reset Password', form=form)
