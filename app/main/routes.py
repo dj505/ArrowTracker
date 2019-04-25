@@ -2,6 +2,7 @@ from flask import render_template, request, Blueprint, current_app, session, red
 from app.main.forms import SearchForm
 from app.models import Post
 from app import songlist_pairs, difficulties
+from sqlalchemy import desc
 
 main = Blueprint('main', __name__)
 
@@ -23,17 +24,20 @@ def search():
     if request.method == "POST" and form.validate():
         session['song_search'] = form.song.data
         session['filters'] = form.filters.data
+        session['userfilter'] = form.userfilter.data
         return redirect(url_for('main.search_results'))
     return render_template("search.html", songlist=songlist_pairs, form=form)
 
 @main.route('/search_results/')
 def search_results():
-    results = Post.query.filter(Post.song == session['song_search'])
-    results = [u.__dict__ for u in results]
     if session['filters'] == 'score':
-        results = sorted(results, key=lambda tup: tup['score'], reverse=True)
+        results = Post.query.filter(Post.song == session['song_search']).order_by(desc(Post.score))
     elif session['filters'] == 'difficulty':
-        results = sorted(results, key=lambda tup: tup['difficulty'], reverse=True)
+        results = Post.query.filter(Post.song == session['song_search']).order_by(desc(Post.difficulty))
+    elif session['filters'] == 'user':
+        results = Post.query.filter(Post.author.username == session['userfilter'])
+    results = [u.__dict__ for u in results]
+    print(results)
     for result in results:
         result['lvl_prefix'] = result['type'][0].upper()
         result['difficulty'] = str(result['difficulty'])

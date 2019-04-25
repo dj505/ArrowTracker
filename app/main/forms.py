@@ -1,11 +1,12 @@
 from flask_wtf import FlaskForm
-from wtforms import SelectField, SubmitField
+from wtforms import SelectField, SubmitField, StringField
 from app import songlist_pairs
 
 class SearchForm(FlaskForm):
     filters = (
     ("score", "Score"),
-    ("difficulty", "Difficulty")
+    ("difficulty", "Difficulty"),
+    ("user", "User")
     #("stagepass", "Stage Pass"),
     #("stagebreak", "Stage Break"),
     #("ranked", "Ranked"),
@@ -15,4 +16,5 @@ class SearchForm(FlaskForm):
     )
     song = SelectField('Song', coerce=str, choices=songlist_pairs)
     filters = SelectField('Filter', coerce=str, choices=filters)
+    userfilter = StringField('User [OPTIONAL]')
     submit = SubmitField('Submit')
