@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: #e2e2e2;
 }
 
 .bg-steel {
@@ -7,15 +7,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section {
-  background: #ffffff;
+  background: #3a3a3a;
   padding: 10px 20px;
-  border: 1px solid #dddddd;
+  border: 1px solid #232323;
   border-radius: 3px;
   margin-bottom: 20px;
 }
 
 .article-title {
-  color: #444444;
+  color: #e2e2e2;
 }
 
 a.article-title:hover {
@@ -40,7 +40,7 @@ a.article-title:hover {
 }
 
 .article-metadata a:hover {
-  color: #333;
+  color: #e3e3e3;
   text-decoration: none;
 }
 

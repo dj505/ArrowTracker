@@ -30,7 +30,6 @@ def search():
 def search_results():
     results = Post.query.filter(Post.song == session['song_search'])
     results = [u.__dict__ for u in results]
-    print(results)
     for result in results:
         result['lvl_prefix'] = result['type'][0].upper()
         result['difficulty'] = str(result['difficulty'])
