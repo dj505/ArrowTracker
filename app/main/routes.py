@@ -30,6 +30,7 @@ def search():
 def search_results():
     results = Post.query.filter(Post.song == session['song_search'])
     results = [u.__dict__ for u in results]
+    print(results)
     for result in results:
         result['lvl_prefix'] = result['type'][0].upper()
         result['difficulty'] = str(result['difficulty'])
@@ -39,9 +40,9 @@ def search_results():
             result['stagepass'] = "Yes"
         elif result['stagepass'] == 0:
             result['stagepass'] = "No"
-        if result['ranked'] == 0:
+        if result['ranked'] == "False":
             result['ranked'] = "Unranked"
-        elif result['ranked'] == 1:
+        elif result['ranked'] == "True":
             result['ranked'] = "Ranked"
         else:
             result['ranked'] = "Unknown"
