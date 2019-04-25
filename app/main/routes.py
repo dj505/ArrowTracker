@@ -36,10 +36,10 @@ def search_results():
         result['difficulty'] = str(result['difficulty'])
         result['lettergrade'] = result['lettergrade'].upper()
         result['platform'] = result['platform'].capitalize()
-        if result['stagepass'] == 1:
-            result['stagepass'] = "Yes"
-        elif result['stagepass'] == 0:
-            result['stagepass'] = "No"
+        if result['stagepass'] == "True":
+            result['stagepass'] = "Pass"
+        elif result['stagepass'] == "False":
+            result['stagepass'] = "Break"
         if result['ranked'] == "False":
             result['ranked'] = "Unranked"
         elif result['ranked'] == "True":
