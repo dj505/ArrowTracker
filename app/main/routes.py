@@ -28,45 +28,21 @@ def search():
 
 @main.route('/search_results/')
 def search_results():
-    song = session['song_search']
-    filter = session['filters']
-    if filter == "score" or filter == "difficulty":
-        query = 'SELECT * FROM piu WHERE song = "{}"'.format(song)
-    if filter == "stagepass":
-        query = 'SELECT * FROM piu WHERE song = "{}" AND stagepass = 1'.format(song)
-    if filter == "stagebreak":
-        query = 'SELECT * FROM piu WHERE song = "{}" AND stagepass = 0'.format(song)
-    if filter == "ranked":
-        query = 'SELECT * FROM piu WHERE song = "{}" AND ranked = 1'.format(song)
-    if filter == "unranked":
-        query = 'SELECT * FROM piu WHERE song = "{}" AND ranked = 0'.format(song)
-    if filter == "pad":
-        query = 'SELECT * FROM piu WHERE song = "{}" AND platform = "pad"'.format(song)
-    if filter == "keyboard":
-        query = 'SELECT * FROM piu WHERE song = "{}" AND platform = "keyboard"'.format(song)
-    # cur = mysql.connection.cursor()
-    # result = cur.execute(query)
-    # results = cur.fetchall()
-    # results = list(results)
-    results = []
-    if filter != "difficulty":
-        results = sorted(results, key=lambda tup: tup['score'], reverse=True)
-    else:
-        results = sorted(results, key=lambda tup: int(tup['difficulty']), reverse=True)
-    if len(results) > 0:
-        for result in results:
-            result['lvl_prefix'] = result['type'][0].upper()
-            result['difficulty'] = str(result['difficulty'])
-            result['lettergrade'] = result['lettergrade'].upper()
-            result['platform'] = result['platform'].capitalize()
-            if result['stagepass'] == 1:
-                result['stagepass'] = "Yes"
-            elif result['stagepass'] == 0:
-                result['stagepass'] = "No"
-            if result['ranked'] == 0:
-                result['ranked'] = "Unranked"
-            elif result['ranked'] == 1:
-                result['ranked'] = "Ranked"
-            else:
-                result['ranked'] = "Unknown"
+    results = Post.query.filter(Post.song == session['song_search'])
+    results = [u.__dict__ for u in results]
+    for result in results:
+        result['lvl_prefix'] = result['type'][0].upper()
+        result['difficulty'] = str(result['difficulty'])
+        result['lettergrade'] = result['lettergrade'].upper()
+        result['platform'] = result['platform'].capitalize()
+        if result['stagepass'] == 1:
+            result['stagepass'] = "Yes"
+        elif result['stagepass'] == 0:
+            result['stagepass'] = "No"
+        if result['ranked'] == 0:
+            result['ranked'] = "Unranked"
+        elif result['ranked'] == 1:
+            result['ranked'] = "Ranked"
+        else:
+            result['ranked'] = "Unknown"
     return render_template("search_results.html", results=results)
