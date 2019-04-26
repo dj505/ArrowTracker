@@ -32,23 +32,4 @@ def search_results():
         results = Post.query.filter(Post.song == session['song_search']).order_by(desc(Post.score))
     elif session['filters'] == 'difficulty':
         results = Post.query.filter(Post.song == session['song_search']).order_by(desc(Post.difficulty))
-    elif session['filters'] == 'user':
-        results = Post.query.filter(Post.author.username == session['userfilter'])
-    results = [u.__dict__ for u in results]
-    print(results)
-    for result in results:
-        result['lvl_prefix'] = result['type'][0].upper()
-        result['difficulty'] = str(result['difficulty'])
-        result['lettergrade'] = result['lettergrade'].upper()
-        result['platform'] = result['platform'].capitalize()
-        if result['stagepass'] == "True":
-            result['stagepass'] = "Pass"
-        elif result['stagepass'] == "False":
-            result['stagepass'] = "Break"
-        if result['ranked'] == "False":
-            result['ranked'] = "Unranked"
-        elif result['ranked'] == "True":
-            result['ranked'] = "Ranked"
-        else:
-            result['ranked'] = "Unknown"
     return render_template("search_results.html", results=results)

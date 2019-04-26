@@ -5,8 +5,7 @@ from app import songlist_pairs
 class SearchForm(FlaskForm):
     filters = (
     ("score", "Score"),
-    ("difficulty", "Difficulty"),
-    ("user", "User")
+    ("difficulty", "Difficulty")
     #("stagepass", "Stage Pass"),
     #("stagebreak", "Stage Break"),
     #("ranked", "Ranked"),

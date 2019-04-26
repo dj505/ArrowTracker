@@ -18,13 +18,21 @@
         <span class="badge badge-pill badge-success">Verified!</span>
       {% endif %}
     </td>
-    <td>{{score.lvl_prefix + score.difficulty}}</td>
-    <td>{{score.lettergrade}}</td>
+    <td>{{score.type.capitalize()}} {{score.difficulty}}</td>
+    <td>{{score.lettergrade.upper()}}</td>
     <td>{{score.score}}</td>
-    <td>{{score.stagepass}}</td>
-    <td>{{score.platform}}</td>
-    <td>{{score.ranked}}</td>
-    <td>{{score.username}}</td>
+    {% if score.stagepass == "True" %}
+      <td>{{score.stagepass|replace("True", "Yes")}}</td>
+    {% elif score.stagepass == "False" %}
+      <td>{{score.stagepass|replace("False", "No")}}</td>
+    {% endif %}
+    <td>{{score.platform.capitalize()}}</td>
+    {% if score.ranked == "True" %}
+      <td>{{score.ranked|replace("True", "Yes")}}</td>
+    {% elif score.ranked == "False" %}
+      <td>{{score.ranked|replace("False", "No")}}</td>
+    {% endif %}
+    <td>{{score.author.username}}</td>
   </tr>
   {% endfor %}
 </table>
