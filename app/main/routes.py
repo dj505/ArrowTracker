@@ -10,9 +10,7 @@ main = Blueprint('main', __name__)
 def home():
     page = request.args.get('page', 1, type=int)
     scores = Post.query.order_by(Post.date_posted.desc()).paginate(per_page=5, page=page)
-    for score in scores.items:
-        difficulty = str(score.difficulty)
-    return render_template("home.html", scores=scores, difficulty=difficulty)
+    return render_template("home.html", scores=scores)
 
 @main.route('/about')
 def about():

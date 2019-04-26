@@ -31,19 +31,6 @@
             {{ form.filters(class="form-control form-control-lg") }}
           {% endif %}
         </div>
-        <div class="form-group">
-          {{ form.userfilter.label(class="form-control-label") }}
-          {% if form.userfilter.errors %}
-            {{ form.userfilter(class="form-control form-control-lg is-invalid") }}
-            <div class="invalid-feedback">
-              {% for error in form.userfilter.errors %}
-                <span>{{ error }}</span>
-              {% endfor %}
-            </div>
-          {% else %}
-            {{ form.userfilter(class="form-control form-control-lg") }}
-          {% endif %}
-        </div>
       </fieldset>
       <div class="form-field">
         {{ form.submit(class="btn btn-outline-success") }}

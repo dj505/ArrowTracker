@@ -11,5 +11,5 @@ class ScoreForm(FlaskForm):
     type = SelectField('Type', coerce=str, choices=(('singles', 'Singles'), ('doubles', 'Doubles')), validators=[DataRequired()])
     difficulty = SelectField('Difficulty', coerce=int, choices=difficulties, validators=[DataRequired()])
     platform = SelectField('Platform', coerce=str, choices=(('pad', 'Pad'), ('keyboard', 'Keyboard')), validators=[DataRequired()])
-    ranked = SelectField('Ranked?', coerce=str, choices=(('True', 'Ranked'), ('False', 'Unranked')), validators=[DataRequired()])
+    ranked = SelectField('Ranked?', coerce=str, choices=(('False', 'Unranked'), ('True', 'Ranked')), validators=[DataRequired()])
     submit = SubmitField('Submit')

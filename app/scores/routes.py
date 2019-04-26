@@ -28,9 +28,9 @@ def score(score_id):
 @scores.route('/post/<int:score_id>/delete', methods=["POST"])
 def delete_score(score_id):
     score = Post.query.get_or_404(score_id)
-    if post.author != current_user:
+    if score.author != current_user:
         abort(403)
-    db.session.delete(post)
+    db.session.delete(score)
     db.session.commit()
     flash('Your score has been deleted!', 'success')
     return redirect(url_for('main.home'))
