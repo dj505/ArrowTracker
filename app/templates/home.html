@@ -14,7 +14,7 @@
           <p class="article-content">
             Score: {{ score.score }}
             Letter Grade: {{ score.lettergrade.upper() }}
-            Difficulty: {{ score.type[0].upper() + difficulty }}
+            Difficulty: {{ score.type[0].upper() + score.difficulty|string }}
           </p>
         </div>
       </article>

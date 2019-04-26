@@ -12,22 +12,38 @@
         <table class="table">
           <thead class="thead-dark">
             <tr>
+              <th scope="col">Song</th>
+              <th scope="col">Difficulty</th>
               <th scope="col">Letter Grade</th>
               <th scope="col">Score</th>
               <th scope="col">Stage Pass</th>
-              <th scope="col">Type</th>
-              <th scope="col">Difficulty</th>
+              <th scope="col">Platform</th>
               <th scope="col">Ranked?</th>
+              <th scope="col">Author</th>
             </tr>
           </thead>
           <tbody>
             <tr>
+              <td><a href="/score/{{score.id}}">{{score.song}}</a>
+                {% if score.id in images %}
+                  <span class="badge badge-pill badge-success">Verified!</span>
+                {% endif %}
+              </td>
+              <td>{{score.type.capitalize()}} {{score.difficulty}}</td>
               <td>{{score.lettergrade.upper()}}</td>
               <td>{{score.score}}</td>
-              <td>{{score.stagepass}}</td>
-              <td>{{score.type.capitalize()}}</td>
-              <td>{{score.difficulty}}</td>
-              <td>{{score.ranked}}</td>
+              {% if score.stagepass == "True" %}
+                <td>{{score.stagepass|replace("True", "Yes")}}</td>
+              {% elif score.stagepass == "False" %}
+                <td>{{score.stagepass|replace("False", "No")}}</td>
+              {% endif %}
+              <td>{{score.platform.capitalize()}}</td>
+              {% if score.ranked == "True" %}
+                <td>{{score.ranked|replace("True", "Yes")}}</td>
+              {% elif score.ranked == "False" %}
+                <td>{{score.ranked|replace("False", "No")}}</td>
+              {% endif %}
+              <td>{{score.author.username}}</td>
             </tr>
           </tbody>
         </table>
