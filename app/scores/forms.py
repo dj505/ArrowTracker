@@ -1,6 +1,7 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, TextAreaField, SelectField, IntegerField
 from wtforms.validators import DataRequired
+from flask_wtf.file import FileField, FileAllowed
 from app import songlist_pairs, difficulties
 
 class ScoreForm(FlaskForm):
@@ -12,4 +13,5 @@ class ScoreForm(FlaskForm):
     difficulty = SelectField('Difficulty', coerce=int, choices=difficulties, validators=[DataRequired()])
     platform = SelectField('Platform', coerce=str, choices=(('pad', 'Pad'), ('keyboard', 'Keyboard')), validators=[DataRequired()])
     ranked = SelectField('Ranked?', coerce=str, choices=(('False', 'Unranked'), ('True', 'Ranked')), validators=[DataRequired()])
+    picture = FileField('Verification Score (Optional)', validators=[FileAllowed(['jpg', 'png', 'JPG', 'PNG'])])
     submit = SubmitField('Submit')

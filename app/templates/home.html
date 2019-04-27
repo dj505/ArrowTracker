@@ -10,12 +10,43 @@
             <a class="mr-2" href="{{ url_for('users.user_posts', username=score.author.username) }}">{{ score.author.username }}</a>
             <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
           </div>
-          <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a></h2>
-          <p class="article-content">
-            Score: {{ score.score }}
-            Letter Grade: {{ score.lettergrade.upper() }}
-            Difficulty: {{ score.type[0].upper() + score.difficulty|string }}
-          </p>
+          {% if score.image_file %}
+            <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a></h2><h4><span class="badge badge-success">Verified!</span></h4>
+          {% else %}
+            <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a></h2>
+          {% endif %}
+          <div class="article-content">
+            <table class="table rounded">
+              <thead>
+                <tr>
+                  <th>Difficulty</th>
+                  <th>Letter Grade</th>
+                  <th>Score</th>
+                  <th>Stage Pass</th>
+                  <th>Platform</th>
+                  <th>Ranked?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{{score.type.capitalize()}} {{score.difficulty}}</td>
+                  <td>{{score.lettergrade.upper()}}</td>
+                  <td>{{score.score}}</td>
+                  {% if score.stagepass == "True" %}
+                    <td>{{score.stagepass|replace("True", "Yes")}}</td>
+                  {% elif score.stagepass == "False" %}
+                    <td>{{score.stagepass|replace("False", "No")}}</td>
+                  {% endif %}
+                  <td>{{score.platform.capitalize()}}</td>
+                  {% if score.ranked == "True" %}
+                    <td>{{score.ranked|replace("True", "Yes")}}</td>
+                  {% elif score.ranked == "False" %}
+                    <td>{{score.ranked|replace("False", "No")}}</td>
+                  {% endif %}
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </article>
     {% endfor %}

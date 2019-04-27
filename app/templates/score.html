@@ -48,6 +48,11 @@
           </tbody>
         </table>
       </div>
+      {% if score.image_file != "None" %}
+      <div style="padding-bottom: 10pt; padding-left: 5pt; padding-right: 5pt">
+        <img src="{{ url_for('static', filename='score_screenshots/' + score.image_file) }}" class="rounded mx-auto d-block img-fluid">
+      </div>
+      {% endif %}
       <div>
         <form action="{{ url_for('scores.delete_score', score_id=score.id) }}" method="POST">
           <input type="submit" class="btn btn-danger m-1" value="Delete">

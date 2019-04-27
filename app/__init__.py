@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, current_app, logging
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager

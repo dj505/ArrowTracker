@@ -116,4 +116,8 @@ dmypy.json
 # Other
 *.ini
 *.db
-app/static/profile_pics/*
+app/static/profile_pics/*.jpg
+app/static/profile_pics/*.gif
+app/static/profile_pics/*.png
+app/static/score_screenshots/*.jpg
+app/static/score_screenshots/*.png
