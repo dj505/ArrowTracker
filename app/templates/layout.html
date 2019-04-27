@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    {% block head %}{% endblock %}
     <meta charset="utf-8" />
     <meta property="og:site_name" content="Arrow Tracker"/>
     <meta property="og:image" content="{{ url_for('static', filename='newlogo-arrow-small.png') }}">

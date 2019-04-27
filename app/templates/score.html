@@ -1,4 +1,9 @@
 {% extends "layout.html" %}
+{% block head %}
+  <meta property="og:title" content="{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}"/>
+  <meta property="og:description" content="Score: {{ song.score }} | Grade: {{ song.lettergrade }} | Platform: {{ song.platform }}"/>
+  <meta property="og:url" content="{{ url_for(request.endpoint) }}">
+{% endblock head %}
 {% block body %}
   <article class="media content-section">
     <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
