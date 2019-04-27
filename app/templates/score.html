@@ -1,5 +1,6 @@
 {% extends "layout.html" %}
 {% block head %}
+{{ super() }}
   <meta property="og:title" content="{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}"/>
   <meta property="og:description" content="Score: {{ song.score }} | Grade: {{ score.lettergrade }}"/>
   <meta property="og:url" content="{{ url_for(request.endpoint) }}">
