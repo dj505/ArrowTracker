@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    {% block head %}
     <meta charset="utf-8" />
     <meta property="og:site_name" content="Arrow Tracker"/>
     <meta property="og:image" content="{{ url_for('static', filename='newlogo-arrow-small.png') }}">
     <meta property="og:type" content="organization"/>
+    {% block head %}{% endblock head %}
     <title>Arrow Tracker</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" />
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
-    {% endblock head %}
   </head>
   <body>
     {% include 'includes/_navbar.html' %}
