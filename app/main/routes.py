@@ -1,4 +1,4 @@
-from flask import render_template, request, Blueprint, current_app, session, redirect, url_for
+from flask import render_template, request, Blueprint, current_app, session, redirect, url_for, flash
 from app.main.forms import SearchForm
 from app.models import Post
 from app import songlist_pairs, difficulties
@@ -8,6 +8,7 @@ main = Blueprint('main', __name__)
 
 @main.route("/")
 def home():
+    flash('Latest update: Co-Op support has been added! Co-op player count can be found at the bottom of the "Difficulty" dropdown in score submission.', 'secondary')
     page = request.args.get('page', 1, type=int)
     scores = Post.query.order_by(Post.date_posted.desc()).paginate(per_page=5, page=page)
     return render_template("home.html", scores=scores)
