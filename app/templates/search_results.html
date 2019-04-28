@@ -14,7 +14,7 @@
   {% for score in results %}
   <tr>
     <td><a href="/post/{{score.id}}">{{score.song}}</a>
-      {% if score.image_file %}
+      {% if score.image_file != "None" %}
         <span style="padding-left: 5pt"><span class="badge badge-pill badge-success">Verified!</span></span>
       {% endif %}
     </td>

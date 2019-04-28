@@ -9,7 +9,10 @@ from app.config import Config
 songlist_pairs = load_song_lists()
 
 difficulties = []
+coop = ["2P", "3P", "4P", "5P"]
 for i in range(1, 29):
+    difficulties.append(str(i))
+for i in coop:
     difficulties.append(i)
 difficulties = list(zip(difficulties, difficulties))
 
