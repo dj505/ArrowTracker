@@ -14,7 +14,8 @@ def load_song_lists():
             for song in listadd:
                 songlist.append(song)
                 numsongs += 1
-    del songlist[-1]
+            del songlist[-1]
+            print(f'Loaded {file}')
     songlist.sort()
     songlist_pairs = list(zip(songlist, songlist))
     print('{} List(s)'.format(numlists))

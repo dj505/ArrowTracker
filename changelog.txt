@@ -1,3 +1,8 @@
+Latest update (2019/04/29)
+- Added Information page with various links to useful resources
+- Added removed songs from XX
+
+Previous update (2019-04-29)
 - This page was added!
 - Full mobile reactive support
 - StepF2 Pad and StepF2 Keyboard score options added

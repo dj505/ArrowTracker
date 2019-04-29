@@ -44,3 +44,7 @@ def search_results():
 @main.route('/changelog')
 def changelog():
     return render_template("changelog.html", changelog=GetChangelog())
+
+@main.route('/resources')
+def resources():
+    return render_template("resources.html", changelog=GetChangelog())
