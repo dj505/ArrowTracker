@@ -3,7 +3,7 @@
     <h1>Newest Scores</h1>
     <hr class="my-4">
     {% for score in scores.items %}
-      <article class="media content-section" style="overflow: auto; overflow-x: scroll; max-width: 100%">
+      <article class="media content-section" style="overflow: auto; max-width: 100%">
         <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
         <div class="media-body">
           <div class="article-metadata">
