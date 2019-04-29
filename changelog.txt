@@ -1,3 +1,6 @@
 - This page was added!
-- Co-op compatibility was added
-- A couple bug fixes I think
+- Full mobile reactive support
+- StepF2 Pad and StepF2 Keyboard score options added
+- Leaderboard can be sorted by Ranked (Arcade pad scores with images attached) or Unranked (StepF2 Pad or Keyboard scores)
+- Delete button now only shows for your own scores
+- Minor bug fixes and changes
