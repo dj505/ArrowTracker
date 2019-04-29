@@ -2,7 +2,7 @@ from flask import render_template, request, Blueprint, current_app, session, red
 from app.main.forms import SearchForm
 from app.models import Post
 from app import songlist_pairs, difficulties
-from sqlalchemy import desc
+from sqlalchemy import desc, or_
 from app.config import GetChangelog
 
 main = Blueprint('main', __name__)
@@ -31,10 +31,14 @@ def search():
 
 @main.route('/search_results/')
 def search_results():
-    if session['filters'] == 'score':
-        results = Post.query.filter(Post.song == session['song_search']).order_by(desc(Post.score))
-    elif session['filters'] == 'difficulty':
-        results = Post.query.filter(Post.song == session['song_search']).order_by(desc(Post.difficulty))
+    if session['filters'] == 'ranked-score':
+        results = Post.query.filter(Post.song == session['song_search'], Post.platform == 'pad', Post.image_file != "None").order_by(desc(Post.score))
+    elif session['filters'] == 'unranked-score':
+        results = Post.query.filter(Post.song == session['song_search'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad')).order_by(desc(Post.score))
+    if session['filters'] == 'ranked-difficulty':
+        results = Post.query.filter(Post.song == session['song_search'], Post.platform == 'pad', Post.image_file != "None").order_by(desc(Post.difficulty))
+    elif session['filters'] == 'unranked-difficulty':
+        results = Post.query.filter(Post.song == session['song_search'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad')).order_by(desc(Post.difficulty))
     return render_template("search_results.html", results=results)
 
 @main.route('/changelog')

@@ -6,8 +6,8 @@ class SearchForm(FlaskForm):
     filters = (
     ("ranked-score", "Ranked, Score"),
     ("ranked-difficulty", "Ranked, Difficulty"),
-    ("unranked-score", "Ranked, Score"),
-    ("unranked-difficulty", "Ranked, Difficulty"))
+    ("unranked-score", "Unranked, Score"),
+    ("unranked-difficulty", "Unranked, Difficulty"))
     song = SelectField('Song', coerce=str, choices=songlist_pairs)
     filters = SelectField('Filter', coerce=str, choices=filters)
     userfilter = StringField('User [OPTIONAL]')
