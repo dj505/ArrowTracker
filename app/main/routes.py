@@ -1,14 +1,16 @@
-from flask import render_template, request, Blueprint, current_app, session, redirect, url_for, flash
+from flask import render_template, request, Blueprint, current_app, session, redirect, url_for, flash, Markup
 from app.main.forms import SearchForm
 from app.models import Post
 from app import songlist_pairs, difficulties
 from sqlalchemy import desc
+from app.config import GetChangelog
 
 main = Blueprint('main', __name__)
 
 @main.route("/")
 def home():
-    flash('Latest update: Co-Op support has been added! Co-op player count can be found at the bottom of the "Difficulty" dropdown in score submission.', 'secondary')
+    flashmsg = Markup(f'New update! 2019-04-29 | <a href="/changelog">View Changelog</a>')
+    flash(flashmsg, 'secondary')
     page = request.args.get('page', 1, type=int)
     scores = Post.query.order_by(Post.date_posted.desc()).paginate(per_page=5, page=page)
     return render_template("home.html", scores=scores)
@@ -34,3 +36,7 @@ def search_results():
     elif session['filters'] == 'difficulty':
         results = Post.query.filter(Post.song == session['song_search']).order_by(desc(Post.difficulty))
     return render_template("search_results.html", results=results)
+
+@main.route('/changelog')
+def changelog():
+    return render_template("changelog.html", changelog=GetChangelog())

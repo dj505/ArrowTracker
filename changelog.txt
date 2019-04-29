@@ -1,0 +1,3 @@
+- This page was added!
+- Co-op compatibility was added
+- A couple bug fixes I think

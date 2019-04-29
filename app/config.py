@@ -11,3 +11,8 @@ class Config():
     MAIL_USE_TLS = True
     MAIL_USERNAME = parser.get('email', 'email')
     MAIL_PASSWORD = parser.get('email', 'password')
+
+def GetChangelog():
+    with open('changelog.txt') as f:
+        log = f.read()
+    return log
