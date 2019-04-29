@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .content-section {
   background: #3a3a3a;
-  padding: 10px 20px;
+  padding: 10px;
   border: 1px solid #232323;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -52,6 +52,7 @@ a.article-title:hover {
   margin-right: 20px;
   margin-bottom: 16px;
 }
+
 .account-heading {
   font-size: 2.5rem;
 }
