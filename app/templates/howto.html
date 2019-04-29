@@ -1,0 +1,60 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron text-center">
+  <h1><img src="{{ url_for('static', filename='newlogo-arrow-small.png') }}" alt="" />&nbsp&nbspHow To Use</h1>
+  <hr />
+  <h3>Submitting scores</h3>
+  <p>Scores can be submitted via the "Submit Score" button up on the navigation bar.</p>
+  <table class="table" style="text-align: left">
+    <tr>
+      <th>Song</th>
+      <td>A simple dropdown displaying every available song, sorted alphabetically.</td>
+    </tr>
+    <tr>
+      <th>Score</th>
+      <td>Score entry field - Make sure you type it in right! You can't edit it later! Accepts only integer values.</td>
+    </tr>
+    <tr>
+      <th>Letter Grade</th>
+      <td>Whatever the letter grade you received on your song was. SSS, SS, S, A, B, C, D, F are all available choices.</td>
+    </tr>
+    <tr>
+      <th>Type</th>
+      <td>The type of chart you played. Singles, Doubles, and Co-op are available to pick from; no mission support yet. Ensure to pick the co-op options from the Difficulty dropdown.</td>
+    </tr>
+    <tr>
+      <th>Difficulty</th>
+      <td>Contains levels 1 through 28, as well as 2P through 5P for Co-op play. If you're submitting a Singles/Doubles score, use 1 thorugh 28; if it's a Co-op score, ensure you select the number of players from lower down on the list instead.</td>
+    </tr>
+    <tr>
+      <th>Platform</th>
+      <td>Pad, SF2 Keyboard, and SF2 Pad are all available. The latter two are meant for StepF2 scores and are not included as verified scores on the leaderboard.</td>
+    </tr>
+    <tr>
+      <th>Stage Pass</th>
+      <td>Select True if you passed. Select False if you failed/hit stage break.</td>
+    </tr>
+    <tr>
+      <th>Ranked</th>
+      <td>Unranked is for scores that aren't played in Ranked Mode. Ranked is for scores with Rank Mode/VJ enabled.</td>
+    </tr>
+    <tr>
+      <th>Verification Image</th>
+      <td>Use this field to upload a screenshot of your score. Only PNG and JPG files are allowed. Submitting a score with an image attached will automatically verify it and it will display on the leaderboards.</td>
+    </tr>
+  </table>
+  <hr />
+  <h3>Using the Per-Song Leaderboard</h3>
+  <p>The Song Leaderboards can be used to sort specific songs by highest scores, either ranked or unranked.</p>
+  <p>Only verified scores will display by default, and these can be sorted by either difficulty or score, depending on what's selected in the dropdown. There's a separate option for scores
+  from StepF2 (Keyboard/Pad). Hitting "Search" will bring up a page with all of the results in a neat little table - to view a score's details and screenshot, you can click on that score's
+  title, which will bring you to that score's own dedicated page.</p>
+  <hr />
+  <h3>Dashboard and Score Management</h3>
+  <p>Currently, the user dashboard doesn't have very many features. At the moment, you can change your email and profile picture, as well as username.
+  Your current email is displayed below your username.</p>
+  <p>If you need to delete a score, you can do so either by selecting it on the Home page or from your own user score page (which can be accessed by clicking your username on one of your scores).
+  At the bottom, you'll see a "Delete" button. Be careful with this, as there's no confirmation beforehand and the score cannot be recovered once deleted. It is not yet possible to edit scores.</p>
+</div>
+{% endblock %}

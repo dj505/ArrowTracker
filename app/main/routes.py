@@ -48,3 +48,7 @@ def changelog():
 @main.route('/resources')
 def resources():
     return render_template("resources.html", changelog=GetChangelog())
+
+@main.route('/howto')
+def howto():
+    return render_template("howto.html", changelog=GetChangelog())
