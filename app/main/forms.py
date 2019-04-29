@@ -4,15 +4,10 @@ from app import songlist_pairs
 
 class SearchForm(FlaskForm):
     filters = (
-    ("score", "Score"),
-    ("difficulty", "Difficulty")
-    #("stagepass", "Stage Pass"),
-    #("stagebreak", "Stage Break"),
-    #("ranked", "Ranked"),
-    #("unranked", "Unranked"),
-    #("pad", "Pad"),
-    #("keyboard", "Keyboard")
-    )
+    ("ranked-score", "Ranked, Score"),
+    ("ranked-difficulty", "Ranked, Difficulty")
+    ("unranked-score", "Ranked, Score"),
+    ("unranked-difficulty", "Ranked, Difficulty")
     song = SelectField('Song', coerce=str, choices=songlist_pairs)
     filters = SelectField('Filter', coerce=str, choices=filters)
     userfilter = StringField('User [OPTIONAL]')

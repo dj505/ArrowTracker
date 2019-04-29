@@ -11,7 +11,7 @@ class ScoreForm(FlaskForm):
     stagepass = SelectField('Stage Pass', coerce=str, choices=(('True', 'True'), ('False', 'False')), validators=[DataRequired()])
     type = SelectField('Type', coerce=str, choices=(('singles', 'Singles'), ('doubles', 'Doubles'), ('co-op', 'Co-op')), validators=[DataRequired()])
     difficulty = SelectField('Difficulty (Co-Op player count at bottom)', coerce=str, choices=difficulties, validators=[DataRequired()])
-    platform = SelectField('Platform', coerce=str, choices=(('pad', 'Pad'), ('keyboard', 'Keyboard')), validators=[DataRequired()])
+    platform = SelectField('Platform', coerce=str, choices=(('pad', 'Pad'), ('keyboard', 'SF2 Keyboard'), ('sf2-pad', 'SF2 Pad')), validators=[DataRequired()])
     ranked = SelectField('Ranked?', coerce=str, choices=(('False', 'Unranked'), ('True', 'Ranked')), validators=[DataRequired()])
     picture = FileField('Verification Score (Optional)', validators=[FileAllowed(['jpg', 'png', 'JPG', 'PNG'])])
     submit = SubmitField('Submit')
