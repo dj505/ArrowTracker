@@ -4,19 +4,52 @@
   <h4>{{ scores.total }} Scores</h4>
   <hr class="my-4">
   {% for score in scores.items %}
-  <article class="media content-section">
+  <article class="media content-section" style="overflow: auto; max-width: 100%">
     <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
     <div class="media-body">
       <div class="article-metadata">
         <a class="mr-2" href="{{ url_for('users.user_posts', username=score.author.username) }}">{{ score.author.username }}</a>
         <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
       </div>
-      <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a></h2>
-      <p class="article-content">
-        Score: {{ score.score }}
-        Letter Grade: {{ score.lettergrade.upper() }}
-        Difficulty: {{ score.type[0].upper() + difficulty }}
-      </p>
+      {% if score.image_file != "None" %}
+        <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a></h2><h4><span class="badge badge-success">Verified!</span></h4>
+      {% else %}
+        <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a></h2>
+      {% endif %}
+      <div class="article-content">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Difficulty</th>
+                <th>Letter Grade</th>
+                <th>Score</th>
+                <th>Stage Pass</th>
+                <th>Platform</th>
+                <th>Ranked?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{score.type.capitalize()}} {{score.difficulty}}</td>
+                <td>{{score.lettergrade.upper()}}</td>
+                <td>{{score.score}}</td>
+                {% if score.stagepass == "True" %}
+                  <td>{{score.stagepass|replace("True", "Yes")}}</td>
+                {% elif score.stagepass == "False" %}
+                  <td>{{score.stagepass|replace("False", "No")}}</td>
+                {% endif %}
+                <td>{{score.platform.capitalize()}}</td>
+                {% if score.ranked == "True" %}
+                  <td>{{score.ranked|replace("True", "Yes")}}</td>
+                {% elif score.ranked == "False" %}
+                  <td>{{score.ranked|replace("False", "No")}}</td>
+                {% endif %}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </article>
   {% endfor %}
