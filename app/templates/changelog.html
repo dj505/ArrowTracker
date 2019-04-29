@@ -2,9 +2,9 @@
 
 {% block body %}
 <div class="jumbotron text-center">
-  <h1 style="padding: 10px"><img src="{{ url_for('static', filename='newlogo-arrow-small.png') }}" alt="" />&nbsp&nbspArrow Tracker Changelog</h1>
+  <h1><img src="{{ url_for('static', filename='newlogo-arrow-small.png') }}" alt="" />&nbsp&nbspArrow Tracker Changelog</h1>
     <hr />
-    <h4>New this update:</h3>
+    <h3>New this update:</h3>
     <pre style='text-align: left'>{{ changelog }}</pre>
 </div>
 {% endblock %}
