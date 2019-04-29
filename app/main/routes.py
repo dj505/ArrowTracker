@@ -12,7 +12,7 @@ def home():
     flashmsg = Markup(f'New update! 2019-04-29 | <a href="/changelog">View Changelog</a>')
     flash(flashmsg, 'secondary')
     page = request.args.get('page', 1, type=int)
-    scores = Post.query.order_by(Post.date_posted.desc()).paginate(per_page=5, page=page)
+    scores = Post.query.order_by(Post.date_posted.desc()).paginate(per_page=15, page=page)
     return render_template("home.html", scores=scores)
 
 @main.route('/about')
