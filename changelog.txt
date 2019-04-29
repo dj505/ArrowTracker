@@ -1,6 +1,8 @@
 Latest update (2019/04/29)
 - Added Information page with various links to useful resources
 - Added removed songs from XX
+- Updated user pages so they look right
+- More posts per pate (15 up from 5)
 
 Previous update (2019-04-29)
 - This page was added!
