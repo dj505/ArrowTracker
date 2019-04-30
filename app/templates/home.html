@@ -68,7 +68,7 @@
       {% for page_num in scores.iter_pages(left_edge=1, right_edge=1) %}
         {% if page_num %}
           {% if scores.page == page_num %}
-            <li class="page-item active">
+            <li class="page-item disabled">
               <a class="page-link" href="{{ url_for('main.home', page=page_num) }}">{{ page_num }}</a>
             </li>
           {% else %}
