@@ -2,7 +2,12 @@
   <head>
     {% block head %}
       <title>Arrow Tracker</title>
-    {% endblock %}
+      {% block meta %}
+        <meta property="og:title" content="Arrow Tracker: The PIU Score Tracker"/>
+        <meta property="og:description" content="A handy score tracking utility for PIU XX with screenshot support"/>
+        <meta property="og:url" content="https://arrowtracker.duckdns.org/">
+      {% endblock meta %}
+    {% endblock head %}
   </head>
   {% block body %}
     <h1>Newest Scores</h1>

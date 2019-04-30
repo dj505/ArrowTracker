@@ -1,7 +1,12 @@
 {% extends "layout.html" %}
 <head>
   {% block head %}
-  {% block title %}<title>{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}</title>{% endblock %}
+    {% block title %}<title>{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}</title>{% endblock %}
+    {% block meta %}
+      <meta property="og:title" content="{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}"/>
+      <meta property="og:description" content="Score: {{score.score}} | Grade: {{score.lettergrade.upper()}} | Platform: {{score.platform.capitalize()|replace('Sf2-pad', 'StepF2 Pad')}}"/>
+      <meta property="og:url" content="{{ request.url }}">
+    {% endblock meta %}
   {% endblock %}
 </head>
 {% block body %}

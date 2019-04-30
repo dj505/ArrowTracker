@@ -2,6 +2,11 @@
 <head>
   {% block head %}
     <title>ERROR 500</title>
+    {% block meta %}
+      <meta property="og:title" content="Arrow Tracker: 500"/>
+      <meta property="og:description" content="A handy score tracking utility for PIU XX with screenshot support"/>
+      <meta property="og:url" content="https://arrowtracker.duckdns.org/">
+    {% endblock meta %}
   {% endblock %}
 </head>
 {% block body %}

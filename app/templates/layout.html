@@ -3,9 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <meta property="og:site_name" content="Arrow Tracker"/>
-    <meta property="og:title" content="Arrow Tracker: The PIU Score Tracker"/>
-    <meta property="og:description" content="A handy score tracking utility for PIU XX with screenshot support"/>
-    <meta property="og:url" content="https://arrowtracker.duckdns.org/">
     <meta property="og:image" content="{{ url_for('static', filename='newlogo-arrow-small.png') }}">
     <meta property="og:type" content="organization"/>
     <meta name="description" content="A handy score tracking utility for PIU XX with screenshot support">
@@ -26,8 +23,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     {% block head %}
-    {% block title %}<title>Arrow Tracker</title>{% endblock %}
-    {% endblock %}
+      {% block title %}
+        <title>Arrow Tracker</title>
+      {% endblock title %}
+      {% block meta %}
+      {% endblock meta %}
+    {% endblock head %}
   </head>
   <body>
     {% include 'includes/_navbar.html' %}
