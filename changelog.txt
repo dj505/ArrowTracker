@@ -1,11 +1,10 @@
 Latest update (2019/04/29)
+- This page was added!
+- Song title and basic info now embed when shared in Discord/etc
 - Added Information page with various links to useful resources
 - Added removed songs from XX
 - Updated user pages so they look right
 - More posts per pate (15 up from 5)
-
-Previous update (2019-04-29)
-- This page was added!
 - Full mobile reactive support
 - StepF2 Pad and StepF2 Keyboard score options added
 - Leaderboard can be sorted by Ranked (Arcade pad scores with images attached) or Unranked (StepF2 Pad or Keyboard scores)
