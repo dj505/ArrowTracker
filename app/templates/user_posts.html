@@ -39,7 +39,7 @@
                 {% elif score.stagepass == "False" %}
                   <td>{{score.stagepass|replace("False", "No")}}</td>
                 {% endif %}
-                <td>{{score.platform.capitalize()}}</td>
+                <td>{{score.platform.capitalize()|replace('Sf2-pad', 'StepF2 Pad')}}</td>
                 {% if score.ranked == "True" %}
                   <td>{{score.ranked|replace("True", "Yes")}}</td>
                 {% elif score.ranked == "False" %}
