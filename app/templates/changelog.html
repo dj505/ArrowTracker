@@ -1,5 +1,9 @@
 {% extends 'layout.html' %}
-
+<head>
+  {% block head %}
+    <title>Changelog</title>
+  {% endblock %}
+</head>
 {% block body %}
 <div class="jumbotron text-center">
   <h1><img src="{{ url_for('static', filename='newlogo-arrow-small.png') }}" alt="" />&nbsp&nbspArrow Tracker Changelog</h1>

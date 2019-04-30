@@ -8,8 +8,8 @@
     <meta property="og:url" content="https://arrowtracker.duckdns.org/">
     <meta property="og:image" content="{{ url_for('static', filename='newlogo-arrow-small.png') }}">
     <meta property="og:type" content="organization"/>
+    <meta name="description" content="A handy score tracking utility for PIU XX with screenshot support">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arrow Tracker</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous">
@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" />
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    {% block head %}
+    {% block title %}<title>Arrow Tracker</title>{% endblock %}
+    {% endblock %}
   </head>
   <body>
     {% include 'includes/_navbar.html' %}

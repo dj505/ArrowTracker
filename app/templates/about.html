@@ -1,5 +1,9 @@
 {% extends 'layout.html' %}
-
+<head>
+  {% block head %}
+    <title>About</title>
+  {% endblock %}
+</head>
 {% block body %}
 <div class="jumbotron text-center">
   <h1 style="padding: 10px"><img src="{{ url_for('static', filename='newlogo-arrow-small.png') }}" alt="" />&nbsp&nbspWelcome to Arrow Tracker</h1>

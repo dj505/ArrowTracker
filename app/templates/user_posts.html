@@ -1,4 +1,9 @@
 {% extends "layout.html" %}
+<head>
+  {% block head %}
+  {% block title %}<title>{{ user.username }}'s Scores</title>{% endblock %}
+  {% endblock %}
+</head>
 {% block body %}
   <h1>{{ user.username }}'s Scores</h1>
   <h4>{{ scores.total }} Scores</h4>
@@ -61,7 +66,7 @@
         <a class="btn btn-outline-info mb-4" href="{{ url_for('users.user_posts', username=user.username, page=page_num) }}">{{ page_num }}</a>
       {% endif %}
     {% else %}
-      ...
+      <a class="btn btn-outline-info mb-4" href="#">...</a>
     {% endif %}
   {% endfor %}
 {% endblock body %}
