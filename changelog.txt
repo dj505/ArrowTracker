@@ -1,5 +1,6 @@
 Latest update (2019/04/29)
 - This page was added!
+- SF2 scores have a different "Verified" icon
 - Song title and basic info now embed when shared in Discord/etc
 - Added Information page with various links to useful resources
 - Added removed songs from XX
