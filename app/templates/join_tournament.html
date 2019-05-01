@@ -16,9 +16,11 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">{{tournament.name}}</h5>
-            <small>Organized by {{tournament.author}}</small>
             <p class="card-text">{{tournament.description}}</p>
             <a href="#" class="btn btn-primary">Join</a>
+            {% if current_user.id == tournament.user_id %}
+              <a href="#" class="btn btn-primary">Edit</a>
+            {% endif %}
           </div>
         </div>
       </div>
