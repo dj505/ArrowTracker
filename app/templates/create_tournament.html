@@ -1,0 +1,68 @@
+{% extends 'layout.html' %}
+<head>
+  {% block head %}
+    <title>Create Tournament</title>
+    {% block meta %}
+      <meta property="og:title" content="Arrow Tracker: Create Tournament"/>
+      <meta property="og:description" content="A handy score tracking utility for PIU XX with screenshot support"/>
+      <meta property="og:url" content="https://arrowtracker.duckdns.org/">
+    {% endblock meta %}
+  {% endblock %}
+</head>
+{% block body %}
+  <div class="content-section">
+    <form action="" method="POST">
+      {{ form.hidden_tag() }}
+      <fieldset class="form-group">
+        <legend class="border-bottom mb-4">Create Tournament</legend>
+        <div class="form-row" style="padding: 5pt">
+          <div class="col">
+            {{ form.name.label(class="form-control-label") }}
+            {% if form.name.errors %}
+              {{ form.name(class="form-control form-control-lg is-invalid") }}
+              <div class="invalid-feedback">
+                {% for error in form.name.errors %}
+                  <span>{{ error }}</span>
+                {% endfor %}
+              </div>
+            {% else %}
+              {{ form.name(class="form-control form-control-lg") }}
+            {% endif %}
+          </div>
+          <div class="col">
+            {{ form.skill_lvl.label(class="form-control-label") }}
+            {% if form.skill_lvl.errors %}
+              {{ form.skill_lvl(class="form-control form-control-lg is-invalid") }}
+              <div class="invalid-feedback">
+                {% for error in form.skill_lvl.errors %}
+                  <span>{{ error }}</span>
+                {% endfor %}
+              </div>
+            {% else %}
+              {{ form.skill_lvl(class="form-control form-control-lg") }}
+            {% endif %}
+          </div>
+        </div>
+        <div class="form-row" style="padding: 5pt">
+          <div class="col">
+            {{ form.description.label(class="form-control-label") }}
+            {% if form.description.errors %}
+            {{ form.description(class="form-control form-control-lg is-invalid") }}
+            <div class="invalid-feedback">
+              {% for error in form.description.errors %}
+              <span>{{ error }}</span>
+              {% endfor %}
+            </div>
+            {% else %}
+            {{ form.description(class="form-control form-control-lg") }}
+            {% endif %}
+          </div>
+        </div>
+        <hr />
+      </fieldset>
+      <div class="form-field">
+        {{ form.submit(class="btn btn-outline-success") }}
+      </div>
+    </form>
+  </div>
+{% endblock %}

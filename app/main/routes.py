@@ -1,7 +1,8 @@
 from flask import render_template, request, Blueprint, current_app, session, redirect, url_for, flash, Markup
-from app.main.forms import SearchForm
-from app.models import Post
-from app import songlist_pairs, difficulties
+from flask_login import current_user, login_required
+from app.main.forms import SearchForm, TournamentForm
+from app.models import Post, Tournament
+from app import songlist_pairs, difficulties, db
 from sqlalchemy import desc, or_
 from app.config import GetChangelog
 
@@ -52,3 +53,22 @@ def resources():
 @main.route('/howto')
 def howto():
     return render_template("howto.html", changelog=GetChangelog())
+
+@main.route("/tournaments/join")
+@login_required
+def join_tournament():
+    page = request.args.get('page', 1, type=int)
+    tournaments = Tournament.query.order_by(Tournament.date_posted.desc()).paginate(per_page=16, page=page)
+    return render_template("join_tournament.html", tournaments=tournaments)
+
+@main.route("/tournaments/create", methods=["GET", "POST"])
+@login_required
+def create_tournament():
+    form = TournamentForm(request.form)
+    if form.validate_on_submit():
+        tournament = Tournament(name = form.name.data, skill_lvl = form.skill_lvl.data, description = form.description.data, user_id = current_user.id)
+        db.session.add(tournament)
+        db.session.commit()
+        flash('Tournament created!', 'success')
+        return redirect(url_for('main.home'))
+    return render_template("create_tournament.html", form=form)
