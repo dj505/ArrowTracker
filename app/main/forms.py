@@ -17,6 +17,7 @@ class SearchForm(FlaskForm):
 class TournamentForm(FlaskForm):
     name = StringField('Tournament Name', validators=[DataRequired()])
     description = StringField('Description')
+    bracketlink = StringField('Bracket Link (Challonge or other)')
     submit = SubmitField('Submit')
     skill_lvl = SelectField('Skill Level', coerce=str, choices=(('Beginner', 'Beginner'),
                                                                 ('Intermediate', 'Intermediate'),
@@ -26,6 +27,7 @@ class TournamentForm(FlaskForm):
 class TournamentEditForm(FlaskForm):
     name = StringField('Tournament Name', validators=[DataRequired()])
     description = StringField('Description')
+    bracketlink = StringField('Bracket Link (Challonge or other)')
     submit = SubmitField('Submit')
     skill_lvl = SelectField('Skill Level', coerce=str, choices=(('Beginner', 'Beginner'),
                                                                 ('Intermediate', 'Intermediate'),

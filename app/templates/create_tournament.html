@@ -46,15 +46,30 @@
         <div class="form-row" style="padding: 5pt">
           <div class="col">
             {{ form.description.label(class="form-control-label") }}
-            {% if form.description.errors %}
+              {% if form.description.errors %}
             {{ form.description(class="form-control form-control-lg is-invalid") }}
             <div class="invalid-feedback">
               {% for error in form.description.errors %}
-              <span>{{ error }}</span>
+                <span>{{ error }}</span>
               {% endfor %}
             </div>
             {% else %}
-            {{ form.description(class="form-control form-control-lg") }}
+              {{ form.description(class="form-control form-control-lg") }}
+            {% endif %}
+          </div>
+        </div>
+        <div class="form-row" style="padding: 5pt">
+          <div class="col">
+            {{ form.bracketlink.label(class="form-control-label") }}
+              {% if form.bracketlink.errors %}
+            {{ form.bracketlink(class="form-control form-control-lg is-invalid") }}
+            <div class="invalid-feedback">
+              {% for error in form.bracketlink.errors %}
+                <span>{{ error }}</span>
+              {% endfor %}
+            </div>
+            {% else %}
+              {{ form.bracketlink(class="form-control form-control-lg") }}
             {% endif %}
           </div>
         </div>

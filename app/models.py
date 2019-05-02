@@ -56,6 +56,7 @@ class Tournament(db.Model):
     skill_lvl = db.Column(db.String(12), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     description = db.Column(db.String(200), nullable=False)
+    bracketlink = db.Column(db.String(150), nullable=False)
 
     def __repr__(self):
-        return f"Tournament('{self.name}', '{self.skill_lvl}, '{self.description}')"
+        return f"Tournament('{self.name}', '{self.skill_lvl}, '{self.description}', {self.bracketlink})"

@@ -15,7 +15,7 @@
       <div class="col-sm-6" style="padding-bottom: 20pt">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">{{tournament.name}}</h5>
+            <a href="{{ url_for('main.tournament', tournament_id=tournament.id) }}"><h5 class="card-title">{{tournament.name}}</h5></a>
             <p class="card-text">{{tournament.description}}</p>
             <a href="#" class="btn btn-primary">Join</a>
             {% if current_user.id == tournament.user_id %}

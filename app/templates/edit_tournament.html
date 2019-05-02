@@ -58,6 +58,21 @@
             {% endif %}
           </div>
         </div>
+        <div class="form-row" style="padding: 5pt">
+          <div class="col">
+            {{ form.bracketlink.label(class="form-control-label") }}
+              {% if form.bracketlink.errors %}
+            {{ form.bracketlink(class="form-control form-control-lg is-invalid") }}
+            <div class="invalid-feedback">
+              {% for error in form.bracketlink.errors %}
+                <span>{{ error }}</span>
+              {% endfor %}
+            </div>
+            {% else %}
+              {{ form.bracketlink(class="form-control form-control-lg") }}
+            {% endif %}
+          </div>
+        </div>
         <hr />
       </fieldset>
       <div class="form-field">

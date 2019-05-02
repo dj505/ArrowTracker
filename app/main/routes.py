@@ -66,7 +66,7 @@ def tournaments():
 def create_tournament():
     form = TournamentForm(request.form)
     if form.validate_on_submit():
-        tournament = Tournament(name = form.name.data, skill_lvl = form.skill_lvl.data, description = form.description.data, user_id = current_user.id)
+        tournament = Tournament(name = form.name.data, skill_lvl = form.skill_lvl.data, description = form.description.data, bracketlink = form.bracketlink.data, user_id = current_user.id)
         db.session.add(tournament)
         db.session.commit()
         flash('Tournament created!', 'success')
@@ -82,12 +82,19 @@ def edit_tournament(tournament_id):
         tournament.name = form.name.data
         tournament.description = form.description.data
         tournament.skill_lvl = form.skill_lvl.data
+        tournament.bracketlink = form.bracketlink.data
         db.session.commit()
         flash('Tournament info updated!', 'success')
         return redirect(url_for('main.tournaments'))
     form.name.data = tournament.name
     form.description.data = tournament.description
     form.skill_lvl.data = tournament.skill_lvl
+    form.bracketlink.data = tournament.bracketlink
     if tournament.user_id != current_user.id:
         abort(403)
     return render_template('edit_tournament.html', tournament=tournament, form=form)
+
+@main.route('/tournament/<int:tournament_id>')
+def tournament(tournament_id):
+    tournament = Post.query.get_or_404(tournament_id)
+    return render_template('tournament.html', tournament=tournament)
