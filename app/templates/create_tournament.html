@@ -11,7 +11,7 @@
 </head>
 {% block body %}
   <div class="content-section">
-    <form action="" method="POST">
+    <form action="" method="POST" enctype = "multipart/form-data">
       {{ form.hidden_tag() }}
       <fieldset class="form-group">
         <legend class="border-bottom mb-4">Create Tournament</legend>
@@ -71,6 +71,16 @@
             {% else %}
               {{ form.bracketlink(class="form-control form-control-lg") }}
             {% endif %}
+          </div>
+        </div>
+        <hr />
+        <div class="form-row" style="padding: 5pt">
+          <div class="col">
+            <p>Add Tournament Icon/Logo</p>
+            <div class="custom-file">
+              <input type="file" name="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+              <label class="custom-file-label" for="inputGroupFile01"><span class="span-choose-file">Add Tournament Icon<span></label>
+            </div>
           </div>
         </div>
         <hr />

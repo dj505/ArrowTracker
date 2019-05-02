@@ -12,7 +12,7 @@ class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(20), unique=True, nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
-    image_file =db.Column(db.String(20), nullable=False, default='default.jpg')
+    image_file = db.Column(db.String(20), nullable=False, default='default.jpg')
     password = db.Column(db.String(60), nullable=False)
     posts = db.relationship('Post', backref='author', lazy=True)
 
@@ -44,7 +44,7 @@ class Post(db.Model):
     stagepass = db.Column(db.String(5), nullable=False)
     ranked = db.Column(db.String(5), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
-    image_file =db.Column(db.String(20), nullable=False)
+    image_file = db.Column(db.String(20), nullable=False, default="None")
 
     def __repr__(self):
         return f"Post('{self.song}', '{self.score}', '{self.lettergrade}', '{self.type}', '{self.difficulty}', '{self.platform}', '{self.stagepass}', '{self.ranked}')"
@@ -57,6 +57,7 @@ class Tournament(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     description = db.Column(db.String(200), nullable=False)
     bracketlink = db.Column(db.String(150), nullable=False)
+    image_file = db.Column(db.String(20), nullable=False, default="None")
 
     def __repr__(self):
-        return f"Tournament('{self.name}', '{self.skill_lvl}, '{self.description}', {self.bracketlink})"
+        return f"Tournament('{self.name}', '{self.skill_lvl}, '{self.description}', '{self.bracketlink}', '{self.image_file}')"

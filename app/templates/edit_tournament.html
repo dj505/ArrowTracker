@@ -11,7 +11,7 @@
 </head>
 {% block body %}
   <div class="content-section">
-    <form action="" method="POST">
+    <form action="" method="POST" enctype = "multipart/form-data">
       {{ form.hidden_tag() }}
       <fieldset class="form-group">
         <legend class="border-bottom mb-4">Edit Tournament</legend>
@@ -46,15 +46,15 @@
         <div class="form-row" style="padding: 5pt">
           <div class="col">
             {{ form.description.label(class="form-control-label") }}
-            {% if form.description.errors %}
+              {% if form.description.errors %}
             {{ form.description(class="form-control form-control-lg is-invalid") }}
             <div class="invalid-feedback">
               {% for error in form.description.errors %}
-              <span>{{ error }}</span>
+                <span>{{ error }}</span>
               {% endfor %}
             </div>
             {% else %}
-            {{ form.description(class="form-control form-control-lg") }}
+              {{ form.description(class="form-control form-control-lg") }}
             {% endif %}
           </div>
         </div>
@@ -71,6 +71,16 @@
             {% else %}
               {{ form.bracketlink(class="form-control form-control-lg") }}
             {% endif %}
+          </div>
+        </div>
+        <hr />
+        <div class="form-row" style="padding: 5pt">
+          <div class="col">
+            <p>Add Tournament Icon/Logo</p>
+            <div class="custom-file">
+              <input type="file" name="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+              <label class="custom-file-label" for="inputGroupFile01"><span class="span-choose-file">Add Tournament Icon<span></label>
+            </div>
           </div>
         </div>
         <hr />

@@ -11,18 +11,21 @@
 </head>
 {% block body %}
   <article class="media content-section" style="overflow: auto; max-width: 100%">
-    <img src="{{ url_for('static', filename='tournament_pics/' + tournament.image_file) }}" class="rounded-circle article-img">
+    {% if tournament.image_file != "None" %}
+      <img src="{{ url_for('static', filename='tournament_pics/' + tournament.image_file) }}" class="rounded-circle article-imgtournament" style="padding-right: 5pt">
+    {% endif %}
     <div class="media-body">
       <div class="article-metadata">
-        <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
+        <small class="text-muted">{{ tournament.date_posted.strftime('%Y-%m-%d') }}</small>
       </div>
       <h2 class="article-title">{{ tournament.name }}</h2>
       <div style="padding: 10px">
-        Tournament Details
+        {{tournament.description}}
       </div>
+      <hr />
       {% if "challonge" in tournament.bracketlink %}
       <div style="padding-bottom: 10pt; padding-left: 5pt; padding-right: 5pt">
-        <iframe src="{{tournament.bracketlink|replace('http', 'https')}}/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+        <iframe src="{{tournament.bracketlink}}/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
       </div>
       {% endif %}
       {% if tournament.user_id == current_user.id %}

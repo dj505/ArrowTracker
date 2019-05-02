@@ -5,6 +5,7 @@ from app.models import Post, Tournament
 from app import songlist_pairs, difficulties, db
 from sqlalchemy import desc, or_
 from app.config import GetChangelog
+from app.main.utils import save_picture, allowed_file
 
 main = Blueprint('main', __name__)
 
@@ -65,8 +66,23 @@ def tournaments():
 @login_required
 def create_tournament():
     form = TournamentForm(request.form)
+    picture_file = "None"
     if form.validate_on_submit():
-        tournament = Tournament(name = form.name.data, skill_lvl = form.skill_lvl.data, description = form.description.data, bracketlink = form.bracketlink.data, user_id = current_user.id)
+        try:
+            file = request.files['file']
+        except:
+            file = None
+            flash('No file uploaded', 'info')
+        if file != None:
+            if file.filename == '':
+                flash('No file selected!', 'error')
+                return redirect(request.url)
+            if file and allowed_file(file.filename):
+                picture_file = save_picture(file)
+                flash('File uploaded successfully!', 'success')
+            elif file and not allowed_file(file.filename):
+                flash('You can\'t upload that!', 'error')
+        tournament = Tournament(name = form.name.data, skill_lvl = form.skill_lvl.data, description = form.description.data, bracketlink = form.bracketlink.data, image_file = picture_file, user_id = current_user.id)
         db.session.add(tournament)
         db.session.commit()
         flash('Tournament created!', 'success')
@@ -79,6 +95,24 @@ def edit_tournament(tournament_id):
     tournament = Tournament.query.get_or_404(tournament_id)
     form = TournamentEditForm()
     if form.validate_on_submit():
+        try:
+            file = request.files['file']
+        except:
+            picture_file = "None"
+            file = None
+            flash('No file uploaded', 'info')
+        if file != None:
+            if file.filename == '':
+                flash('No file selected!', 'error')
+                picture_file = "None"
+                return redirect(request.url)
+            if file and allowed_file(file.filename):
+                picture_file = save_picture(file)
+                flash('File uploaded successfully!', 'success')
+            elif file and not allowed_file(file.filename):
+                picture_file = "None"
+                flash('You can\'t upload that!', 'error')
+        tournament.image_file = picture_file
         tournament.name = form.name.data
         tournament.description = form.description.data
         tournament.skill_lvl = form.skill_lvl.data
@@ -96,5 +130,5 @@ def edit_tournament(tournament_id):
 
 @main.route('/tournament/<int:tournament_id>')
 def tournament(tournament_id):
-    tournament = Post.query.get_or_404(tournament_id)
+    tournament = Tournament.query.get_or_404(tournament_id)
     return render_template('tournament.html', tournament=tournament)
