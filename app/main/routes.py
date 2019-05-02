@@ -1,6 +1,6 @@
 from flask import render_template, request, Blueprint, current_app, session, redirect, url_for, flash, Markup
 from flask_login import current_user, login_required
-from app.main.forms import SearchForm, TournamentForm
+from app.main.forms import SearchForm, TournamentForm, TournamentEditForm
 from app.models import Post, Tournament
 from app import songlist_pairs, difficulties, db
 from sqlalchemy import desc, or_
@@ -70,5 +70,24 @@ def create_tournament():
         db.session.add(tournament)
         db.session.commit()
         flash('Tournament created!', 'success')
-        return redirect(url_for('main.home'))
+        return redirect(url_for('main.join_tournament'))
     return render_template("create_tournament.html", form=form)
+
+@main.route("/tournaments/<int:tournament_id>/edit", methods=["GET", "POST"])
+@login_required
+def edit_tournament(tournament_id):
+    tournament = Tournament.query.get_or_404(tournament_id)
+    form = TournamentEditForm()
+    if form.validate_on_submit():
+        tournament.name = form.name.data
+        tournament.description = form.description.data
+        tournament.skill_lvl = form.skill_lvl.data
+        db.session.commit()
+        flash('Tournament info updated!', 'success')
+        return redirect(url_for('main.join_tournament'))
+    form.name.data = tournament.name
+    form.description.data = tournament.description
+    form.skill_lvl.data = tournament.skill_lvl
+    if tournament.user_id != current_user.id:
+        abort(403)
+    return render_template('edit_tournament.html', tournament=tournament, form=form)

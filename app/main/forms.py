@@ -22,3 +22,12 @@ class TournamentForm(FlaskForm):
                                                                 ('Intermediate', 'Intermediate'),
                                                                 ('Advanced', 'Advanced')),
                                                                 validators=[DataRequired()])
+
+class TournamentEditForm(FlaskForm):
+    name = StringField('Tournament Name', validators=[DataRequired()])
+    description = StringField('Description')
+    submit = SubmitField('Submit')
+    skill_lvl = SelectField('Skill Level', coerce=str, choices=(('Beginner', 'Beginner'),
+                                                                ('Intermediate', 'Intermediate'),
+                                                                ('Advanced', 'Advanced')),
+                                                                validators=[DataRequired()])

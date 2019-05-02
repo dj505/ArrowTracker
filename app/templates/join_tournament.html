@@ -19,7 +19,7 @@
             <p class="card-text">{{tournament.description}}</p>
             <a href="#" class="btn btn-primary">Join</a>
             {% if current_user.id == tournament.user_id %}
-              <a href="#" class="btn btn-primary">Edit</a>
+              <a href="{{url_for('main.edit_tournament', tournament_id=tournament.id)}}" class="btn btn-primary">Edit</a>
             {% endif %}
           </div>
         </div>
