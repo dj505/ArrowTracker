@@ -54,12 +54,12 @@ def resources():
 def howto():
     return render_template("howto.html", changelog=GetChangelog())
 
-@main.route("/tournaments/join")
+@main.route("/tournaments/view")
 @login_required
-def join_tournament():
+def tournaments():
     page = request.args.get('page', 1, type=int)
     tournaments = Tournament.query.order_by(Tournament.date_posted.desc()).paginate(per_page=16, page=page)
-    return render_template("join_tournament.html", tournaments=tournaments)
+    return render_template("tournaments.html", tournaments=tournaments)
 
 @main.route("/tournaments/create", methods=["GET", "POST"])
 @login_required
@@ -70,7 +70,7 @@ def create_tournament():
         db.session.add(tournament)
         db.session.commit()
         flash('Tournament created!', 'success')
-        return redirect(url_for('main.join_tournament'))
+        return redirect(url_for('main.tournaments'))
     return render_template("create_tournament.html", form=form)
 
 @main.route("/tournaments/<int:tournament_id>/edit", methods=["GET", "POST"])
@@ -84,7 +84,7 @@ def edit_tournament(tournament_id):
         tournament.skill_lvl = form.skill_lvl.data
         db.session.commit()
         flash('Tournament info updated!', 'success')
-        return redirect(url_for('main.join_tournament'))
+        return redirect(url_for('main.tournaments'))
     form.name.data = tournament.name
     form.description.data = tournament.description
     form.skill_lvl.data = tournament.skill_lvl
