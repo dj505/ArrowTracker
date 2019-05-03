@@ -121,6 +121,7 @@ app/static/profile_pics/*.gif
 app/static/profile_pics/*.png
 app/static/score_screenshots/*.jpg
 app/static/score_screenshots/*.png
+app/static/score_screenshots/*.jpeg
 app/static/tournament_pics/*.jpg
 app/static/tournament_pics/*.png
 migrations/

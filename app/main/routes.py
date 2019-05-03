@@ -6,6 +6,7 @@ from app import songlist_pairs, difficulties, db
 from sqlalchemy import desc, or_
 from app.config import GetChangelog
 from app.main.utils import save_picture, allowed_file
+import os
 
 main = Blueprint('main', __name__)
 
@@ -134,3 +135,15 @@ def edit_tournament(tournament_id):
 def tournament(tournament_id):
     tournament = Tournament.query.get_or_404(tournament_id)
     return render_template('tournament.html', tournament=tournament)
+
+@main.route('/tournament/<int:tournament_id>/delete', methods=["POST"])
+def delete_tournament(tournament_id):
+    tournament = Tournament.query.get_or_404(tournament_id)
+    if tournament.user_id != current_user.id:
+        abort(403)
+    if tournament.image_file != "None":
+        os.remove(os.path.join(current_app.root_path, 'static/tournament_pics', tournament.image_file))
+    db.session.delete(tournament)
+    db.session.commit()
+    flash('Your tournament has been deleted!', 'success')
+    return redirect(url_for('main.tournaments'))
