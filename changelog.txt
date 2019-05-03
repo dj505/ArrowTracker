@@ -2,6 +2,7 @@ Latest update (2019-05-02)
 - Added tournaments!
   - Tournaments can be posted along with details and a Challonge link.
   - Challonge brackets will be embedded on the Tournament view page
+- Added how-to for Tournaments
 - Minor aesthetic updates
 - Minor bug fixes
 
