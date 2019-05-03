@@ -4,7 +4,7 @@ from app import db, bcrypt
 from app.models import User, Post
 from app.users.forms import (RegisterForm, LoginForm, UpdateAccountForm,
                              RequestResetForm, ResetPasswordForm)
-from app.users.utils import save_picture, send_reset_email
+from app.users.utils import save_picture, send_reset_email, update_rivals
 
 users = Blueprint('users', __name__)
 
@@ -54,6 +54,16 @@ def dashboard():
         current_user.username = form.username.data
         current_user.email = form.email.data
         db.session.commit()
+        rivals = form.rivals.data.split(',')
+        for rival in rivals:
+            try:
+                user = User.query.get_or_404(rival)
+            except:
+                flash(f'User {rival} not found!', 'danger')
+        if update_rivals(rivals, current_user.id):
+            flash('Rival data updated successfully!', 'success')
+        else:
+            flash('Error updating rival data!', 'danger')
         flash('Account details updated!', 'success')
         return redirect(url_for('users.dashboard'))
     elif request.method == "GET":

@@ -4,6 +4,7 @@ from PIL import Image
 from flask import url_for, current_app
 from flask_mail import Message
 from app import mail
+import json
 
 def save_picture(form_picture):
     random_hex = secrets.token_hex(8)
@@ -26,3 +27,15 @@ If you didn't request this reset, please ignore this email - the unique token us
 No changes will be made without using the above link.
 '''
     mail.send(msg)
+
+def update_rivals(list, id):
+    json_path = os.path.join(current_app.root_path, 'static/rivals', str(id) + '.json')
+    if not os.path.isfile(json_path):
+        with open(json_path, 'w') as f:
+            f.write('{}')
+    with open(json_path) as f:
+        rivallist = json.load(f)
+    rivallist['rivals'] = list
+    with open(json_path, 'w') as f:
+        json.dump(rivallist, f)
+    return

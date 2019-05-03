@@ -49,6 +49,19 @@
             {% endif %}
           </div>
           <div class="form-group">
+            {{ form.rivals.label(class="form-control-label") }}
+            {% if form.rivals.errors %}
+              {{ form.rivals(class="form-control form-control-lg is-invalid") }}
+              <div class="invalid-feedback">
+                {% for error in form.rivals.errors %}
+                  <span>{{ error }}</span>
+                {% endfor %}
+              </div>
+            {% else %}
+              {{ form.rivals(class="form-control form-control-lg") }}
+            {% endif %}
+          </div>
+          <div class="form-group">
             {{ form.picture.label() }}
             {{ form.picture(class="form-control-file") }}
             {% if form.picture.errors %}
