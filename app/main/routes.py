@@ -82,7 +82,7 @@ def create_tournament():
                 flash('File uploaded successfully!', 'success')
             elif file and not allowed_file(file.filename):
                 flash('You can\'t upload that!', 'error')
-        tournament = Tournament(name = form.name.data, skill_lvl = form.skill_lvl.data, description = form.description.data, bracketlink = form.bracketlink.data, image_file = picture_file, user_id = current_user.id)
+        tournament = Tournament(name = form.name.data, skill_lvl = form.skill_lvl.data, description = form.description.data, bracketlink = form.bracketlink.data, image_file = picture_file, contactinfo = form.contactinfo.data, user_id = current_user.id)
         db.session.add(tournament)
         db.session.commit()
         flash('Tournament created!', 'success')
@@ -117,6 +117,7 @@ def edit_tournament(tournament_id):
         tournament.description = form.description.data
         tournament.skill_lvl = form.skill_lvl.data
         tournament.bracketlink = form.bracketlink.data
+        tournament.contactingo = form.contactinfo.data
         db.session.commit()
         flash('Tournament info updated!', 'success')
         return redirect(url_for('main.tournaments'))
@@ -124,6 +125,7 @@ def edit_tournament(tournament_id):
     form.description.data = tournament.description
     form.skill_lvl.data = tournament.skill_lvl
     form.bracketlink.data = tournament.bracketlink
+    form.contactinfo.data = tournament.contactinfo
     if tournament.user_id != current_user.id:
         abort(403)
     return render_template('edit_tournament.html', tournament=tournament, form=form)

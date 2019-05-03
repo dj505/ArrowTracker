@@ -21,6 +21,7 @@ class TournamentForm(FlaskForm):
     bracketlink = StringField('Bracket Link (Challonge or other)')
     picture = FileField('Update Profile Picture', validators=[FileAllowed(['jpg', 'png', 'gif'])])
     submit = SubmitField('Submit')
+    contactinfo = StringField('Contact Information')
     skill_lvl = SelectField('Skill Level', coerce=str, choices=(('Beginner', 'Beginner'),
                                                                 ('Intermediate', 'Intermediate'),
                                                                 ('Advanced', 'Advanced')),
@@ -32,6 +33,7 @@ class TournamentEditForm(FlaskForm):
     bracketlink = StringField('Bracket Link (Challonge or other)')
     picture = FileField('Update Profile Picture', validators=[FileAllowed(['jpg', 'png', 'gif'])])
     submit = SubmitField('Submit')
+    contactinfo = StringField('Contact Information')
     skill_lvl = SelectField('Skill Level', coerce=str, choices=(('Beginner', 'Beginner'),
                                                                 ('Intermediate', 'Intermediate'),
                                                                 ('Advanced', 'Advanced')),

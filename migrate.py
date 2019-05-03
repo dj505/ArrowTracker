@@ -50,10 +50,11 @@ class Tournament(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     description = db.Column(db.String(200), nullable=False)
     bracketlink = db.Column(db.String(150), nullable=False)
-    image_file = db.Column(db.String(20), nullable=False, default="None")
+    image_file = db.Column(db.String(20), default='None', nullable=False)
+    contactinfo = db.Column(db.String(150), default='No contact info provided', nullable=True)
 
     def __repr__(self):
-        return f"Tournament('{self.name}', '{self.skill_lvl}, '{self.description}', '{self.bracketlink}', '{self.image_file}')"
+        return f"Tournament('{self.name}', '{self.skill_lvl}, '{self.description}', '{self.bracketlink}', '{self.image_file}', '{self.contactinfo}')"
 
 if __name__ == '__main__':
     manager.run()

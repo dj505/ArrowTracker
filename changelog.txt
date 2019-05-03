@@ -5,6 +5,9 @@ Latest update (2019-05-02)
 - Added how-to for Tournaments
 - Minor aesthetic updates
 - Minor bug fixes
+- Added contact information to Create Tournament page
+- Added bracket link to tournament view page
+- More bug fixes
 
 Last update (2019/04/29)
 - This page was added!

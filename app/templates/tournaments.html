@@ -15,8 +15,9 @@
       <div class="col-sm-6" style="padding-bottom: 20pt">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">{{tournament.name}}</h5>
-            <p class="lead">{{tournament.skill_lvl}}</p>
+            <h3 class="card-title">{{tournament.name}}</h3>
+            <hr />
+            <p class="lead">Skill Level: {{tournament.skill_lvl}}</p>
             <p class="card-text">{{tournament.description}}</p>
             <a href="{{ url_for('main.tournament', tournament_id=tournament.id) }}" class="btn btn-primary">View</a>
             {% if current_user.id == tournament.user_id %}

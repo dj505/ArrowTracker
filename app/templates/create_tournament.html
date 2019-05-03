@@ -73,6 +73,21 @@
             {% endif %}
           </div>
         </div>
+        <div class="form-row" style="padding: 5pt">
+          <div class="col">
+            {{ form.contactinfo.label(class="form-control-label") }}
+              {% if form.contactinfo.errors %}
+            {{ form.contactinfo(class="form-control form-control-lg is-invalid") }}
+            <div class="invalid-feedback">
+              {% for error in form.contactinfo.errors %}
+                <span>{{ error }}</span>
+              {% endfor %}
+            </div>
+            {% else %}
+              {{ form.contactinfo(class="form-control form-control-lg") }}
+            {% endif %}
+          </div>
+        </div>
         <hr />
         <div class="form-row" style="padding: 5pt">
           <div class="col">

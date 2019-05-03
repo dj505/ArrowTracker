@@ -59,6 +59,7 @@ class Tournament(db.Model):
     description = db.Column(db.String(200), nullable=False)
     bracketlink = db.Column(db.String(150), nullable=False)
     image_file = db.Column(db.String(20), nullable=False, default="None")
+    contactinfo = db.Column(db.String(150), nullable=False, default="No contact info provided")
 
     def __repr__(self):
         return f"Tournament('{self.name}', '{self.skill_lvl}, '{self.description}', '{self.bracketlink}', '{self.image_file}')"
