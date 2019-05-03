@@ -15,10 +15,10 @@
       <div class="col-sm-6" style="padding-bottom: 20pt">
         <div class="card">
           <div class="card-body">
-            <a href="{{ url_for('main.tournament', tournament_id=tournament.id) }}"><h5 class="card-title">{{tournament.name}}</h5></a>
+            <h5 class="card-title">{{tournament.name}}</h5>
             <p class="lead">{{tournament.skill_lvl}}</p>
             <p class="card-text">{{tournament.description}}</p>
-            <a href="#" class="btn btn-primary">Join</a>
+            <a href="{{ url_for('main.tournament', tournament_id=tournament.id) }}" class="btn btn-primary">View</a>
             {% if current_user.id == tournament.user_id %}
               <a href="{{url_for('main.edit_tournament', tournament_id=tournament.id)}}" class="btn btn-primary">Edit</a>
             {% endif %}
