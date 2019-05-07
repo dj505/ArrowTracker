@@ -3,7 +3,7 @@ from flask_login import current_user, login_required
 from app.main.forms import SearchForm, TournamentForm, TournamentEditForm
 from app.models import Post, Tournament
 from app import songlist_pairs, difficulties, db
-from sqlalchemy import desc, or_, func
+from sqlalchemy import desc, or_
 from app.config import GetChangelog
 from app.main.utils import save_picture, allowed_file
 import os
