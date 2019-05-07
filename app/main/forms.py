@@ -6,14 +6,14 @@ from app import songlist_pairs
 
 class SearchForm(FlaskForm):
     filters = (
-    ("ranked-score", "Ranked, Score"),
-    ("ranked-difficulty", "Ranked, Difficulty"),
-    ("unranked-score", "Unranked, Score"),
-    ("unranked-difficulty", "Unranked, Difficulty"))
+    ("ranked-score", "Verified, Score"),
+    ("ranked-difficulty", "Verified, Difficulty"),
+    ("unranked-score", "Unverified, Score"),
+    ("unranked-difficulty", "Unverified, Difficulty"))
     song = SelectField('Song', coerce=str, choices=songlist_pairs)
     filters = SelectField('Filter', coerce=str, choices=filters)
     userfilter = StringField('User [OPTIONAL]')
-    submit = SubmitField('Submit')
+    submit = SubmitField('Search')
 
 class TournamentForm(FlaskForm):
     name = StringField('Tournament Name', validators=[DataRequired()])

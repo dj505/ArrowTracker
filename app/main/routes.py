@@ -16,7 +16,8 @@ def home():
     flash(flashmsg, 'secondary')
     page = request.args.get('page', 1, type=int)
     scores = Post.query.order_by(Post.date_posted.desc()).paginate(per_page=15, page=page)
-    return render_template("home.html", scores=scores)
+    total = db.engine.execute('select count(*) from Post').scalar()
+    return render_template("home.html", scores=scores, total=total)
 
 @main.route('/about')
 def about():
