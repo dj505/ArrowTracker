@@ -1,4 +1,11 @@
-Latest update (2019-05-02)
+Latest Update (2019-05-07)
+- Quality of life changes
+  - Search page now displays "Search" instead of "Submit" button
+  - Search filters were changed from "Ranked" to "Verified" to better reflect results
+- Rival system coming soon™
+- Minor edits to resources page
+
+Last update (2019-05-02)
 - Added tournaments!
   - Tournaments can be posted along with details and a Challonge link.
   - Challonge brackets will be embedded on the Tournament view page
@@ -9,7 +16,7 @@ Latest update (2019-05-02)
 - Added bracket link to tournament view page
 - More bug fixes
 
-Last update (2019/04/29)
+Changes (2019/04/29)
 - This page was added!
 - SF2 scores have a different "Verified" icon
 - Song title and basic info now embed when shared in Discord/etc

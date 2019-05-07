@@ -4,6 +4,7 @@ from PIL import Image
 from flask import url_for, current_app
 from flask_mail import Message
 from app import mail
+from app.models import User
 import json
 
 def save_picture(form_picture):
@@ -28,14 +29,31 @@ No changes will be made without using the above link.
 '''
     mail.send(msg)
 
-def update_rivals(list, id):
+def update_rivals(list, id, currentuser):
+    users_not_found = []
+    valid_users = []
+    for rival in list:
+        user = User.query.filter_by(id)
+        if not user:
+            users_not_found.append(rival)
+        elif id != currentuser:
+            valid_users.append(rival)
     json_path = os.path.join(current_app.root_path, 'static/rivals', str(id) + '.json')
     if not os.path.isfile(json_path):
         with open(json_path, 'w') as f:
             f.write('{}')
     with open(json_path) as f:
         rivallist = json.load(f)
-    rivallist['rivals'] = list
+    rivallist['rivals'] = valid_users
     with open(json_path, 'w') as f:
         json.dump(rivallist, f)
     return
+
+def get_rivals(id):
+    json_path = os.path.join(current_app.root_path, 'static/rivals', str(id) + '.json')
+    if not os.path.isfile(json_path):
+        return ["No rivals"]
+    else:
+        with open(json_path) as f:
+            rivallist = json.load(f)
+        return rivallist

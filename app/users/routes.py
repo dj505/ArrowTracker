@@ -54,16 +54,8 @@ def dashboard():
         current_user.username = form.username.data
         current_user.email = form.email.data
         db.session.commit()
-        rivals = form.rivals.data.split(',')
-        for rival in rivals:
-            try:
-                user = User.query.get_or_404(rival)
-            except:
-                flash(f'User {rival} not found!', 'danger')
-        if update_rivals(rivals, current_user.id):
-            flash('Rival data updated successfully!', 'success')
-        else:
-            flash('Error updating rival data!', 'danger')
+#        rivals = form.rivals.data.split(',')
+#        update_rivals(rivals, id, current_user.id)
         flash('Account details updated!', 'success')
         return redirect(url_for('users.dashboard'))
     elif request.method == "GET":
