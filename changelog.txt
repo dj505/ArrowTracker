@@ -4,6 +4,7 @@ Latest Update (2019-05-07)
   - Search filters were changed from "Ranked" to "Verified" to better reflect results
 - Rival system coming soon™
 - Minor edits to resources page
+- Added Members page
 - Site theme changes depending on letter grade (also applies to Discord embeds)
 - Other minor aesthetic changes
 
