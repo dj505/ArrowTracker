@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+<head>
+  {% block head %}
+    <title>All Members</title>
+    {% block meta %}
+      <meta property="og:title" content="Arrow Tracker: Users"/>
+      <meta property="og:description" content="A handy score tracking utility for PIU XX with screenshot support"/>
+      <meta property="og:url" content="https://arrowtracker.duckdns.org/">
+      <meta name="theme-color" content="#99beea">
+    {% endblock meta %}
+  {% endblock %}
+</head>
+{% block body %}
+  <div class="row">
+    {% for user in users %}
+      <div class="col-sm-4" style="padding-bottom: 20pt">
+        <div class="card">
+          <div class="card-body" style="white-space:nowrap">
+            <div style="display: inline">
+              <img src="{{ url_for('static', filename='profile_pics/' + user.image_file) }}" class="rounded-circle article-img" style="float: left">
+              <h3 class="card-title">{{ user.username }}</h3>
+            </div>
+            <div style="display:inline; white-space:nowrap;">
+              <a href="{{ url_for('users.user_posts', username=user.username) }}" class="btn btn-secondary">View Page</a>
+              <!-- <a href="{{ url_for('users.user_posts', username=user.username) }}" class="btn btn-secondary">Add Rival</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

@@ -103,3 +103,8 @@ def reset_token(token):
         flash(f'You password has been updated! You are now able to log in.', 'success')
         return redirect(url_for('users.login'))
     return render_template('reset_token.html', title='Reset Password', form=form)
+
+@users.route("/members")
+def members():
+    users = User.query.all()
+    return render_template('users.html', users=users)
