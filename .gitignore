@@ -126,3 +126,4 @@ app/static/tournament_pics/*.jpg
 app/static/tournament_pics/*.png
 migrations/
 app/static/rivals/*.json
+weekly.json
