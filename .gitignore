@@ -124,6 +124,7 @@ app/static/score_screenshots/*.png
 app/static/score_screenshots/*.jpeg
 app/static/tournament_pics/*.jpg
 app/static/tournament_pics/*.png
+app/static/archived_weekly/*.json
 migrations/
 app/static/rivals/*.json
 weekly.json
