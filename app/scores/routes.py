@@ -93,4 +93,4 @@ def weeklyscore(score_id):
     goldgrades = ['s', 'ss', 'sss']
     redgrades = ['f']
     score = WeeklyPost.query.get_or_404(score_id)
-    return render_template('weekly.html', score=score, bluegrades=bluegrades, goldgrades=goldgrades, redgrades=redgrades)
+    return render_template('weeklyscore.html', score=score, bluegrades=bluegrades, goldgrades=goldgrades, redgrades=redgrades)

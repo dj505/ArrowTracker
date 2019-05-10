@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+<head>
+  {% block head %}
+    {% block title %}<title>{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}</title>{% endblock %}
+    {% block meta %}
+      <meta property="og:title" content="{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}"/>
+      <meta property="og:description" content="Score: {{score.score}} | Grade: {{score.lettergrade.upper()}} | Author: {{score.author.username}}"/>
+      <meta property="og:url" content="{{ request.url }}">
+      {% if score.lettergrade in bluegrades and score.stagepass == "True" %}
+        <meta name="theme-color" content="#176ac8">
+      {% elif score.lettergrade in goldgrades and score.stagepass == "True" %}
+        <meta name="theme-color" content="#ecc019">
+      {% elif score.lettergrade in redgrades and score.stagepass == "True" %}
+        <meta name="theme-color" content="#d21b0b">
+      {% else %}
+        <meta name="theme-color" content="#bab8ba">
+      {% endif %}
+    {% endblock meta %}
+  {% endblock %}
+</head>
+{% block body %}
+  <article class="media content-section" style="overflow: auto; max-width: 100%">
+    <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
+    <div class="media-body">
+      <div class="article-metadata">
+        <a class="mr-2" href="#">{{ score.author.username }}</a>
+        <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
+      </div>
+      <h2 class="article-title">{{ score.song }}</h2>
+      <div style="padding: 10px">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Song</th>
+              <th scope="col">Difficulty</th>
+              <th scope="col">Letter Grade</th>
+              <th scope="col">Score</th>
+              <th scope="col">Stage Pass</th>
+              <th scope="col">Platform</th>
+              <th scope="col">Ranked?</th>
+              <th scope="col">Author</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="/score/{{score.id}}">{{score.song}}</a>
+                {% if score.id in images %}
+                  <span class="badge badge-pill badge-success">Verified!</span>
+                {% endif %}
+              </td>
+              <td>{{score.type.capitalize()}} {{score.difficulty}}</td>
+              <td>{{score.lettergrade.upper()}}</td>
+              <td>{{score.score}}</td>
+              {% if score.stagepass == "True" %}
+                <td>{{score.stagepass|replace("True", "Yes")}}</td>
+              {% elif score.stagepass == "False" %}
+                <td>{{score.stagepass|replace("False", "No")}}</td>
+              {% endif %}
+              <td>{{score.platform.capitalize()|replace('Sf2-pad', 'StepF2 Pad')}}</td>
+              {% if score.ranked == "True" %}
+                <td>{{score.ranked|replace("True", "Yes")}}</td>
+              {% elif score.ranked == "False" %}
+                <td>{{score.ranked|replace("False", "No")}}</td>
+              {% endif %}
+              <td>{{score.author.username}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      {% if score.image_file != "None" %}
+      <div style="padding-bottom: 10pt; padding-left: 5pt; padding-right: 5pt">
+        <img src="{{ url_for('static', filename='score_screenshots/' + score.image_file) }}" class="rounded mx-auto d-block img-fluid">
+      </div>
+      {% endif %}
+      {% if score.author == current_user %}
+      <div>
+        <form action="{{ url_for('scores.delete_score', score_id=score.id) }}" method="POST">
+          <input type="submit" class="btn btn-danger m-1" value="Delete">
+        </form>
+      </div>
+      {% endif %}
+    </div>
+  </article>
+{% endblock body %}
