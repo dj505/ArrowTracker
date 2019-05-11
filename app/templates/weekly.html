@@ -1,0 +1,185 @@
+{% extends "layout.html" %}
+<head>
+  {% block head %}
+    <title>Arrow Tracker</title>
+    {% block meta %}
+      <meta property="og:title" content="Arrow Tracker: Song of the Week"/>
+      <meta property="og:description" content="A handy score tracking utility for PIU XX with screenshot support"/>
+      <meta property="og:url" content="https://arrowtracker.duckdns.org/">
+      <meta name="theme-color" content="#99beea">
+    {% endblock meta %}
+  {% endblock head %}
+</head>
+{% block body %}
+  <h2>Weekly Challenge</h2>
+  <hr />
+  <div class="jumbotron text-center">
+    <h1 class="display-4">「{{ current_weekly }}」</h1>
+    <hr />
+    <p class="lead">
+      Submit scores for the weekly challenge below! Users with top scores at the end of the week will earn points on their profiles.
+    </p>
+    <div class="content-section">
+      <form action="" method="POST" enctype = "multipart/form-data">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+          <legend class="border-bottom mb-4">Submit Score</legend>
+          <div class="form-row" style="padding: 5pt">
+            <div class="col">
+              {{ form.score.label(class="form-control-label") }}
+              {% if form.score.errors %}
+                {{ form.score(class="form-control form-control-lg is-invalid") }}
+                <div class="invalid-feedback">
+                  {% for error in form.score.errors %}
+                    <span>{{ error }}</span>
+                  {% endfor %}
+                </div>
+              {% else %}
+                {{ form.score(class="form-control form-control-lg") }}
+              {% endif %}
+            </div>
+          </div>
+          <div class="form-row" style="padding: 5pt">
+            <div class="col">
+              {{ form.lettergrade.label(class="form-control-label") }}
+              {% if form.lettergrade.errors %}
+                {{ form.lettergrade(class="form-control form-control-lg is-invalid") }}
+                <div class="invalid-feedback">
+                  {% for error in form.lettergrade.errors %}
+                    <span>{{ error }}</span>
+                  {% endfor %}
+                </div>
+              {% else %}
+                {{ form.lettergrade(class="form-control form-control-lg") }}
+              {% endif %}
+            </div>
+            <div class="col">
+              {{ form.type.label(class="form-control-label") }}
+              {% if form.type.errors %}
+                {{ form.type(class="form-control form-control-lg is-invalid") }}
+                <div class="invalid-feedback">
+                  {% for error in form.type.errors %}
+                    <span>{{ error }}</span>
+                  {% endfor %}
+                </div>
+              {% else %}
+                {{ form.type(class="form-control form-control-lg") }}
+              {% endif %}
+            </div>
+            <div class="col">
+              {{ form.difficulty.label(class="form-control-label") }}
+              {% if form.difficulty.errors %}
+                {{ form.difficulty(class="form-control form-control-lg is-invalid") }}
+                <div class="invalid-feedback">
+                  {% for error in form.difficulty.errors %}
+                    <span>{{ error }}</span>
+                  {% endfor %}
+                </div>
+              {% else %}
+                {{ form.difficulty(class="form-control form-control-lg") }}
+              {% endif %}
+            </div>
+          </div>
+          <div class="form-row" style="padding: 5pt">
+            <div class="col">
+              {{ form.platform.label(class="form-control-label") }}
+              {% if form.platform.errors %}
+                {{ form.platform(class="form-control form-control-lg is-invalid") }}
+                <div class="invalid-feedback">
+                  {% for error in form.platform.errors %}
+                    <span>{{ error }}</span>
+                  {% endfor %}
+                </div>
+              {% else %}
+                {{ form.platform(class="form-control form-control-lg") }}
+              {% endif %}
+            </div>
+            <div class="col">
+              {{ form.stagepass.label(class="form-control-label") }}
+              {% if form.stagepass.errors %}
+                {{ form.stagepass(class="form-control form-control-lg is-invalid") }}
+                <div class="invalid-feedback">
+                  {% for error in form.stagepass.errors %}
+                    <span>{{ error }}</span>
+                  {% endfor %}
+                </div>
+              {% else %}
+                {{ form.stagepass(class="form-control form-control-lg") }}
+              {% endif %}
+            </div>
+            <div class="col">
+              {{ form.ranked.label(class="form-control-label") }}
+              {% if form.ranked.errors %}
+                {{ form.ranked(class="form-control form-control-lg is-invalid") }}
+                <div class="invalid-feedback">
+                  {% for error in form.ranked.errors %}
+                    <span>{{ error }}</span>
+                  {% endfor %}
+                </div>
+              {% else %}
+                {{ form.ranked(class="form-control form-control-lg") }}
+              {% endif %}
+            </div>
+          </div>
+        <div>
+          <hr>
+        </div>
+        <div style="padding: 5pt">
+          <div style="display: inline-block">
+            <p align="center">Score Screenshot [MANDATORY]</p>
+          </div>
+          <div class="form-row">
+            <div class="custom-file">
+              <input type="file" name="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+              <label class="custom-file-label" for="inputGroupFile01"><span class="span-choose-file">Add Verification Image<span></label>
+            </div>
+          </div>
+        </div>
+        </fieldset>
+        <div class="form-field">
+          {{ form.submit(class="btn btn-outline-success") }}
+        </div>
+      </form>
+    </div>
+    {% if ldb != None %}
+      <div style="overflow: auto; max-width: 100%">
+        <table class="table table-striped">
+          <th>Song</th>
+          <th>Difficulty</th>
+          <th>Letter Grade</th>
+          <th>Score</th>
+          <th>Stage Pass</th>
+          <th>Platform</th>
+          <th>Ranked?</th>
+          <th>Author</th>
+          {% for score in ldb %}
+          <tr>
+            <td><a href="/challenge/weekly/{{score.id}}">{{score.song}}</a>
+              {% if score.image_file != "None" %}
+                <span style="padding-left: 5pt"><span class="badge badge-pill badge-success">Verified!</span></span>
+              {% endif %}
+            </td>
+            <td>{{score.type.capitalize()}} {{score.difficulty}}</td>
+            <td>{{score.lettergrade.upper()}}</td>
+            <td>{{score.score}}</td>
+            {% if score.stagepass == "True" %}
+              <td>{{score.stagepass|replace("True", "Yes")}}</td>
+            {% elif score.stagepass == "False" %}
+              <td>{{score.stagepass|replace("False", "No")}}</td>
+            {% endif %}
+            <td>{{score.platform.capitalize()|replace('Sf2-pad', 'StepF2 Pad')}}</td>
+            {% if score.ranked == "True" %}
+              <td>{{score.ranked|replace("True", "Yes")}}</td>
+            {% elif score.ranked == "False" %}
+              <td>{{score.ranked|replace("False", "No")}}</td>
+            {% endif %}
+            <td>{{score.author.username}}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    {% else %}
+      <h4>No scores submitted. Scores will display here when any are uploaded.</h4>
+    {% endif %}
+  </div>
+{% endblock body %}

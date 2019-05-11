@@ -1,10 +1,11 @@
 from flask import (render_template, url_for, flash, redirect, request, abort, Blueprint, current_app)
 from flask_login import current_user, login_required
 from app import db, logging
-from app.models import Post
-from app.scores.forms import ScoreForm
+from app.models import Post, WeeklyPost
+from app.scores.forms import ScoreForm, WeeklyForm
 from app.scores.utils import save_picture, allowed_file
 import os
+from weekly import get_current_weekly, randomize_weekly
 
 scores = Blueprint('scores', __name__)
 
@@ -56,3 +57,40 @@ def delete_score(score_id):
     db.session.commit()
     flash('Your score has been deleted!', 'success')
     return redirect(url_for('main.home'))
+
+@scores.route('/challenge/weekly', methods=["GET", "POST"])
+@login_required
+def weekly():
+    current_weekly = get_current_weekly()
+    form = WeeklyForm()
+    if form.validate_on_submit():
+        try:
+            file = request.files['file']
+        except:
+            flash('Score not submitted. Verification screenshot required.')
+            return redirect(url_for('main.home'))
+        if file != None:
+            if file.filename == '':
+                flash('Score not submitted. Verification screenshot required.')
+                return redirect(url_for('main.home'))
+            if file and allowed_file(file.filename):
+                picture_file = save_picture(file)
+                flash('File uploaded successfully!', 'success')
+                post = WeeklyPost(song = current_weekly, score = form.score.data, lettergrade = form.lettergrade.data, type = form.type.data, difficulty = form.difficulty.data, platform = form.platform.data, stagepass = form.stagepass.data, ranked = form.ranked.data, author = current_user, image_file = picture_file)
+                db.session.add(post)
+                db.session.commit()
+            elif file and not allowed_file(file.filename):
+                    flash('Score not submitted. Verification screenshot required.')
+                    return redirect(url_for('main.home'))
+        flash('Score has been submitted!', 'success')
+        return redirect(url_for('scores.weekly'))
+    ldb = WeeklyPost.query.order_by(WeeklyPost.score.desc()).all()
+    return render_template('weekly.html', current_weekly=current_weekly, form=form, ldb=ldb)
+
+@scores.route('/challenge/weekly/<int:score_id>')
+def weeklyscore(score_id):
+    bluegrades = ['a', 'b', 'c', 'd']
+    goldgrades = ['s', 'ss', 'sss']
+    redgrades = ['f']
+    score = WeeklyPost.query.get_or_404(score_id)
+    return render_template('weeklyscore.html', score=score, bluegrades=bluegrades, goldgrades=goldgrades, redgrades=redgrades)

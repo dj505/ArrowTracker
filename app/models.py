@@ -16,6 +16,7 @@ class User(db.Model, UserMixin):
     image_file = db.Column(db.String(20), nullable=False, default='default.jpg')
     password = db.Column(db.String(60), nullable=False)
     posts = db.relationship('Post', backref='author', lazy=True)
+    weeklyposts = db.relationship('WeeklyPost', backref='author', lazy=True)
 
     def get_reset_token(self, expires_sec=1800):
         s = Serializer(current_app.config["SECRET_KEY"], expires_sec)
@@ -34,6 +35,23 @@ class User(db.Model, UserMixin):
         return f"User('{self.username}', '{self.email}', '{self.image_file}')"
 
 class Post(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    date_posted = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
+    song = db.Column(db.String(50), nullable=False)
+    score = db.Column(db.Integer, nullable=False)
+    lettergrade = db.Column(db.String(3), nullable=False)
+    type = db.Column(db.String(7), nullable=False)
+    difficulty = db.Column(db.Integer, nullable=False)
+    platform = db.Column(db.String(8), nullable=False)
+    stagepass = db.Column(db.String(5), nullable=False)
+    ranked = db.Column(db.String(5), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    image_file = db.Column(db.String(20), nullable=False, default="None")
+
+    def __repr__(self):
+        return f"Post('{self.song}', '{self.score}', '{self.lettergrade}', '{self.type}', '{self.difficulty}', '{self.platform}', '{self.stagepass}', '{self.ranked}')"
+
+class WeeklyPost(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     date_posted = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
     song = db.Column(db.String(50), nullable=False)
