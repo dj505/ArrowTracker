@@ -1,4 +1,11 @@
-Latest Update (2019-05-07)
+Latest Update (2019-05-10)
+- Weekly challenge added!
+  - Every week a new song is set for the weekly challenge
+  - Users upload their scores which are displayed on a leaderboard
+  - This feature is not yet finished, but the leaderboard works and uploading works
+  - When complete, users will gain points based off challenges completed!
+
+Last Update (2019-05-07)
 - Quality of life changes
   - Search page now displays "Search" instead of "Submit" button
   - Search filters were changed from "Ranked" to "Verified" to better reflect results
@@ -8,7 +15,7 @@ Latest Update (2019-05-07)
 - Site theme changes depending on letter grade (also applies to Discord embeds)
 - Other minor aesthetic changes
 
-Last update (2019-05-02)
+Changes (2019-05-02)
 - Added tournaments!
   - Tournaments can be posted along with details and a Challonge link.
   - Challonge brackets will be embedded on the Tournament view page
