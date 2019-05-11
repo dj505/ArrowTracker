@@ -42,6 +42,23 @@ class Post(db.Model):
     def __repr__(self):
         return f"Post('{self.song}', '{self.score}', '{self.lettergrade}', '{self.type}', '{self.difficulty}', '{self.platform}', '{self.stagepass}', '{self.ranked}')"
 
+class WeeklyPost(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    date_posted = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
+    song = db.Column(db.String(50), nullable=False)
+    score = db.Column(db.Integer, nullable=False)
+    lettergrade = db.Column(db.String(3), nullable=False)
+    type = db.Column(db.String(7), nullable=False)
+    difficulty = db.Column(db.Integer, nullable=False)
+    platform = db.Column(db.String(8), nullable=False)
+    stagepass = db.Column(db.String(5), nullable=False)
+    ranked = db.Column(db.String(5), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    image_file = db.Column(db.String(20), nullable=False, default="None")
+
+    def __repr__(self):
+        return f"Post('{self.song}', '{self.score}', '{self.lettergrade}', '{self.type}', '{self.difficulty}', '{self.platform}', '{self.stagepass}', '{self.ranked}')"
+
 class Tournament(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     date_posted = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
