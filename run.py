@@ -8,7 +8,7 @@ class Config(object):
 scheduler = APScheduler()
 app = create_app()
 
-@scheduler.task('cron', id='job', week='*', day_of_week='fri', hour='12')
+@scheduler.task('cron', id='job', week='*', day_of_week='fri', hour='12', minute='00')
 def job():
     randomize_weekly(app)
 
