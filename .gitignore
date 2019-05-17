@@ -128,3 +128,5 @@ app/static/archived_weekly/*.json
 migrations/
 app/static/rivals/*.json
 weekly.json
+
+site.SQLALCHEMY_DATABASE_URI
