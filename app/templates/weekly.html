@@ -17,9 +17,14 @@
     <h1 class="display-4">「{{ current_weekly }}」</h1>
     <hr />
     <p class="lead">
-      Submit scores for the weekly challenge below! Users with top scores at the end of the week will earn points on their profiles.
+      Submit scores for the weekly challenge below! Users with top scores at the end of the week will earn points on their profiles once this feature is completely finished. For now, it's all for fun!
     </p>
-    <div class="content-section">
+    <div style="padding-bottom: 10pt">
+      <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseSubmit" aria-expanded="false" aria-controls="collapseExample">
+        Submit Your Score
+      </button>
+    </div>
+    <div class="content-section collapse" id="collapseSubmit">
       <form action="" method="POST" enctype = "multipart/form-data">
         {{ form.hidden_tag() }}
         <fieldset class="form-group">
