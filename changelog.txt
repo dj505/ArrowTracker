@@ -1,11 +1,15 @@
-Latest Update (2019-05-10)
+Latest Update (2019-05-22)
+- Score deletion from Weekly Challenge now works properly
+- Weekly challenge should now update weekly as intended
+
+Last Update (2019-05-10)
 - Weekly challenge added!
   - Every week a new song is set for the weekly challenge
   - Users upload their scores which are displayed on a leaderboard
   - This feature is not yet finished, but the leaderboard works and uploading works
   - When complete, users will gain points based off challenges completed!
 
-Last Update (2019-05-07)
+Changes (2019-05-07)
 - Quality of life changes
   - Search page now displays "Search" instead of "Submit" button
   - Search filters were changed from "Ranked" to "Verified" to better reflect results
