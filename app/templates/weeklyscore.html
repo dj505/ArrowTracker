@@ -74,7 +74,7 @@
       {% endif %}
       {% if score.author == current_user %}
       <div>
-        <form action="{{ url_for('scores.delete_score', score_id=score.id) }}" method="POST">
+        <form action="{{ url_for('scores.delete_weekly', score_id=score.id) }}" method="POST">
           <input type="submit" class="btn btn-danger m-1" value="Delete">
         </form>
       </div>
