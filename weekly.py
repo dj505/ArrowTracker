@@ -6,6 +6,7 @@ import random
 import json
 import app
 import os
+import send_webhook
 
 def get_current_weekly():
     with open('weekly.json', 'r') as f:
@@ -37,8 +38,8 @@ def randomize_weekly(app):
     songs = load_song_lists()
     with open('weekly.json', 'r') as f:
         weeklyjson = json.load(f)
-    weeklyjson['song'] = random.choice(load_song_lists())[0]
-    print(weeklyjson)
+    newsong = random.choice(load_song_lists())[0]
+    weeklyjson['song'] = newsong
     with open('weekly.json', 'w') as f:
         json.dump(weeklyjson, f, indent=2)
     with app.app_context():
@@ -47,3 +48,4 @@ def randomize_weekly(app):
             create_json(item)
         db.session.query(WeeklyPost).delete()
         db.session.commit()
+    send_webhook.notify(newsong)
