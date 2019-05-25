@@ -1,4 +1,5 @@
 import os
+import json
 
 games = ['Pump it Up']
 
@@ -9,15 +10,18 @@ def load_song_lists():
     for file in os.listdir("app/gamelists/Pump it Up"):
         numlists += 1
         with open('app/gamelists/Pump it Up/{}'.format(file), 'r') as f:
-            listadd = f.read()
-            listadd = listadd.split('\n')
-            for song in listadd:
-                songlist.append(song)
+            songfile = json.load(f)
+            for song in songfile.keys():
+                try:
+                    songlist.append(song.encode('utf-8'))
+                except:
+                    print('error')
                 numsongs += 1
-            del songlist[-1]
             print(f'Loaded {file}')
     songlist.sort()
     songlist_pairs = list(zip(songlist, songlist))
     print('{} List(s)'.format(numlists))
     print('{} Song(s)'.format(numsongs))
     return(songlist_pairs)
+
+print(load_song_lists())

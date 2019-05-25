@@ -5,7 +5,7 @@ from flask_wtf.file import FileField, FileAllowed
 from app import songlist_pairs, difficulties
 
 class ScoreForm(FlaskForm):
-    song = SelectField('Song', coerce=str, choices=songlist_pairs, validators=[DataRequired()])
+    song = SelectField('Song', coerce=str, choices=[tuple(map(lambda x: x.decode('utf-8'), tup)) for tup in songlist_pairs], validators=[DataRequired()])
     lettergrade = SelectField('Letter Grade', coerce=str, choices=(('f', 'F'), ('d', 'D'), ('c', 'C'), ('b', 'B'), ('a', 'A'), ('s', 'S'), ('ss', 'SS'), ('sss', 'SSS')), validators=[DataRequired()])
     score = IntegerField('Score', validators=[DataRequired()])
     stagepass = SelectField('Stage Pass', coerce=str, choices=(('True', 'True'), ('False', 'False')), validators=[DataRequired()])
