@@ -10,7 +10,7 @@ class SearchForm(FlaskForm):
     ("ranked-difficulty", "Verified, Difficulty"),
     ("unranked-score", "Unverified, Score"),
     ("unranked-difficulty", "Unverified, Difficulty"))
-    song = SelectField('Song', coerce=str, choices=songlist_pairs)
+    song = SelectField('Song', coerce=str, choices=[tuple(map(lambda x: x.decode('utf-8'), tup)) for tup in songlist_pairs])
     filters = SelectField('Filter', coerce=str, choices=filters)
     userfilter = StringField('User [OPTIONAL]')
     submit = SubmitField('Search')

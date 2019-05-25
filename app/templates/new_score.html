@@ -20,14 +20,14 @@
           <div class="col">
             {{ form.song.label(class="form-control-label") }}
             {% if form.song.errors %}
-              {{ form.song(class="form-control form-control-lg is-invalid") }}
+              {{ form.song(id="songDropdown", class="form-control form-control-lg is-invalid") }}
               <div class="invalid-feedback">
                 {% for error in form.song.errors %}
                   <span>{{ error }}</span>
                 {% endfor %}
               </div>
             {% else %}
-              {{ form.song(class="form-control form-control-lg") }}
+              {{ form.song(id="songDropdown", class="form-control form-control-lg") }}
             {% endif %}
           </div>
           <div class="col">
@@ -71,6 +71,12 @@
               {{ form.type(class="form-control form-control-lg") }}
             {% endif %}
           </div>
+          <!--<div class="col">
+            {{ form.difficulty.label(class="form-control-label") }}
+            <select id="difficultyDropdown" class="form-control form-control-lg">
+
+            </select>
+          </div>-->
           <div class="col">
             {{ form.difficulty.label(class="form-control-label") }}
             {% if form.difficulty.errors %}
