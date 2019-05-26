@@ -1,0 +1,10141 @@
+{
+  "!": {
+    "author": "Onyx",
+    "bpm": "39~155 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S11",
+      "S17",
+      "halfub",
+      "D12",
+      "D19",
+      "D22"
+    ]
+  },
+  "1949": {
+    "author": "SLAM",
+    "bpm": "220 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S16",
+      "S21",
+      "S23",
+      "D21",
+      "D28"
+    ]
+  },
+  "1950": {
+    "author": "SLAM",
+    "bpm": "200 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S16",
+      "S16",
+      "S20",
+      "S23",
+      "S25",
+      "D22",
+      "D25",
+      "D27",
+      "DP3"
+    ]
+  },
+  "2006. LOVE SONG": {
+    "author": "BanYa Production",
+    "bpm": "96 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S9",
+      "S12",
+      "S15",
+      "D13",
+      "DP5"
+    ]
+  },
+  "45RPM & Eun Ji Won Mix": {
+    "author": "45RPM",
+    "bpm": "123 BPM",
+    "length": "Remix",
+    "genre": "K-POP",
+    "difficulties": [
+      "S11",
+      "D14",
+      "DP5"
+    ]
+  },
+  "80's Pop": {
+    "author": "Energy presents",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S8",
+      "S12",
+      "S16",
+      "D6",
+      "D17",
+      "SP3",
+      "DP4"
+    ]
+  },
+  "86": {
+    "author": "Dasu",
+    "bpm": "167 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S12",
+      "S16",
+      "S20",
+      "D18",
+      "D21",
+      "DP3"
+    ]
+  },
+  "A nightmare": {
+    "author": "BanYa",
+    "bpm": "120 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S4",
+      "D13",
+      "DP5"
+    ]
+  },
+  "A Site De La Rue": {
+    "author": "STREME REVERIE",
+    "bpm": "186 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S8",
+      "S11",
+      "S16",
+      "S19",
+      "D12",
+      "D19",
+      "D24"
+    ]
+  },
+  "Accident": {
+    "author": "MAX",
+    "bpm": "183 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S18",
+      "D11",
+      "D20"
+    ]
+  },
+  "Achluoias": {
+    "author": "D_AAN",
+    "bpm": "200 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S9",
+      "S15",
+      "S17",
+      "S22",
+      "S24",
+      "D13",
+      "D16",
+      "D24",
+      "D26",
+      "DP3"
+    ]
+  },
+  "Acquaintance": {
+    "author": "Outsider",
+    "bpm": "130 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S20",
+      "D22"
+    ]
+  },
+  "Across the Ocean": {
+    "author": "Zircon",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S9",
+      "S15",
+      "D11",
+      "D16",
+      "DP2"
+    ]
+  },
+  "Adios": {
+    "author": "Eun Ji Won",
+    "bpm": "123 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S14",
+      "D16",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "Ai, Yurete...": {
+    "author": "TatshMusicCircle",
+    "bpm": "152 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S9",
+      "S13",
+      "S16",
+      "D8",
+      "D15",
+      "D18",
+      "DP4"
+    ]
+  },
+  "All I Want For X-mas": {
+    "author": "BanYa",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S9",
+      "D7"
+    ]
+  },
+  "Allegro Con Fuoco": {
+    "author": "DM Ashura",
+    "bpm": "156 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S8",
+      "S10",
+      "S16",
+      "S17",
+      "S22",
+      "halfub",
+      "D8",
+      "D9",
+      "D18",
+      "D19",
+      "D23",
+      "SP1",
+      "DP6",
+      "RT13"
+    ]
+  },
+  "Allegro Furioso": {
+    "author": "DM Ashura",
+    "bpm": "176 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S10",
+      "S14",
+      "S17",
+      "S20",
+      "D15",
+      "D20",
+      "DP4"
+    ]
+  },
+  "Allegro Piu Mosso": {
+    "author": "DM Ashura",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S10",
+      "S17",
+      "S19",
+      "D12",
+      "D19",
+      "DP4"
+    ]
+  },
+  "Amai Yuuwaku Dangerous": {
+    "author": "Bakusute Sotokanda Icchome",
+    "bpm": "125 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S11",
+      "S14",
+      "D5",
+      "D10",
+      "D15",
+      "DP3"
+    ]
+  },
+  "Amphitryon": {
+    "author": "Gentle Stick",
+    "bpm": "155 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S11",
+      "S18",
+      "D12",
+      "D20",
+      "DP4"
+    ]
+  },
+  "An Interesting View": {
+    "author": "BanYa",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S13"
+    ]
+  },
+  "Anguished Unmaking": {
+    "author": "void",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S15",
+      "S17",
+      "D9",
+      "D18",
+      "D22"
+    ]
+  },
+  "Annihilator Method": {
+    "author": "DM Ashura",
+    "bpm": "192 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S10",
+      "S15",
+      "S19",
+      "S23",
+      "D13",
+      "D20",
+      "D24",
+      "DP4"
+    ]
+  },
+  "Another Truth": {
+    "author": "Novasonic",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S8",
+      "S16",
+      "D7",
+      "D17",
+      "D18",
+      "D21",
+      "RT13"
+    ]
+  },
+  "Anubis": {
+    "author": "Banzai",
+    "bpm": "110 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S7",
+      "S14",
+      "halfub",
+      "D6",
+      "D14",
+      "D18",
+      "RT13"
+    ]
+  },
+  "Arcana Force": {
+    "author": "mzet:-P",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S9",
+      "S16",
+      "S20",
+      "D10",
+      "D17",
+      "D20",
+      "DP2"
+    ]
+  },
+  "Arch of Darkness": {
+    "author": "Yahpp",
+    "bpm": "135.9 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S5",
+      "S8",
+      "S15",
+      "S17",
+      "D7",
+      "D18",
+      "D20"
+    ]
+  },
+  "Arirang": {
+    "author": "BanYa Production",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S11",
+      "S19",
+      "S22",
+      "D12",
+      "D21",
+      "DP2"
+    ]
+  },
+  "Armakitten 2-X": {
+    "author": "BanYa Production",
+    "bpm": "170 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S10",
+      "S13",
+      "S17",
+      "S19",
+      "D12",
+      "D18",
+      "D22",
+      "D24"
+    ]
+  },
+  "ASDF": {
+    "author": "Doin",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S9",
+      "S12",
+      "S17",
+      "S18",
+      "D10",
+      "D14",
+      "D17"
+    ]
+  },
+  "Asterios -ReEntry-": {
+    "author": "ATAS",
+    "bpm": "148 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S11",
+      "S14",
+      "S17",
+      "S19",
+      "D8",
+      "D18",
+      "D22",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Avalanche": {
+    "author": "Memme",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S9",
+      "S16",
+      "S19",
+      "S22",
+      "D11",
+      "D19",
+      "D20",
+      "D25",
+      "DP3",
+      "Co-Op3"
+    ]
+  },
+  "Avalanquiem": {
+    "author": "MAX",
+    "bpm": "175 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S20",
+      "S23",
+      "D25"
+    ]
+  },
+  "Awakening": {
+    "author": "typeMARS",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S10",
+      "S14",
+      "S16",
+      "S19",
+      "D9",
+      "D13",
+      "D17",
+      "D20"
+    ]
+  },
+  "B.P Classic Remix": {
+    "author": "BanYa Production",
+    "bpm": "164 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S12",
+      "S18",
+      "D14",
+      "D19",
+      "RT15"
+    ]
+  },
+  "B.P Classic Remix 2": {
+    "author": "BanYa Production",
+    "bpm": "180 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S11",
+      "S18"
+    ]
+  },
+  "B2": {
+    "author": "MAX",
+    "bpm": "158 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S16",
+      "S18",
+      "D12",
+      "D19",
+      "DP3"
+    ]
+  },
+  "Bad \u221e End \u221e Night": {
+    "author": "HitoshizukuP",
+    "bpm": "204 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S10",
+      "S13",
+      "S17",
+      "S19",
+      "D11",
+      "D18",
+      "D23",
+      "DP4",
+      "Co-Op3"
+    ]
+  },
+  "Bad Apple!! feat. Nomico": {
+    "author": "Masayoshi Minoshima",
+    "bpm": "136 BPM",
+    "length": "Full Song",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S10",
+      "S14",
+      "S17",
+      "D11",
+      "D18",
+      "D22",
+      "Co-Op4"
+    ]
+  },
+  "Bad Girl Good Girl": {
+    "author": "Miss A",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S14",
+      "D4",
+      "D13",
+      "SP2",
+      "DP3"
+    ]
+  },
+  "BANG BANG BANG": {
+    "author": "Bigbang",
+    "bpm": "135 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S6",
+      "S18",
+      "D20"
+    ]
+  },
+  "Bang the Bass": {
+    "author": "Wez Devine",
+    "bpm": "32~95 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S6",
+      "S10",
+      "S13",
+      "halfub",
+      "D8",
+      "D15",
+      "RT7"
+    ]
+  },
+  "Banya Classic Remix": {
+    "author": "BanYa",
+    "bpm": "162~170 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S13",
+      "S19",
+      "D14",
+      "D20"
+    ]
+  },
+  "BanYa Hard Mix": {
+    "author": "BanYa",
+    "bpm": "146~195 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S9",
+      "S12",
+      "D11",
+      "RT01"
+    ]
+  },
+  "BANYA HIPHOP REMIX": {
+    "author": "BanYa",
+    "bpm": "99 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S7",
+      "D20",
+      "DP6"
+    ]
+  },
+  "Banya-P Classic Remix": {
+    "author": "BanYa Production",
+    "bpm": "92~180 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S15",
+      "S21",
+      "D16",
+      "D22"
+    ]
+  },
+  "Banya-P Guitar  Remix": {
+    "author": "BanYa Production",
+    "bpm": "120 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S21",
+      "S22",
+      "D18",
+      "D24"
+    ]
+  },
+  "Bar Bar Bar": {
+    "author": "Crayon Pop",
+    "bpm": "134 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S16",
+      "D15"
+    ]
+  },
+  "Baroque Virus": {
+    "author": "Zircon",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S7",
+      "S9",
+      "S14",
+      "S17",
+      "D7",
+      "D11",
+      "D18",
+      "D20",
+      "RT14"
+    ]
+  },
+  "Baroque Virus (original ver.)": {
+    "author": "Zircon",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S9",
+      "S17",
+      "D11",
+      "D18"
+    ]
+  },
+  "BBoom BBoom": {
+    "author": "MOMOLAND",
+    "bpm": "126 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S6",
+      "S9",
+      "S13",
+      "S15",
+      "D8",
+      "D15",
+      "D18",
+      "DP2",
+      "Co-Op2"
+    ]
+  },
+  "Be Alive (Raaban Inc. Mix)": {
+    "author": "Stian K",
+    "bpm": "142 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S2",
+      "S4",
+      "S5",
+      "S7",
+      "S8",
+      "S14",
+      "S15",
+      "S17",
+      "D9",
+      "D10",
+      "D14",
+      "D16",
+      "Co-Op2",
+      "RT6"
+    ]
+  },
+  "Be Mine": {
+    "author": "Infinite",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S15",
+      "D5",
+      "D15",
+      "SP3",
+      "DP5"
+    ]
+  },
+  "Beat # No.4": {
+    "author": "HEaDTriP",
+    "bpm": "121 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S17",
+      "S19",
+      "D18",
+      "D19",
+      "DP6"
+    ]
+  },
+  "Beat of The War": {
+    "author": "BanYa",
+    "bpm": "140~202 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S9",
+      "S11",
+      "S16",
+      "S18",
+      "S19",
+      "S21",
+      "halfub",
+      "D13",
+      "D19",
+      "D23"
+    ]
+  },
+  "Beat of The War 2": {
+    "author": "BanYa",
+    "bpm": "120~190 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S5",
+      "S6",
+      "S10",
+      "S16",
+      "S21",
+      "D14",
+      "D20"
+    ]
+  },
+  "Beat of the War 2": {
+    "author": "Yahpp",
+    "bpm": "120~190 BPM",
+    "length": "Full Song",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S17",
+      "S20",
+      "D21"
+    ]
+  },
+  "Beat the Ghost": {
+    "author": "BanYa Production",
+    "bpm": "124 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S9",
+      "S15",
+      "S17",
+      "D17"
+    ]
+  },
+  "Beat The Ghost": {
+    "author": "BanYa Production",
+    "bpm": "124 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S9",
+      "S15",
+      "S18",
+      "S20",
+      "D7",
+      "D9",
+      "D16",
+      "D20"
+    ]
+  },
+  "Beautiful": {
+    "author": "Wanna One",
+    "bpm": "80 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S9",
+      "S14",
+      "D5",
+      "D12",
+      "D18"
+    ]
+  },
+  "BEDLAM": {
+    "author": "SANY-ON",
+    "bpm": "183 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S8",
+      "S15",
+      "S18",
+      "S22",
+      "D13",
+      "D20",
+      "D24",
+      "DP4"
+    ]
+  },
+  "Bee": {
+    "author": "BanYa",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S12",
+      "S16",
+      "S19",
+      "halfub",
+      "D12",
+      "D20",
+      "D22",
+      "D24"
+    ]
+  },
+  "Beethoven Influenza": {
+    "author": "BanYa",
+    "bpm": "170 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "S21",
+      "D20"
+    ]
+  },
+  "Beethoven Virus": {
+    "author": "BanYa",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S7",
+      "S10",
+      "S11",
+      "S14",
+      "S16",
+      "S17",
+      "D11",
+      "D11",
+      "D18",
+      "D21",
+      "DP3"
+    ]
+  },
+  "Bemera": {
+    "author": "Yahpp",
+    "bpm": "210 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S14",
+      "S21",
+      "S23",
+      "D19"
+    ]
+  },
+  "BEMERA": {
+    "author": "Yahpp",
+    "bpm": "210 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S17",
+      "S24",
+      "D18",
+      "D26"
+    ]
+  },
+  "Betrayer": {
+    "author": "BanYa",
+    "bpm": "92 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S5",
+      "S8",
+      "S13",
+      "S16",
+      "D11",
+      "D13",
+      "D17",
+      "SP2"
+    ]
+  },
+  "Betrayer -act.2-": {
+    "author": "msgoon",
+    "bpm": "92 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S10",
+      "D15",
+      "SP3",
+      "DP3"
+    ]
+  },
+  "Big Beat": {
+    "author": "NOW",
+    "bpm": "104 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S5",
+      "S13",
+      "S15",
+      "D6",
+      "D14",
+      "SP3",
+      "DP5"
+    ]
+  },
+  "Big metra Remix": {
+    "author": "Big metra",
+    "bpm": "105 BPM",
+    "length": "Remix",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S5",
+      "S19",
+      "D17"
+    ]
+  },
+  "BIG to the BANG": {
+    "author": "Bigbang",
+    "bpm": "135 BPM",
+    "length": "Remix",
+    "genre": "K-POP",
+    "difficulties": [
+      "S17",
+      "D17"
+    ]
+  },
+  "Black Dragon": {
+    "author": "Memme",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S5",
+      "S8",
+      "S11",
+      "S17",
+      "S20",
+      "D11",
+      "D17",
+      "D19"
+    ]
+  },
+  "Black Maria": {
+    "author": "DJ Clonepa",
+    "bpm": "192 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S6",
+      "S9",
+      "S13",
+      "S18",
+      "S23",
+      "D13",
+      "D15",
+      "D19",
+      "D25",
+      "RT18"
+    ]
+  },
+  "Black Swan": {
+    "author": "zeron",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S12",
+      "S14",
+      "S16",
+      "S19",
+      "D15",
+      "D22",
+      "DP4"
+    ]
+  },
+  "Blaze Emotion": {
+    "author": "Yahpp",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S6",
+      "S7",
+      "S9",
+      "S16",
+      "S17",
+      "D10",
+      "D17",
+      "D18"
+    ]
+  },
+  "Blaze emotion (Band version)": {
+    "author": "Yahpp",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S8",
+      "S17",
+      "D4",
+      "D18",
+      "DP3"
+    ]
+  },
+  "Blazing": {
+    "author": "BanYa",
+    "bpm": "158 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S9",
+      "S17",
+      "S19",
+      "D20"
+    ]
+  },
+  "Blow": {
+    "author": "Future Funk Squad",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S8",
+      "S11",
+      "S15",
+      "S19",
+      "D6",
+      "D9",
+      "D13",
+      "D16",
+      "D19",
+      "RT10"
+    ]
+  },
+  "Blowin It Up": {
+    "author": "Future Funk Squad",
+    "bpm": "130 BPM",
+    "length": "Remix",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S13",
+      "S17",
+      "S19",
+      "D20",
+      "D22"
+    ]
+  },
+  "BOOMBAYAH": {
+    "author": "BLACKPINK",
+    "bpm": "125 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S10",
+      "S17",
+      "D18"
+    ]
+  },
+  "BOOMERANG": {
+    "author": "Wanna One",
+    "bpm": "100 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S10",
+      "S14",
+      "S17",
+      "D7",
+      "D16",
+      "D20",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Boong Boong": {
+    "author": "HAON",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S8",
+      "S11",
+      "S16",
+      "S18",
+      "D12",
+      "D16",
+      "D19"
+    ]
+  },
+  "Boulafacet": {
+    "author": "Nightmare",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S8",
+      "S12",
+      "S22",
+      "D15",
+      "D16",
+      "D24",
+      "RT17"
+    ]
+  },
+  "Break it Down": {
+    "author": "MAZO",
+    "bpm": "176 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S14",
+      "S16",
+      "D5",
+      "D12",
+      "D17"
+    ]
+  },
+  "Break Out": {
+    "author": "Lunatic Sounds",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S12",
+      "S16",
+      "S19",
+      "D12",
+      "D18",
+      "D20"
+    ]
+  },
+  "Bring Back The Beat": {
+    "author": "Lunatic Sounds",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S12",
+      "S17",
+      "S19",
+      "D8",
+      "D19",
+      "DP5"
+    ]
+  },
+  "BSPower Explosion": {
+    "author": "Memme",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S8",
+      "S11",
+      "S16",
+      "S19",
+      "S21",
+      "D13",
+      "D20",
+      "D23"
+    ]
+  },
+  "Bubblegum Dancer (J-Mi & Midi-D Remix)": {
+    "author": "Hanna Stockzell",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S12",
+      "S14",
+      "S17",
+      "D5",
+      "D11",
+      "D16",
+      "RT16"
+    ]
+  },
+  "Bullfighter's Song": {
+    "author": "BanYa Production",
+    "bpm": "168 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S5",
+      "S9",
+      "S16",
+      "D9",
+      "D18",
+      "D21"
+    ]
+  },
+  "Butterfly": {
+    "author": "MAX",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S8",
+      "S13",
+      "S16",
+      "D7",
+      "D17",
+      "D19",
+      "SP2",
+      "DP3"
+    ]
+  },
+  "Butterfly (Full Song)": {
+    "author": "MAX",
+    "bpm": "128 BPM",
+    "length": "Full Song",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S12",
+      "S17",
+      "D12",
+      "D18"
+    ]
+  },
+  "By chance": {
+    "author": "Baby V.O.X",
+    "bpm": "127 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S5",
+      "S15",
+      "D6",
+      "D16",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "Campanella": {
+    "author": "Cashew",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S10",
+      "S16",
+      "D10",
+      "D16",
+      "DP5"
+    ]
+  },
+  "Can't Nobody": {
+    "author": "2NE1",
+    "bpm": "130 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S15",
+      "D16"
+    ]
+  },
+  "Cannon X.1": {
+    "author": "Yahpp",
+    "bpm": "185 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S8",
+      "S12",
+      "S20",
+      "S21",
+      "D10",
+      "D14",
+      "D22",
+      "RT15"
+    ]
+  },
+  "Cannon X.1 Original Version": {
+    "author": "Yahpp",
+    "bpm": "185 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S17",
+      "D19"
+    ]
+  },
+  "Canon D": {
+    "author": "BanYa",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S4",
+      "S6",
+      "S7",
+      "S10",
+      "S17",
+      "S18",
+      "S20",
+      "S21",
+      "D12",
+      "D17",
+      "D18",
+      "D18",
+      "D21",
+      "D23",
+      "Co-Op2"
+    ]
+  },
+  "Canon D FULL Song MIX": {
+    "author": "BanYa",
+    "bpm": "160 BPM",
+    "length": "Full Song",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S14",
+      "S17",
+      "D14",
+      "D15",
+      "D23",
+      "D24"
+    ]
+  },
+  "Caprice of DJ Otada": {
+    "author": "BanYa Production",
+    "bpm": "180 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S11",
+      "S20",
+      "D22",
+      "D25"
+    ]
+  },
+  "Caprice of Otada": {
+    "author": "BanYa Production",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S4",
+      "S6",
+      "S8",
+      "S17",
+      "S18",
+      "S19",
+      "S19",
+      "D10",
+      "D18",
+      "D19",
+      "D21",
+      "RT16"
+    ]
+  },
+  "Change Myself": {
+    "author": "Wang Leehom",
+    "bpm": "104.5 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S5",
+      "S10",
+      "D9",
+      "SP1",
+      "DP5"
+    ]
+  },
+  "Chaotic White": {
+    "author": "DM Ashura",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S9",
+      "S15",
+      "S16",
+      "halfub",
+      "D8",
+      "D15"
+    ]
+  },
+  "Chase Me": {
+    "author": "Dreamcatcher",
+    "bpm": "200 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S19",
+      "D25"
+    ]
+  },
+  "CHICKEN WING": {
+    "author": "BanYa",
+    "bpm": "200 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S20",
+      "D14"
+    ]
+  },
+  "Chicken Wing": {
+    "author": "BanYa",
+    "bpm": "200 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S9",
+      "S11",
+      "S17",
+      "S20",
+      "S21",
+      "S22",
+      "D13",
+      "D17",
+      "D22"
+    ]
+  },
+  "Chimera": {
+    "author": "Yahpp",
+    "bpm": "210 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S9",
+      "S12",
+      "S14",
+      "S18",
+      "S19",
+      "S19",
+      "S20",
+      "S23",
+      "D16",
+      "D21",
+      "D26",
+      "Co-Op2",
+      "RT10",
+      "RT16"
+    ]
+  },
+  "Chinese restaurant": {
+    "author": "Memme",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S16",
+      "S18",
+      "D10",
+      "D16",
+      "D19",
+      "DP3"
+    ]
+  },
+  "Chopsticks Challenge": {
+    "author": "Yahpp",
+    "bpm": "128 BPM",
+    "length": "Full Song",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S15",
+      "D19"
+    ]
+  },
+  "Chopstix": {
+    "author": "Sonic Dimension",
+    "bpm": "134 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S5",
+      "S13",
+      "D15",
+      "SP2",
+      "DP2"
+    ]
+  },
+  "Christmas Memories": {
+    "author": "Warak",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S14",
+      "D9",
+      "D15",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Chung Hwa Ban Jeom": {
+    "author": "Louis",
+    "bpm": "149.5 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S9",
+      "S14",
+      "D16",
+      "SP1",
+      "DP2"
+    ]
+  },
+  "Cleaner": {
+    "author": "Doin",
+    "bpm": "203 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S21",
+      "D22"
+    ]
+  },
+  "Clockwork Genesis": {
+    "author": "Inspector K",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S8",
+      "S12",
+      "S15",
+      "S21",
+      "halfub",
+      "D5",
+      "D18"
+    ]
+  },
+  "Close Your Eye": {
+    "author": "BanYa",
+    "bpm": "105 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "SP2",
+      "DP3"
+    ]
+  },
+  "Club Night": {
+    "author": "Matduke",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S8",
+      "S16",
+      "S18",
+      "S22",
+      "D12",
+      "D18",
+      "D21",
+      "DP5",
+      "Co-Op2"
+    ]
+  },
+  "Clue": {
+    "author": "Transin",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S12",
+      "S16",
+      "S18",
+      "D10",
+      "D18",
+      "D20",
+      "DP4"
+    ]
+  },
+  "Coalesce": {
+    "author": "On Slot",
+    "bpm": "137 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S10",
+      "S14",
+      "halfub",
+      "D9",
+      "D15",
+      "RT10"
+    ]
+  },
+  "Com'Back": {
+    "author": "Sechs Kies",
+    "bpm": "158 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S8",
+      "S15",
+      "D7",
+      "D16",
+      "Co-Op2"
+    ]
+  },
+  "Come to Me": {
+    "author": "BanYa",
+    "bpm": "100~107 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S11",
+      "S13",
+      "S17",
+      "D13",
+      "D14",
+      "SP3",
+      "DP6"
+    ]
+  },
+  "Coming Out": {
+    "author": "Playmaker",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S8",
+      "S12",
+      "halfub",
+      "D9",
+      "D12",
+      "RT7"
+    ]
+  },
+  "Concerto": {
+    "author": "Sanxion7",
+    "bpm": "70~140 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S7",
+      "S13",
+      "D4",
+      "D14"
+    ]
+  },
+  "Cosmical Rhythm": {
+    "author": "SID-Sound",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S8",
+      "S14",
+      "S16",
+      "D10",
+      "D15",
+      "D18",
+      "DP2"
+    ]
+  },
+  "Crashday": {
+    "author": "Crash",
+    "bpm": "220 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S22",
+      "D22"
+    ]
+  },
+  "Crayon": {
+    "author": "G-Dragon",
+    "bpm": "132 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S8",
+      "S17",
+      "D5",
+      "D17"
+    ]
+  },
+  "Crazy": {
+    "author": "Gyfted",
+    "bpm": "108.1 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S5",
+      "S8",
+      "S15",
+      "D19",
+      "SP2",
+      "DP3",
+      "DP6"
+    ]
+  },
+  "Creatures ov Deception": {
+    "author": "rainbowdragoneyes",
+    "bpm": "190 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S10",
+      "S13",
+      "S15",
+      "S18",
+      "S21",
+      "D5",
+      "D8",
+      "D13",
+      "D16",
+      "D18",
+      "RT15"
+    ]
+  },
+  "Creed - 1st Desire -": {
+    "author": "TatshMusicCircle",
+    "bpm": "163 BPM",
+    "length": "Full Song",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S18",
+      "S22",
+      "D19",
+      "D24"
+    ]
+  },
+  "Cross Over": {
+    "author": "HyuN",
+    "bpm": "200 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S11",
+      "S15",
+      "S18",
+      "S22",
+      "D15",
+      "D19",
+      "D23"
+    ]
+  },
+  "Cross Time": {
+    "author": "Brandy",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S12",
+      "S16",
+      "S18",
+      "D11",
+      "D17",
+      "D20",
+      "DP3"
+    ]
+  },
+  "Crowdpleaser (Drop the Mic Mix)": {
+    "author": "SGX",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S8",
+      "S16",
+      "D5",
+      "D18"
+    ]
+  },
+  "Csikos Post": {
+    "author": "BanYa",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S4",
+      "S7",
+      "S8",
+      "S11",
+      "S13",
+      "halfub",
+      "D8",
+      "D15",
+      "D16",
+      "D17",
+      "D22",
+      "RT14"
+    ]
+  },
+  "D": {
+    "author": "MAX",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S18",
+      "D12",
+      "D18",
+      "D20"
+    ]
+  },
+  "D Gang": {
+    "author": "BanYa",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S4",
+      "S6",
+      "S11",
+      "S18",
+      "halfub",
+      "D7",
+      "D15",
+      "D16",
+      "D17",
+      "RT13"
+    ]
+  },
+  "Dam": {
+    "author": "Ben Chalatit",
+    "bpm": "141 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S8",
+      "D4",
+      "D9"
+    ]
+  },
+  "Dance (The Way It Moves)": {
+    "author": "The DNC",
+    "bpm": "124 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S11",
+      "S16",
+      "D3",
+      "D10",
+      "D16",
+      "RT9"
+    ]
+  },
+  "Dance All Night": {
+    "author": "OscillatorX",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S5",
+      "S13",
+      "D15",
+      "SP2"
+    ]
+  },
+  "Dance on Fire: Retribution": {
+    "author": "Magic Hammer",
+    "bpm": "165 BPM",
+    "length": "Short Cut",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S6",
+      "S15",
+      "D4",
+      "D16"
+    ]
+  },
+  "Dance Vibrations": {
+    "author": "Elpis",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S4",
+      "S5",
+      "S7",
+      "S9",
+      "S10",
+      "S14",
+      "halfub",
+      "D8",
+      "D13",
+      "D15",
+      "D18",
+      "SP1",
+      "DP6"
+    ]
+  },
+  "Dance with me": {
+    "author": "BanYa",
+    "bpm": "122 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S12",
+      "S14",
+      "halfub",
+      "D15",
+      "SP4",
+      "DP4",
+      "DP6"
+    ]
+  },
+  "Danza Kuduro": {
+    "author": "Don Omar",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S9",
+      "S15",
+      "D10",
+      "D16"
+    ]
+  },
+  "Dawgs In Da House": {
+    "author": "CanBlaster (Miami Style)",
+    "bpm": "158 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S8",
+      "S17",
+      "D5",
+      "D13",
+      "RT14"
+    ]
+  },
+  "Dawgs in Da Revolution": {
+    "author": "MAX",
+    "bpm": "160 BPM",
+    "length": "Remix",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "RT15",
+      "RT22"
+    ]
+  },
+  "Dawn (Perpetual Mix)": {
+    "author": "KaW",
+    "bpm": "171 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S11",
+      "S14",
+      "halfub",
+      "D11",
+      "D17",
+      "RT14"
+    ]
+  },
+  "Dawn of the Apocalypse": {
+    "author": "Vassline",
+    "bpm": "??? BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S14",
+      "S21",
+      "D14",
+      "D21"
+    ]
+  },
+  "Death Moon": {
+    "author": "SHK",
+    "bpm": "160 BPM",
+    "length": "Short Cut",
+    "genre": "XROSS",
+    "difficulties": [
+      "S9",
+      "S16",
+      "S19",
+      "S22",
+      "D18",
+      "D23"
+    ]
+  },
+  "Deja Vu": {
+    "author": "SOM2",
+    "bpm": "115 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S13",
+      "halfub",
+      "D6",
+      "D13",
+      "D17",
+      "RT9",
+      "RT16"
+    ]
+  },
+  "Dement": {
+    "author": "Lunatic Sounds",
+    "bpm": "210 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S23",
+      "D26",
+      "DP2"
+    ]
+  },
+  "Desaparecer": {
+    "author": "Applesoda",
+    "bpm": "174 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S20",
+      "S22",
+      "D23"
+    ]
+  },
+  "Destination": {
+    "author": "SHK",
+    "bpm": "150 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S9",
+      "S15",
+      "D19",
+      "D20"
+    ]
+  },
+  "Destroy": {
+    "author": "/DJS\\",
+    "bpm": "183 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S12",
+      "S16",
+      "S20",
+      "D9",
+      "D14",
+      "D18",
+      "D20"
+    ]
+  },
+  "Destroy Them": {
+    "author": "/DJS\\",
+    "bpm": "183 BPM",
+    "length": "Remix",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S12",
+      "S17",
+      "D22",
+      "D25"
+    ]
+  },
+  "Devil's Spirit": {
+    "author": "Zircon",
+    "bpm": "116 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S10",
+      "S14",
+      "S17",
+      "S19",
+      "halfub",
+      "D6",
+      "D9",
+      "D13",
+      "D18",
+      "RT16"
+    ]
+  },
+  "Dieciseis": {
+    "author": "Nina Pilots",
+    "bpm": "143 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S13",
+      "D5",
+      "D15"
+    ]
+  },
+  "Digan Lo Que Digan": {
+    "author": "Nina Pilots",
+    "bpm": "162 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S7",
+      "S18",
+      "D9"
+    ]
+  },
+  "Dignity": {
+    "author": "Crash",
+    "bpm": "195 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S12",
+      "S16",
+      "S20",
+      "S22",
+      "D13",
+      "D18",
+      "D23",
+      "D26"
+    ]
+  },
+  "DIGNITY FULL SONG MIX": {
+    "author": "Crash",
+    "bpm": "195 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S13",
+      "S19",
+      "D16",
+      "D22",
+      "D25"
+    ]
+  },
+  "DIMM_ (Sleep Deprivation Short Mix)": {
+    "author": "640x480",
+    "bpm": "115 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S6",
+      "S10",
+      "S15",
+      "S18",
+      "D7",
+      "D12",
+      "D16",
+      "D20"
+    ]
+  },
+  "Disco Dancer": {
+    "author": "Matduke",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S10",
+      "S13",
+      "S15",
+      "S18",
+      "D7",
+      "D12",
+      "D14",
+      "D18"
+    ]
+  },
+  "DJ Otada": {
+    "author": "BanYa Production",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S4",
+      "S6",
+      "S8",
+      "S19",
+      "S20",
+      "D14",
+      "D21",
+      "D22"
+    ]
+  },
+  "Do It Reggae Style": {
+    "author": "BanYa Production",
+    "bpm": "96 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S13",
+      "D15",
+      "SP4",
+      "DP5"
+    ]
+  },
+  "Do It!": {
+    "author": "House Rulez",
+    "bpm": "129 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S6",
+      "S15",
+      "D18",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "Do U Know That-Old School": {
+    "author": "BanYa Production",
+    "bpm": "120 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S15",
+      "D19",
+      "DP8"
+    ]
+  },
+  "Dolly Kiss": {
+    "author": "SID-Sound",
+    "bpm": "149 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S14",
+      "S17",
+      "D6",
+      "D15",
+      "DP3"
+    ]
+  },
+  "Don't Bother Me": {
+    "author": "Tashannie",
+    "bpm": "110 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S5",
+      "S6",
+      "S10",
+      "S13",
+      "D5",
+      "D13",
+      "SP2",
+      "DP01"
+    ]
+  },
+  "Donatello": {
+    "author": "Triplestar",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S13",
+      "S17",
+      "S21",
+      "D18",
+      "D22"
+    ]
+  },
+  "Dr. KOA": {
+    "author": "BanYa Production",
+    "bpm": "156 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S10",
+      "S18",
+      "D20"
+    ]
+  },
+  "Dr. M": {
+    "author": "BanYa",
+    "bpm": "145 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S4",
+      "S6",
+      "S8",
+      "S9",
+      "S12",
+      "S16",
+      "halfub",
+      "D11",
+      "D18",
+      "RT18"
+    ]
+  },
+  "Dragonfly": {
+    "author": "Nitro fun",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S6",
+      "S8",
+      "S11",
+      "S15",
+      "S20",
+      "D5",
+      "D8",
+      "D16",
+      "DP6"
+    ]
+  },
+  "Dream To Nightmare": {
+    "author": "Nightmare",
+    "bpm": "178 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S12",
+      "S15",
+      "S19",
+      "S21",
+      "S21",
+      "S22",
+      "S23",
+      "D11",
+      "D13",
+      "D22",
+      "D23",
+      "D27",
+      "RT16"
+    ]
+  },
+  "Electric": {
+    "author": "The DNC",
+    "bpm": "120 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S2",
+      "S4",
+      "S4",
+      "S6",
+      "S6",
+      "S8",
+      "S11",
+      "S14",
+      "S14",
+      "S15",
+      "S17",
+      "D4",
+      "D4",
+      "D7",
+      "D16",
+      "D16",
+      "RT15"
+    ]
+  },
+  "Electrock": {
+    "author": "Throwdown",
+    "bpm": "100 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S8",
+      "S14",
+      "halfub",
+      "D8",
+      "D15"
+    ]
+  },
+  "Elise": {
+    "author": "DM Ashura",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S16",
+      "S18",
+      "S21",
+      "D6",
+      "D12",
+      "D15",
+      "D17",
+      "D21",
+      "D23",
+      "Co-Op2",
+      "RT18"
+    ]
+  },
+  "ELVIS": {
+    "author": "AOA",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S15",
+      "S17",
+      "D5",
+      "D16",
+      "DP3"
+    ]
+  },
+  "Elysium": {
+    "author": "Warak",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S14",
+      "D10",
+      "D15",
+      "DP2"
+    ]
+  },
+  "Emperor": {
+    "author": "BanYa",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S8",
+      "S12",
+      "S16",
+      "halfub",
+      "D17",
+      "SP3",
+      "DP3",
+      "DP8",
+      "RT15"
+    ]
+  },
+  "Empire of the Sun": {
+    "author": "Novasonic",
+    "bpm": "118 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S6",
+      "S11",
+      "D13",
+      "SP1",
+      "DP4"
+    ]
+  },
+  "Energetic": {
+    "author": "Wanna One",
+    "bpm": "125 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S9",
+      "S13",
+      "S16",
+      "D6",
+      "D14",
+      "D16",
+      "D19"
+    ]
+  },
+  "Energizer": {
+    "author": "Zig Zag",
+    "bpm": "151.5 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S5",
+      "S7",
+      "S9",
+      "S12",
+      "S15",
+      "S16",
+      "halfub",
+      "D11",
+      "D13",
+      "D17",
+      "D19",
+      "SP2"
+    ]
+  },
+  "Energy": {
+    "author": "Mighty Mouth",
+    "bpm": "155 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S13",
+      "S15",
+      "D9",
+      "D14",
+      "SP4",
+      "DP5"
+    ]
+  },
+  "Enhance Reality": {
+    "author": "Matduke",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S9",
+      "S11",
+      "S14",
+      "S14",
+      "S16",
+      "S19",
+      "S19",
+      "S21",
+      "D7",
+      "D11",
+      "D12",
+      "D17",
+      "D18",
+      "D20",
+      "D20",
+      "D22",
+      "D26",
+      "DP5",
+      "RT16"
+    ]
+  },
+  "Enhanced Reality": {
+    "author": "Matduke",
+    "bpm": "170 BPM",
+    "length": "Short Cut",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S14",
+      "S19",
+      "RT22"
+    ]
+  },
+  "Enjoy! Enjoy!": {
+    "author": "Mu.Ga.Dang.",
+    "bpm": "138 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S11",
+      "S14",
+      "D7",
+      "D14",
+      "SP4",
+      "DP5"
+    ]
+  },
+  "Enter the Dragon": {
+    "author": "JTL",
+    "bpm": "110 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S17",
+      "D18"
+    ]
+  },
+  "Escape": {
+    "author": "D_AAN",
+    "bpm": "220 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S15",
+      "S18",
+      "S21",
+      "S24",
+      "D19",
+      "D22"
+    ]
+  },
+  "Esperanza": {
+    "author": "KaW",
+    "bpm": "147 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S10",
+      "S16",
+      "S18",
+      "halfub",
+      "D10",
+      "D16",
+      "D18"
+    ]
+  },
+  "Eternus": {
+    "author": "Sanxion7",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S8",
+      "S12",
+      "S14",
+      "halfub",
+      "D8",
+      "D13",
+      "RT7",
+      "RT14"
+    ]
+  },
+  "Ethereality": {
+    "author": "DM Ashura",
+    "bpm": "148 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S13",
+      "S17",
+      "S19",
+      "D7",
+      "D14",
+      "D21",
+      "DP3"
+    ]
+  },
+  "Euphorium": {
+    "author": "DM Ashura",
+    "bpm": "158 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S8",
+      "S12",
+      "S16",
+      "S22",
+      "D8",
+      "D13",
+      "D18",
+      "D22",
+      "RT6"
+    ]
+  },
+  "Everybody Got 2 Know": {
+    "author": "MAX",
+    "bpm": "128 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S19",
+      "D18"
+    ]
+  },
+  "Exceed2 Opening": {
+    "author": "BanYa",
+    "bpm": "??? BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S15",
+      "D18",
+      "D01"
+    ]
+  },
+  "Exciting": {
+    "author": "Dynamic Duo",
+    "bpm": "104 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S14",
+      "D14",
+      "SP5"
+    ]
+  },
+  "EXTRA BanYa Remix": {
+    "author": "BanYa",
+    "bpm": "200 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S11",
+      "S21",
+      "D14"
+    ]
+  },
+  "Extravaganza": {
+    "author": "BanYa",
+    "bpm": "195 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S10",
+      "S12",
+      "S17",
+      "S21",
+      "D13",
+      "D18",
+      "D20"
+    ]
+  },
+  "Extravaganza Reborn": {
+    "author": "BanYa",
+    "bpm": "95~190 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S5",
+      "S8",
+      "S12",
+      "S17",
+      "S19",
+      "S20",
+      "S21",
+      "D10",
+      "D14",
+      "D18",
+      "D21"
+    ]
+  },
+  "Fallen Angel": {
+    "author": "DM Ashura",
+    "bpm": "157 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S10",
+      "S14",
+      "S17",
+      "S19",
+      "S21",
+      "D10",
+      "D15",
+      "D20",
+      "D20",
+      "DP3",
+      "RT15"
+    ]
+  },
+  "Fantastic Baby": {
+    "author": "Bigbang",
+    "bpm": "130 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S17",
+      "D15"
+    ]
+  },
+  "Faster Z": {
+    "author": "Yahpp",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S4",
+      "S7",
+      "S11",
+      "S12",
+      "S16",
+      "S19",
+      "S20",
+      "D14",
+      "D18",
+      "D21",
+      "D22",
+      "D23"
+    ]
+  },
+  "Feel My Happiness": {
+    "author": "3R2",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S10",
+      "S17",
+      "D6",
+      "D18",
+      "D21",
+      "DP2"
+    ]
+  },
+  "Feels Just Like That Night": {
+    "author": "Eskimo",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S7",
+      "S11",
+      "halfub",
+      "D8",
+      "D13",
+      "D17",
+      "D18"
+    ]
+  },
+  "FFF": {
+    "author": "Doin",
+    "bpm": "200 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "D21"
+    ]
+  },
+  "Final Audition": {
+    "author": "BanYa",
+    "bpm": "130.5 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S2",
+      "S3",
+      "S6",
+      "S7",
+      "S9",
+      "S17",
+      "S18",
+      "D15",
+      "D18",
+      "DP3"
+    ]
+  },
+  "Final Audition 2": {
+    "author": "BanYa",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S9",
+      "S10",
+      "S17",
+      "D11",
+      "D18",
+      "D20",
+      "DP3"
+    ]
+  },
+  "Final Audition 3": {
+    "author": "BanYa",
+    "bpm": "130.5 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S8",
+      "S9",
+      "S16",
+      "S17",
+      "D17",
+      "D19",
+      "SP3",
+      "DP5"
+    ]
+  },
+  "Final Audition Ep. 1": {
+    "author": "BanYa",
+    "bpm": "189 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S8",
+      "S13",
+      "S16",
+      "S20",
+      "D13",
+      "D22",
+      "D23"
+    ]
+  },
+  "Final Audition Ep. 2-1": {
+    "author": "Yahpp",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S4",
+      "S8",
+      "S18",
+      "S21",
+      "S22",
+      "D12",
+      "D22",
+      "D23"
+    ]
+  },
+  "Final Audition Ep. 2-2": {
+    "author": "Yahpp",
+    "bpm": "200 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S8",
+      "S17",
+      "S18",
+      "S21",
+      "S22",
+      "D19",
+      "D19",
+      "D23",
+      "D24",
+      "D27"
+    ]
+  },
+  "Final Audition EP. 2-X": {
+    "author": "Yahpp",
+    "bpm": "170 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S20",
+      "D20"
+    ]
+  },
+  "Final Audition Ep. 2-X": {
+    "author": "Yahpp",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S17",
+      "S23",
+      "D21",
+      "D24",
+      "DP2"
+    ]
+  },
+  "Final Audition Infinity": {
+    "author": "BanYa",
+    "bpm": "130~140 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S17",
+      "S22",
+      "D7",
+      "D18",
+      "D23"
+    ]
+  },
+  "Finite": {
+    "author": "Crolul",
+    "bpm": "178 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S9",
+      "S12",
+      "S16",
+      "S19",
+      "D5",
+      "D9",
+      "D12",
+      "D15",
+      "D18"
+    ]
+  },
+  "Fire": {
+    "author": "2NE1",
+    "bpm": "126 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S14"
+    ]
+  },
+  "First Love": {
+    "author": "BanYa",
+    "bpm": "104 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S10",
+      "D14",
+      "SP1",
+      "DP4"
+    ]
+  },
+  "Fly": {
+    "author": "Epik High",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S6",
+      "S14",
+      "D16",
+      "SP3",
+      "DP4"
+    ]
+  },
+  "FLY": {
+    "author": "Epik High",
+    "bpm": "128 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S10",
+      "S15",
+      "D16",
+      "D17"
+    ]
+  },
+  "Fly High": {
+    "author": "Dreamcatcher",
+    "bpm": "154 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S9",
+      "S15",
+      "S18",
+      "D10",
+      "D16",
+      "D19",
+      "DP3"
+    ]
+  },
+  "Flying duck": {
+    "author": "Cherry Filter",
+    "bpm": "158 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S10",
+      "S16",
+      "D11",
+      "D18",
+      "DP4"
+    ]
+  },
+  "Follow Me": {
+    "author": "SHK",
+    "bpm": "155 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S9",
+      "S14",
+      "S17",
+      "D9",
+      "D17",
+      "Co-Op2"
+    ]
+  },
+  "Force of Ra": {
+    "author": "Memme",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S12",
+      "S17",
+      "S19",
+      "D12",
+      "D20",
+      "DP3"
+    ]
+  },
+  "Forward": {
+    "author": "DJ Missill",
+    "bpm": "97 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S15",
+      "D5"
+    ]
+  },
+  "FOUR SEASONS OF LONELINESS ver\u03b2 feat. sariyajin": {
+    "author": "TatshMusicCircle",
+    "bpm": "178 BPM",
+    "length": "Full Song",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S14",
+      "S19",
+      "D15",
+      "D19"
+    ]
+  },
+  "Free Style": {
+    "author": "BanYa",
+    "bpm": "99 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S13",
+      "D15",
+      "SP1",
+      "DP3"
+    ]
+  },
+  "Fresh": {
+    "author": "Aspektz",
+    "bpm": "103 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S9",
+      "S14",
+      "D3",
+      "D6",
+      "D13",
+      "D16",
+      "RT15",
+      "RT01"
+    ]
+  },
+  "Funky Tonight": {
+    "author": "CLON",
+    "bpm": "105 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S5",
+      "S12",
+      "D4",
+      "D14"
+    ]
+  },
+  "Further": {
+    "author": "Doin",
+    "bpm": "194 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S10",
+      "S18",
+      "S22",
+      "S24",
+      "D14",
+      "D17",
+      "D22",
+      "D25",
+      "DP3"
+    ]
+  },
+  "Gargoyle": {
+    "author": "Sanxion7",
+    "bpm": "150 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S20",
+      "S21",
+      "S23",
+      "S23",
+      "D22",
+      "D24",
+      "D25",
+      "Co-Op2",
+      "RT27"
+    ]
+  },
+  "Gashina": {
+    "author": "SUNMI",
+    "bpm": "94 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S10",
+      "S14",
+      "S18",
+      "D15",
+      "D19",
+      "DP2",
+      "Co-Op2"
+    ]
+  },
+  "Get Up (and go)": {
+    "author": "BanYa Production",
+    "bpm": "164 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S17",
+      "D11",
+      "D19",
+      "DP3"
+    ]
+  },
+  "Get Up!": {
+    "author": "BanYa",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S15",
+      "D12",
+      "D17",
+      "D18"
+    ]
+  },
+  "Get Your Groove On": {
+    "author": "BanYa",
+    "bpm": "96 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S12",
+      "D9",
+      "D22"
+    ]
+  },
+  "Girlz Buttz": {
+    "author": "Thomas Howard",
+    "bpm": "105 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S8",
+      "S12",
+      "D2",
+      "D7",
+      "D13",
+      "D15",
+      "RT11"
+    ]
+  },
+  "Go": {
+    "author": "U;NEE",
+    "bpm": "138 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S12",
+      "D13",
+      "DP3"
+    ]
+  },
+  "GO! (EK Mix)": {
+    "author": "DM Ashura",
+    "bpm": "152 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S6",
+      "S12",
+      "S18",
+      "S22",
+      "halfub",
+      "D8",
+      "D20"
+    ]
+  },
+  "God Mode feat. skizzo": {
+    "author": "Nato",
+    "bpm": "152 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S8",
+      "S13",
+      "S18",
+      "S20",
+      "D9",
+      "D17",
+      "D21",
+      "DP4"
+    ]
+  },
+  "GOOD BYE": {
+    "author": "HONG JINYOUNG",
+    "bpm": "139 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S10",
+      "S14",
+      "S17",
+      "D10",
+      "D16",
+      "D18",
+      "DP3"
+    ]
+  },
+  "Good Life": {
+    "author": "Drunken Tiger",
+    "bpm": "98.2 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S15",
+      "D5",
+      "D16",
+      "SP2",
+      "DP3"
+    ]
+  },
+  "Good Night": {
+    "author": "Dreamcatcher",
+    "bpm": "196 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S9",
+      "S17",
+      "S20",
+      "S23",
+      "D5",
+      "D19",
+      "D22",
+      "D24",
+      "DP3"
+    ]
+  },
+  "got STOLEN?": {
+    "author": "Vospi",
+    "bpm": "208 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S12",
+      "S15",
+      "S17",
+      "S20",
+      "S23",
+      "D12",
+      "D15",
+      "D21",
+      "D24",
+      "RT19"
+    ]
+  },
+  "Gothique Resonance": {
+    "author": "P4Koo",
+    "bpm": "174 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S7",
+      "S11",
+      "S18",
+      "S20",
+      "D12",
+      "D21"
+    ]
+  },
+  "Gotta Be You": {
+    "author": "2NE1",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S15",
+      "S17",
+      "D6",
+      "D16",
+      "D18",
+      "DP3"
+    ]
+  },
+  "Groove Party": {
+    "author": "Tashannie",
+    "bpm": "105~110 BPM",
+    "length": "Remix",
+    "genre": "K-POP",
+    "difficulties": [
+      "S5",
+      "S14",
+      "D15",
+      "DP5"
+    ]
+  },
+  "Groovin' Motion": {
+    "author": "Sonic Dimension",
+    "bpm": "130.02 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S6",
+      "S9",
+      "D11",
+      "SP3",
+      "DP6"
+    ]
+  },
+  "Guitar Man": {
+    "author": "BanYa Production",
+    "bpm": "120 BPM",
+    "length": "Full Song",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "D9"
+    ]
+  },
+  "Gun Rock": {
+    "author": "BanYa Production",
+    "bpm": "104 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S9",
+      "S17",
+      "S20",
+      "D9",
+      "D18",
+      "D24"
+    ]
+  },
+  "Haley": {
+    "author": "Sam-I-Am",
+    "bpm": "112 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S9",
+      "D11",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "Hands Up East4A mix": {
+    "author": "2PM",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S15",
+      "D5",
+      "D15",
+      "SP3",
+      "DP4"
+    ]
+  },
+  "HANN": {
+    "author": "(G)I-DLE",
+    "bpm": "105 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S8",
+      "S16",
+      "D17",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Hard Core Rock Mix": {
+    "author": "BanYa Production",
+    "bpm": "??? BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "S21"
+    ]
+  },
+  "Hardkore Atomic": {
+    "author": "Diclonius Kid",
+    "bpm": "181 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S9",
+      "S15",
+      "halfub",
+      "D10",
+      "D19",
+      "RT19"
+    ]
+  },
+  "Hardkore of the North": {
+    "author": "Diclonius Kid",
+    "bpm": "190 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S7",
+      "S11",
+      "S14",
+      "S21",
+      "S22",
+      "halfub",
+      "D13",
+      "D15",
+      "D22",
+      "D24"
+    ]
+  },
+  "Hasse Mich": {
+    "author": "Onyx",
+    "bpm": "140~280 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S8",
+      "S14",
+      "S18",
+      "halfub",
+      "D15",
+      "D19",
+      "D23"
+    ]
+  },
+  "Hate, Don't Hate!": {
+    "author": "Dal shabet",
+    "bpm": "123 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S15",
+      "D6",
+      "D16",
+      "DP2"
+    ]
+  },
+  "Hatred": {
+    "author": "Novasonic",
+    "bpm": "136.03 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S6",
+      "S13",
+      "D7",
+      "D16",
+      "DP7"
+    ]
+  },
+  "Heart Attack": {
+    "author": "DJ Counterforce",
+    "bpm": "148 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S11",
+      "S16",
+      "S18",
+      "D9",
+      "D18",
+      "D20",
+      "DP3"
+    ]
+  },
+  "Heart Breaker": {
+    "author": "G-Dragon",
+    "bpm": "135 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S16",
+      "D16"
+    ]
+  },
+  "Heavy Rotation": {
+    "author": "AKB48 (Cover)",
+    "bpm": "178 BPM",
+    "length": "Short Cut",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S10",
+      "S15",
+      "S18",
+      "D9",
+      "D16",
+      "D20"
+    ]
+  },
+  "Heel and Toe": {
+    "author": "KURi-ZiLL",
+    "bpm": "185 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S6",
+      "S7",
+      "S8",
+      "S9",
+      "S12",
+      "S15",
+      "S17",
+      "halfub",
+      "D6",
+      "D11",
+      "D17",
+      "D18",
+      "Co-Op2"
+    ]
+  },
+  "HELIX": {
+    "author": "ESTi",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S5",
+      "S7",
+      "S11",
+      "S16",
+      "S18",
+      "S19",
+      "D11",
+      "D15",
+      "D19",
+      "DP5"
+    ]
+  },
+  "Hell Flame": {
+    "author": "Diclonius Kid",
+    "bpm": "172 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S6",
+      "S9",
+      "S17",
+      "D8",
+      "D18",
+      "RT22"
+    ]
+  },
+  "Hellfire": {
+    "author": "Memme",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S11",
+      "S15",
+      "S18",
+      "D9",
+      "D19",
+      "D23",
+      "DP4"
+    ]
+  },
+  "Hello": {
+    "author": "BanYa",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S16",
+      "D9",
+      "D18"
+    ]
+  },
+  "Hello William": {
+    "author": "BanYa Production",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S6",
+      "S9",
+      "S17",
+      "S19",
+      "D9",
+      "D20"
+    ]
+  },
+  "HER": {
+    "author": "Block B",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S9",
+      "S16",
+      "D7",
+      "D17",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Hestia": {
+    "author": "Gentle Stick",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S17",
+      "S19",
+      "D11",
+      "D18",
+      "D20",
+      "DP3"
+    ]
+  },
+  "Hey U": {
+    "author": "MAZO",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S10",
+      "S15",
+      "D10",
+      "D16",
+      "DP4"
+    ]
+  },
+  "Hi Bi": {
+    "author": "BanYa",
+    "bpm": "145 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S16",
+      "S19",
+      "D8",
+      "D19",
+      "D20"
+    ]
+  },
+  "Higgledy Piggledy": {
+    "author": "BanYa Production",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S6",
+      "S9",
+      "S14",
+      "S16",
+      "S18",
+      "D8",
+      "D15",
+      "SP1"
+    ]
+  },
+  "History: We Are The ZEST": {
+    "author": "msgoon",
+    "bpm": "112.5 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "SP6",
+      "DP5"
+    ]
+  },
+  "HOT": {
+    "author": "1Tym",
+    "bpm": "98 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S10",
+      "D12",
+      "DP4"
+    ]
+  },
+  "Hot Issue": {
+    "author": "4Minute",
+    "bpm": "128 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S9",
+      "S14",
+      "D16"
+    ]
+  },
+  "Houkago Stride": {
+    "author": "Last Note.",
+    "bpm": "225 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S10",
+      "S15",
+      "S19",
+      "D10",
+      "D16",
+      "D21",
+      "DP5"
+    ]
+  },
+  "HTTP": {
+    "author": "Quree",
+    "bpm": "147 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S14",
+      "S17",
+      "S21",
+      "D10",
+      "D12",
+      "D19",
+      "D23"
+    ]
+  },
+  "Hungarian Dance V": {
+    "author": "BanYa Production",
+    "bpm": "145 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S8",
+      "S17",
+      "S18",
+      "D9",
+      "D17",
+      "SP2"
+    ]
+  },
+  "HUSH": {
+    "author": "Yassi Pressman",
+    "bpm": "82 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S15",
+      "D16"
+    ]
+  },
+  "Hyacinth": {
+    "author": "Yahpp",
+    "bpm": "192 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S9",
+      "S13",
+      "S18",
+      "S22",
+      "D12",
+      "D19",
+      "D24",
+      "DP4"
+    ]
+  },
+  "Hybs": {
+    "author": "DJ Dookie",
+    "bpm": "102 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S11",
+      "D13",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "Hypercube": {
+    "author": "MAX",
+    "bpm": "145 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S10",
+      "S15",
+      "S17",
+      "D10",
+      "D15",
+      "D19",
+      "DP4"
+    ]
+  },
+  "Hyperion": {
+    "author": "M2U",
+    "bpm": "145 BPM",
+    "length": "Short Cut",
+    "genre": "XROSS",
+    "difficulties": [
+      "S16",
+      "S20",
+      "D21"
+    ]
+  },
+  "Hypnosis": {
+    "author": "BanYa",
+    "bpm": "180.2 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S6",
+      "S7",
+      "S15",
+      "S18",
+      "S18",
+      "halfub",
+      "D7",
+      "D8",
+      "D15",
+      "D16",
+      "D18"
+    ]
+  },
+  "Hypnosis(SynthWulf Mix)": {
+    "author": "BanYa",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S11",
+      "S12",
+      "S13",
+      "S16",
+      "S17",
+      "S20",
+      "S20",
+      "halfub",
+      "D13",
+      "D14",
+      "D15",
+      "D19",
+      "D19"
+    ]
+  },
+  "I Want U": {
+    "author": "MAX",
+    "bpm": "156 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S11",
+      "S16",
+      "S19",
+      "D6",
+      "D13",
+      "D17",
+      "D21",
+      "DP5"
+    ]
+  },
+  "I'll give you all my love": {
+    "author": "Wax",
+    "bpm": "164 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S18",
+      "D12",
+      "D19"
+    ]
+  },
+  "I'll Give You All My Love": {
+    "author": "Wax",
+    "bpm": "164 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S4",
+      "S7",
+      "S16",
+      "D7",
+      "D18",
+      "D19"
+    ]
+  },
+  "I'm so sick": {
+    "author": "Apink",
+    "bpm": "124 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S9",
+      "S15",
+      "S17",
+      "D9",
+      "D16",
+      "D18",
+      "D20",
+      "DP3"
+    ]
+  },
+  "I'm Sorry": {
+    "author": "CNBLUE",
+    "bpm": "131 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S9",
+      "S16",
+      "D8",
+      "D17",
+      "DP3"
+    ]
+  },
+  "I'm The Best": {
+    "author": "2NE1",
+    "bpm": "128 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S18",
+      "D14"
+    ]
+  },
+  "Ice of Death": {
+    "author": "Fiverwater",
+    "bpm": "172 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S10",
+      "S17",
+      "S20",
+      "D11",
+      "D17",
+      "D21",
+      "Co-Op2"
+    ]
+  },
+  "Idealized Romance": {
+    "author": "void",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S11",
+      "S16",
+      "S18",
+      "D10",
+      "D18"
+    ]
+  },
+  "Ignis Fatuus(DM Ashura Mix)": {
+    "author": "DM Ashura",
+    "bpm": "220 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S21",
+      "D21"
+    ]
+  },
+  "Ignition Starts": {
+    "author": "BanYa",
+    "bpm": "146.05 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S8",
+      "S15",
+      "S17",
+      "S18",
+      "halfub",
+      "D10",
+      "D16",
+      "D17",
+      "D17",
+      "RT13"
+    ]
+  },
+  "Imagination": {
+    "author": "SHK",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S12",
+      "S15",
+      "S19",
+      "D16",
+      "D21",
+      "DP5"
+    ]
+  },
+  "Imprinting": {
+    "author": "Sakuzyo",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S17",
+      "S21",
+      "D13",
+      "D16",
+      "D21",
+      "D24",
+      "DP4"
+    ]
+  },
+  "Incubator": {
+    "author": "/DJS\\",
+    "bpm": "178 BPM",
+    "length": "Short Cut",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S5",
+      "S14",
+      "S18",
+      "D15",
+      "D19"
+    ]
+  },
+  "Ineffective Boss Without Power": {
+    "author": "Norazo",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S8",
+      "S18",
+      "D5",
+      "D19",
+      "DP3",
+      "Co-Op3"
+    ]
+  },
+  "Infinitude": {
+    "author": "Kimsynth",
+    "bpm": "145 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S8",
+      "S11",
+      "S13",
+      "S16",
+      "S18",
+      "D11",
+      "D17",
+      "D18",
+      "D20",
+      "RT13"
+    ]
+  },
+  "INFINITY": {
+    "author": "Lunatic Sounds",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S10",
+      "S15",
+      "S18",
+      "S21",
+      "D10",
+      "D19",
+      "D23",
+      "Co-Op3"
+    ]
+  },
+  "Infinity RMX": {
+    "author": "SynthWulf",
+    "bpm": "175 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S20",
+      "D19"
+    ]
+  },
+  "Innocent": {
+    "author": "koyote",
+    "bpm": "137 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S11",
+      "S14",
+      "D6",
+      "D15"
+    ]
+  },
+  "Interference": {
+    "author": "Doin",
+    "bpm": "180.4 BPM",
+    "length": "Full Song",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "D15",
+      "D18"
+    ]
+  },
+  "Into My Dream (Kaveh Azizi Remix)": {
+    "author": "Lagoona",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S10",
+      "S14",
+      "halfub",
+      "D9",
+      "D15",
+      "D16",
+      "D17"
+    ]
+  },
+  "Invincible": {
+    "author": "DJ Missill",
+    "bpm": "90 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S13",
+      "S19",
+      "D3",
+      "D10",
+      "D16",
+      "D18",
+      "RT15"
+    ]
+  },
+  "Jackpot": {
+    "author": "Block B",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S9",
+      "S15",
+      "D6",
+      "D15",
+      "DP3"
+    ]
+  },
+  "Jam O Beat": {
+    "author": "BanYa Production",
+    "bpm": "120 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S15",
+      "D15",
+      "SP2",
+      "DP6"
+    ]
+  },
+  "Jam O Beat # No 4": {
+    "author": "HEaDTriP",
+    "bpm": "121 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S16",
+      "D6",
+      "D16"
+    ]
+  },
+  "JBong": {
+    "author": "BanYa",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S7",
+      "S8",
+      "S15",
+      "D17",
+      "DP5"
+    ]
+  },
+  "Jonathan's Dream": {
+    "author": "MAX",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S16",
+      "D10",
+      "D15",
+      "D18",
+      "RT11"
+    ]
+  },
+  "Jonathan\u2019s Dream (Full Song)": {
+    "author": "MAX",
+    "bpm": "140 BPM",
+    "length": "Full Song",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S12",
+      "S17",
+      "D13",
+      "D19"
+    ]
+  },
+  "Jump": {
+    "author": "BanYa",
+    "bpm": "96 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S13",
+      "D18"
+    ]
+  },
+  "Just Hold On (To All Fighters)": {
+    "author": "void",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S16",
+      "S21",
+      "D12",
+      "D18",
+      "D22",
+      "D25",
+      "DP2"
+    ]
+  },
+  "Just Kiddin": {
+    "author": "Vospi",
+    "bpm": "125 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S5",
+      "S13",
+      "S16",
+      "D9",
+      "D18",
+      "DP5"
+    ]
+  },
+  "K-POP Girl Group RMX": {
+    "author": "Secret",
+    "bpm": "128 BPM",
+    "length": "Remix",
+    "genre": "K-POP",
+    "difficulties": [
+      "S14",
+      "D15"
+    ]
+  },
+  "K-POP Mix (Old & New)": {
+    "author": "BanYa Production",
+    "bpm": "138 BPM",
+    "length": "Remix",
+    "genre": "K-POP",
+    "difficulties": [
+      "S7",
+      "S13"
+    ]
+  },
+  "K.O.A : Alice in Wonderworld": {
+    "author": "BanYa Production",
+    "bpm": "156 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S16",
+      "D18",
+      "RT15"
+    ]
+  },
+  "K.O.A : Alice In Wonderworld": {
+    "author": "BanYa Production",
+    "bpm": "156 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S8",
+      "S17",
+      "D9",
+      "D10",
+      "D18",
+      "RT15"
+    ]
+  },
+  "Karyawisata": {
+    "author": "Vesuvia x REDSHiFT",
+    "bpm": "173 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S15",
+      "S16",
+      "S20",
+      "D7",
+      "D16",
+      "D19",
+      "DP4"
+    ]
+  },
+  "Kasou Shinja": {
+    "author": "MAX",
+    "bpm": "170 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S20",
+      "D21"
+    ]
+  },
+  "Katkoi": {
+    "author": "M2U",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S10",
+      "S14",
+      "S18",
+      "D12",
+      "D15",
+      "D19",
+      "DP4"
+    ]
+  },
+  "Keep On!": {
+    "author": "AmamoriP",
+    "bpm": "185 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S6",
+      "S12",
+      "S15",
+      "S18",
+      "S21",
+      "D12",
+      "D17",
+      "D20",
+      "D21",
+      "DP3"
+    ]
+  },
+  "Kill Them!": {
+    "author": "Archefluxx",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S6",
+      "S8",
+      "S10",
+      "S11",
+      "S13",
+      "S15",
+      "S15",
+      "S18",
+      "S18",
+      "S20",
+      "D9",
+      "D11",
+      "D14",
+      "D17",
+      "D19",
+      "D19",
+      "D21",
+      "DP4"
+    ]
+  },
+  "Kimchi Fingers": {
+    "author": "Garlic Squad",
+    "bpm": "190 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S14",
+      "S17",
+      "S20",
+      "D16",
+      "D21",
+      "DP4"
+    ]
+  },
+  "King of the Beats": {
+    "author": "Throwdown",
+    "bpm": "124 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S8",
+      "S11",
+      "S18",
+      "halfub",
+      "D7",
+      "D16"
+    ]
+  },
+  "Kitty Cat": {
+    "author": "Coconut",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S1",
+      "S2",
+      "S3",
+      "S5",
+      "S6",
+      "S12",
+      "S14",
+      "halfub",
+      "D2",
+      "D6",
+      "D13",
+      "D15",
+      "Co-Op2",
+      "RT10",
+      "RT14"
+    ]
+  },
+  "La La La": {
+    "author": "Bigbang",
+    "bpm": "102 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S14",
+      "DP4"
+    ]
+  },
+  "Ladybug": {
+    "author": "Coconut",
+    "bpm": "133 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S2",
+      "S3",
+      "S3",
+      "S5",
+      "S8",
+      "S12",
+      "S13",
+      "halfub",
+      "D6",
+      "D13",
+      "D13",
+      "Co-Op2",
+      "RT13"
+    ]
+  },
+  "Last Day Alive": {
+    "author": "Sanxion7",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S9",
+      "S12",
+      "S17",
+      "halfub",
+      "D8",
+      "D14"
+    ]
+  },
+  "Last Farewell": {
+    "author": "Bigbang",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S8",
+      "S13",
+      "S17",
+      "D6",
+      "D14",
+      "SP3",
+      "DP5"
+    ]
+  },
+  "Last Rebirth": {
+    "author": "SHK",
+    "bpm": "120 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S13",
+      "S15",
+      "D7",
+      "D14",
+      "D16",
+      "D18",
+      "DP3"
+    ]
+  },
+  "Latino Virus": {
+    "author": "Warak",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S9",
+      "S17",
+      "D12",
+      "D19",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Le Grand Bleu": {
+    "author": "KIEN",
+    "bpm": "165 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S7",
+      "S12",
+      "S16",
+      "S18",
+      "S20",
+      "D9",
+      "D18",
+      "D20",
+      "DP6"
+    ]
+  },
+  "Le Grand Rouge": {
+    "author": "KIEN",
+    "bpm": "166 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S13",
+      "S17",
+      "S20",
+      "D19",
+      "D22",
+      "DP5"
+    ]
+  },
+  "Leakage Voltage": {
+    "author": "Doin",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S10",
+      "S15",
+      "S17",
+      "S21",
+      "D12",
+      "D18",
+      "D20",
+      "D22",
+      "DP3"
+    ]
+  },
+  "Leather": {
+    "author": "Doin",
+    "bpm": "200 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "S21",
+      "S24",
+      "D22",
+      "D26"
+    ]
+  },
+  "Lie": {
+    "author": "Bigbang",
+    "bpm": "125 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S15",
+      "D5",
+      "D15",
+      "SP2",
+      "DP5"
+    ]
+  },
+  "Like A Man": {
+    "author": "Outsider",
+    "bpm": "180 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S19",
+      "D19"
+    ]
+  },
+  "Like Me": {
+    "author": "SHK",
+    "bpm": "155 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S10",
+      "S14",
+      "S18",
+      "D11",
+      "D19",
+      "DP2",
+      "Co-Op2"
+    ]
+  },
+  "Limbo": {
+    "author": "Daddy Yankee",
+    "bpm": "125 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S15",
+      "D5",
+      "D15"
+    ]
+  },
+  "Lion's roar": {
+    "author": "D.O",
+    "bpm": "126 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S13",
+      "D14",
+      "SP3",
+      "DP5"
+    ]
+  },
+  "Log In": {
+    "author": "SHK",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S18",
+      "S20",
+      "D10",
+      "D19"
+    ]
+  },
+  "Loki": {
+    "author": "Lotze",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S12",
+      "S16",
+      "S19",
+      "S21",
+      "D12",
+      "D19",
+      "DP3"
+    ]
+  },
+  "Loner": {
+    "author": "Outsider",
+    "bpm": "125 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S15",
+      "S19",
+      "D6",
+      "D17",
+      "D22",
+      "DP4"
+    ]
+  },
+  "Los Malaventurados No Lloran": {
+    "author": "PXNDX",
+    "bpm": "172 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S9",
+      "S16",
+      "D12",
+      "D18"
+    ]
+  },
+  "Love Eternal": {
+    "author": "When Machines Dream",
+    "bpm": "80~160 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S9",
+      "S17",
+      "halfub",
+      "D6",
+      "D10",
+      "D21"
+    ]
+  },
+  "Love is a Danger Zone": {
+    "author": "BanYa",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S4",
+      "S7",
+      "S10",
+      "S17",
+      "S19",
+      "halfub",
+      "halfub",
+      "D6",
+      "D17",
+      "D21",
+      "Co-Op2",
+      "RT19"
+    ]
+  },
+  "Love Is A Danger Zone (Cranky Mix)": {
+    "author": "BanYa",
+    "bpm": "155 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S6",
+      "S12",
+      "S13",
+      "S16",
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "halfub",
+      "D10",
+      "D11",
+      "D16",
+      "D16",
+      "D20",
+      "D21",
+      "D22",
+      "D23",
+      "Co-Op2",
+      "RT22"
+    ]
+  },
+  "Love is a danger zone (try to B.P.M.)": {
+    "author": "BanYa",
+    "bpm": "140~169 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S15",
+      "S21",
+      "D16",
+      "D23"
+    ]
+  },
+  "Love is a Danger Zone 2": {
+    "author": "Yahpp",
+    "bpm": "100~162 BPM",
+    "length": "Full Song",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S19",
+      "D21",
+      "DP20"
+    ]
+  },
+  "Love is a Danger Zone pt. 2": {
+    "author": "BanYa",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S9",
+      "S15",
+      "S22",
+      "D17",
+      "D23"
+    ]
+  },
+  "Love is a Danger Zone pt.2 another": {
+    "author": "BanYa",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S16",
+      "S17",
+      "Co-Op2",
+      "RT17",
+      "RT20"
+    ]
+  },
+  "LOVE SCENARIO": {
+    "author": "iKON",
+    "bpm": "118 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S8",
+      "S14",
+      "S17",
+      "D3",
+      "D14",
+      "DP4"
+    ]
+  },
+  "Lovumba": {
+    "author": "Daddy Yankee",
+    "bpm": "121 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S8",
+      "S14",
+      "D5",
+      "D16",
+      "D19"
+    ]
+  },
+  "Lucid(PIU Edit)": {
+    "author": "Yak Won",
+    "bpm": "40~190 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S16",
+      "S19",
+      "D11",
+      "D20",
+      "D23",
+      "Co-Op2"
+    ]
+  },
+  "Macaron Day": {
+    "author": "HyuN",
+    "bpm": "173 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S12",
+      "S17",
+      "D13",
+      "D18",
+      "DP3"
+    ]
+  },
+  "Mackerel": {
+    "author": "Norazo",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S8",
+      "S16",
+      "D5",
+      "D15",
+      "SP2",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Mad5cience": {
+    "author": "Paul Bazooka",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S15",
+      "S20",
+      "D7",
+      "D16",
+      "DP5"
+    ]
+  },
+  "Magic": {
+    "author": "Secret",
+    "bpm": "107 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S8",
+      "S13",
+      "D3",
+      "D14",
+      "SP3",
+      "DP4"
+    ]
+  },
+  "Magic Girl": {
+    "author": "Orange Caramel",
+    "bpm": "136 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S12"
+    ]
+  },
+  "Magical Vacation": {
+    "author": "SID-Sound",
+    "bpm": "154 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S6",
+      "S11",
+      "S16",
+      "S18",
+      "D7",
+      "D13",
+      "D18",
+      "DP3"
+    ]
+  },
+  "Man Vs. Mountain": {
+    "author": "Throwdown",
+    "bpm": "100 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S7",
+      "S10",
+      "D6",
+      "D15"
+    ]
+  },
+  "Maria": {
+    "author": "BanYa",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S11",
+      "S15",
+      "S18",
+      "D15",
+      "D20"
+    ]
+  },
+  "Maslo": {
+    "author": "Vospi",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S6",
+      "S10",
+      "S13",
+      "S14",
+      "halfub",
+      "D5",
+      "D16",
+      "RT15"
+    ]
+  },
+  "MATADOR": {
+    "author": "Cranky",
+    "bpm": "168 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S18",
+      "S21",
+      "D7",
+      "D16",
+      "D19",
+      "D22",
+      "DP3"
+    ]
+  },
+  "MAWARU INFINITY": {
+    "author": "TaroNuke",
+    "bpm": "45~222 BPM",
+    "length": "Remix",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S9",
+      "S13",
+      "S17",
+      "S22"
+    ]
+  },
+  "Me Gustas Tu": {
+    "author": "GFriend",
+    "bpm": "106 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S16",
+      "D17"
+    ]
+  },
+  "Melodia": {
+    "author": "Lylloo",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S14",
+      "D4",
+      "D15"
+    ]
+  },
+  "Memory": {
+    "author": "On Slot",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S12",
+      "S17",
+      "D9",
+      "D12",
+      "D17",
+      "D18",
+      "RT5"
+    ]
+  },
+  "Mental Rider": {
+    "author": "SQUAR",
+    "bpm": "120~140 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S13",
+      "S16",
+      "S21",
+      "D13",
+      "D19",
+      "D22",
+      "D24"
+    ]
+  },
+  "Meteo5cience (GADGET mix)": {
+    "author": "Paul Bazooka",
+    "bpm": "140 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "S21",
+      "D19",
+      "D22"
+    ]
+  },
+  "Meteorize": {
+    "author": "Paul Bazooka",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S10",
+      "S15",
+      "S17",
+      "D8",
+      "D16",
+      "D18",
+      "DP3"
+    ]
+  },
+  "Midnight Blue": {
+    "author": "BanYa",
+    "bpm": "80 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S11",
+      "D12",
+      "SP4",
+      "DP5"
+    ]
+  },
+  "Milky Way Galaxy": {
+    "author": "3R2",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S6",
+      "S11",
+      "S18",
+      "D11",
+      "D18",
+      "DP2"
+    ]
+  },
+  "Mind Your Matter": {
+    "author": "Bjorn Fogelberg",
+    "bpm": "125 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S8",
+      "S13",
+      "D4",
+      "D15"
+    ]
+  },
+  "Miss S' story": {
+    "author": "BanYa",
+    "bpm": "111 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S12",
+      "S19",
+      "halfub",
+      "D19",
+      "SP3",
+      "DP5"
+    ]
+  },
+  "Mission Possible": {
+    "author": "BanYa",
+    "bpm": "124 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S7",
+      "S13",
+      "S19",
+      "D8"
+    ]
+  },
+  "Mission Possible -Blow Back-": {
+    "author": "BanYa Production",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S19",
+      "D18",
+      "D21",
+      "SP3",
+      "DP5"
+    ]
+  },
+  "Mistake": {
+    "author": "U-Too",
+    "bpm": "110 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S11",
+      "D12",
+      "SP1",
+      "DP6"
+    ]
+  },
+  "Mitotsudaira": {
+    "author": "ETIA.",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S9",
+      "S15",
+      "S18",
+      "D10",
+      "D16",
+      "D19",
+      "DP4"
+    ]
+  },
+  "Mobius Strip": {
+    "author": "Sechs Kies",
+    "bpm": "106 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S12",
+      "D7",
+      "D14"
+    ]
+  },
+  "Moment Day": {
+    "author": "MAX",
+    "bpm": "158 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S10",
+      "S15",
+      "S17",
+      "S18",
+      "D9",
+      "D16",
+      "D18",
+      "DP5",
+      "Co-Op2"
+    ]
+  },
+  "Money": {
+    "author": "BanYa Production",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S9",
+      "S14",
+      "D10",
+      "D16",
+      "SP4"
+    ]
+  },
+  "Money Fingers": {
+    "author": "BanYa Production",
+    "bpm": "170 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S17",
+      "D9",
+      "D17"
+    ]
+  },
+  "Monkey Fingers": {
+    "author": "BanYa Production",
+    "bpm": "186 BPM",
+    "length": "Full Song",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S8",
+      "S16",
+      "D9",
+      "D17"
+    ]
+  },
+  "Monkey Fingers 2": {
+    "author": "BanYa Production",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S17",
+      "D7",
+      "D19"
+    ]
+  },
+  "Monolith": {
+    "author": "Affinity",
+    "bpm": "196 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S6",
+      "S8",
+      "S9",
+      "S13",
+      "S15",
+      "halfub",
+      "D11",
+      "D14",
+      "D14",
+      "D17",
+      "D22"
+    ]
+  },
+  "Moon Light Dance": {
+    "author": "TatshMusicCircle",
+    "bpm": "182 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S11",
+      "S14",
+      "S17",
+      "D4",
+      "D15",
+      "D19",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Moonlight": {
+    "author": "BanYa",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S10",
+      "S18",
+      "S19",
+      "D11",
+      "D20",
+      "D21"
+    ]
+  },
+  "Moonshard": {
+    "author": "Triplestar",
+    "bpm": "173 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S6",
+      "S10",
+      "S13",
+      "S19",
+      "S23",
+      "D10",
+      "D14",
+      "D18",
+      "D25"
+    ]
+  },
+  "Mother": {
+    "author": "1Tym",
+    "bpm": "96 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S7",
+      "S13",
+      "D5",
+      "D14",
+      "SP2",
+      "DP3"
+    ]
+  },
+  "Move It Groove It": {
+    "author": "KaW",
+    "bpm": "112 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S5",
+      "S8",
+      "S14",
+      "S18",
+      "halfub",
+      "halfub",
+      "D6",
+      "D16",
+      "RT16"
+    ]
+  },
+  "Move That Body!": {
+    "author": "DM Ashura",
+    "bpm": "145 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S17",
+      "D18"
+    ]
+  },
+  "Mr. Fire Fighter": {
+    "author": "Spooky Banana",
+    "bpm": "158 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S13",
+      "D8",
+      "D15"
+    ]
+  },
+  "Mr. Firefighter": {
+    "author": "Spooky Banana",
+    "bpm": "158 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "D16"
+    ]
+  },
+  "Mr. Larpus": {
+    "author": "BanYa",
+    "bpm": "190 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S12",
+      "S14",
+      "S20",
+      "S22",
+      "D16",
+      "D17",
+      "D23",
+      "D25",
+      "RT16",
+      "RT01"
+    ]
+  },
+  "msgoon RMX pt.1": {
+    "author": "msgoon",
+    "bpm": "120 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S17",
+      "D17"
+    ]
+  },
+  "msgoon RMX pt.3": {
+    "author": "msgoon",
+    "bpm": "168 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S17",
+      "D11",
+      "D20"
+    ]
+  },
+  "msgoon RMX pt.5": {
+    "author": "msgoon",
+    "bpm": "102.8 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S17",
+      "D17",
+      "SP3",
+      "DP4"
+    ]
+  },
+  "msgoon RMX pt.6": {
+    "author": "msgoon",
+    "bpm": "150 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S21",
+      "D20"
+    ]
+  },
+  "msgoon RMX pt.7": {
+    "author": "msgoon",
+    "bpm": "130 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S17",
+      "DP4"
+    ]
+  },
+  "My Dreams": {
+    "author": "BanYa Production",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S10",
+      "S18",
+      "S19",
+      "D18",
+      "DP5"
+    ]
+  },
+  "My Friend": {
+    "author": "Cho PD",
+    "bpm": "127 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S12",
+      "D14",
+      "SP3",
+      "DP5",
+      "DP6"
+    ]
+  },
+  "My Way": {
+    "author": "BanYa",
+    "bpm": "118 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S14",
+      "S15",
+      "halfub",
+      "D15",
+      "D18",
+      "SP2",
+      "DP4",
+      "DP6"
+    ]
+  },
+  "N": {
+    "author": "BanYa",
+    "bpm": "106 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S16",
+      "D16",
+      "SP2",
+      "DP5"
+    ]
+  },
+  "Naissance": {
+    "author": "BanYa",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S8",
+      "S10",
+      "S16",
+      "S20",
+      "D7",
+      "D15"
+    ]
+  },
+  "Naissance 2": {
+    "author": "BanYa",
+    "bpm": "129 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S9",
+      "S13",
+      "D15",
+      "D20",
+      "SP3",
+      "DP5"
+    ]
+  },
+  "Nakakapagpabagabag": {
+    "author": "Dasu",
+    "bpm": "145 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S10",
+      "S15",
+      "S19",
+      "D16",
+      "D20",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Napad": {
+    "author": "Vospi",
+    "bpm": "115 BPM",
+    "length": "Short Cut",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S10",
+      "S15",
+      "S16",
+      "D11",
+      "D15"
+    ]
+  },
+  "Napalm": {
+    "author": "Doin",
+    "bpm": "185 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S9",
+      "S14",
+      "S19",
+      "S21",
+      "D10",
+      "D15",
+      "D17",
+      "D22",
+      "RT16"
+    ]
+  },
+  "Napalmancy": {
+    "author": "Doin",
+    "bpm": "185 BPM",
+    "length": "Remix",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S15",
+      "S22",
+      "D16",
+      "D22",
+      "D25"
+    ]
+  },
+  "NARCISISTA POR EXCELENCIA": {
+    "author": "PXNDX",
+    "bpm": "164 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S17",
+      "D18"
+    ]
+  },
+  "Native": {
+    "author": "SHK",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S9",
+      "S17",
+      "S20",
+      "D10",
+      "D18",
+      "SP2",
+      "DP3"
+    ]
+  },
+  "Necromancy": {
+    "author": "Zircon",
+    "bpm": "173 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S14",
+      "S17",
+      "S18",
+      "S20",
+      "halfub",
+      "halfub",
+      "D14",
+      "D17",
+      "D19",
+      "D23",
+      "SP2",
+      "DP3"
+    ]
+  },
+  "Nekkoya": {
+    "author": "PRODUCE 48",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S9",
+      "S15",
+      "S17",
+      "D15",
+      "D18",
+      "DP3"
+    ]
+  },
+  "Nemesis": {
+    "author": "M2U",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S16",
+      "S18",
+      "D12",
+      "D20",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Nervous": {
+    "author": "Vospi",
+    "bpm": "174 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S13",
+      "S20",
+      "D14",
+      "D22"
+    ]
+  },
+  "Night Duty": {
+    "author": "A.V.",
+    "bpm": "??? BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S15",
+      "S17",
+      "S19",
+      "D12",
+      "D20",
+      "RT19"
+    ]
+  },
+  "Nihilism - Another Ver.-": {
+    "author": "Nato",
+    "bpm": "190 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S8",
+      "S15",
+      "S18",
+      "S21",
+      "D17",
+      "D19",
+      "D23"
+    ]
+  },
+  "Nina PXNDX Mix": {
+    "author": "Nina Pilots",
+    "bpm": "160 BPM",
+    "length": "Remix",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S6",
+      "S16",
+      "D8"
+    ]
+  },
+  "No Rhyme No Reason": {
+    "author": "LTJ X-Perience",
+    "bpm": "110 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S8",
+      "S15",
+      "D20",
+      "SP2"
+    ]
+  },
+  "No.3": {
+    "author": "Bae Chi Gi",
+    "bpm": "128 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S17",
+      "D18"
+    ]
+  },
+  "Nobody": {
+    "author": "Wonder Girls",
+    "bpm": "131 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S15",
+      "D8",
+      "D17",
+      "SP3",
+      "DP4"
+    ]
+  },
+  "NoNoNo": {
+    "author": "Apink",
+    "bpm": "106 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S14",
+      "S15",
+      "D16"
+    ]
+  },
+  "NOVARASH REMIX": {
+    "author": "Novasonic",
+    "bpm": "118 BPM",
+    "length": "Remix",
+    "genre": "K-POP",
+    "difficulties": [
+      "S11",
+      "S17",
+      "D12"
+    ]
+  },
+  "Novasonic Mix ver.3": {
+    "author": "Novasonic",
+    "bpm": "136 BPM",
+    "length": "Remix",
+    "genre": "K-POP",
+    "difficulties": [
+      "S6",
+      "S17",
+      "D19"
+    ]
+  },
+  "NUMBER NINE": {
+    "author": "T-ara",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S11",
+      "S13",
+      "S15",
+      "D8",
+      "D15",
+      "D17",
+      "DP4"
+    ]
+  },
+  "NX K-POP Dance": {
+    "author": "DJ DOC",
+    "bpm": "132 BPM",
+    "length": "Remix",
+    "genre": "K-POP",
+    "difficulties": [
+      "S8",
+      "S14",
+      "D9",
+      "D16"
+    ]
+  },
+  "NX Opening": {
+    "author": "Yahpp",
+    "bpm": "133 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S16",
+      "D17"
+    ]
+  },
+  "Nyarlathotep": {
+    "author": "Nato",
+    "bpm": "200 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S22",
+      "D24"
+    ]
+  },
+  "Obelisque": {
+    "author": "ESTi",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S10",
+      "S15",
+      "S17",
+      "D11",
+      "D15",
+      "D17",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Obliteration": {
+    "author": "ATAS",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S14",
+      "S17",
+      "D10",
+      "D15",
+      "D19",
+      "DP5"
+    ]
+  },
+  "Oh My": {
+    "author": "Astra",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S7",
+      "S11",
+      "S16",
+      "D4",
+      "D13",
+      "D17",
+      "DP3"
+    ]
+  },
+  "Oh! Rosa": {
+    "author": "BanYa",
+    "bpm": "148 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S13",
+      "D7",
+      "Co-Op2"
+    ]
+  },
+  "On and On": {
+    "author": "VIXX",
+    "bpm": "119 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S15",
+      "D5",
+      "D15",
+      "DP5"
+    ]
+  },
+  "One": {
+    "author": "Epik High",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S15",
+      "D5",
+      "D16",
+      "DP3"
+    ]
+  },
+  "One Night": {
+    "author": "DJ DOC",
+    "bpm": "132 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S5",
+      "S13",
+      "D14",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "One Two Three Go!": {
+    "author": "Belanova",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S8",
+      "S13",
+      "D7",
+      "D14"
+    ]
+  },
+  "Online": {
+    "author": "Saykoji",
+    "bpm": "118 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S6",
+      "S15",
+      "D4",
+      "D15"
+    ]
+  },
+  "Overblow": {
+    "author": "MAX",
+    "bpm": "155 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "D17"
+    ]
+  },
+  "Overblow2": {
+    "author": "MAX",
+    "bpm": "155 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S9",
+      "S15",
+      "S18",
+      "D7",
+      "D14",
+      "D19",
+      "DP3"
+    ]
+  },
+  "Oy Oy Oy": {
+    "author": "BanYa",
+    "bpm": "148 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S4",
+      "S6",
+      "S8",
+      "S13",
+      "S16",
+      "halfub",
+      "D13",
+      "D18",
+      "SP2",
+      "DP3",
+      "DP7",
+      "RT15"
+    ]
+  },
+  "Pandora": {
+    "author": "KARA",
+    "bpm": "140 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S17",
+      "D18"
+    ]
+  },
+  "Panuelito Rojo": {
+    "author": "Big metra",
+    "bpm": "98 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S9",
+      "S16",
+      "D18"
+    ]
+  },
+  "Papa Gonzales": {
+    "author": "BanYa",
+    "bpm": "145 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S8",
+      "S16",
+      "D7",
+      "D18"
+    ]
+  },
+  "PaPa helloizing": {
+    "author": "BanYa Production",
+    "bpm": "145~158 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S19"
+    ]
+  },
+  "PARADOXX": {
+    "author": "SLAM",
+    "bpm": "220 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S21",
+      "S23",
+      "S26",
+      "D25",
+      "D28"
+    ]
+  },
+  "Party 4U (Holy Nite Mix)": {
+    "author": "Cranky",
+    "bpm": "159 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S8",
+      "S9",
+      "S15",
+      "S18",
+      "S21",
+      "D4",
+      "D13",
+      "D17",
+      "D22",
+      "RT15"
+    ]
+  },
+  "Party All Night": {
+    "author": "KaW",
+    "bpm": "125 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S9",
+      "S15",
+      "S17",
+      "halfub",
+      "D6",
+      "D11",
+      "D13",
+      "D15",
+      "D17",
+      "DP5"
+    ]
+  },
+  "Passacaglia": {
+    "author": "SynthWulf",
+    "bpm": "175 BPM",
+    "length": "Short Cut",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S17",
+      "D18"
+    ]
+  },
+  "Passing Rider": {
+    "author": "mzet:-P",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S12",
+      "S16",
+      "S19",
+      "D10",
+      "D20"
+    ]
+  },
+  "Pavane": {
+    "author": "V.A.",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S10",
+      "S17",
+      "S19",
+      "D17",
+      "D22",
+      "SP2"
+    ]
+  },
+  "Percent X": {
+    "author": "Pory",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S10",
+      "S17",
+      "S19",
+      "D9",
+      "D13",
+      "D19",
+      "DP4"
+    ]
+  },
+  "Phantom": {
+    "author": "BanYa",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S7",
+      "S12",
+      "S18",
+      "S19",
+      "D13",
+      "D19",
+      "D20",
+      "DP7"
+    ]
+  },
+  "Phantom -Intermezzo-": {
+    "author": "BanYa Production",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S12",
+      "S15",
+      "S19",
+      "S22",
+      "D17",
+      "D19",
+      "D21",
+      "DP3"
+    ]
+  },
+  "PICK ME": {
+    "author": "PRODUCE 101",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S15",
+      "S17",
+      "D5",
+      "D16",
+      "D18"
+    ]
+  },
+  "Pine Nut": {
+    "author": "Doin",
+    "bpm": "200 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S13",
+      "S20",
+      "S24",
+      "D16"
+    ]
+  },
+  "Point Break": {
+    "author": "BanYa",
+    "bpm": "92 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S9",
+      "halfub",
+      "D13",
+      "D14",
+      "SP3",
+      "DP6"
+    ]
+  },
+  "Point Zero One": {
+    "author": "SynthWulf",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S9",
+      "S16",
+      "S20",
+      "D11",
+      "D17",
+      "D22",
+      "DP4"
+    ]
+  },
+  "Pop The Track": {
+    "author": "J-Mi",
+    "bpm": "160 BPM",
+    "length": "Short Cut",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S18",
+      "D16"
+    ]
+  },
+  "Poseidon": {
+    "author": "Quree",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S10",
+      "S14",
+      "S20",
+      "D8",
+      "D16",
+      "D22",
+      "DP2"
+    ]
+  },
+  "Power Trip": {
+    "author": "Nostra Cosa",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S11",
+      "D7",
+      "D18"
+    ]
+  },
+  "PRIME": {
+    "author": "TatshMusicCircle",
+    "bpm": "165 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S16",
+      "S18",
+      "S21",
+      "D12",
+      "D16",
+      "D18",
+      "D20",
+      "DP3"
+    ]
+  },
+  "PRIME Opening": {
+    "author": "MAX",
+    "bpm": "128 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S15",
+      "D15",
+      "Co-Op5"
+    ]
+  },
+  "PRIME2 Opening": {
+    "author": "MAX",
+    "bpm": "145 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S12",
+      "S17",
+      "D18"
+    ]
+  },
+  "Pro POP Mix": {
+    "author": "BanYa Production",
+    "bpm": "151 BPM",
+    "length": "Remix",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S17"
+    ]
+  },
+  "Procedimientos Para Llegar A Un Comun Acuerdo": {
+    "author": "PXNDX",
+    "bpm": "160 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S6",
+      "S17",
+      "D7"
+    ]
+  },
+  "Pump Breakers": {
+    "author": "Thaide",
+    "bpm": "120 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S5",
+      "S17",
+      "D15",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "PUMP IT UP with YOU": {
+    "author": "msgoon",
+    "bpm": "??? BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S17",
+      "D17"
+    ]
+  },
+  "Pump Jump": {
+    "author": "BanYa",
+    "bpm": "106 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S15",
+      "D17",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "Pump me Amadeus": {
+    "author": "BanYa",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S4",
+      "S6",
+      "S11",
+      "S18",
+      "D12",
+      "D19",
+      "D21"
+    ]
+  },
+  "Pumping Jumping": {
+    "author": "BanYa Production",
+    "bpm": "116 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S5",
+      "S13",
+      "S15",
+      "S17",
+      "S19",
+      "D6",
+      "D17",
+      "SP4",
+      "DP5",
+      "DP6"
+    ]
+  },
+  "Pumping Up": {
+    "author": "BanYa",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S12",
+      "D15"
+    ]
+  },
+  "Pumptris 8Bit ver.": {
+    "author": "Yahpp",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S16",
+      "S17",
+      "halfub",
+      "D10",
+      "SP15",
+      "Co-Op2",
+      "RT20"
+    ]
+  },
+  "Pumptris Quattro": {
+    "author": "Yahpp",
+    "bpm": "153 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S12",
+      "S18",
+      "S19",
+      "D15",
+      "D20",
+      "D22",
+      "SP10",
+      "DP2"
+    ]
+  },
+  "Que Viva La Vida": {
+    "author": "Wisin",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S16",
+      "D7",
+      "D16"
+    ]
+  },
+  "Queen of the Red": {
+    "author": "ETIA.",
+    "bpm": "188 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S15",
+      "S18",
+      "D12",
+      "D16",
+      "D19",
+      "DP3"
+    ]
+  },
+  "Rabiosa": {
+    "author": "Shakira",
+    "bpm": "133 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S14",
+      "D5",
+      "D16"
+    ]
+  },
+  "Radetzky Can Can": {
+    "author": "BanYa",
+    "bpm": "197 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S16",
+      "S20",
+      "D17",
+      "D22"
+    ]
+  },
+  "Rage of Fire": {
+    "author": "MAX",
+    "bpm": "155 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S7",
+      "S11",
+      "S16",
+      "S18",
+      "D10",
+      "D17",
+      "D19",
+      "Co-Op2"
+    ]
+  },
+  "Ragnarok": {
+    "author": "SynthWulf",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S7",
+      "S11",
+      "S16",
+      "S18",
+      "S20",
+      "D9",
+      "D13",
+      "D17",
+      "DP3"
+    ]
+  },
+  "Rainspark": {
+    "author": "Sanxion7",
+    "bpm": "125 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S9",
+      "S10",
+      "S14",
+      "S15",
+      "S17",
+      "S18",
+      "halfub",
+      "D5",
+      "D9",
+      "D13",
+      "D15",
+      "D17",
+      "D18",
+      "D21",
+      "RT15"
+    ]
+  },
+  "Rave 'til the Earth's End": {
+    "author": "5argon",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S15",
+      "S17",
+      "S19",
+      "D13",
+      "D18",
+      "D20"
+    ]
+  },
+  "Rave Until The Night Is Over": {
+    "author": "DM Ashura",
+    "bpm": "144 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S5",
+      "S8",
+      "S9",
+      "S13",
+      "S15",
+      "D8",
+      "D11",
+      "D14",
+      "D17",
+      "SP3",
+      "DP4",
+      "RT5"
+    ]
+  },
+  "Rave Until the Night is Over (C.T.M.)": {
+    "author": "DM Ashura",
+    "bpm": "148 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S9",
+      "S14",
+      "D11",
+      "D15",
+      "RT16"
+    ]
+  },
+  "RE-RAVE": {
+    "author": "KURi-ZiLL",
+    "bpm": "146 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S2",
+      "S6",
+      "S6",
+      "S10",
+      "S11",
+      "S15",
+      "S16",
+      "S17",
+      "halfub",
+      "D10",
+      "D12",
+      "D15",
+      "D18",
+      "RT01"
+    ]
+  },
+  "Reality": {
+    "author": "SHK",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S8",
+      "S15",
+      "S17",
+      "D4",
+      "D15",
+      "SP4",
+      "DP2"
+    ]
+  },
+  "REALLY REALLY": {
+    "author": "WINNER",
+    "bpm": "103 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S13",
+      "S15",
+      "D7",
+      "D16"
+    ]
+  },
+  "Red Snow": {
+    "author": "Cashew",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S11",
+      "S16",
+      "S19",
+      "D13",
+      "D18",
+      "D21",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Red Swan": {
+    "author": "Yahpp",
+    "bpm": "172 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S9",
+      "S18",
+      "D12",
+      "D20",
+      "D22",
+      "DP4",
+      "DP20",
+      "Co-Op2"
+    ]
+  },
+  "Redline": {
+    "author": "Archefluxx",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S5",
+      "S10",
+      "S16",
+      "S18",
+      "D15",
+      "D19",
+      "D20",
+      "D22",
+      "DP5"
+    ]
+  },
+  "Reminiscence": {
+    "author": "MAX",
+    "bpm": "155 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S10",
+      "S15",
+      "S18",
+      "D10",
+      "D17",
+      "D19",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Removable Disk0": {
+    "author": "Doin",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S15",
+      "D5",
+      "D16",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Renai Yuusha": {
+    "author": "Last Note.",
+    "bpm": "190 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S12",
+      "S17",
+      "S19",
+      "D4",
+      "D13",
+      "D18",
+      "D20",
+      "DP4",
+      "Co-Op3"
+    ]
+  },
+  "Repeatorment Remix": {
+    "author": "BanYa",
+    "bpm": "150 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S18",
+      "D8"
+    ]
+  },
+  "Requiem": {
+    "author": "MAX",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S16",
+      "S19",
+      "D9",
+      "D18",
+      "D23",
+      "DP4"
+    ]
+  },
+  "RHYTHM TA": {
+    "author": "iKON",
+    "bpm": "82 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S10",
+      "S15",
+      "D5",
+      "D11",
+      "D17",
+      "DP4"
+    ]
+  },
+  "Right Back Up": {
+    "author": "SGX",
+    "bpm": "117 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S9",
+      "S13",
+      "S15",
+      "D12",
+      "D20"
+    ]
+  },
+  "Rippin' It Up": {
+    "author": "Future Funk Squad",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S2",
+      "S5",
+      "S6",
+      "S9",
+      "S10",
+      "S14",
+      "S15",
+      "S16",
+      "halfub",
+      "D4",
+      "D11",
+      "D15",
+      "D18"
+    ]
+  },
+  "Robot battle": {
+    "author": "CYO Style",
+    "bpm": "198 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S9",
+      "S13",
+      "S18",
+      "S22",
+      "D13",
+      "D19",
+      "D24",
+      "DP5"
+    ]
+  },
+  "Rock the house": {
+    "author": "Matduke",
+    "bpm": "175 BPM",
+    "length": "Short Cut",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S15",
+      "S18",
+      "D20"
+    ]
+  },
+  "Rockhill": {
+    "author": "Beltaine",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S6",
+      "S6",
+      "S8",
+      "S11",
+      "S16",
+      "S19",
+      "D11",
+      "D12",
+      "D18",
+      "D22"
+    ]
+  },
+  "Rolling Christmas": {
+    "author": "BanYa",
+    "bpm": "142 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S3",
+      "S5",
+      "S6",
+      "S8",
+      "S10",
+      "S12",
+      "D5",
+      "D6",
+      "D13",
+      "D16",
+      "D16",
+      "Co-Op2",
+      "RT13"
+    ]
+  },
+  "Run to you": {
+    "author": "DJ DOC",
+    "bpm": "132 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S5",
+      "S7",
+      "S10",
+      "S13",
+      "D6",
+      "D14",
+      "RT13"
+    ]
+  },
+  "RUN!": {
+    "author": "Novasonic",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S15",
+      "D8",
+      "D17"
+    ]
+  },
+  "Sarabande": {
+    "author": "MAX",
+    "bpm": "157 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S9",
+      "S17",
+      "S19",
+      "D18"
+    ]
+  },
+  "Says": {
+    "author": "Doin",
+    "bpm": "155 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S11",
+      "S18",
+      "S20",
+      "D13",
+      "D17",
+      "D22"
+    ]
+  },
+  "Scorpion King": {
+    "author": "r300k",
+    "bpm": "113 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S15",
+      "S19",
+      "D10",
+      "D16",
+      "D20",
+      "DP3"
+    ]
+  },
+  "Seize My Day": {
+    "author": "rainbowdragoneyes",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S6",
+      "S10",
+      "S14",
+      "S18",
+      "S21",
+      "D7",
+      "D12",
+      "D19",
+      "D22",
+      "DP4"
+    ]
+  },
+  "Selfishness": {
+    "author": "SID-Sound",
+    "bpm": "160 BPM",
+    "length": "Short Cut",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S17",
+      "D18"
+    ]
+  },
+  "Set me up": {
+    "author": "BanYa",
+    "bpm": "120 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S9",
+      "S13",
+      "halfub",
+      "D13",
+      "SP4",
+      "DP4",
+      "DP7"
+    ]
+  },
+  "Set Up Me2 Mix": {
+    "author": "BanYa Production",
+    "bpm": "122 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S17"
+    ]
+  },
+  "Setsuna Trip": {
+    "author": "Last Note.",
+    "bpm": "145 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S9",
+      "S13",
+      "S16",
+      "S18",
+      "D8",
+      "D14",
+      "D19",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Shadows": {
+    "author": "Zircon",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S10",
+      "S16",
+      "D4",
+      "D15",
+      "D16"
+    ]
+  },
+  "Shanghai Romance": {
+    "author": "Orange Caramel",
+    "bpm": "149 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S17",
+      "D16"
+    ]
+  },
+  "She Likes Pizza": {
+    "author": "BanYa",
+    "bpm": "230 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S9",
+      "S21",
+      "D9",
+      "D16",
+      "D19",
+      "D23"
+    ]
+  },
+  "Shock": {
+    "author": "BEAST",
+    "bpm": "135 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S17",
+      "D15"
+    ]
+  },
+  "Shooting Star": {
+    "author": "Coconut",
+    "bpm": "134 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S2",
+      "S8",
+      "S11",
+      "halfub",
+      "D2",
+      "D14"
+    ]
+  },
+  "Shub Niggurath": {
+    "author": "Nato",
+    "bpm": "220 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "S21",
+      "D23"
+    ]
+  },
+  "Shub Sothoth": {
+    "author": "Nato",
+    "bpm": "220 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S25",
+      "D27"
+    ]
+  },
+  "Sik Asik": {
+    "author": "Ayu Ting Ting",
+    "bpm": "147 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S13",
+      "D4",
+      "D14"
+    ]
+  },
+  "Silhouette Effect": {
+    "author": "Nato",
+    "bpm": "167 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "D17"
+    ]
+  },
+  "Silver Beat feat. ChisaUezono": {
+    "author": "Tatsh",
+    "bpm": "153 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S12",
+      "S16",
+      "S18",
+      "D7",
+      "D12",
+      "D18"
+    ]
+  },
+  "Skeptic": {
+    "author": "Doin",
+    "bpm": "200.1 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S12",
+      "S18",
+      "S22",
+      "S24",
+      "D14",
+      "D22",
+      "D25",
+      "DP4"
+    ]
+  },
+  "Slam": {
+    "author": "Novasonic",
+    "bpm": "131.99 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S9",
+      "S13",
+      "S15",
+      "S18",
+      "S19",
+      "D6",
+      "D13",
+      "D16",
+      "D19",
+      "D21",
+      "D23",
+      "RT17"
+    ]
+  },
+  "Slam (FULL SONG)": {
+    "author": "Novasonic",
+    "bpm": "132 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S9",
+      "S16",
+      "D13",
+      "D20"
+    ]
+  },
+  "Slightly": {
+    "author": "45RPM",
+    "bpm": "120 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S5",
+      "S17"
+    ]
+  },
+  "Smart Optics": {
+    "author": "Damian Turnbull",
+    "bpm": "127 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S7",
+      "S12",
+      "D10",
+      "D14"
+    ]
+  },
+  "Smells Like A Chocolate": {
+    "author": "Vospi",
+    "bpm": "175.9 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S5",
+      "S6",
+      "S8",
+      "S9",
+      "S16",
+      "S17",
+      "D4",
+      "D12",
+      "D13",
+      "D17",
+      "SP1",
+      "DP3",
+      "RT13",
+      "RT17"
+    ]
+  },
+  "Smile Diary": {
+    "author": "you",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S16",
+      "S19",
+      "D8",
+      "D17",
+      "D19",
+      "DP5"
+    ]
+  },
+  "SOBER": {
+    "author": "Bigbang",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S13",
+      "S17",
+      "D3",
+      "D14",
+      "D17",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Solitary": {
+    "author": "BanYa",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S8",
+      "S9",
+      "S17",
+      "S18",
+      "D10",
+      "D16",
+      "D18",
+      "SP3",
+      "DP5"
+    ]
+  },
+  "Solitary (Sanxion7 Mix)": {
+    "author": "BanYa",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S13",
+      "S15",
+      "S20",
+      "D12",
+      "D15",
+      "D19",
+      "D21"
+    ]
+  },
+  "Solitary 1.5": {
+    "author": "Yahpp",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S7",
+      "S10",
+      "S16",
+      "D8",
+      "D11",
+      "D15",
+      "D18",
+      "SP4",
+      "DP6"
+    ]
+  },
+  "Solitary 2": {
+    "author": "BanYa",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S9",
+      "S17",
+      "S18",
+      "D19",
+      "D20",
+      "D21",
+      "SP3",
+      "DP6"
+    ]
+  },
+  "Sorano Shirabe": {
+    "author": "TatshMusicCircle",
+    "bpm": "172 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S3",
+      "S8",
+      "S12",
+      "S15",
+      "S18",
+      "D11",
+      "D16",
+      "D20",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Sorceress Elise": {
+    "author": "Yahpp",
+    "bpm": "158 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S8",
+      "S10",
+      "S17",
+      "S18",
+      "S21",
+      "S23",
+      "D8",
+      "D17",
+      "D24",
+      "Co-Op2"
+    ]
+  },
+  "Span": {
+    "author": "SGX",
+    "bpm": "139 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S10",
+      "S15",
+      "halfub",
+      "D10",
+      "D17"
+    ]
+  },
+  "Star Command": {
+    "author": "Zircon",
+    "bpm": "155 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S6",
+      "S10",
+      "S12",
+      "S15",
+      "S17",
+      "S19",
+      "halfub",
+      "D13",
+      "D15",
+      "D16",
+      "D21",
+      "D23",
+      "RT22"
+    ]
+  },
+  "Stardust Overdrive": {
+    "author": "typeMARS",
+    "bpm": "175 BPM",
+    "length": "Short Cut",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S16",
+      "D17"
+    ]
+  },
+  "Starian": {
+    "author": "DUKE",
+    "bpm": "134.9 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S7",
+      "S13",
+      "S15",
+      "D9",
+      "D17"
+    ]
+  },
+  "Start On Red": {
+    "author": "Nato",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S11",
+      "S15",
+      "S19",
+      "D12",
+      "D18",
+      "D20",
+      "DP3"
+    ]
+  },
+  "Step": {
+    "author": "KARA",
+    "bpm": "123 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S15",
+      "D5",
+      "D15",
+      "D16",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "STEP": {
+    "author": "SID-Sound",
+    "bpm": "156 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S7",
+      "S13",
+      "S17",
+      "D12",
+      "D18",
+      "D20",
+      "DP2"
+    ]
+  },
+  "Stop! & Go": {
+    "author": "Onyx",
+    "bpm": "137 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S9",
+      "S12",
+      "halfub",
+      "D9",
+      "D15",
+      "RT18"
+    ]
+  },
+  "Storm": {
+    "author": "Perry",
+    "bpm": "96 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S5",
+      "S12",
+      "D13",
+      "DP3"
+    ]
+  },
+  "Street show down": {
+    "author": "BanYa",
+    "bpm": "124 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S15",
+      "D13",
+      "D18",
+      "SP4",
+      "DP6"
+    ]
+  },
+  "Sudden Romance [PIU Edit]": {
+    "author": "void",
+    "bpm": "152 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S9",
+      "S14",
+      "S19",
+      "D8",
+      "D15",
+      "D19",
+      "DP4"
+    ]
+  },
+  "Sugar Conspiracy Theory": {
+    "author": "MAX",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S10",
+      "S14",
+      "S18",
+      "S19",
+      "D7",
+      "D11",
+      "D16",
+      "D20",
+      "DP5",
+      "Co-Op2"
+    ]
+  },
+  "Sugar Eyes": {
+    "author": "Sugar Eyes",
+    "bpm": "122 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S8",
+      "S10",
+      "S13",
+      "D4",
+      "D9"
+    ]
+  },
+  "Sugar Free": {
+    "author": "T-ara",
+    "bpm": "128 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S15",
+      "D15"
+    ]
+  },
+  "Summer (Speedy Mix)": {
+    "author": "Smiley",
+    "bpm": "185 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S11",
+      "S15",
+      "S20",
+      "S22",
+      "halfub",
+      "D12",
+      "D21",
+      "D22"
+    ]
+  },
+  "Super Capriccio": {
+    "author": "SHK",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S16",
+      "S19",
+      "D11",
+      "D19"
+    ]
+  },
+  "Super Fantasy": {
+    "author": "SHK",
+    "bpm": "145 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S19",
+      "D17"
+    ]
+  },
+  "Super Mackerel": {
+    "author": "Norazo",
+    "bpm": "150 BPM",
+    "length": "Remix",
+    "genre": "K-POP",
+    "difficulties": [
+      "S16",
+      "D18"
+    ]
+  },
+  "Super Stylin'": {
+    "author": "Warak",
+    "bpm": "146 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S7",
+      "S9",
+      "S11",
+      "S17",
+      "D9",
+      "D12",
+      "D17",
+      "DP4"
+    ]
+  },
+  "Supermagic": {
+    "author": "Supreme Team",
+    "bpm": "112 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S14",
+      "D5",
+      "D15",
+      "DP4"
+    ]
+  },
+  "Superman": {
+    "author": "Norazo",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S8",
+      "S14",
+      "S16",
+      "D9",
+      "D15",
+      "D23",
+      "SP1",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Swing the House": {
+    "author": "Elliot Simons",
+    "bpm": "133 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S9",
+      "S14",
+      "D5",
+      "D11"
+    ]
+  },
+  "Switchback": {
+    "author": "Celldweller",
+    "bpm": "112 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S8",
+      "S9",
+      "S12",
+      "S15",
+      "S15",
+      "S18",
+      "D10",
+      "D11",
+      "D16",
+      "D17",
+      "D18",
+      "D21",
+      "RT17"
+    ]
+  },
+  "Take Me Back": {
+    "author": "KaW",
+    "bpm": "172 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S7",
+      "S9",
+      "S9",
+      "S11",
+      "S14",
+      "S17",
+      "halfub",
+      "D10",
+      "D11",
+      "D16",
+      "D17"
+    ]
+  },
+  "Take Out": {
+    "author": "SHK",
+    "bpm": "170 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "D19"
+    ]
+  },
+  "Tek -Club Copenhagen-": {
+    "author": "BanYa Production",
+    "bpm": "132 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S16",
+      "S17",
+      "D17",
+      "SP5",
+      "DP4"
+    ]
+  },
+  "Tell Me A Story (Compendium Mix)": {
+    "author": "SGX",
+    "bpm": "63~127 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S13",
+      "S16",
+      "halfub",
+      "D4",
+      "D20"
+    ]
+  },
+  "Tepris": {
+    "author": "Doin",
+    "bpm": "145 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S17",
+      "S17",
+      "D9",
+      "D19",
+      "D20",
+      "Co-Op2"
+    ]
+  },
+  "The angel who lost wings": {
+    "author": "Roo'Ra",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S6",
+      "S13",
+      "D6",
+      "D16",
+      "SP2",
+      "DP3"
+    ]
+  },
+  "The Ark Sailing Over Truth": {
+    "author": "Ashley Scared The Sky",
+    "bpm": "210 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S5",
+      "S10",
+      "S16",
+      "S18",
+      "S20",
+      "S22",
+      "D14",
+      "D18",
+      "D22"
+    ]
+  },
+  "The Best It's Gonna' Get": {
+    "author": "Celldweller",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S9",
+      "S14",
+      "S15",
+      "S16",
+      "S21",
+      "D9",
+      "D14",
+      "D17",
+      "RT16"
+    ]
+  },
+  "The Devil": {
+    "author": "BanYa Production",
+    "bpm": "130~240 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S9",
+      "S12",
+      "S19",
+      "D14",
+      "D20",
+      "Co-Op2"
+    ]
+  },
+  "The Festival of Ghost 2 (Sneak)": {
+    "author": "Brandy",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S11",
+      "S16",
+      "S18",
+      "S20",
+      "D11",
+      "D17",
+      "D20"
+    ]
+  },
+  "The Fool": {
+    "author": "DJ Clonepa",
+    "bpm": "200 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S6",
+      "S14",
+      "S21",
+      "S24",
+      "D15",
+      "D23",
+      "D25"
+    ]
+  },
+  "The Last Firstborn": {
+    "author": "Celldweller",
+    "bpm": "134 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S10",
+      "S17",
+      "halfub",
+      "D10",
+      "D14"
+    ]
+  },
+  "The Little Prince": {
+    "author": "HAON",
+    "bpm": "115 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S9",
+      "S13",
+      "S16",
+      "S18",
+      "D11",
+      "D14",
+      "D16",
+      "D19"
+    ]
+  },
+  "The People didn't know": {
+    "author": "BanYa Production",
+    "bpm": "134 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S12",
+      "S15",
+      "D7",
+      "D17"
+    ]
+  },
+  "The People didn't know Pumping up": {
+    "author": "BanYa Production",
+    "bpm": "134 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "D4",
+      "D18"
+    ]
+  },
+  "The Quick Brown Fox Jumps Over The Lazy Dog": {
+    "author": "Doin",
+    "bpm": "200 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S10",
+      "S16",
+      "S19",
+      "S23",
+      "D15",
+      "D24"
+    ]
+  },
+  "THE REVOLUTION": {
+    "author": "MAX",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S7",
+      "S9",
+      "S11",
+      "S13",
+      "S15",
+      "S17",
+      "S17",
+      "S19",
+      "S20",
+      "S21",
+      "S22",
+      "D6",
+      "D9",
+      "D12",
+      "D14",
+      "D17",
+      "D19",
+      "D19",
+      "D22",
+      "D22",
+      "D22",
+      "D24",
+      "D24",
+      "DP3",
+      "RT14"
+    ]
+  },
+  "The Trident Ov Power": {
+    "author": "Magic Hammer",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S5",
+      "S7",
+      "S10",
+      "S13",
+      "S18",
+      "D3",
+      "D10",
+      "D14",
+      "D18",
+      "RT17"
+    ]
+  },
+  "The Trident ov Power (Full Song)": {
+    "author": "Magic Hammer",
+    "bpm": "160 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S19",
+      "D19"
+    ]
+  },
+  "Till the end of time": {
+    "author": "BanYa",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S4",
+      "S8",
+      "S9",
+      "S13",
+      "S17",
+      "halfub",
+      "D8",
+      "D13",
+      "D13",
+      "D16",
+      "SP2",
+      "DP3",
+      "DP6",
+      "RT14",
+      "RT23"
+    ]
+  },
+  "Time Attack <Blue>": {
+    "author": "r300k",
+    "bpm": "119 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S8",
+      "S15",
+      "S18",
+      "D10",
+      "D16",
+      "D20",
+      "DP3"
+    ]
+  },
+  "Time for the moon night": {
+    "author": "GFriend",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S16",
+      "S18",
+      "D11",
+      "D18",
+      "D21"
+    ]
+  },
+  "Timing": {
+    "author": "HIGHTEEN",
+    "bpm": "164 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S15",
+      "S17",
+      "D11",
+      "D16",
+      "D18"
+    ]
+  },
+  "To the sky": {
+    "author": "LEXY",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S12",
+      "S15",
+      "D6",
+      "D16",
+      "SP3",
+      "DP6"
+    ]
+  },
+  "Toccata": {
+    "author": "BanYa Production",
+    "bpm": "104 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S16",
+      "S17",
+      "D14",
+      "D17",
+      "SP3",
+      "DP6"
+    ]
+  },
+  "Top City": {
+    "author": "BanYa",
+    "bpm": "110.8 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S12",
+      "D7",
+      "D12"
+    ]
+  },
+  "Trashy Innocence": {
+    "author": "Last Note.",
+    "bpm": "230 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S10",
+      "S15",
+      "S20",
+      "D11",
+      "D16",
+      "D24",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Trato De No Trabarme": {
+    "author": "Big metra",
+    "bpm": "105 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S10",
+      "S22",
+      "D24"
+    ]
+  },
+  "Travel to Future": {
+    "author": "Neutral Moon",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S11",
+      "S17",
+      "S19",
+      "D12",
+      "D18",
+      "D21",
+      "D23"
+    ]
+  },
+  "Tream Vook of the war REMIX": {
+    "author": "BanYa",
+    "bpm": "184~202 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S13",
+      "S19",
+      "S20",
+      "D15",
+      "D21",
+      "D22"
+    ]
+  },
+  "Tribe Attacker": {
+    "author": "Hi-G",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S4",
+      "S6",
+      "S8",
+      "S9",
+      "S14",
+      "S17",
+      "D5",
+      "D10",
+      "D14",
+      "D17",
+      "D18",
+      "Co-Op4",
+      "RT13"
+    ]
+  },
+  "Tritium": {
+    "author": "Memme",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S12",
+      "S17",
+      "S20",
+      "D10",
+      "D14",
+      "D19",
+      "D21"
+    ]
+  },
+  "Trotpris": {
+    "author": "Doin",
+    "bpm": "156.118 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S14",
+      "D14"
+    ]
+  },
+  "True": {
+    "author": "SGX",
+    "bpm": "135 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S9",
+      "S12",
+      "S18",
+      "D7",
+      "D11",
+      "D19",
+      "D22",
+      "D24",
+      "RT13"
+    ]
+  },
+  "Turkey March": {
+    "author": "BanYa",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S7",
+      "S12",
+      "S16",
+      "S18",
+      "S18",
+      "D9",
+      "D14",
+      "D17",
+      "D20",
+      "Co-Op2",
+      "RT15"
+    ]
+  },
+  "Turkey March -Minimal Tunes-": {
+    "author": "BanYa Production",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S10",
+      "S17",
+      "D11",
+      "D18",
+      "DP1"
+    ]
+  },
+  "Turkey Virus": {
+    "author": "BanYa Production",
+    "bpm": "150~162 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S15",
+      "D11"
+    ]
+  },
+  "Twist of Fate (feat. Ruriling)": {
+    "author": "Jehezukiel",
+    "bpm": "141 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S10",
+      "S16",
+      "S19",
+      "D10",
+      "D17",
+      "D21"
+    ]
+  },
+  "Two Guys": {
+    "author": "Bae Chi Gi",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S9",
+      "S15",
+      "D5",
+      "D16",
+      "D18",
+      "SP3",
+      "DP6"
+    ]
+  },
+  "U Got 2 Know": {
+    "author": "MAX",
+    "bpm": "127 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S7",
+      "S8",
+      "S17",
+      "S19",
+      "S20",
+      "halfub",
+      "D18",
+      "D21",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "U Got Me Rocking": {
+    "author": "MAX",
+    "bpm": "128 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S17",
+      "D17"
+    ]
+  },
+  "Ugly Dee": {
+    "author": "BanYa Production",
+    "bpm": "92 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S9",
+      "D15",
+      "D18"
+    ]
+  },
+  "Ugly duck Toccata": {
+    "author": "BanYa Production",
+    "bpm": "104 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S17",
+      "D18"
+    ]
+  },
+  "Unique": {
+    "author": "SHK",
+    "bpm": "145 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "D16"
+    ]
+  },
+  "Unlock": {
+    "author": "Miura Daichi (Cover)",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S7",
+      "S11",
+      "S14",
+      "D3",
+      "D9",
+      "D15"
+    ]
+  },
+  "Up & Down": {
+    "author": "EXID",
+    "bpm": "112 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S8",
+      "S18",
+      "D19"
+    ]
+  },
+  "Up & Up (Produced by AWAL)": {
+    "author": "Skizzo",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S17",
+      "D9",
+      "D18",
+      "D20"
+    ]
+  },
+  "Uprock": {
+    "author": "Sam-I-Am",
+    "bpm": "120 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S5",
+      "S17",
+      "D14",
+      "SP2",
+      "DP4"
+    ]
+  },
+  "Utopia": {
+    "author": "Smiley",
+    "bpm": "166 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S9",
+      "S17",
+      "D9",
+      "D18"
+    ]
+  },
+  "Utsushiyo No Kaze feat. Kana": {
+    "author": "void",
+    "bpm": "152 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S7",
+      "S11",
+      "S17",
+      "S20",
+      "D11",
+      "D18",
+      "D20",
+      "DP5"
+    ]
+  },
+  "V3": {
+    "author": "Beautiful Day",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S6",
+      "S9",
+      "S14",
+      "S17",
+      "D9",
+      "D18",
+      "D21",
+      "D24"
+    ]
+  },
+  "Vacuum": {
+    "author": "Doin",
+    "bpm": "200 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S19",
+      "S21",
+      "S23",
+      "D21",
+      "D25",
+      "DP3"
+    ]
+  },
+  "Vacuum Cleaner": {
+    "author": "Doin",
+    "bpm": "222.22 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S15",
+      "S20",
+      "S25",
+      "D20",
+      "D27"
+    ]
+  },
+  "VANISH": {
+    "author": "Applesoda",
+    "bpm": "174 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S6",
+      "S12",
+      "S17",
+      "S20",
+      "D9",
+      "D12",
+      "D18",
+      "D22",
+      "DP4"
+    ]
+  },
+  "Venetian Staccato": {
+    "author": "Sta",
+    "bpm": "170 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S9",
+      "S11",
+      "S16",
+      "S18",
+      "halfub",
+      "D11",
+      "D15",
+      "D18",
+      "RT14"
+    ]
+  },
+  "Venus": {
+    "author": "Shinhwa",
+    "bpm": "126 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S14",
+      "D6",
+      "D14",
+      "DP3"
+    ]
+  },
+  "Very good": {
+    "author": "Block B",
+    "bpm": "136 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S9",
+      "S15",
+      "D5",
+      "D15",
+      "DP4"
+    ]
+  },
+  "VERY NICE": {
+    "author": "SEVENTEEN",
+    "bpm": "122 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S9",
+      "S14",
+      "S17",
+      "D6",
+      "D15",
+      "D18",
+      "DP4",
+      "Co-Op2"
+    ]
+  },
+  "Very Old Couples": {
+    "author": "015B",
+    "bpm": "121 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S6",
+      "S13",
+      "D15",
+      "SP2",
+      "DP6"
+    ]
+  },
+  "video out c": {
+    "author": "Vospi",
+    "bpm": "198 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S10",
+      "S14",
+      "S17",
+      "S22",
+      "D15",
+      "D23",
+      "DP4"
+    ]
+  },
+  "Violet Perfume": {
+    "author": "SHK",
+    "bpm": "140 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S8",
+      "S13",
+      "S17",
+      "D10",
+      "D14",
+      "D18",
+      "DP4"
+    ]
+  },
+  "Virtual Emotion": {
+    "author": "Inspector K",
+    "bpm": "180 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S4",
+      "S7",
+      "S9",
+      "S11",
+      "S14",
+      "S17",
+      "halfub",
+      "D12",
+      "D18",
+      "D18",
+      "Co-Op2"
+    ]
+  },
+  "Visual Dream II (In Fiction)": {
+    "author": "Aragon",
+    "bpm": "175 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S5",
+      "S8",
+      "S16",
+      "S18",
+      "D10",
+      "D19"
+    ]
+  },
+  "Vook": {
+    "author": "BanYa",
+    "bpm": "184 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S5",
+      "S7",
+      "S9",
+      "S15",
+      "S17",
+      "S20",
+      "halfub",
+      "D13",
+      "D17",
+      "D19",
+      "D20"
+    ]
+  },
+  "Vulcan": {
+    "author": "Memme",
+    "bpm": "175 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S22",
+      "D24"
+    ]
+  },
+  "VV": {
+    "author": "Zig Zag",
+    "bpm": "??? BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S12",
+      "S18",
+      "S21",
+      "S23",
+      "D16",
+      "D20",
+      "D24",
+      "D27"
+    ]
+  },
+  "VVV": {
+    "author": "Zig Zag",
+    "bpm": "310 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S10",
+      "S16",
+      "S18",
+      "S21",
+      "S22",
+      "S23",
+      "S25",
+      "halfub",
+      "D10",
+      "D17",
+      "D19",
+      "D22",
+      "D23",
+      "D24"
+    ]
+  },
+  "Waltz of Doge": {
+    "author": "Cashew",
+    "bpm": "250 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S11",
+      "S14",
+      "S17",
+      "S19",
+      "D12",
+      "D18",
+      "D20",
+      "Co-Op2"
+    ]
+  },
+  "Wanna": {
+    "author": "KARA",
+    "bpm": "161 BPM",
+    "length": "Full Song",
+    "genre": "K-POP",
+    "difficulties": [
+      "S16"
+    ]
+  },
+  "We Are": {
+    "author": "DEUX",
+    "bpm": "115.9 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S5",
+      "S12",
+      "D6",
+      "D13",
+      "DP4"
+    ]
+  },
+  "We Are Loud": {
+    "author": "Dynamedion",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S9",
+      "S14",
+      "halfub",
+      "D6",
+      "D14",
+      "RT13"
+    ]
+  },
+  "We Goin' Fly Remix": {
+    "author": "Gyfted",
+    "bpm": "112 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S5",
+      "S15",
+      "S19",
+      "D17",
+      "D19",
+      "SP3",
+      "DP6"
+    ]
+  },
+  "We Got 2 Know": {
+    "author": "MAX",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S5",
+      "S8",
+      "S17",
+      "S18",
+      "S20",
+      "D4",
+      "D9",
+      "D18",
+      "SP2",
+      "DP3",
+      "Co-Op3"
+    ]
+  },
+  "We will meet again": {
+    "author": "BanYa",
+    "bpm": "118 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S8",
+      "S13",
+      "S14",
+      "D8"
+    ]
+  },
+  "Wedding Crashers": {
+    "author": "SHK",
+    "bpm": "165 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "D20"
+    ]
+  },
+  "What Are You Doin?": {
+    "author": "Doin",
+    "bpm": "200 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S18",
+      "D23"
+    ]
+  },
+  "What Do You Really Want?": {
+    "author": "Crash",
+    "bpm": "110 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S3",
+      "S9",
+      "S12",
+      "S14",
+      "S18",
+      "S19",
+      "D16",
+      "D18",
+      "D20",
+      "DP11"
+    ]
+  },
+  "What Happened": {
+    "author": "Throwdown",
+    "bpm": "130 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S7",
+      "S10",
+      "S12",
+      "S17",
+      "S18",
+      "S21",
+      "halfub",
+      "D12",
+      "D20",
+      "D21",
+      "D23"
+    ]
+  },
+  "WI-EX-DOC-VA": {
+    "author": "Yahpp",
+    "bpm": "195 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S15",
+      "S21",
+      "D16",
+      "D24"
+    ]
+  },
+  "Wi-Ex-Doc-Vacuum": {
+    "author": "Yahpp",
+    "bpm": "200 BPM",
+    "length": "Remix",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S15",
+      "S22",
+      "S25",
+      "D22",
+      "D27"
+    ]
+  },
+  "Will-O-The-Wisp": {
+    "author": "BanYa",
+    "bpm": "210 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S11",
+      "S14",
+      "S19",
+      "halfub",
+      "D13",
+      "D14",
+      "D20",
+      "D21"
+    ]
+  },
+  "Windmill": {
+    "author": "Yak Won",
+    "bpm": "246 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S8",
+      "S13",
+      "S17",
+      "S21",
+      "D14",
+      "D18",
+      "D23"
+    ]
+  },
+  "Winter": {
+    "author": "BanYa",
+    "bpm": "168 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S5",
+      "S7",
+      "S10",
+      "S16",
+      "S19",
+      "S20",
+      "halfub",
+      "D12",
+      "D17",
+      "D20"
+    ]
+  },
+  "Witch Doctor": {
+    "author": "BanYa",
+    "bpm": "195 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S10",
+      "S17",
+      "S19",
+      "S21",
+      "D11",
+      "D19",
+      "D22",
+      "D23",
+      "RT19",
+      "RT21"
+    ]
+  },
+  "Witch Doctor #1": {
+    "author": "Yahpp",
+    "bpm": "122 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S5",
+      "S8",
+      "S9",
+      "S16",
+      "S17",
+      "S19",
+      "D17",
+      "D20",
+      "D21",
+      "SP3",
+      "DP7"
+    ]
+  },
+  "With My Lover": {
+    "author": "BanYa",
+    "bpm": "124 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S5",
+      "S12",
+      "D14",
+      "D19"
+    ]
+  },
+  "X Treme": {
+    "author": "BanYa",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S5",
+      "S7",
+      "S10",
+      "S15",
+      "S18",
+      "D9",
+      "D13",
+      "D20"
+    ]
+  },
+  "X-Rave": {
+    "author": "DM Ashura",
+    "bpm": "147 BPM",
+    "length": "Short Cut",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S16",
+      "D18"
+    ]
+  },
+  "Xenesis": {
+    "author": "BanYa Production",
+    "bpm": "152 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S10",
+      "S14",
+      "S18",
+      "halfub",
+      "D12",
+      "D15",
+      "D18",
+      "SP1"
+    ]
+  },
+  "Xeroize": {
+    "author": "FE",
+    "bpm": "200 BPM",
+    "length": "Arcade",
+    "genre": "XROSS",
+    "difficulties": [
+      "S12",
+      "S17",
+      "S21",
+      "S24",
+      "D18",
+      "D22",
+      "D25"
+    ]
+  },
+  "XTREE": {
+    "author": "Yahpp",
+    "bpm": "190 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S2",
+      "S7",
+      "S12",
+      "S20",
+      "D15",
+      "D19",
+      "D22",
+      "SP2",
+      "DP3"
+    ]
+  },
+  "Xuxa": {
+    "author": "Smiley",
+    "bpm": "160 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S7",
+      "S9",
+      "S14",
+      "S15",
+      "halfub",
+      "D12",
+      "D12",
+      "D17",
+      "D17",
+      "Co-Op2",
+      "RT9"
+    ]
+  },
+  "XX OPENING": {
+    "author": "MAX",
+    "bpm": "175 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S11",
+      "S16",
+      "D12",
+      "D17"
+    ]
+  },
+  "Y2Z": {
+    "author": "Affinity",
+    "bpm": "162 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S6",
+      "S9",
+      "S9",
+      "S13",
+      "S16",
+      "halfub",
+      "D9",
+      "D10",
+      "D15",
+      "D17"
+    ]
+  },
+  "Yeo rae a": {
+    "author": "SID-Sound",
+    "bpm": "90 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S8",
+      "S13",
+      "D7",
+      "D10"
+    ]
+  },
+  "Yog-Sothoth": {
+    "author": "Nato",
+    "bpm": "200 BPM",
+    "length": "Short Cut",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S13",
+      "S18",
+      "S21",
+      "D16",
+      "D21"
+    ]
+  },
+  "Yoropiku Pikuyoro!": {
+    "author": "Bakusute Sotokanda Icchome",
+    "bpm": "198 BPM",
+    "length": "Arcade",
+    "genre": "J-MUSIC",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S9",
+      "S15",
+      "D5",
+      "D16",
+      "SP3",
+      "DP4"
+    ]
+  },
+  "You again my love": {
+    "author": "CYO Style",
+    "bpm": "137 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S6",
+      "S14",
+      "D6",
+      "D15",
+      "DP4"
+    ]
+  },
+  "YOU AND I": {
+    "author": "Dreamcatcher",
+    "bpm": "194 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S1",
+      "S4",
+      "S7",
+      "S13",
+      "S17",
+      "S21",
+      "D14",
+      "D17",
+      "D20",
+      "D25"
+    ]
+  },
+  "You Got Me Crazy": {
+    "author": "MAX",
+    "bpm": "128 BPM",
+    "length": "Arcade",
+    "genre": "ORIGINAL",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S9",
+      "S17",
+      "S18",
+      "D5",
+      "D18",
+      "DP4"
+    ]
+  },
+  "You're the best": {
+    "author": "MAMAMOO",
+    "bpm": "122 BPM",
+    "length": "Arcade",
+    "genre": "K-POP",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S6",
+      "S10",
+      "S15",
+      "D7",
+      "D10",
+      "D16",
+      "DP2",
+      "Co-Op2"
+    ]
+  },
+  "Z": {
+    "author": "DM Ashura",
+    "bpm": "75~150 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S9",
+      "S14",
+      "S20",
+      "D20"
+    ]
+  },
+  "Z - The New Legend": {
+    "author": "DM Ashura",
+    "bpm": "150 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S15",
+      "S18",
+      "S20",
+      "D8",
+      "D12",
+      "D16",
+      "D20"
+    ]
+  },
+  "\u03c0\u00b7\u03c1\u00b7maniac": {
+    "author": "DM Ashura",
+    "bpm": "148 BPM",
+    "length": "Arcade",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S3",
+      "S7",
+      "S10",
+      "S13",
+      "S16",
+      "S20",
+      "halfub",
+      "D7",
+      "D17",
+      "D21",
+      "DP4",
+      "RT13"
+    ]
+  },
+  "\u03c0\u00b7\u03c1\u00b7maniac (Full Song)": {
+    "author": "DM Ashura",
+    "bpm": "148 BPM",
+    "length": "Full Song",
+    "genre": "WORLD MUSIC",
+    "difficulties": [
+      "S9",
+      "S14",
+      "S19",
+      "D14",
+      "D20"
+    ]
+  }
+}

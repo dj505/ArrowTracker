@@ -1,6 +1,6 @@
 from flask import (render_template, url_for, flash, redirect, request, abort, Blueprint, current_app)
 from flask_login import current_user, login_required
-from app import db, logging
+from app import db, logging, raw_songdata
 from app.models import Post, WeeklyPost
 from app.scores.forms import ScoreForm, WeeklyForm
 from app.scores.utils import save_picture, allowed_file
@@ -36,7 +36,7 @@ def new_score():
         db.session.commit()
         flash('Score has been submitted!', 'success')
         return redirect(url_for('main.home'))
-    return render_template("new_score.html", title="New Score", form=form)
+    return render_template("new_score.html", title="New Score", form=form, songdata=raw_songdata)
 
 @scores.route('/post/<int:score_id>')
 def score(score_id):

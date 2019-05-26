@@ -2,7 +2,7 @@ from flask import Flask, current_app, logging
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
-from loadsongs import load_song_lists
+from loadsongs import load_song_lists, raw_songdata
 from flask_mail import Mail
 from app.config import Config
 

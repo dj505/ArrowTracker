@@ -8,6 +8,11 @@
       <meta property="og:url" content="https://arrowtracker.duckdns.org/">
       <meta name="theme-color" content="#99beea">
     {% endblock meta %}
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+      });
+    </script>
   {% endblock %}
 </head>
 {% block body %}
@@ -20,14 +25,14 @@
           <div class="col">
             {{ form.song.label(class="form-control-label") }}
             {% if form.song.errors %}
-              {{ form.song(class="form-control form-control-lg is-invalid") }}
+              {{ form.song(id="songDropdown", class="form-control form-control-lg is-invalid") }}
               <div class="invalid-feedback">
                 {% for error in form.song.errors %}
                   <span>{{ error }}</span>
                 {% endfor %}
               </div>
             {% else %}
-              {{ form.song(class="form-control form-control-lg") }}
+              {{ form.song(id="songDropdown", class="form-control form-control-lg") }}
             {% endif %}
           </div>
           <div class="col">
@@ -72,7 +77,10 @@
             {% endif %}
           </div>
           <div class="col">
-            {{ form.difficulty.label(class="form-control-label") }}
+            <div>
+              {{ form.difficulty.label(class="form-control-label") }}
+              <a style="color: #4fbcf7" data-toggle="tooltip" data-placement="top" title="Scroll to the bottom of the dropdown for Co-Op difficulties">[i]</a>
+            </div>
             {% if form.difficulty.errors %}
               {{ form.difficulty(class="form-control form-control-lg is-invalid") }}
               <div class="invalid-feedback">
