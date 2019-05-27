@@ -35,4 +35,4 @@ def load_song_lists():
     print(f'{numlists} List(s)')
     print(f'{numsongs} Song(s)')
     print(f'{numlengths} Length(s)')
-    return(songlist_pairs)
+    return(songlist_pairs, lengthtype_pairs)
