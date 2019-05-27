@@ -33,7 +33,7 @@
                 {% endfor %}
               </div>
             {% else %}
-              {{ form.song(id="songDropdown", class="form-control form-control-lg") }}
+              {{ form.song(id="songDropdown", class="form-control form-control-lg", onchange="updateSelectedSong()") }}
             {% endif %}
           </div>
           <div class="col">
@@ -95,6 +95,13 @@
               {{ form.difficulty.label(class="form-control-label") }}
               <a style="color: #4fbcf7" data-toggle="tooltip" data-placement="top" title="Scroll to the bottom of the dropdown for Co-Op difficulties">[i]</a>
             </div>
+            <select id="difficultyDropdown" class="form-control form-control-lg" name="diffDrop"></select>
+          </div>
+          <!--<div class="col">
+            <div>
+              {{ form.difficulty.label(class="form-control-label") }}
+              <a style="color: #4fbcf7" data-toggle="tooltip" data-placement="top" title="Scroll to the bottom of the dropdown for Co-Op difficulties">[i]</a>
+            </div>
             {% if form.difficulty.errors %}
               {{ form.difficulty(class="form-control form-control-lg is-invalid") }}
               <div class="invalid-feedback">
@@ -103,9 +110,9 @@
                 {% endfor %}
               </div>
             {% else %}
-              {{ form.difficulty(class="form-control form-control-lg") }}
+              {{ form.difficulty(id="difficultyDropdown", class="form-control form-control-lg") }}
             {% endif %}
-          </div>
+          </div>-->
         </div>
         <div class="form-row" style="padding: 5pt">
           <div class="col">
@@ -165,4 +172,26 @@
       </div>
     </form>
   </div>
+  <script>
+    data = {{ songdata | tojson | safe }}
+    var diffDrop = document.getElementById("difficultyDropdown");
+    var song = document.getElementById("songDropdown");
+
+    updateSelectedSong();
+
+    function updateSelectedSong() {
+      diffDrop.options.length = 0;
+
+      var strSong = song.options[song.selectedIndex].value;
+      var diffs = data[strSong]["difficulties"];
+
+      for(var i=0; i < diffs.length; i++) {
+        var option = document.createElement("OPTION"),
+          txt = document.createTextNode(diffs[i]);
+        option.appendChild(txt);
+        option.setAttribute("value",diffs[i]);
+        diffDrop.insertBefore(option,diffDrop.lastChild);
+      }
+    }
+  </script>
 {% endblock body %}

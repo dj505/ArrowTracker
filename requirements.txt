@@ -19,3 +19,4 @@ SQLAlchemy>=1.3.0
 Werkzeug>=0.14.1
 WTForms>=2.1
 apscheduler>=3.6.0
+dhooks>=1.1.0
