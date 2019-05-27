@@ -73,6 +73,7 @@ def user_posts(username):
     scores = Post.query.filter_by(author=user)\
         .order_by(Post.date_posted.desc())\
         .paginate(per_page=5, page=page)
+    difficulty = None
     for score in scores.items:
         difficulty = str(score.difficulty)
     return render_template("user_posts.html", scores=scores, difficulty=difficulty, user=user)
