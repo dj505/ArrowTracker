@@ -11,8 +11,8 @@ class SearchForm(FlaskForm):
     ("unranked-score", "Unverified, Score"),
     ("unranked-difficulty", "Unverified, Difficulty"))
     song = SelectField('Song', coerce=str, choices=[tuple(map(lambda x: x.decode('utf-8'), tup)) for tup in songlist_pairs])
+    length = SelectField('Length', coerce=str, choices=(('Arcade', 'Arcade'), ('Full Song', 'Full Song'), ('Short Cut', 'Short Cut')), validators=[DataRequired()])
     filters = SelectField('Filter', coerce=str, choices=filters)
-    userfilter = StringField('User [OPTIONAL]')
     submit = SubmitField('Search')
 
 class TournamentForm(FlaskForm):

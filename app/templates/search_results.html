@@ -15,6 +15,7 @@
 <div style="overflow: auto; max-width: 100%">
   <table class="table table-striped">
     <th>Song</th>
+    <th>Length</th>
     <th>Difficulty</th>
     <th>Letter Grade</th>
     <th>Score</th>
@@ -29,6 +30,7 @@
           <span style="padding-left: 5pt"><span class="badge badge-pill badge-success">Verified!</span></span>
         {% endif %}
       </td>
+      <td>{{score.length}}</td>
       <td>{{score.type.capitalize()}} {{score.difficulty}}</td>
       <td>{{score.lettergrade.upper()}}</td>
       <td>{{score.score}}</td>

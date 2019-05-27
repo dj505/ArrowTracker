@@ -23,9 +23,9 @@
         <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
       </div>
       {% if score.image_file != "None" %}
-        <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a></h2><h4><span class="badge badge-success">Verified!</span></h4>
+        <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }} ({{ score.length }})</a></h2><h4><span class="badge badge-success">Verified!</span></h4>
       {% else %}
-        <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a></h2>
+        <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }} ({{ score.length }}</a></h2>
       {% endif %}
       <div class="article-content">
         <div class="table-responsive">

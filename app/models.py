@@ -45,11 +45,12 @@ class Post(db.Model):
     platform = db.Column(db.String(8), nullable=False)
     stagepass = db.Column(db.String(5), nullable=False)
     ranked = db.Column(db.String(5), nullable=False)
+    length = db.Column(db.String(8), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     image_file = db.Column(db.String(20), nullable=False, default="None")
 
     def __repr__(self):
-        return f"Post('{self.song}', '{self.score}', '{self.lettergrade}', '{self.type}', '{self.difficulty}', '{self.platform}', '{self.stagepass}', '{self.ranked}')"
+        return f"Post('{self.song}', '{self.score}', '{self.lettergrade}', '{self.type}', '{self.difficulty}', '{self.platform}', '{self.stagepass}', '{self.ranked}', '{self.length}')"
 
 class WeeklyPost(db.Model):
     id = db.Column(db.Integer, primary_key=True)

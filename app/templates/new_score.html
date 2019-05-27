@@ -36,6 +36,19 @@
             {% endif %}
           </div>
           <div class="col">
+            {{ form.length.label(class="form-control-label") }}
+            {% if form.length.errors %}
+              {{ form.length(id="lengthDropdown", class="form-control form-control-lg is-invalid") }}
+              <div class="invalid-feedback">
+                {% for error in form.length.errors %}
+                  <span>{{ error }}</span>
+                {% endfor %}
+              </div>
+            {% else %}
+              {{ form.length(class="form-control form-control-lg") }}
+            {% endif %}
+          </div>
+          <div class="col">
             {{ form.score.label(class="form-control-label") }}
             {% if form.score.errors %}
               {{ form.score(class="form-control form-control-lg is-invalid") }}
