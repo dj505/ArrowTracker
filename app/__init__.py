@@ -6,7 +6,7 @@ from loadsongs import load_song_lists, raw_songdata
 from flask_mail import Mail
 from app.config import Config
 
-songlist_pairs = load_song_lists()
+songlist_pairs, lengthtype_pairs = load_song_lists()
 
 difficulties = []
 coop = ["2P", "3P", "4P", "5P"]

@@ -14,6 +14,7 @@ scores = Blueprint('scores', __name__)
 def new_score():
     form = ScoreForm()
     if form.validate_on_submit():
+        difficulty = request.form.get('diffDrop')
         try:
             file = request.files['file']
         except:
@@ -31,7 +32,7 @@ def new_score():
             elif file and not allowed_file(file.filename):
                 picture_file = "None"
                 flash('You can\'t upload that!', 'error')
-        post = Post(song = form.song.data, score = form.score.data, lettergrade = form.lettergrade.data, type = form.type.data, difficulty = form.difficulty.data, platform = form.platform.data, stagepass = form.stagepass.data, ranked = form.ranked.data, length = form.length.data, author = current_user, image_file = picture_file)
+        post = Post(song = form.song.data, score = form.score.data, lettergrade = form.lettergrade.data, difficulty = difficulty, platform = form.platform.data, stagepass = form.stagepass.data, ranked = form.ranked.data, length = form.length.data, author = current_user, image_file = picture_file)
         db.session.add(post)
         db.session.commit()
         flash('Score has been submitted!', 'success')
