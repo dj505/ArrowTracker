@@ -49,4 +49,4 @@ def randomize_weekly(app):
             create_json(item)
         db.session.query(WeeklyPost).delete()
         db.session.commit()
-    #send_webhook.notify(newsong.decode('utf-8'))
+    send_webhook.notify(newsong.decode('utf-8'), raw_songdata[newsong.decode('utf-8')]['length'])
