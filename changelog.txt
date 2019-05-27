@@ -1,10 +1,15 @@
-Latest Update (2019-05-22)
+Latest Update (2019-05-26)
+- Fixed error 500 when checking a user's page that has no scores uploaded
+- Major changes to song loading (may break leaderboard temporarily)
+- Added song length option
+
+Last Update (2019-05-22)
 - Score deletion from Weekly Challenge now works properly
 - Weekly challenge should now update weekly as intended
 - Updated Weekly Challenge page
   - Score submission window is now collapsible!
 
-Last Update (2019-05-10)
+Changes (2019-05-10)
 - Weekly challenge added!
   - Every week a new song is set for the weekly challenge
   - Users upload their scores which are displayed on a leaderboard
