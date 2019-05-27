@@ -1,6 +1,6 @@
 from loadsongs import load_song_lists
 from app.models import WeeklyPost
-from app import db, current_app
+from app import db, current_app, raw_songdata
 import datetime
 import random
 import json
@@ -11,7 +11,7 @@ import send_webhook
 def get_current_weekly():
     with open('weekly.json', 'r') as f:
         weeklylist = json.load(f)
-    return weeklylist['song']
+    return [weeklylist['song'], weeklylist['length']]
 
 def create_json(item):
     scoredict = {
@@ -39,7 +39,8 @@ def randomize_weekly(app):
     with open('weekly.json', 'r') as f:
         weeklyjson = json.load(f)
     newsong = random.choice(load_song_lists())[0]
-    weeklyjson['song'] = newsong
+    weeklyjson['song'] = newsong.decode('utf-8')
+    weeklyjson['length'] = raw_songdata[newsong.decode('utf-8')]['length']
     with open('weekly.json', 'w') as f:
         json.dump(weeklyjson, f, indent=2)
     with app.app_context():
@@ -48,4 +49,4 @@ def randomize_weekly(app):
             create_json(item)
         db.session.query(WeeklyPost).delete()
         db.session.commit()
-    send_webhook.notify(newsong)
+    #send_webhook.notify(newsong.decode('utf-8'))

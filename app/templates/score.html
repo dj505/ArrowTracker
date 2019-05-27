@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 <head>
   {% block head %}
-    {% block title %}<title>{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}</title>{% endblock %}
+    {% block title %}<title>{{ score.song }} | {{ score.length }} {{score.type[0].capitalize()}}{{score.difficulty}}</title>{% endblock %}
     {% block meta %}
       <meta property="og:title" content="{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}"/>
       <meta property="og:description" content="Score: {{score.score}} | Grade: {{score.lettergrade.upper()}} | Author: {{score.author.username}}"/>
@@ -26,7 +26,7 @@
         <a class="mr-2" href="#">{{ score.author.username }}</a>
         <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
       </div>
-      <h2 class="article-title">{{ score.song }}</h2>
+      <h2 class="article-title">{{ score.song }} | {{ score.length }}</h2>
       <div style="padding: 10px">
         <table class="table">
           <thead class="thead-dark">

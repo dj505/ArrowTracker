@@ -12,7 +12,11 @@ main = Blueprint('main', __name__)
 
 @main.route("/")
 def home():
-    flashmsg = Markup(f'New update! 2019-04-29 | <a href="/changelog">View Changelog</a>')
+    flashmsg = Markup(f'''
+Arrow Tracker is still in early development! | <a href="/changelog">View update changelog</a><br /><br />
+<b>IMPORTANT:</b> Old scores (any score with "None" in the title) may no longer show up under the leaderboard.<br />
+The "None" signifies the lack of a specified song length, the option for which was not implemented when the score was submitted.
+''')
     flash(flashmsg, 'secondary')
     page = request.args.get('page', 1, type=int)
     scores = Post.query.order_by(Post.date_posted.desc()).paginate(per_page=15, page=page)
@@ -29,20 +33,20 @@ def search():
     if request.method == "POST" and form.validate():
         session['song_search'] = form.song.data
         session['filters'] = form.filters.data
-        session['userfilter'] = form.userfilter.data
+        session['length'] = form.length.data
         return redirect(url_for('main.search_results'))
     return render_template("search.html", songlist=songlist_pairs, form=form)
 
 @main.route('/search_results/')
 def search_results():
     if session['filters'] == 'ranked-score':
-        results = Post.query.filter(Post.song == session['song_search'], Post.platform == 'pad', Post.image_file != "None").order_by(desc(Post.score))
+        results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], Post.platform == 'pad', Post.image_file != "None").order_by(desc(Post.score))
     elif session['filters'] == 'unranked-score':
-        results = Post.query.filter(Post.song == session['song_search'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad')).order_by(desc(Post.score))
+        results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad'), Post.image_file == "None").order_by(desc(Post.score))
     if session['filters'] == 'ranked-difficulty':
-        results = Post.query.filter(Post.song == session['song_search'], Post.platform == 'pad', Post.image_file != "None").order_by(desc(Post.difficulty))
+        results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], Post.platform == 'pad', Post.image_file != "None").order_by(desc(Post.difficulty))
     elif session['filters'] == 'unranked-difficulty':
-        results = Post.query.filter(Post.song == session['song_search'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad')).order_by(desc(Post.difficulty))
+        results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad'), Post.image_file == "None").order_by(desc(Post.difficulty))
     return render_template("search_results.html", results=results)
 
 @main.route('/changelog')

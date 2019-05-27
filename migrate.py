@@ -36,6 +36,7 @@ class Post(db.Model):
     platform = db.Column(db.String(8), nullable=False)
     stagepass = db.Column(db.String(5), nullable=False)
     ranked = db.Column(db.String(5), nullable=False)
+    length = db.Column(db.String(8), nullable=True, default="N/A")
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     image_file = db.Column(db.String(20), nullable=False, default="None")
 
