@@ -9,10 +9,10 @@ url = parser.get('webhooks', 'url')
 
 hook = Webhook(url)
 
-def notify(updatedata):
+def notify(updatedata, length):
     embed = Embed(
         title="Weekly Challenge Update",
-        description=f"New song is \"{updatedata}\"",
+        description=f"New song is \"{updatedata}\" ({length})",
         color=0x99beea,
         timestamp='now'
     )
