@@ -50,17 +50,11 @@
             {% endif %}
           </div>
           <div class="col">
-            {{ form.score.label(class="form-control-label") }}
-            {% if form.score.errors %}
-              {{ form.score(class="form-control form-control-lg is-invalid") }}
-              <div class="invalid-feedback">
-                {% for error in form.score.errors %}
-                  <span>{{ error }}</span>
-                {% endfor %}
-              </div>
-            {% else %}
-              {{ form.score(class="form-control form-control-lg") }}
-            {% endif %}
+            <div>
+              <label class="form-control-label" for="difficulty">Difficulty</label>
+              <a style="color: #4fbcf7" data-toggle="tooltip" data-placement="top" title="Scroll to the bottom of the dropdown for Co-Op difficulties">[i]</a>
+            </div>
+            <select id="difficultyDropdown" class="form-control form-control-lg" name="diffDrop"></select>
           </div>
         </div>
         <div class="form-row" style="padding: 5pt">
@@ -78,11 +72,17 @@
             {% endif %}
           </div>
           <div class="col">
-            <div>
-              <label class="form-control-label" for="difficulty">Difficulty</label>
-              <a style="color: #4fbcf7" data-toggle="tooltip" data-placement="top" title="Scroll to the bottom of the dropdown for Co-Op difficulties">[i]</a>
-            </div>
-            <select id="difficultyDropdown" class="form-control form-control-lg" name="diffDrop"></select>
+            {{ form.score.label(class="form-control-label") }}
+            {% if form.score.errors %}
+              {{ form.score(class="form-control form-control-lg is-invalid") }}
+              <div class="invalid-feedback">
+                {% for error in form.score.errors %}
+                  <span>{{ error }}</span>
+                {% endfor %}
+              </div>
+            {% else %}
+              {{ form.score(class="form-control form-control-lg") }}
+            {% endif %}
           </div>
         </div>
         <div class="form-row" style="padding: 5pt">
@@ -131,6 +131,7 @@
       </div>
       <div style="padding: 5pt">
         <div class="form-row">
+          <label class="form-control-label" for="image_file">Verification Image</label>
           <div class="custom-file">
             <input type="file" name="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
             <label class="custom-file-label" for="inputGroupFile01"><span class="span-choose-file">Add Verification Image<span></label>
