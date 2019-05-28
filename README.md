@@ -27,3 +27,7 @@ Arrow Tracker is a functional online leaderboard and score tracker built for Pum
 2. Create the database (more on this soon)
 3. Fill in the settings
 4. Run `run.py` and connect to `localhost:5000`
+
+## Credits
+
+* Pump Out (Song database and thumbnail image source)

@@ -2,7 +2,7 @@ from flask import render_template, request, Blueprint, current_app, session, red
 from flask_login import current_user, login_required
 from app.main.forms import SearchForm, TournamentForm, TournamentEditForm
 from app.models import Post, Tournament
-from app import songlist_pairs, difficulties, db
+from app import songlist_pairs, difficulties, db, raw_songdata
 from sqlalchemy import desc, or_
 from app.config import GetChangelog
 from app.main.utils import save_picture, allowed_file
@@ -21,7 +21,7 @@ The "None" signifies the lack of a specified song length, the option for which w
     page = request.args.get('page', 1, type=int)
     scores = Post.query.order_by(Post.date_posted.desc()).paginate(per_page=15, page=page)
     total = db.engine.execute('select count(*) from Post').scalar()
-    return render_template("home.html", scores=scores, total=total)
+    return render_template("home.html", scores=scores, total=total, songdata=raw_songdata)
 
 @main.route('/about')
 def about():
