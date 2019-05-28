@@ -27,8 +27,16 @@
         <a class="mr-2" href="#">{{ score.author.username }}</a>
         <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
       </div>
-      <h2 class="article-title">{{ score.song }} | {{ score.length }}</h2>
-      <div style="padding: 10px">
+      <div>
+        <h2 class="article-title">
+          {{ score.song }}
+          {% if score.song in songdata %}
+            <img class="rounded float-right" style="padding-right: 5pt; padding-top: 5pt; padding-bottom: 5pt;" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
+          {% endif %}
+        </h2>
+        <h3>{{ score.length }}</h3>
+      </div>
+      <div style="padding: 5pt">
         <table class="table">
           <thead class="thead-dark">
             <tr>

@@ -45,7 +45,7 @@ def score(score_id):
     goldgrades = ['s', 'ss', 'sss']
     redgrades = ['f']
     score = Post.query.get_or_404(score_id)
-    return render_template('score.html', score=score, bluegrades=bluegrades, goldgrades=goldgrades, redgrades=redgrades)
+    return render_template('score.html', score=score, songdata=raw_songdata, bluegrades=bluegrades, goldgrades=goldgrades, redgrades=redgrades)
 
 @scores.route('/post/<int:score_id>/delete', methods=["POST"])
 def delete_score(score_id):

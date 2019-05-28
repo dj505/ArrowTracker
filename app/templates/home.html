@@ -25,7 +25,9 @@
           </div>
           <h2>
             {% if score.song in songdata %}
-              <img class="rounded float-right" width="170pt" style="padding-right: 5pt; padding-top: 5pt;" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
+            <div style="padding-right: 5pt; padding-top: 5pt; padding-bottom: 5pt">
+              <img class="rounded float-right" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
+            </div>
             {% endif %}
             <a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a>
           </h2>
