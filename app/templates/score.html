@@ -49,7 +49,12 @@
                   <span class="badge badge-pill badge-success">Verified!</span>
                 {% endif %}
               </td>
-              <td>{{score.type.capitalize()}} {{score.difficulty}}</td>
+              <td>
+                {% if score.type != "None" %}
+                  {{score.type.capitalize()}}
+                {% endif %}
+                {{score.difficulty}}
+              </td>
               <td>{{score.lettergrade.upper()}}</td>
               <td>{{score.score}}</td>
               {% if score.stagepass == "True" %}
