@@ -128,5 +128,5 @@ app/static/archived_weekly*
 migrations/
 app/static/rivals/*.json
 weekly.json
-
+app/static/songthumbs/*.png
 site.SQLALCHEMY_DATABASE_URI

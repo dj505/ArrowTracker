@@ -1,4 +1,5 @@
 import requests
+import urllib.request
 from bs4 import BeautifulSoup
 import re
 import time
@@ -51,6 +52,9 @@ while pagenum <= totalpages:
         data[song]['bpm'] = re.sub(r'\s+', ' ', match.a.div.find('div', class_='hidden-lg').div.span.text.strip())
         data[song]['length'] = match.a.div.find('div', class_='media-body').find('div', class_='hidden-lg').div.find('span', class_='badge bg-inverse').text
         data[song]['genre'] = match.a.div.find('div', class_='media-body').find('div', class_='hidden-lg').div.find('span', class_='badge bg-success').text
+        data[song]['id'] = f'{id}'
+        thumburl = 'https://pumpout.anyhowstep.com' + match.a.div.find('img', class_='thumb-large')['src']
+        urllib.request.urlretrieve(thumburl, f'app/static/songthumbs/{id}.png')
         difflist = []
         for diff in match.a.div.find('div', class_='shift').find_all('img'):
             diff = diff['src'].split('/')[-1].replace('half_double', 'half-double')
