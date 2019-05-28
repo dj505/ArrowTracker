@@ -23,12 +23,19 @@
             <a class="mr-2" href="{{ url_for('users.user_posts', username=score.author.username) }}">{{ score.author.username }}</a>
             <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
           </div>
+          <h2>
+            {% if score.song in songdata %}
+              <img class="rounded float-right" width="170pt" style="padding-right: 5pt; padding-top: 5pt;" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
+            {% endif %}
+            <a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a>
+          </h2>
+          <h3>
+            {{score.length}}
+          </h3>
           {% if score.image_file != "None" and score.platform == "pad" %}
-            <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }} ({{ score.length }})</a></h2><h4><span class="badge badge-success">Verified!</span></h4>
+            <h4><span class="badge badge-success">Verified!</span></h4>
           {% elif score.image_file != "None" and score.platform != "pad" %}
-            <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }} ({{ score.length }})</a></h2><h4><span class="badge badge-info">Verified SF2!</span></h4>
-          {% else %}
-            <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }} ({{ score.length }})</a></h2>
+            <h4><span class="badge badge-info">Verified SF2!</span></h4>
           {% endif %}
           <div class="article-content">
             <div class="table-responsive">
