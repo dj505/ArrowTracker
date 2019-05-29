@@ -45,6 +45,15 @@ def logout():
     logout_user()
     return redirect(url_for('main.home'))
 
+@users.route('/dashboard/updatepfp', methods=["POST"])
+@login_required
+def update_pfp():
+    if request.method == 'POST':
+        current_user.image_file = request.form['submit_button']
+        db.session.commit()
+        flash('Profile image updated!', 'success')
+    return redirect(url_for('users.dashboard'))
+
 @users.route('/dashboard', methods=["GET", "POST"])
 @login_required
 def dashboard():

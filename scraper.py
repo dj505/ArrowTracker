@@ -47,10 +47,13 @@ while pagenum <= totalpages:
     pumpout = BeautifulSoup(page.text, 'html.parser')
     for match in pumpout.find_all('div', class_='list-group-item'):
         song = match.a.div.find('div', class_='media-body').contents[0].strip()
+        length = match.a.div.find('div', class_='media-body').find('div', class_='hidden-lg').div.find('span', class_='badge bg-inverse').text
+        if length == "Full Song":
+            song = song + ' [Full Song]'
         data[song] = {}
+        data[song]['length'] = length
         data[song]['author'] = match.a.div.find('div', class_='media-body').find('span', class_='label bg-primary').text
         data[song]['bpm'] = re.sub(r'\s+', ' ', match.a.div.find('div', class_='hidden-lg').div.span.text.strip())
-        data[song]['length'] = match.a.div.find('div', class_='media-body').find('div', class_='hidden-lg').div.find('span', class_='badge bg-inverse').text
         data[song]['genre'] = match.a.div.find('div', class_='media-body').find('div', class_='hidden-lg').div.find('span', class_='badge bg-success').text
         data[song]['id'] = f'{id}'
         thumburl = 'https://pumpout.anyhowstep.com' + match.a.div.find('img', class_='thumb-large')['src']
