@@ -50,14 +50,18 @@ def score(score_id):
 @scores.route('/post/<int:score_id>/delete', methods=["POST"])
 def delete_score(score_id):
     score = Post.query.get_or_404(score_id)
-    if score.author != current_user or current_user.id == 1:
+    if score.author == current_user or current_user.id == 1:
+        if score.image_file != "None":
+            try:
+                os.remove(os.path.join(current_app.root_path, 'static/score_screenshots', score.image_file))
+            except:
+                flash('Score screenshot couldn\'t be found.', 'info')
+        db.session.delete(score)
+        db.session.commit()
+        flash('Your score has been deleted!', 'success')
+        return redirect(url_for('main.home'))
+    elif score.author != current_user:
         abort(403)
-    if score.image_file != "None":
-        os.remove(os.path.join(current_app.root_path, 'static/score_screenshots', score.image_file))
-    db.session.delete(score)
-    db.session.commit()
-    flash('Your score has been deleted!', 'success')
-    return redirect(url_for('main.home'))
 
 @scores.route('/challenge/weekly/<int:score_id>/delete', methods=["POST"])
 def delete_weekly(score_id):
