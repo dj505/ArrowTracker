@@ -86,7 +86,7 @@
         <img src="{{ url_for('static', filename='score_screenshots/' + score.image_file) }}" class="rounded mx-auto d-block img-fluid">
       </div>
       {% endif %}
-      {% if score.author == current_user %}
+      {% if score.author == current_user or current_user.id == 1 %}
       <div>
         <form action="{{ url_for('scores.delete_score', score_id=score.id) }}" method="POST">
           <input type="submit" class="btn btn-danger m-1" value="Delete">
