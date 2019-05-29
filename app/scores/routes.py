@@ -50,7 +50,7 @@ def score(score_id):
 @scores.route('/post/<int:score_id>/delete', methods=["POST"])
 def delete_score(score_id):
     score = Post.query.get_or_404(score_id)
-    if score.author != current_user:
+    if score.author != current_user or current_user.id == 1:
         abort(403)
     if score.image_file != "None":
         os.remove(os.path.join(current_app.root_path, 'static/score_screenshots', score.image_file))
