@@ -41,6 +41,7 @@ pagenum = 1
 id = 0
 data = {}
 
+# Pump Out scraping
 while pagenum <= totalpages:
     pumpouturl = f"https://pumpout.anyhowstep.com/search/results?display=song&page={pagenum}"
     page = requests.get(pumpouturl)
@@ -69,4 +70,4 @@ while pagenum <= totalpages:
     pagenum += 1
 
 with open('app/static/gamelists/Pump it Up/complete.json', 'w') as f:
-    json.dump(data, f, indent=2)
+       json.dump(data, f, indent=2)

@@ -31,3 +31,8 @@ Arrow Tracker is a functional online leaderboard and score tracker built for Pum
 ## Credits
 
 * Pump Out (Song database and thumbnail image source)
+* Andamiro (Prime 2 profile images)
+
+### DISCLAIMER
+
+I do not own any of the Pump it Up Prime 2 profile images, song banners, or song thumbnails used in this project. All copyrights there go to their respective owners. The rest of the site (everything outside of the `default` profile images and the things in `app/static/songthumbs`) is owned by myself and the contributors of this repository.
