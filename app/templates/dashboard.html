@@ -23,7 +23,10 @@
       <legend class="border-bottom mb-4">Update Account Details</legend>
       <div>
         <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#premadePfp" aria-expanded="false" aria-controls="collapseExample">
-          Pick a Profile Image
+          ArrowTracker Profile Images
+        </button>
+        <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#premadePfpP2" aria-expanded="false" aria-controls="collapseExample">
+          Prime 2 Profile Images
         </button>
       </div><br>
       <div class="content-section collapse" id="premadePfp">
@@ -51,6 +54,46 @@
             <button type="submit" class="btn btn-secondary" name="submit_button" value="default11.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/default11.jpg') }}" /></button>
             <button type="submit" class="btn btn-secondary" name="submit_button" value="default14.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/default14.jpg') }}" /></button>
             <button type="submit" class="btn btn-secondary" name="submit_button" value="default15.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/default15.jpg') }}" /></button>
+          </div><br>
+        </form>
+      </div>
+      <div class="content-section collapse" id="premadePfpP2">
+        <form action="{{ url_for('users.update_pfp') }}" method="POST">
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_1.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_1.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_2.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_2.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_3.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_3.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_4.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_4.jpg') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_5.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_5.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_6.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_6.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_7.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_7.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_8.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_8.jpg') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_9.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_9.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_10.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_10.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_11.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_11.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_12.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_12.jpg') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_13.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_13.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_14.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_14.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_15.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_15.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_16.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_16.jpg') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_17.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_17.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_18.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_18.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_19.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_19.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_20.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_20.jpg') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_21.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_21.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_22.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_22.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_23.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_23.jpg') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultp2_24.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultp2_24.jpg') }}" /></button>
           </div><br>
         </form>
       </div>
