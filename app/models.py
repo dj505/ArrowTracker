@@ -58,7 +58,7 @@ class WeeklyPost(db.Model):
     song = db.Column(db.String(50), nullable=False)
     score = db.Column(db.Integer, nullable=False)
     lettergrade = db.Column(db.String(3), nullable=False)
-    type = db.Column(db.String(7), nullable=False)
+    type = db.Column(db.String(20), nullable=False)
     difficulty = db.Column(db.Integer, nullable=False)
     platform = db.Column(db.String(8), nullable=False)
     stagepass = db.Column(db.String(5), nullable=False)

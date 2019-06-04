@@ -8,6 +8,8 @@ import app
 import os
 import send_webhook
 
+songpairs, songtypes = load_song_lists()
+
 def get_current_weekly():
     with open('weekly.json', 'r') as f:
         weeklylist = json.load(f)
@@ -38,9 +40,10 @@ def randomize_weekly(app):
     songs = load_song_lists()
     with open('weekly.json', 'r') as f:
         weeklyjson = json.load(f)
-    newsong = random.choice(load_song_lists())[0]
+    newsong = random.choice(songpairs)[0]
     weeklyjson['song'] = newsong.decode('utf-8')
     weeklyjson['length'] = raw_songdata[newsong.decode('utf-8')]['length']
+    weeklyjson['diffs'] = raw_songdata[newsong.decode('utf-8')]['difficulties']
     with open('weekly.json', 'w') as f:
         json.dump(weeklyjson, f, indent=2)
     with app.app_context():

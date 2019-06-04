@@ -66,19 +66,6 @@
               {% endif %}
             </div>
             <div class="col">
-              {{ form.type.label(class="form-control-label") }}
-              {% if form.type.errors %}
-                {{ form.type(class="form-control form-control-lg is-invalid") }}
-                <div class="invalid-feedback">
-                  {% for error in form.type.errors %}
-                    <span>{{ error }}</span>
-                  {% endfor %}
-                </div>
-              {% else %}
-                {{ form.type(class="form-control form-control-lg") }}
-              {% endif %}
-            </div>
-            <div class="col">
               <div>
                 {{ form.difficulty.label(class="form-control-label") }}
                 <a style="color: #4fbcf7" data-toggle="tooltip" data-placement="top" title="Scroll to the bottom of the dropdown for Co-Op difficulties">[i]</a>
