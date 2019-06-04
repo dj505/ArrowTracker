@@ -2,14 +2,14 @@ from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileAllowed
 from wtforms import StringField, SubmitField, TextAreaField, SelectField, IntegerField
 from wtforms.validators import DataRequired
-from app import songlist_pairs
+from app import songlist_pairs, raw_songdata
 
 class SearchForm(FlaskForm):
     filters = (
-    ("ranked-score", "Verified, Score"),
-    ("ranked-difficulty", "Verified, Difficulty"),
-    ("unranked-score", "Unverified, Score"),
-    ("unranked-difficulty", "Unverified, Difficulty"))
+    ("verified-score", "Verified, Score"),
+    ("verified-difficulty", "Verified, Single Difficulty"),
+    ("unverified-score", "Unverified, Score"),
+    ("unverified-difficulty", "Unverified, Difficulty"))
     song = SelectField('Song', coerce=str, choices=[tuple(map(lambda x: x.decode('utf-8'), tup)) for tup in songlist_pairs])
     length = SelectField('Length', coerce=str, choices=(('Arcade', 'Arcade'), ('Full Song', 'Full Song'), ('Short Cut', 'Short Cut')), validators=[DataRequired()])
     filters = SelectField('Filter', coerce=str, choices=filters)

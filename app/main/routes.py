@@ -39,13 +39,13 @@ def search():
 
 @main.route('/search_results/')
 def search_results():
-    if session['filters'] == 'ranked-score':
+    if session['filters'] == 'verified-score':
         results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], Post.platform == 'pad', Post.image_file != "None").order_by(desc(Post.score))
-    elif session['filters'] == 'unranked-score':
+    elif session['filters'] == 'unverified-score':
         results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad'), Post.image_file == "None").order_by(desc(Post.score))
-    if session['filters'] == 'ranked-difficulty':
+    if session['filters'] == 'verified-difficulty':
         results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], Post.platform == 'pad', Post.image_file != "None").order_by(desc(Post.difficulty))
-    elif session['filters'] == 'unranked-difficulty':
+    elif session['filters'] == 'unverified-difficulty':
         results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad'), Post.image_file == "None").order_by(desc(Post.difficulty))
     return render_template("search_results.html", results=results)
 
