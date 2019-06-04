@@ -6,6 +6,7 @@ Latest Update (2019-06-04)
 - Songs and thumbnails are scraped from Pump Out, the script to do this for yourself is on the GitHub repo
   - Check the Info & About / Resources tab for the site's source code!
 - Began work on new leaderboard options
+- Removed mentions of Arrow Tracker being Pump it Up XX exclusive
 - Various minor bug fixes
 
 Last Update (2019-05-26)
