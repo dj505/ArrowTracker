@@ -7,6 +7,7 @@ Latest Update (2019-06-04)
   - Check the Info & About / Resources tab for the site's source code!
 - Began work on new leaderboard options
 - Removed mentions of Arrow Tracker being Pump it Up XX exclusive
+- Moved weekly challenge system to new score system, only relevant difficulties are displayed
 - Various minor bug fixes
 
 Last Update (2019-05-26)
