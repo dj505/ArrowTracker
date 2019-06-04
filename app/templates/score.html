@@ -1,7 +1,13 @@
 {% extends "layout.html" %}
 <head>
   {% block head %}
-    {% block title %}<title>{{ score.song }} | {{ score.length }} {{score.type[0].capitalize()}}{{score.difficulty}}</title>{% endblock %}
+    {% block title %}
+      {% if score.type == "None" %}
+        <title>{{ score.song }} | {{ score.length }} {{score.difficulty}}</title>
+      {% else %}
+        <title>{{ score.song }} | {{score.type[0].capitalize()}}{{score.difficulty}}</title>
+      {% endif %}
+    {% endblock %}
     {% block meta %}
       <meta property="og:title" content="{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}"/>
       <meta property="og:description" content="Score: {{score.score}} | Grade: {{score.lettergrade.upper()}} | Author: {{score.author.username}}"/>
@@ -52,7 +58,7 @@
           </thead>
           <tbody>
             <tr>
-              <td><a href="/score/{{score.id}}">{{score.song}}</a>
+              <td><a href="#">{{score.song}}</a>
                 {% if score.id in images %}
                   <span class="badge badge-pill badge-success">Verified!</span>
                 {% endif %}
