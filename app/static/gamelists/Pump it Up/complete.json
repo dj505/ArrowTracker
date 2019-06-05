@@ -93,12 +93,24 @@
       "DP4"
     ]
   },
+  "86 [Full Song]": {
+    "length": "Full Song",
+    "author": "Dasu",
+    "bpm": "167 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "6",
+    "difficulties": [
+      "S16",
+      "S21",
+      "D23"
+    ]
+  },
   "86": {
     "length": "Arcade",
     "author": "Dasu",
     "bpm": "167 BPM",
     "genre": "WORLD MUSIC",
-    "id": "6",
+    "id": "7",
     "difficulties": [
       "S12",
       "S16",
@@ -106,18 +118,6 @@
       "D18",
       "D21",
       "DP3"
-    ]
-  },
-  "86 [Full Song]": {
-    "length": "Full Song",
-    "author": "Dasu",
-    "bpm": "167 BPM",
-    "genre": "WORLD MUSIC",
-    "id": "7",
-    "difficulties": [
-      "S16",
-      "S21",
-      "D23"
     ]
   },
   "A nightmare": {
@@ -1076,7 +1076,7 @@
       "D21"
     ]
   },
-  "Beat the Ghost": {
+  "Beat the Ghost [Short Cut]": {
     "length": "Short Cut",
     "author": "BanYa Production",
     "bpm": "124 BPM",
@@ -1197,7 +1197,7 @@
       "DP3"
     ]
   },
-  "Bemera": {
+  "Bemera [Short Cut]": {
     "length": "Short Cut",
     "author": "Yahpp",
     "bpm": "210 BPM",
@@ -1409,26 +1409,12 @@
       "D20"
     ]
   },
-  "Blow [Full Song]": {
-    "length": "Full Song",
-    "author": "Future Funk Squad",
-    "bpm": "130 BPM",
-    "genre": "WORLD MUSIC",
-    "id": "88",
-    "difficulties": [
-      "S12",
-      "S17",
-      "D13",
-      "D19",
-      "RT14"
-    ]
-  },
   "Blow": {
     "length": "Arcade",
     "author": "Future Funk Squad",
     "bpm": "130 BPM",
     "genre": "WORLD MUSIC",
-    "id": "89",
+    "id": "88",
     "difficulties": [
       "S2",
       "S4",
@@ -1443,6 +1429,20 @@
       "D16",
       "D19",
       "RT10"
+    ]
+  },
+  "Blow [Full Song]": {
+    "length": "Full Song",
+    "author": "Future Funk Squad",
+    "bpm": "130 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "89",
+    "difficulties": [
+      "S12",
+      "S17",
+      "D13",
+      "D19",
+      "RT14"
     ]
   },
   "Blowin It Up": {
@@ -1628,6 +1628,20 @@
       "D11",
       "D16",
       "RT16"
+    ]
+  },
+  "Bullfighter's Song [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa Production",
+    "bpm": "168 BPM",
+    "genre": "ORIGINAL",
+    "id": "101",
+    "difficulties": [
+      "S5",
+      "S8",
+      "S10",
+      "S16",
+      "D11"
     ]
   },
   "Bullfighter's Song": {
@@ -1910,7 +1924,7 @@
       "D25"
     ]
   },
-  "CHICKEN WING": {
+  "CHICKEN WING [Short Cut]": {
     "length": "Short Cut",
     "author": "BanYa",
     "bpm": "200 BPM",
@@ -2056,6 +2070,27 @@
     ]
   },
   "Cleaner": {
+    "length": "Arcade",
+    "author": "Doin",
+    "bpm": "203 BPM",
+    "genre": "ORIGINAL",
+    "id": "128",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S12",
+      "S17",
+      "S21",
+      "S23",
+      "D13",
+      "D20",
+      "D22",
+      "D25",
+      "D26",
+      "RT17"
+    ]
+  },
+  "Cleaner [Short Cut]": {
     "length": "Short Cut",
     "author": "Doin",
     "bpm": "203 BPM",
@@ -2517,7 +2552,7 @@
     "author": "Magic Hammer",
     "bpm": "165 BPM",
     "genre": "WORLD MUSIC",
-    "id": "158",
+    "id": "157",
     "difficulties": [
       "S1",
       "S4",
@@ -2533,6 +2568,29 @@
       "D20",
       "SP4",
       "RT17"
+    ]
+  },
+  "Dance on Fire: Retribution [Short Cut]": {
+    "length": "Short Cut",
+    "author": "Magic Hammer",
+    "bpm": "165 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "158",
+    "difficulties": [
+      "S6",
+      "S15",
+      "D4",
+      "D16"
+    ]
+  },
+  "Dance Vibrations [Short Cut]": {
+    "length": "Short Cut",
+    "author": "Elpis",
+    "bpm": "130 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "159",
+    "difficulties": [
+      "S16"
     ]
   },
   "Dance Vibrations": {
@@ -2663,6 +2721,26 @@
     ]
   },
   "Death Moon": {
+    "length": "Arcade",
+    "author": "SHK",
+    "bpm": "160 BPM",
+    "genre": "XROSS",
+    "id": "168",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S11",
+      "S14",
+      "S17",
+      "S19",
+      "D7",
+      "D17",
+      "D21",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Death Moon [Short Cut]": {
     "length": "Short Cut",
     "author": "SHK",
     "bpm": "160 BPM",
@@ -2733,6 +2811,25 @@
     ]
   },
   "Destination": {
+    "length": "Arcade",
+    "author": "SHK",
+    "bpm": "150 BPM",
+    "genre": "ORIGINAL",
+    "id": "174",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S12",
+      "S17",
+      "S19",
+      "S20",
+      "D14",
+      "D20",
+      "DP5",
+      "RT16"
+    ]
+  },
+  "Destination [Short Cut]": {
     "length": "Short Cut",
     "author": "SHK",
     "bpm": "150 BPM",
@@ -3271,6 +3368,18 @@
       "D19"
     ]
   },
+  "Energizer [Short Cut]": {
+    "length": "Short Cut",
+    "author": "Zig Zag",
+    "bpm": "151 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "207",
+    "difficulties": [
+      "S8",
+      "S19",
+      "D22"
+    ]
+  },
   "Energizer": {
     "length": "Arcade",
     "author": "Zig Zag",
@@ -3341,7 +3450,7 @@
       "RT16"
     ]
   },
-  "Enhanced Reality": {
+  "Enhanced Reality [Short Cut]": {
     "length": "Short Cut",
     "author": "Matduke",
     "bpm": "170 BPM",
@@ -3499,7 +3608,7 @@
       "D18"
     ]
   },
-  "Exceed2 Opening": {
+  "Exceed2 Opening [Short Cut]": {
     "length": "Short Cut",
     "author": "BanYa",
     "bpm": "??? BPM",
@@ -3535,6 +3644,19 @@
       "S11",
       "S21",
       "D14"
+    ]
+  },
+  "Extravaganza [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa",
+    "bpm": "195 BPM",
+    "genre": "ORIGINAL",
+    "id": "224",
+    "difficulties": [
+      "S15",
+      "D15",
+      "D22",
+      "SP15"
     ]
   },
   "Extravaganza": {
@@ -3682,6 +3804,22 @@
     ]
   },
   "FFF": {
+    "length": "Arcade",
+    "author": "Doin",
+    "bpm": "200 BPM",
+    "genre": "ORIGINAL",
+    "id": "233",
+    "difficulties": [
+      "S11",
+      "S18",
+      "S22",
+      "D13",
+      "D22",
+      "D24",
+      "Co-Op3"
+    ]
+  },
+  "FFF [Short Cut]": {
     "length": "Short Cut",
     "author": "Doin",
     "bpm": "200 BPM",
@@ -3712,6 +3850,17 @@
       "DP3"
     ]
   },
+  "Final Audition 2 [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa",
+    "bpm": "130 BPM",
+    "genre": "ORIGINAL",
+    "id": "236",
+    "difficulties": [
+      "S17",
+      "D18"
+    ]
+  },
   "Final Audition 2": {
     "length": "Arcade",
     "author": "BanYa",
@@ -3728,6 +3877,17 @@
       "D18",
       "D20",
       "DP3"
+    ]
+  },
+  "Final Audition 3 [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa",
+    "bpm": "130.5 BPM",
+    "genre": "ORIGINAL",
+    "id": "238",
+    "difficulties": [
+      "S18",
+      "D16"
     ]
   },
   "Final Audition 3": {
@@ -3805,7 +3965,7 @@
       "D27"
     ]
   },
-  "Final Audition EP. 2-X": {
+  "Final Audition EP. 2-X [Short Cut]": {
     "length": "Short Cut",
     "author": "Yahpp",
     "bpm": "170 BPM",
@@ -4460,6 +4620,18 @@
       "DP6"
     ]
   },
+  "Guitar Man [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa Production",
+    "bpm": "120 BPM",
+    "genre": "ORIGINAL",
+    "id": "284",
+    "difficulties": [
+      "S1",
+      "S15",
+      "D19"
+    ]
+  },
   "Guitar Man": {
     "length": "Arcade",
     "author": "BanYa Production",
@@ -4699,6 +4871,25 @@
     ]
   },
   "Heavy Rotation": {
+    "length": "Arcade",
+    "author": "AKB48 (Cover)",
+    "bpm": "178 BPM",
+    "genre": "J-MUSIC",
+    "id": "300",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S5",
+      "S9",
+      "S16",
+      "S18",
+      "D6",
+      "D16",
+      "D19",
+      "Co-Op2"
+    ]
+  },
+  "Heavy Rotation [Short Cut]": {
     "length": "Short Cut",
     "author": "AKB48 (Cover)",
     "bpm": "178 BPM",
@@ -5092,6 +5283,23 @@
     ]
   },
   "Hyperion": {
+    "length": "Arcade",
+    "author": "M2U",
+    "bpm": "145 BPM",
+    "genre": "XROSS",
+    "id": "325",
+    "difficulties": [
+      "S5",
+      "S9",
+      "S14",
+      "S18",
+      "D11",
+      "D18",
+      "D20",
+      "DP4"
+    ]
+  },
+  "Hyperion [Short Cut]": {
     "length": "Short Cut",
     "author": "M2U",
     "bpm": "145 BPM",
@@ -5295,6 +5503,34 @@
     ]
   },
   "Ignis Fatuus(DM Ashura Mix)": {
+    "length": "Arcade",
+    "author": "BanYa",
+    "bpm": "220 BPM",
+    "genre": "ORIGINAL",
+    "id": "338",
+    "difficulties": [
+      "S10",
+      "S12",
+      "S15",
+      "S16",
+      "S19",
+      "S20",
+      "S22",
+      "S23",
+      "D15",
+      "D17",
+      "D17",
+      "D18",
+      "D18",
+      "D23",
+      "D24",
+      "D25",
+      "D26",
+      "D26",
+      "Co-Op2"
+    ]
+  },
+  "Ignis Fatuus(DM Ashura Mix) [Short Cut]": {
     "length": "Short Cut",
     "author": "DM Ashura",
     "bpm": "220 BPM",
@@ -5361,6 +5597,27 @@
     ]
   },
   "Incubator": {
+    "length": "Arcade",
+    "author": "/DJS\\",
+    "bpm": "177 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "343",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S11",
+      "S13",
+      "S16",
+      "S18",
+      "S20",
+      "D14",
+      "D17",
+      "D20",
+      "D22",
+      "RT18"
+    ]
+  },
+  "Incubator [Short Cut]": {
     "length": "Short Cut",
     "author": "/DJS\\",
     "bpm": "178 BPM",
@@ -5677,7 +5934,7 @@
       "S13"
     ]
   },
-  "K.O.A : Alice in Wonderworld": {
+  "K.O.A : Alice in Wonderworld [Short Cut]": {
     "length": "Short Cut",
     "author": "BanYa Production",
     "bpm": "156 BPM",
@@ -5728,6 +5985,26 @@
     ]
   },
   "Kasou Shinja": {
+    "length": "Arcade",
+    "author": "MAX",
+    "bpm": "170 BPM",
+    "genre": "ORIGINAL",
+    "id": "368",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S9",
+      "S16",
+      "S18",
+      "S20",
+      "D12",
+      "D19",
+      "D23",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Kasou Shinja [Short Cut]": {
     "length": "Short Cut",
     "author": "MAX",
     "bpm": "170 BPM",
@@ -5772,6 +6049,17 @@
       "D20",
       "D21",
       "DP3"
+    ]
+  },
+  "Kill Them! [Short Cut]": {
+    "length": "Short Cut",
+    "author": "Archefluxx",
+    "bpm": "170 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "372",
+    "difficulties": [
+      "S20",
+      "D21"
     ]
   },
   "Kill Them!": {
@@ -6225,6 +6513,18 @@
       "D21"
     ]
   },
+  "Love is a Danger Zone [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa",
+    "bpm": "140 BPM",
+    "genre": "ORIGINAL",
+    "id": "399",
+    "difficulties": [
+      "S13",
+      "S20",
+      "D17"
+    ]
+  },
   "Love is a Danger Zone": {
     "length": "Arcade",
     "author": "BanYa",
@@ -6300,6 +6600,18 @@
       "S19",
       "D21",
       "DP20"
+    ]
+  },
+  "Love is a Danger Zone pt. 2 [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa",
+    "bpm": "162 BPM",
+    "genre": "ORIGINAL",
+    "id": "404",
+    "difficulties": [
+      "S8",
+      "S19",
+      "D22"
     ]
   },
   "Love is a Danger Zone pt. 2": {
@@ -6966,6 +7278,18 @@
       "Co-Op2"
     ]
   },
+  "Moonlight [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa",
+    "bpm": "180 BPM",
+    "genre": "ORIGINAL",
+    "id": "447",
+    "difficulties": [
+      "S15",
+      "S19",
+      "D20"
+    ]
+  },
   "Moonlight": {
     "length": "Arcade",
     "author": "BanYa",
@@ -7038,14 +7362,21 @@
     ]
   },
   "Move That Body!": {
-    "length": "Short Cut",
+    "length": "Arcade",
     "author": "DM Ashura",
     "bpm": "145 BPM",
     "genre": "ORIGINAL",
-    "id": "454",
+    "id": "452",
     "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S12",
       "S17",
-      "D18"
+      "S20",
+      "D10",
+      "D18",
+      "DP3"
     ]
   },
   "Move That Body! [Full Song]": {
@@ -7059,6 +7390,17 @@
       "S18",
       "D19",
       "D20"
+    ]
+  },
+  "Move That Body! [Short Cut]": {
+    "length": "Short Cut",
+    "author": "DM Ashura",
+    "bpm": "145 BPM",
+    "genre": "ORIGINAL",
+    "id": "454",
+    "difficulties": [
+      "S17",
+      "D18"
     ]
   },
   "Mr. Fire Fighter": {
@@ -7281,7 +7623,7 @@
       "Co-Op2"
     ]
   },
-  "Napad": {
+  "Napad [Short Cut]": {
     "length": "Short Cut",
     "author": "Vospi",
     "bpm": "115 BPM",
@@ -7437,7 +7779,7 @@
     "author": "Vospi",
     "bpm": "174 BPM",
     "genre": "WORLD MUSIC",
-    "id": "479",
+    "id": "480",
     "difficulties": [
       "S3",
       "S5",
@@ -7449,19 +7791,6 @@
       "D10",
       "D14",
       "D18"
-    ]
-  },
-  "Nervous [Full Song]": {
-    "length": "Full Song",
-    "author": "Vospi",
-    "bpm": "174 BPM",
-    "genre": "WORLD MUSIC",
-    "id": "480",
-    "difficulties": [
-      "S13",
-      "S20",
-      "D14",
-      "D22"
     ]
   },
   "Night Duty": {
@@ -7655,7 +7984,7 @@
       "D16"
     ]
   },
-  "NX Opening": {
+  "NX Opening [Short Cut]": {
     "length": "Short Cut",
     "author": "Yahpp",
     "bpm": "133 BPM",
@@ -7666,15 +7995,34 @@
       "D17"
     ]
   },
-  "Nyarlathotep": {
+  "Nyarlathotep [Short Cut]": {
     "length": "Short Cut",
+    "author": "Nato",
+    "bpm": "200 BPM",
+    "genre": "ORIGINAL",
+    "id": "495",
+    "difficulties": [
+      "S22",
+      "D24"
+    ]
+  },
+  "Nyarlathotep": {
+    "length": "Arcade",
     "author": "Nato",
     "bpm": "200 BPM",
     "genre": "ORIGINAL",
     "id": "496",
     "difficulties": [
-      "S22",
-      "D24"
+      "S12",
+      "S16",
+      "S18",
+      "S21",
+      "S23",
+      "D16",
+      "D20",
+      "D23",
+      "D25",
+      "DP4"
     ]
   },
   "Obelisque": {
@@ -7821,6 +8169,29 @@
     ]
   },
   "Overblow": {
+    "length": "Arcade",
+    "author": "MAX",
+    "bpm": "155 BPM",
+    "genre": "ORIGINAL",
+    "id": "506",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S16",
+      "S18",
+      "S19",
+      "S20",
+      "D12",
+      "D18",
+      "D19",
+      "D19",
+      "SP2",
+      "DP3",
+      "Co-Op2"
+    ]
+  },
+  "Overblow [Short Cut]": {
     "length": "Short Cut",
     "author": "MAX",
     "bpm": "155 BPM",
@@ -8006,6 +8377,36 @@
     ]
   },
   "Passacaglia": {
+    "length": "Arcade",
+    "author": "SynthWulf",
+    "bpm": "175 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "519",
+    "difficulties": [
+      "S4",
+      "S6",
+      "S7",
+      "S8",
+      "S10",
+      "S11",
+      "S15",
+      "S17",
+      "S19",
+      "S19",
+      "S20",
+      "S22",
+      "D6",
+      "D13",
+      "D14",
+      "D18",
+      "D19",
+      "D22",
+      "D23",
+      "D24",
+      "RT17"
+    ]
+  },
+  "Passacaglia [Short Cut]": {
     "length": "Short Cut",
     "author": "SynthWulf",
     "bpm": "175 BPM",
@@ -8177,6 +8578,31 @@
     ]
   },
   "Pop The Track": {
+    "length": "Arcade",
+    "author": "J-Mi",
+    "bpm": "160 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "532",
+    "difficulties": [
+      "S1",
+      "S2",
+      "S2",
+      "S4",
+      "S7",
+      "S9",
+      "S9",
+      "S16",
+      "S17",
+      "S18",
+      "D9",
+      "D10",
+      "D17",
+      "D18",
+      "D20",
+      "Co-Op2"
+    ]
+  },
+  "Pop The Track [Short Cut]": {
     "length": "Short Cut",
     "author": "J-Mi",
     "bpm": "160 BPM",
@@ -8240,7 +8666,7 @@
       "DP3"
     ]
   },
-  "PRIME Opening": {
+  "PRIME Opening [Short Cut]": {
     "length": "Short Cut",
     "author": "MAX",
     "bpm": "128 BPM",
@@ -8252,7 +8678,7 @@
       "Co-Op5"
     ]
   },
-  "PRIME2 Opening": {
+  "PRIME2 Opening [Short Cut]": {
     "length": "Short Cut",
     "author": "MAX",
     "bpm": "145 BPM",
@@ -8273,6 +8699,17 @@
     "id": "539",
     "difficulties": [
       "S17"
+    ]
+  },
+  "Procedimientos Para Llegar A Un Comun Acuerdo [Short Cut]": {
+    "length": "Short Cut",
+    "author": "PXNDX",
+    "bpm": "160 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "540",
+    "difficulties": [
+      "S18",
+      "D16"
     ]
   },
   "Procedimientos Para Llegar A Un Comun Acuerdo": {
@@ -8391,6 +8828,18 @@
       "S4",
       "S12",
       "D15"
+    ]
+  },
+  "Pumptris 8Bit ver. [Short Cut]": {
+    "length": "Short Cut",
+    "author": "Yahpp",
+    "bpm": "162 BPM",
+    "genre": "ORIGINAL",
+    "id": "549",
+    "difficulties": [
+      "S8",
+      "S16",
+      "D22"
     ]
   },
   "Pumptris 8Bit ver.": {
@@ -8883,6 +9332,24 @@
     ]
   },
   "Rock the house": {
+    "length": "Arcade",
+    "author": "Matduke",
+    "bpm": "175 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "577",
+    "difficulties": [
+      "S7",
+      "S10",
+      "S16",
+      "S16",
+      "D11",
+      "D13",
+      "D18",
+      "D22",
+      "DP3"
+    ]
+  },
+  "Rock the house [Short Cut]": {
     "length": "Short Cut",
     "author": "Matduke",
     "bpm": "175 BPM",
@@ -8971,6 +9438,27 @@
     ]
   },
   "Sarabande": {
+    "length": "Arcade",
+    "author": "MAX",
+    "bpm": "157 BPM",
+    "genre": "ORIGINAL",
+    "id": "583",
+    "difficulties": [
+      "S2",
+      "S4",
+      "S7",
+      "S12",
+      "S16",
+      "S19",
+      "S20",
+      "D11",
+      "D18",
+      "D21",
+      "D24",
+      "DP4"
+    ]
+  },
+  "Sarabande [Short Cut]": {
     "length": "Short Cut",
     "author": "MAX",
     "bpm": "157 BPM",
@@ -9037,6 +9525,23 @@
     ]
   },
   "Selfishness": {
+    "length": "Arcade",
+    "author": "SID-Sound",
+    "bpm": "160 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "588",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S11",
+      "S17",
+      "D12",
+      "D18",
+      "D20",
+      "DP3"
+    ]
+  },
+  "Selfishness [Short Cut]": {
     "length": "Short Cut",
     "author": "SID-Sound",
     "bpm": "160 BPM",
@@ -9205,6 +9710,24 @@
     ]
   },
   "Shub Niggurath": {
+    "length": "Arcade",
+    "author": "Nato",
+    "bpm": "220 BPM",
+    "genre": "ORIGINAL",
+    "id": "600",
+    "difficulties": [
+      "S12",
+      "S15",
+      "S19",
+      "S21",
+      "S24",
+      "D18",
+      "D23",
+      "D26",
+      "DP3"
+    ]
+  },
+  "Shub Niggurath [Short Cut]": {
     "length": "Short Cut",
     "author": "Nato",
     "bpm": "220 BPM",
@@ -9243,6 +9766,22 @@
     ]
   },
   "Silhouette Effect": {
+    "length": "Arcade",
+    "author": "Nato",
+    "bpm": "167 BPM",
+    "genre": "ORIGINAL",
+    "id": "604",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S18",
+      "D12",
+      "D20",
+      "DP4"
+    ]
+  },
+  "Silhouette Effect [Short Cut]": {
     "length": "Short Cut",
     "author": "Nato",
     "bpm": "167 BPM",
@@ -9493,6 +10032,17 @@
       "DP6"
     ]
   },
+  "Solitary 2 [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa",
+    "bpm": "136 BPM",
+    "genre": "ORIGINAL",
+    "id": "620",
+    "difficulties": [
+      "S18",
+      "D17"
+    ]
+  },
   "Solitary 2": {
     "length": "Arcade",
     "author": "BanYa",
@@ -9605,6 +10155,25 @@
     ]
   },
   "Stardust Overdrive": {
+    "length": "Arcade",
+    "author": "typeMARS",
+    "bpm": "175 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "627",
+    "difficulties": [
+      "S4",
+      "S9",
+      "S16",
+      "S18",
+      "D5",
+      "D13",
+      "D16",
+      "D19",
+      "D23",
+      "DP3"
+    ]
+  },
+  "Stardust Overdrive [Short Cut]": {
     "length": "Short Cut",
     "author": "typeMARS",
     "bpm": "175 BPM",
@@ -9860,6 +10429,28 @@
     ]
   },
   "Super Fantasy": {
+    "length": "Arcade",
+    "author": "SHK",
+    "bpm": "145 BPM",
+    "genre": "ORIGINAL",
+    "id": "644",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S10",
+      "S14",
+      "S16",
+      "S19",
+      "S20",
+      "D11",
+      "D16",
+      "D18",
+      "D22",
+      "DP2",
+      "Co-Op2"
+    ]
+  },
+  "Super Fantasy [Short Cut]": {
     "length": "Short Cut",
     "author": "SHK",
     "bpm": "145 BPM",
@@ -9997,6 +10588,26 @@
     ]
   },
   "Take Out": {
+    "length": "Arcade",
+    "author": "SHK",
+    "bpm": "170 BPM",
+    "genre": "ORIGINAL",
+    "id": "653",
+    "difficulties": [
+      "S4",
+      "S7",
+      "S11",
+      "S17",
+      "S20",
+      "HD23",
+      "D13",
+      "D19",
+      "D22",
+      "D23",
+      "Co-Op3"
+    ]
+  },
+  "Take Out [Short Cut]": {
     "length": "Short Cut",
     "author": "SHK",
     "bpm": "170 BPM",
@@ -10544,7 +11155,7 @@
       "D21"
     ]
   },
-  "Trotpris": {
+  "Trotpris [Short Cut]": {
     "length": "Short Cut",
     "author": "Doin",
     "bpm": "156.118 BPM",
@@ -10681,6 +11292,23 @@
     ]
   },
   "U Got Me Rocking": {
+    "length": "Arcade",
+    "author": "MAX",
+    "bpm": "128 BPM",
+    "genre": "ORIGINAL",
+    "id": "694",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S8",
+      "S17",
+      "S18",
+      "D4",
+      "D17",
+      "DP3"
+    ]
+  },
+  "U Got Me Rocking [Short Cut]": {
     "length": "Short Cut",
     "author": "MAX",
     "bpm": "128 BPM",
@@ -10717,6 +11345,24 @@
     ]
   },
   "Unique": {
+    "length": "Arcade",
+    "author": "SHK",
+    "bpm": "145 BPM",
+    "genre": "ORIGINAL",
+    "id": "698",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S10",
+      "S14",
+      "S16",
+      "S16",
+      "D12",
+      "D16",
+      "D18"
+    ]
+  },
+  "Unique [Short Cut]": {
     "length": "Short Cut",
     "author": "SHK",
     "bpm": "145 BPM",
@@ -11281,15 +11927,36 @@
       "D8"
     ]
   },
-  "Wedding Crashers": {
+  "Wedding Crashers [Short Cut]": {
     "length": "Short Cut",
+    "author": "SHK",
+    "bpm": "165 BPM",
+    "genre": "ORIGINAL",
+    "id": "733",
+    "difficulties": [
+      "S18",
+      "D20"
+    ]
+  },
+  "Wedding Crashers": {
+    "length": "Arcade",
     "author": "SHK",
     "bpm": "165 BPM",
     "genre": "ORIGINAL",
     "id": "734",
     "difficulties": [
+      "S4",
+      "S6",
+      "S10",
+      "S16",
       "S18",
-      "D20"
+      "S21",
+      "D7",
+      "D13",
+      "D19",
+      "D22",
+      "DP4",
+      "Co-Op3"
     ]
   },
   "What Are You Doin?": {
@@ -11320,6 +11987,18 @@
       "D18",
       "D20",
       "DP11"
+    ]
+  },
+  "What Happened [Short Cut]": {
+    "length": "Short Cut",
+    "author": "Throwdown",
+    "bpm": "130 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "737",
+    "difficulties": [
+      "S13",
+      "S18",
+      "S21"
     ]
   },
   "What Happened": {
@@ -11407,6 +12086,21 @@
       "D23"
     ]
   },
+  "Winter [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa",
+    "bpm": "168 BPM",
+    "genre": "ORIGINAL",
+    "id": "743",
+    "difficulties": [
+      "S6",
+      "S9",
+      "S16",
+      "D10",
+      "D17",
+      "RT15"
+    ]
+  },
   "Winter": {
     "length": "Arcade",
     "author": "BanYa",
@@ -11425,6 +12119,18 @@
       "D12",
       "D17",
       "D20"
+    ]
+  },
+  "Witch Doctor [Short Cut]": {
+    "length": "Short Cut",
+    "author": "BanYa",
+    "bpm": "195 BPM",
+    "genre": "ORIGINAL",
+    "id": "745",
+    "difficulties": [
+      "S14",
+      "S20",
+      "D17"
     ]
   },
   "Witch Doctor": {
@@ -11501,6 +12207,30 @@
     ]
   },
   "X-Rave": {
+    "length": "Arcade",
+    "author": "DM Ashura",
+    "bpm": "147 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "750",
+    "difficulties": [
+      "S2",
+      "S3",
+      "S5",
+      "S6",
+      "S9",
+      "S11",
+      "S16",
+      "S17",
+      "D8",
+      "D11",
+      "D18",
+      "D20",
+      "SP2",
+      "DP6",
+      "RT15"
+    ]
+  },
+  "X-Rave [Short Cut]": {
     "length": "Short Cut",
     "author": "DM Ashura",
     "bpm": "147 BPM",
@@ -11589,7 +12319,7 @@
       "RT9"
     ]
   },
-  "XX OPENING": {
+  "XX OPENING [Short Cut]": {
     "length": "Short Cut",
     "author": "MAX",
     "bpm": "175 BPM",

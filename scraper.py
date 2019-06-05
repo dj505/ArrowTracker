@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import re
 import time
 import json
+import os
 
 def replace_diff(diff):
     diff = diff.split('_')
@@ -51,6 +52,8 @@ while pagenum <= totalpages:
         length = match.a.div.find('div', class_='media-body').find('div', class_='hidden-lg').div.find('span', class_='badge bg-inverse').text
         if length == "Full Song":
             song = song + ' [Full Song]'
+        if length == "Short Cut":
+            song = song + ' [Short Cut]'
         data[song] = {}
         data[song]['length'] = length
         data[song]['author'] = match.a.div.find('div', class_='media-body').find('span', class_='label bg-primary').text
@@ -59,6 +62,12 @@ while pagenum <= totalpages:
         data[song]['id'] = f'{id}'
         thumburl = 'https://pumpout.anyhowstep.com' + match.a.div.find('img', class_='thumb-large')['src']
         urllib.request.urlretrieve(thumburl, f'app/static/songthumbs/{id}.png')
+        for image in match.a.div.find('div', class_="media-body").find('div', class_="shift").find_all('img', class_='thumb-small'):
+            imagename = 'https://pumpout.anyhowstep.com' + image['src']
+            print(imagename)
+            if not os.path.isfile(f'app/static/diffballs/{imagename.split("/")[-1]}'):
+                urllib.request.urlretrieve(imagename, f'app/static/diffballs/{imagename.split("/")[-1]}')
+                print(f'Saved {imagename.split("/")[-1]}')
         difflist = []
         for diff in match.a.div.find('div', class_='shift').find_all('img'):
             diff = diff['src'].split('/')[-1].replace('half_double', 'half-double')
