@@ -69,9 +69,10 @@
                   <tr>
                     <td>
                       {% if score.type != "None" %}
-                        {{score.type.capitalize()}}
+                        {{score.type.capitalize()}} {{score.difficulty}}
+                      {% else %}
+                        <img width="50pt" src="{{ url_for('static', filename='diffballs/{}.png'.format(score.difficulty)) }}" />
                       {% endif %}
-                      {{score.difficulty}}
                     </td>
                     <td>{{score.lettergrade.upper()}}</td>
                     <td>{{score.score}}</td>

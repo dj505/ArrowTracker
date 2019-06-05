@@ -64,10 +64,11 @@ while pagenum <= totalpages:
         urllib.request.urlretrieve(thumburl, f'app/static/songthumbs/{id}.png')
         for image in match.a.div.find('div', class_="media-body").find('div', class_="shift").find_all('img', class_='thumb-small'):
             imagename = 'https://pumpout.anyhowstep.com' + image['src']
-            print(imagename)
-            if not os.path.isfile(f'app/static/diffballs/{imagename.split("/")[-1]}'):
-                urllib.request.urlretrieve(imagename, f'app/static/diffballs/{imagename.split("/")[-1]}')
-                print(f'Saved {imagename.split("/")[-1]}')
+            filename = replace_diff(image['src'].split('/')[-1].replace('half_double', 'half-double'))
+            print(f'Found {filename}')
+            if not os.path.isfile(f'app/static/diffballs/{filename}.png'):
+                urllib.request.urlretrieve(imagename, f'app/static/diffballs/{filename}.png')
+                print(f'Saved app/static/diffballs/{filename}.png')
         difflist = []
         for diff in match.a.div.find('div', class_='shift').find_all('img'):
             diff = diff['src'].split('/')[-1].replace('half_double', 'half-double')

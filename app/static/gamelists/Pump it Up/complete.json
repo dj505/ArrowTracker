@@ -921,12 +921,23 @@
       "D18"
     ]
   },
+  "BBoom BBoom [Full Song]": {
+    "length": "Full Song",
+    "author": "MOMOLAND",
+    "bpm": "126 BPM",
+    "genre": "K-POP",
+    "id": "58",
+    "difficulties": [
+      "S17",
+      "D18"
+    ]
+  },
   "BBoom BBoom": {
     "length": "Arcade",
     "author": "MOMOLAND",
     "bpm": "126 BPM",
     "genre": "K-POP",
-    "id": "58",
+    "id": "59",
     "difficulties": [
       "S1",
       "S4",
@@ -939,17 +950,6 @@
       "D18",
       "DP2",
       "Co-Op2"
-    ]
-  },
-  "BBoom BBoom [Full Song]": {
-    "length": "Full Song",
-    "author": "MOMOLAND",
-    "bpm": "126 BPM",
-    "genre": "K-POP",
-    "id": "59",
-    "difficulties": [
-      "S17",
-      "D18"
     ]
   },
   "Be Alive (Raaban Inc. Mix)": {
@@ -1409,12 +1409,26 @@
       "D20"
     ]
   },
+  "Blow [Full Song]": {
+    "length": "Full Song",
+    "author": "Future Funk Squad",
+    "bpm": "130 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "88",
+    "difficulties": [
+      "S12",
+      "S17",
+      "D13",
+      "D19",
+      "RT14"
+    ]
+  },
   "Blow": {
     "length": "Arcade",
     "author": "Future Funk Squad",
     "bpm": "130 BPM",
     "genre": "WORLD MUSIC",
-    "id": "88",
+    "id": "89",
     "difficulties": [
       "S2",
       "S4",
@@ -1429,20 +1443,6 @@
       "D16",
       "D19",
       "RT10"
-    ]
-  },
-  "Blow [Full Song]": {
-    "length": "Full Song",
-    "author": "Future Funk Squad",
-    "bpm": "130 BPM",
-    "genre": "WORLD MUSIC",
-    "id": "89",
-    "difficulties": [
-      "S12",
-      "S17",
-      "D13",
-      "D19",
-      "RT14"
     ]
   },
   "Blowin It Up": {
@@ -2547,12 +2547,25 @@
       "SP2"
     ]
   },
+  "Dance on Fire: Retribution [Short Cut]": {
+    "length": "Short Cut",
+    "author": "Magic Hammer",
+    "bpm": "165 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "157",
+    "difficulties": [
+      "S6",
+      "S15",
+      "D4",
+      "D16"
+    ]
+  },
   "Dance on Fire: Retribution": {
     "length": "Arcade",
     "author": "Magic Hammer",
     "bpm": "165 BPM",
     "genre": "WORLD MUSIC",
-    "id": "157",
+    "id": "158",
     "difficulties": [
       "S1",
       "S4",
@@ -2568,19 +2581,6 @@
       "D20",
       "SP4",
       "RT17"
-    ]
-  },
-  "Dance on Fire: Retribution [Short Cut]": {
-    "length": "Short Cut",
-    "author": "Magic Hammer",
-    "bpm": "165 BPM",
-    "genre": "WORLD MUSIC",
-    "id": "158",
-    "difficulties": [
-      "S6",
-      "S15",
-      "D4",
-      "D16"
     ]
   },
   "Dance Vibrations [Short Cut]": {
@@ -7779,7 +7779,7 @@
     "author": "Vospi",
     "bpm": "174 BPM",
     "genre": "WORLD MUSIC",
-    "id": "480",
+    "id": "479",
     "difficulties": [
       "S3",
       "S5",
@@ -7791,6 +7791,19 @@
       "D10",
       "D14",
       "D18"
+    ]
+  },
+  "Nervous [Full Song]": {
+    "length": "Full Song",
+    "author": "Vospi",
+    "bpm": "174 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "480",
+    "difficulties": [
+      "S13",
+      "S20",
+      "D14",
+      "D22"
     ]
   },
   "Night Duty": {
