@@ -1,4 +1,12 @@
-Latest Update (2019-06-04)
+Latest Update(2016-06-06)
+- Better leaderboard search!
+  - You can search for songs from the old system now
+  - You can specify song length (Arcade, Remix, Short Cut, Full Song)
+  - Sorting by both verified arcade and StepF2/SM scores is functional
+- Properly centered judgements on homepage
+- Small bug fixes
+
+Last Update (2019-06-04)
 - Forgot to update this changelog like a week ago, so this is me doing that
 - Added song thumbnails on homepage
 - Fixed full song issue, full songs now show separately from arcade length songs

@@ -35,18 +35,18 @@ def search():
         session['filters'] = form.filters.data
         session['length'] = form.length.data
         return redirect(url_for('main.search_results'))
-    return render_template("search.html", songlist=songlist_pairs, form=form)
+    return render_template("search.html", form=form)
 
 @main.route('/search_results/')
 def search_results():
-    if session['filters'] == 'verified-score':
-        results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], Post.platform == 'pad', Post.image_file != "None").order_by(desc(Post.score))
-    elif session['filters'] == 'unverified-score':
-        results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad'), Post.image_file == "None").order_by(desc(Post.score))
-    if session['filters'] == 'verified-difficulty':
-        results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], Post.platform == 'pad', Post.image_file != "None").order_by(desc(Post.difficulty))
-    elif session['filters'] == 'unverified-difficulty':
-        results = Post.query.filter(Post.song == session['song_search'], Post.length == session['length'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad'), Post.image_file == "None").order_by(desc(Post.difficulty))
+    if session['filters'] == 'old':
+        results = Post.query.filter(Post.song.like('%' + session['song_search'] + '%'), Post.length == None)
+    if session['filters'] == 'all':
+        results = Post.query.filter(Post.song.like('%' + session['song_search'] + '%'), Post.length == session['length'])
+    elif session['filters'] == 'verified':
+        results = Post.query.filter(Post.song.like('%' + session['song_search'] + '%'), Post.length == session['length'], Post.platform == 'pad', )
+    elif session['filters'] == 'unverified':
+        results = Post.query.filter(Post.song.like('%' + session['song_search'] + '%'), Post.length == session['length'], or_(Post.platform == 'keyboard', Post.platform == 'sf2-pad'))
     return render_template("search_results.html", results=results)
 
 @main.route('/changelog')

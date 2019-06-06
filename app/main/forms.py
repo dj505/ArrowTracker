@@ -6,12 +6,12 @@ from app import songlist_pairs, raw_songdata
 
 class SearchForm(FlaskForm):
     filters = (
-    ("verified-score", "Verified, Score"),
-    ("verified-difficulty", "Verified, Single Difficulty"),
-    ("unverified-score", "Unverified, Score"),
-    ("unverified-difficulty", "Unverified, Difficulty"))
-    song = SelectField('Song', coerce=str, choices=[tuple(map(lambda x: x.decode('utf-8'), tup)) for tup in songlist_pairs])
-    length = SelectField('Length', coerce=str, choices=(('Arcade', 'Arcade'), ('Full Song', 'Full Song'), ('Short Cut', 'Short Cut')), validators=[DataRequired()])
+    ("all", "All"),
+    ("verified", "Verified (AC)"),
+    ("unverified", "Unverified (SM/StepF2)"),
+    ("old", "Old System (Only 'None' Lengths)"))
+    song = StringField('Song', validators=[DataRequired()])
+    length = SelectField('Length', coerce=str, choices=(('Arcade', 'Arcade'), ('Full Song', 'Full Song'), ('Remix', 'Remix'), ('Short Cut', 'Short Cut')), validators=[DataRequired()])
     filters = SelectField('Filter', coerce=str, choices=filters)
     submit = SubmitField('Search')
 
