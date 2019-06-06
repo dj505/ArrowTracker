@@ -16,7 +16,7 @@
     <h4>{{ total }} Total Scores</h4>
     <hr class="my-4">
     {% for score in scores.items %}
-      <article class="media content-section" style="overflow: auto; max-width: 100%;">
+      <article class="media content-section" style="overflow: auto; height: 100%;">
         <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
         <div class="media-body">
           <div class="article-metadata">
@@ -28,15 +28,15 @@
               {% if score.song in songdata %}
                 <img class="rounded float-right" style="margin-left: 10pt;" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
               {% endif %}
-              <div style="position: relative; vertical-align: middle">
+              <div>
                 {% if score.lettergrade == "a" and score.stagepass == "True" %}
-                  <img class="rounded float-right" width="80pt" src="{{ url_for('static', filename='judgements/sp_a.png') }}">
+                  <img style="position: relative; top: 50%; transform: translateY(50%);" class="rounded float-right" width="80pt" src="{{ url_for('static', filename='judgements/sp_a.png') }}">
                 {% elif score.lettergrade == "s" and score.stagepass == "True" %}
-                  <img class="rounded float-right" width="80pt" src="{{ url_for('static', filename='judgements/s.png') }}">
+                  <img style="position: relative; top: 50%; transform: translateY(40%);" class="rounded float-right" width="80pt" src="{{ url_for('static', filename='judgements/s.png') }}">
                 {% elif score.lettergrade == "ss" and score.stagepass == "True" %}
-                  <img class="rounded float-right" width="100pt" src="{{ url_for('static', filename='judgements/ss.png') }}">
+                  <img style="position: relative; top: 50%; transform: translateY(50%);" class="rounded float-right" width="100pt" src="{{ url_for('static', filename='judgements/ss.png') }}">
                 {% elif score.lettergrade == "sss" and score.stagepass == "True" %}
-                  <img class="rounded float-right" width="100pt" src="{{ url_for('static', filename='judgements/sss.png') }}">
+                  <img style="position: relative; top: 50%; transform: translateY(50%);" class="rounded float-right" width="100pt" src="{{ url_for('static', filename='judgements/sss.png') }}">
                 {% endif %}
               </div>
               <div class="float-left">
