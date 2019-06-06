@@ -93,7 +93,7 @@ def weekly():
             if file and allowed_file(file.filename):
                 picture_file = save_picture(file)
                 flash('File uploaded successfully!', 'success')
-                post = WeeklyPost(song = current_weekly, score = form.score.data, lettergrade = form.lettergrade.data, type = form.type.data, difficulty = form.difficulty.data, platform = form.platform.data, stagepass = form.stagepass.data, ranked = form.ranked.data, author = current_user, image_file = picture_file)
+                post = WeeklyPost(song = current_weekly[0], score = form.score.data, lettergrade = form.lettergrade.data, type=current_weekly[1], difficulty = form.difficulty.data, platform = form.platform.data, stagepass = form.stagepass.data, ranked = form.ranked.data, author = current_user, image_file = picture_file)
                 db.session.add(post)
                 db.session.commit()
             elif file and not allowed_file(file.filename):

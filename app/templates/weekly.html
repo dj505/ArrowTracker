@@ -4,7 +4,7 @@
     <title>Arrow Tracker</title>
     {% block meta %}
       <meta property="og:title" content="Arrow Tracker: Song of the Week"/>
-      <meta property="og:description" content="A handy score tracking utility for PIU XX with screenshot support"/>
+      <meta property="og:description" content="A handy score tracking utility for Pump it Up!"/>
       <meta property="og:url" content="https://arrowtracker.duckdns.org/">
       <meta name="theme-color" content="#99beea">
       <meta name="robots" content="index, nofollow">
@@ -63,19 +63,6 @@
                 </div>
               {% else %}
                 {{ form.lettergrade(class="form-control form-control-lg") }}
-              {% endif %}
-            </div>
-            <div class="col">
-              {{ form.type.label(class="form-control-label") }}
-              {% if form.type.errors %}
-                {{ form.type(class="form-control form-control-lg is-invalid") }}
-                <div class="invalid-feedback">
-                  {% for error in form.type.errors %}
-                    <span>{{ error }}</span>
-                  {% endfor %}
-                </div>
-              {% else %}
-                {{ form.type(class="form-control form-control-lg") }}
               {% endif %}
             </div>
             <div class="col">
@@ -160,7 +147,7 @@
       <div style="overflow: auto; max-width: 100%">
         <table class="table table-striped">
           <th>Song</th>
-          <th>Difficulty</th>
+          <th>Type & Difficulty</th>
           <th>Letter Grade</th>
           <th>Score</th>
           <th>Stage Pass</th>

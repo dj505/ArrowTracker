@@ -4,7 +4,7 @@
       <title>Arrow Tracker</title>
       {% block meta %}
         <meta property="og:title" content="Arrow Tracker: The PIU Score Tracker"/>
-        <meta property="og:description" content="A handy score tracking utility for PIU XX with screenshot support"/>
+        <meta property="og:description" content="A handy score tracking utility for Pump it Up!"/>
         <meta property="og:url" content="https://arrowtracker.duckdns.org/">
         <meta name="theme-color" content="#99beea">
         <meta name="robots" content="index, nofollow">
@@ -16,7 +16,7 @@
     <h4>{{ total }} Total Scores</h4>
     <hr class="my-4">
     {% for score in scores.items %}
-      <article class="media content-section" style="overflow: auto; max-width: 100%">
+      <article class="media content-section" style="overflow: auto; max-width: 100%;">
         <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
         <div class="media-body">
           <div class="article-metadata">
@@ -24,21 +24,34 @@
             <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
           </div>
           <h2>
-            {% if score.song in songdata %}
-            <div style="padding-right: 5pt; padding-top: 5pt; padding-bottom: 5pt">
-              <img class="rounded float-right" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
+            <div>
+              {% if score.song in songdata %}
+                <img class="rounded float-right" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
+              {% endif %}
+              <div style="padding-right: 5pt;">
+                {% if score.lettergrade == "a" and score.stagepass == "True" %}
+                  <img class="rounded float-right" width="80pt" src="{{ url_for('static', filename='judgements/sp_a.png') }}">
+                {% elif score.lettergrade == "s" and score.stagepass == "True" %}
+                  <img class="rounded float-right" width="80pt" src="{{ url_for('static', filename='judgements/s.png') }}">
+                {% elif score.lettergrade == "ss" and score.stagepass == "True" %}
+                  <img class="rounded float-right" width="100pt" src="{{ url_for('static', filename='judgements/ss.png') }}">
+                {% elif score.lettergrade == "sss" and score.stagepass == "True" %}
+                  <img class="rounded float-right" width="100pt" src="{{ url_for('static', filename='judgements/sss.png') }}">
+                {% endif %}
+              </div>
+              <div class="float-left">
+                <a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a>
+                <h3>
+                  {{score.length}}
+                </h3>
+                {% if score.image_file != "None" and score.platform == "pad" %}
+                  <h4><span class="badge badge-success">Verified!</span></h4>
+                {% elif score.image_file != "None" and score.platform != "pad" %}
+                  <h4><span class="badge badge-info">Verified SF2!</span></h4>
+                {% endif %}
+              </div>
             </div>
-            {% endif %}
-            <a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a>
           </h2>
-          <h3>
-            {{score.length}}
-          </h3>
-          {% if score.image_file != "None" and score.platform == "pad" %}
-            <h4><span class="badge badge-success">Verified!</span></h4>
-          {% elif score.image_file != "None" and score.platform != "pad" %}
-            <h4><span class="badge badge-info">Verified SF2!</span></h4>
-          {% endif %}
           <div class="article-content">
             <div class="table-responsive">
               <table class="table">
@@ -56,9 +69,10 @@
                   <tr>
                     <td>
                       {% if score.type != "None" %}
-                        {{score.type.capitalize()}}
+                        {{score.type.capitalize()}} {{score.difficulty}}
+                      {% else %}
+                        <img width="50pt" src="{{ url_for('static', filename='diffballs/{}.png'.format(score.difficulty)) }}" />
                       {% endif %}
-                      {{score.difficulty}}
                     </td>
                     <td>{{score.lettergrade.upper()}}</td>
                     <td>{{score.score}}</td>
