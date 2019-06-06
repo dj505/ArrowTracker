@@ -26,9 +26,9 @@
           <h2>
             <div>
               {% if score.song in songdata %}
-                <img class="rounded float-right" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
+                <img class="rounded float-right" style="margin-left: 10pt;" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
               {% endif %}
-              <div style="padding-right: 5pt;">
+              <div style="position: relative; vertical-align: middle">
                 {% if score.lettergrade == "a" and score.stagepass == "True" %}
                   <img class="rounded float-right" width="80pt" src="{{ url_for('static', filename='judgements/sp_a.png') }}">
                 {% elif score.lettergrade == "s" and score.stagepass == "True" %}
