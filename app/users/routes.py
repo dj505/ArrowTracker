@@ -4,7 +4,7 @@ from app import db, bcrypt, raw_songdata
 from app.models import User, Post
 from app.users.forms import (RegisterForm, LoginForm, UpdateAccountForm,
                              RequestResetForm, ResetPasswordForm)
-from app.users.utils import save_picture, send_reset_email, update_rivals
+from app.users.utils import save_picture, send_reset_email
 
 users = Blueprint('users', __name__)
 
@@ -119,4 +119,5 @@ def reset_token(token):
 @users.route("/members")
 def members():
     users = User.query.all()
-    return render_template('users.html', users=users)
+    total = db.engine.execute('select count(*) from User').scalar()
+    return render_template('users.html', users=users, total=total)

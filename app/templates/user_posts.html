@@ -70,15 +70,23 @@
     </div>
   </article>
   {% endfor %}
-  {% for page_num in scores.iter_pages(left_edge=1, right_edge=1) %}
-    {% if page_num %}
-      {% if scores.page == page_num %}
-        <a class="btn btn-info mb-4" href="{{ url_for('users.user_posts', username=user.username, page=page_num) }}">{{ page_num }}</a>
+  <ul class="pagination">
+    {% for page_num in scores.iter_pages(left_edge=1, right_edge=1) %}
+      {% if page_num %}
+        {% if scores.page == page_num %}
+          <li class="page-item disabled">
+            <a class="page-link" href="{{ url_for('users.user_posts', username=user.username, page=page_num) }}">{{ page_num }}</a>
+          </li>
+        {% else %}
+          <li class="page-item active">
+            <a class="page-link" href="{{ url_for('users.user_posts', username=user.username, page=page_num) }}">{{ page_num }}</a>
+          </li>
+        {% endif %}
       {% else %}
-        <a class="btn btn-outline-info mb-4" href="{{ url_for('users.user_posts', username=user.username, page=page_num) }}">{{ page_num }}</a>
+        <li class="page-item disabled">
+          <a class="page-link mb-4"">...</a>
+        </li>
       {% endif %}
-    {% else %}
-      <a class="btn btn-outline-info mb-4" href="#">...</a>
-    {% endif %}
-  {% endfor %}
+    {% endfor %}
+  </ul>
 {% endblock body %}

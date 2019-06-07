@@ -29,15 +29,17 @@
                 <img class="rounded float-right" style="margin-left: 10pt;" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
               {% endif %}
               <div>
-                {% if score.lettergrade == "a" and score.stagepass == "True" %}
-                  <img style="position: relative; top: 50%; transform: translateY(50%);" class="rounded float-right" width="80pt" src="{{ url_for('static', filename='judgements/sp_a.png') }}">
-                {% elif score.lettergrade == "s" and score.stagepass == "True" %}
-                  <img style="position: relative; top: 50%; transform: translateY(40%);" class="rounded float-right" width="80pt" src="{{ url_for('static', filename='judgements/s.png') }}">
-                {% elif score.lettergrade == "ss" and score.stagepass == "True" %}
-                  <img style="position: relative; top: 50%; transform: translateY(50%);" class="rounded float-right" width="100pt" src="{{ url_for('static', filename='judgements/ss.png') }}">
-                {% elif score.lettergrade == "sss" and score.stagepass == "True" %}
-                  <img style="position: relative; top: 50%; transform: translateY(50%);" class="rounded float-right" width="100pt" src="{{ url_for('static', filename='judgements/sss.png') }}">
-                {% endif %}
+                <img class="rounded float-right" width="80pt"
+                  {% if score.lettergrade == "a" and score.stagepass == "True" %}
+                    style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/sp_a.png') }}"
+                  {% elif score.lettergrade == "s" and score.stagepass == "True" %}
+                    style="position: relative; top: 50%; transform: translateY(40%);" src="{{ url_for('static', filename='judgements/s.png') }}"
+                  {% elif score.lettergrade == "ss" and score.stagepass == "True" %}
+                    style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/ss.png') }}"
+                  {% elif score.lettergrade == "sss" and score.stagepass == "True" %}
+                    style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/sss.png') }}"
+                  {% endif %}
+                />
               </div>
               <div class="float-left">
                 <a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a>
