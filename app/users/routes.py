@@ -119,4 +119,5 @@ def reset_token(token):
 @users.route("/members")
 def members():
     users = User.query.all()
-    return render_template('users.html', users=users)
+    total = db.engine.execute('select count(*) from User').scalar()
+    return render_template('users.html', users=users, total=total)
