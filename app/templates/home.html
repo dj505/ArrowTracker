@@ -12,11 +12,13 @@
     {% endblock head %}
   </head>
   {% block body %}
+  <div class="animated fadeInLeft">
     <h1>Newest Scores</h1>
     <h4>{{ total }} Total Scores</h4>
+  </div>
     <hr class="my-4">
     {% for score in scores.items %}
-      <article class="media content-section" style="overflow: auto; height: 100%;">
+      <article class="media content-section animated fadeInLeft" style="overflow: auto; height: 100%;">
         <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
         <div class="media-body">
           <div class="article-metadata">

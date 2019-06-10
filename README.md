@@ -32,6 +32,7 @@ Arrow Tracker is a functional online leaderboard and score tracker built for Pum
 
 * Pump Out (Song database and thumbnail image source)
 * Andamiro (Prime 2 profile images)
+* [daneden's Animeate.css](https://github.com/daneden/animate.css)
 
 ### DISCLAIMER
 

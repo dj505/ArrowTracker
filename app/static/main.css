@@ -1,5 +1,18 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, div, span, p, a {
   color: #e2e2e2;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-wight: 400;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h3 {
+  font-weight: 300;
 }
 
 .bg-steel {
@@ -16,6 +29,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .article-title {
   color: #e2e2e2;
+  font-family: 'Montserrat';
+  font-weight: 400;
 }
 
 a.article-title:hover {
