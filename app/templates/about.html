@@ -12,7 +12,7 @@
   {% endblock %}
 </head>
 {% block body %}
-<div class="jumbotron text-center">
+<div class="jumbotron text-center animated fadeIn">
   <h1 style="padding: 10px"><img src="{{ url_for('static', filename='newlogo-arrow-small.png') }}" alt="" />&nbsp&nbspWelcome to Arrow Tracker</h1>
     <p class="lead">
     This is an application meant for PIU players to submit and track their scores easily!
@@ -29,7 +29,7 @@
   </div>
 </div>
 {% if not current_user.is_authenticated %}
-<div class="card mx-auto" style="width: 100%">
+<div class="card mx-auto animated fadeIn" style="width: 100%">
   <div class="card-body">
     <h5>It seems you aren't logged in!</h5>
     <p class="card-text">Please log in or create an account to start submitting your scores!</p>
