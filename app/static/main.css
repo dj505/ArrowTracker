@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, div, span, p, a {
+h1, h2, h3, h4, h5, h6, div, span, p{
   color: #e2e2e2;
   font-family: 'Montserrat';
 }
@@ -36,6 +36,7 @@ h3 {
 a.article-title:hover {
   color: #428bca;
   text-decoration: none;
+  font-family: 'Montserrat';
 }
 
 .article-img {
