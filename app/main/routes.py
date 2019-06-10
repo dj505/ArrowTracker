@@ -13,7 +13,7 @@ main = Blueprint('main', __name__)
 @main.route("/")
 def home():
     flashmsg = Markup(f'''
-Arrow Tracker is still in early development! | <a href="/changelog">View update changelog</a><br /><br />
+Arrow Tracker is still in early development! | Changelog available under Info & About<br /><br />
 <b>IMPORTANT:</b> Old scores (any score with "None" in the title) may no longer show up under the leaderboard.<br />
 The "None" signifies the lack of a specified song length, the option for which was not implemented when the score was submitted.
 ''')
