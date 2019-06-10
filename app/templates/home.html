@@ -33,15 +33,15 @@
                 <img class="rounded float-right" style="margin-left: 10pt;" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
               {% endif %}
               <div>
-                <img class="rounded float-right" width="80pt"
+                <img class="rounded float-right"
                   {% if score.lettergrade == "a" and score.stagepass == "True" %}
-                    style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/sp_a.png') }}"
+                     width="80pt" style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/sp_a.png') }}"
                   {% elif score.lettergrade == "s" and score.stagepass == "True" %}
-                    style="position: relative; top: 50%; transform: translateY(40%);" src="{{ url_for('static', filename='judgements/s.png') }}"
+                     width="80pt" style="position: relative; top: 50%; transform: translateY(40%);" src="{{ url_for('static', filename='judgements/s.png') }}"
                   {% elif score.lettergrade == "ss" and score.stagepass == "True" %}
-                    style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/ss.png') }}"
+                     width="90pt" style="position: relative; top: 50%; transform: translateY(60%);" src="{{ url_for('static', filename='judgements/ss.png') }}"
                   {% elif score.lettergrade == "sss" and score.stagepass == "True" %}
-                    style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/sss.png') }}"
+                     width="80pt" style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/sss.png') }}"
                   {% endif %}
                 />
               </div>
