@@ -14,7 +14,8 @@
 {% block body %}
 <h1 style="padding: 10px">Search Results</h1>
 <div style="overflow: auto; max-width: 100%">
-  <table class="table table-striped animated fadeInLeft">
+  {% set count = namespace(a=0) %}
+  <table class="table table-striped animated fadeIn">
     <th>Song</th>
     <th>Length</th>
     <th>Difficulty</th>
@@ -25,7 +26,8 @@
     <th>Ranked?</th>
     <th>Author</th>
     {% for score in results %}
-    <tr>
+    {% set count.a = count.a + 0.05 %}
+    <tr class="animated fadeInLeft" style="animation-delay: {{ count.a|float }}s;">
       <td><a href="/post/{{score.id}}">{{score.song}}</a>
         {% if score.image_file != "None" and score.platform == "pad" %}
           <span style="padding-left: 5pt"><span class="badge badge-pill badge-success">Verified!</span></span>

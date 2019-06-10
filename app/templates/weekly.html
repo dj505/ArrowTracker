@@ -147,7 +147,7 @@
     </div>
     {% if ldb != None %}
       <div style="overflow: auto; max-width: 100%">
-        <table class="table table-striped animated fadeInLeft">
+        <table class="table table-striped animated fadeIn">
           <th>Song</th>
           <th>Type & Difficulty</th>
           <th>Letter Grade</th>
@@ -156,8 +156,10 @@
           <th>Platform</th>
           <th>Ranked?</th>
           <th>Author</th>
+          {% set count = namespace(a=0) %}
           {% for score in ldb %}
-          <tr>
+          {% set count.a = count.a + 0.05 %}
+          <tr class="animated fadeInLeft" style="animation-delay: {{ count.a|float }}s;">
             <td><a href="/challenge/weekly/{{score.id}}">{{score.song}}</a>
               {% if score.image_file != "None" %}
                 <span style="padding-left: 5pt"><span class="badge badge-pill badge-success">Verified!</span></span>
