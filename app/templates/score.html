@@ -37,13 +37,13 @@
         <h2 class="article-title">
           {{ score.song }}
           {% if score.song in songdata %}
-            <img class="rounded float-right animated fadeInRight" style="padding-right: 5pt; padding-top: 5pt; padding-bottom: 5pt;" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
+            <img class="rounded float-right animated fadeInRight fast" style="padding-right: 5pt; padding-top: 5pt; padding-bottom: 5pt;" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
           {% endif %}
         </h2>
         <h3>{{ score.length }}</h3>
       </div>
       <div style="padding: 5pt">
-        <table class="table animated fadeInLeft">
+        <table class="table animated fadeInLeft fast">
           <thead class="thead-dark">
             <tr>
               <th scope="col">Song</th>

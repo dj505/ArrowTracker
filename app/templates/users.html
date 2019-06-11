@@ -18,8 +18,8 @@
   <div class="row">
     {% set count = namespace(a=0) %}
     {% for user in users %}
-      {% set count.a = count.a + 0.08 %}
-      <div class="col-sm-4 animated fadeInLeftBig" style="padding-bottom: 20pt; animation-delay: {{ count.a|float }}s;">
+      {% set count.a = count.a + 0.05 %}
+      <div class="col-sm-4 animated fadeInLeftBig fast" style="padding-bottom: 20pt; animation-delay: {{ count.a|float }}s;">
         <div class="card">
           <div class="card-body" style="white-space:nowrap">
             <div style="display: inline">

@@ -12,13 +12,15 @@
   {% endblock %}
 </head>
 {% block body %}
-<div style="z-index: -1;" class="animated fadeInDown">
+<div style="z-index: -1;" class="animated fadeInDown fast">
   <h1>{{ user.username }}'s Scores</h1>
   <h4>{{ scores.total }} Scores</h4>
 </div>
   <hr class="my-4">
+  {% set count = namespace(a=0) %}
   {% for score in scores.items %}
-  <article class="media content-section animated fadeInLeft" style="overflow: auto; max-width: 100%">
+  {% set count.a = count.a + 0.05 %}
+  <article class="media content-section animated fadeInLeft fast" style="overflow: auto; height: 100%; animation-delay: {{ count.a|float }}s;">
     <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
     <div class="media-body">
       <div class="article-metadata">
