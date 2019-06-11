@@ -26,8 +26,8 @@
     <th>Ranked?</th>
     <th>Author</th>
     {% for score in results %}
-    {% set count.a = count.a + 0.05 %}
-    <tr class="animated fadeInLeft" style="animation-delay: {{ count.a|float }}s;">
+    {% set count.a = count.a + 0.03 %}
+    <tr class="animated fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
       <td><a href="/post/{{score.id}}">{{score.song}}</a>
         {% if score.image_file != "None" and score.platform == "pad" %}
           <span style="padding-left: 5pt"><span class="badge badge-pill badge-success">Verified!</span></span>

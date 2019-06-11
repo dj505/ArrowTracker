@@ -36,7 +36,7 @@
     <div class="content-section collapse" id="collapseSubmit">
       <form action="" method="POST" enctype = "multipart/form-data">
         {{ form.hidden_tag() }}
-        <fieldset class="form-group">
+        <fieldset class="form-group animated fadeInDown faster">
           <legend class="border-bottom mb-4">Submit Score</legend>
           <div class="form-row" style="padding: 5pt">
             <div class="col">
@@ -158,8 +158,8 @@
           <th>Author</th>
           {% set count = namespace(a=0) %}
           {% for score in ldb %}
-          {% set count.a = count.a + 0.05 %}
-          <tr class="animated fadeInLeft" style="animation-delay: {{ count.a|float }}s;">
+          {% set count.a = count.a + 0.03 %}
+          <tr class="animated fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
             <td><a href="/challenge/weekly/{{score.id}}">{{score.song}}</a>
               {% if score.image_file != "None" %}
                 <span style="padding-left: 5pt"><span class="badge badge-pill badge-success">Verified!</span></span>
