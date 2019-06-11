@@ -43,7 +43,7 @@
         <h3>{{ score.length }}</h3>
       </div>
       <div style="padding: 5pt">
-        <table class="table animated fadeInLeft fast">
+        <table class="table animated fadeInUp fast">
           <thead class="thead-dark">
             <tr>
               <th scope="col">Song</th>
@@ -89,7 +89,7 @@
       </div>
       {% if score.image_file != "None" %}
       <div style="padding-bottom: 10pt; padding-left: 5pt; padding-right: 5pt">
-        <img src="{{ url_for('static', filename='score_screenshots/' + score.image_file) }}" class="rounded mx-auto d-block img-fluid">
+        <img src="{{ url_for('static', filename='score_screenshots/' + score.image_file) }}" class="rounded mx-auto d-block img-fluid animated fadeInUp fast">
       </div>
       {% endif %}
       {% if score.author == current_user or current_user.id == 1 %}
