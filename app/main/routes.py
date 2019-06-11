@@ -14,8 +14,8 @@ main = Blueprint('main', __name__)
 def home():
     flashmsg = Markup(f'''
 Arrow Tracker is still in early development! | Changelog available under Info & About<br /><br />
-<b>IMPORTANT:</b> Old scores (any score with "None" in the title) may no longer show up under the leaderboard.<br />
-The "None" signifies the lack of a specified song length, the option for which was not implemented when the score was submitted.
+<b>IMPORTANT:</b> Old scores (from before 2019-05-26) may no longer show up under the leaderboard.<br />
+The song length attribut was not yet implemented at this time, which now shows as "None".
 ''')
     flash(flashmsg, 'secondary')
     page = request.args.get('page', 1, type=int)
