@@ -23,7 +23,7 @@
     {% set count = namespace(a=0) %}
     {% for score in scores.items %}
       {% set count.a = count.a + 0.05 %}
-      <article class="media content-section animated fadeInLeft fast" style="overflow: auto; height: 100%; animation-delay: {{ count.a|float }}s;">
+      <article class="media content-section animated fadeInLeft fast fastBoxShadow" style="overflow: auto; height: 100%; animation-delay: {{ count.a|float }}s;">
         <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
         <div class="media-body">
           <div class="article-metadata">

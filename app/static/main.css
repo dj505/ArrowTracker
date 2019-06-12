@@ -21,17 +21,17 @@ h3 {
 
 .content-section {
   background: #3a3a3a;
+  position: relative;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
 }
 
 .content-section:hover {
-  -webkit-transition: background-color 0.1s linear;
-  -moz-transition: background-color 0.1s linear;
-  -o-transition: background-color 0.1s linear;
-  -ms-transition: background-color 0.1s linear;
-  transition: background-color 0.1s linear;
   background: #333333;
 }
 
@@ -90,33 +90,27 @@ a.article-title:hover {
   background: #3a3a3a;
 }
 
-/* body {
-  background: linear-gradient(306deg, #171717, #112d4b);
-  background-size: 400% 400%;
+body {
+  background: linear-gradient(128deg, #172d42, #421717, #423d17, #421717, #172d42);
+  background-size: 1000% 1000%;
 
-  -webkit-animation: AnimationName 20s ease infinite;
-  -moz-animation: AnimationName 20s ease infinite;
-  -o-animation: AnimationName 20s ease infinite;
-  animation: AnimationName 20s ease infinite;
+  -webkit-animation: AnimationName 49s ease infinite;
+  -moz-animation: AnimationName 49s ease infinite;
+  animation: AnimationName 49s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-   0%{background-position:0% 15%}
-   50%{background-position:100% 86%}
-   100%{background-position:0% 15%}
+   0%{background-position:0% 9%}
+   50%{background-position:100% 92%}
+   100%{background-position:0% 9%}
 }
 @-moz-keyframes AnimationName {
-   0%{background-position:0% 15%}
-   50%{background-position:100% 86%}
-   100%{background-position:0% 15%}
-}
-@-o-keyframes AnimationName {
-   0%{background-position:0% 15%}
-   50%{background-position:100% 86%}
-   100%{background-position:0% 15%}
+   0%{background-position:0% 9%}
+   50%{background-position:100% 92%}
+   100%{background-position:0% 9%}
 }
 @keyframes AnimationName {
-   0%{background-position:0% 15%}
-   50%{background-position:100% 86%}
-   100%{background-position:0% 15%}
-} */
+   0%{background-position:0% 9%}
+   50%{background-position:100% 92%}
+   100%{background-position:0% 9%}
+}
