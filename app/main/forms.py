@@ -4,6 +4,8 @@ from wtforms import StringField, SubmitField, TextAreaField, SelectField, Intege
 from wtforms.validators import DataRequired
 from app import songlist_pairs, raw_songdata
 
+# Form classes defined here are what show up on the website as text inputs, dropdowns, etc.
+# This for is for the leaderboard search.
 class SearchForm(FlaskForm):
     filters = (
     ("all", "All"),

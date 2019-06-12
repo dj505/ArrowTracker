@@ -8,16 +8,13 @@ from app.config import GetChangelog
 from app.main.utils import save_picture, allowed_file
 import os
 
+# We can define all of the "@main" decorators below as a "blueprint" that
+# allows us to easily call or redirect the user to any of them from anywhere.
 main = Blueprint('main', __name__)
 
+# The route for the main homepage.
 @main.route("/")
 def home():
-    flashmsg = Markup(f'''
-Arrow Tracker is still in early development! | Changelog available under Info & About<br /><br />
-<b>IMPORTANT:</b> Old scores (from before 2019-05-26) may no longer show up under the leaderboard.<br />
-The song length attribut was not yet implemented at this time, which now shows as "None".
-''')
-    flash(flashmsg, 'secondary')
     page = request.args.get('page', 1, type=int)
     scores = Post.query.order_by(Post.date_posted.desc()).paginate(per_page=15, page=page)
     total = db.engine.execute('select count(*) from Post').scalar()
@@ -27,8 +24,8 @@ The song length attribut was not yet implemented at this time, which now shows a
 def about():
     return render_template("about.html")
 
-@main.route('/search', methods=['GET', 'POST'])
-def search():
+@main.route('/search', methods=['GET', 'POST']) # The methods 'GET' and 'POST' tell this route that
+def search():                                   # we can both request and send data to/from the page.
     form = SearchForm(request.form)
     if request.method == "POST" and form.validate():
         session['song_search'] = form.song.data
