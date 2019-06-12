@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    {% include 'includes/_site_verification.html' %}
     {% block head %}
       {% block title %}
         <title>Arrow Tracker</title>
@@ -34,7 +35,7 @@
   </head>
   <body>
     {% include 'includes/_navbar.html' %}
-    <div class="container" style="padding: 20px">
+    <div class="container animbg" style="padding: 20px">
       {% include 'includes/_messages.html' %}
       {% block body %}{% endblock %}
     </div>

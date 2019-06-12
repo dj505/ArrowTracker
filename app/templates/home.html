@@ -12,6 +12,9 @@
     {% endblock head %}
   </head>
   {% block body %}
+  <div class="animated fadeInDown fast" style="z-index: -1; padding-bottom: 5pt;">
+    <img class="rounded" style="left: 0; top: 0; width: 100%" src="{{ url_for('static', filename='banner.png') }}" />
+  </div>
   <div class="animated fadeInLeft fast">
     <h1>Newest Scores</h1>
     <h4>{{ total }} Total Scores</h4>
@@ -19,7 +22,7 @@
     <hr class="my-4">
     {% set count = namespace(a=0) %}
     {% for score in scores.items %}
-    {% set count.a = count.a + 0.05 %}
+      {% set count.a = count.a + 0.05 %}
       <article class="media content-section animated fadeInLeft fast" style="overflow: auto; height: 100%; animation-delay: {{ count.a|float }}s;">
         <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
         <div class="media-body">
@@ -120,4 +123,18 @@
         {% endif %}
       {% endfor %}
     </ul>
+    <div class="bgcontainer">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
   {% endblock body %}

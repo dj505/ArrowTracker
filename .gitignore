@@ -129,3 +129,4 @@ app/static/songthumbs/*.png
 app/static/diffballs/*.png
 site.SQLALCHEMY_DATABASE_URI
 *.ttf
+_site_verification.html

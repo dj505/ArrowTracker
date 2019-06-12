@@ -4,6 +4,7 @@ Latest Update (2016-06-10)
 - MANY
 - A N I M A T I O N S
   - I think they look good but if I went overboard please tell me
+  - I made them just a bit faster I hope this helps
 
 Last Update (2016-06-06)
 - Better leaderboard search!
