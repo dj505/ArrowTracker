@@ -1,4 +1,13 @@
-Latest Update (2016-06-10)
+Latest Update (2019-06-13)
+- Added leaderboards!
+  - Singles leaderboard displays total singles scores
+  - Doubles leaderboard displays total doubles scores
+  - Total leaderboard displays total scores for all modes combines
+- Slight aesthetics changes
+  - Mobile site doesn't show song thumbnail or letter grade image
+  - Mobile site also shows reduced table showing only difficulty, score, and grade
+
+Last Update (2016-06-10)
 - Moved the changelog (yay, you found it!)
 - SO
 - MANY
@@ -6,7 +15,7 @@ Latest Update (2016-06-10)
   - I think they look good but if I went overboard please tell me
   - I made them just a bit faster I hope this helps
 
-Last Update (2016-06-06)
+Changes (2016-06-06)
 - Better leaderboard search!
   - You can search for songs from the old system now
   - You can specify song length (Arcade, Remix, Short Cut, Full Song)
@@ -14,7 +23,7 @@ Last Update (2016-06-06)
 - Properly centered judgements on homepage
 - Small bug fixes
 
-Changes Update (2019-06-04)
+Changes (2019-06-04)
 - Forgot to update this changelog like a week ago, so this is me doing that
 - Added song thumbnails on homepage
 - Fixed full song issue, full songs now show separately from arcade length songs
@@ -26,7 +35,7 @@ Changes Update (2019-06-04)
 - Moved weekly challenge system to new score system, only relevant difficulties are displayed
 - Various minor bug fixes
 
-Changes Update (2019-05-26)
+Changes (2019-05-26)
 - Fixed error 500 when checking a user's page that has no scores uploaded
 - Major changes to song loading (may break leaderboard temporarily)
 - Added song length option
