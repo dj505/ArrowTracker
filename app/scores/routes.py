@@ -122,7 +122,8 @@ def total_ldb():
         for score in allscores:
             usertotal.append(score.score)
         total = sum(usertotal)
-        scores[user.username] = total
+        if total != 0:
+            scores[user.username] = total
         scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
     return render_template('ldb_total.html', scores=scores)
 
@@ -137,7 +138,8 @@ def singles_ldb():
             if score.type.startswith('s'):
                 usertotal.append(score.score)
         total = sum(usertotal)
-        scores[user.username] = total
+        if total != 0:
+            scores[user.username] = total
         scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
     return render_template('ldb_singles.html', scores=scores)
 
@@ -152,6 +154,7 @@ def doubles_ldb():
             if score.type.startswith('d'):
                 usertotal.append(score.score)
         total = sum(usertotal)
-        scores[user.username] = total
+        if total != 0:
+            scores[user.username] = total
         scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
     return render_template('ldb_doubles.html', scores=scores)
