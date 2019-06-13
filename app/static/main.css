@@ -23,7 +23,7 @@ h3 {
   background: #3a3a3a;
   position: relative;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-bottom: 20px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -55,8 +55,8 @@ a.article-title:hover {
 
 .article-metadata {
   padding-bottom: 1px;
-  margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+  margin-top: 4px;
+  border-top: 1px solid #3f3f3f
 }
 
 .article-metadata a:hover {
@@ -94,9 +94,9 @@ body {
   background: linear-gradient(128deg, #172d42, #421717, #423d17, #421717, #172d42);
   background-size: 1000% 1000%;
 
-  -webkit-animation: AnimationName 49s ease infinite;
-  -moz-animation: AnimationName 49s ease infinite;
-  animation: AnimationName 49s ease infinite;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
