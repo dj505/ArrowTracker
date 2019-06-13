@@ -116,6 +116,7 @@ def weeklyscore(score_id):
 def total_ldb():
     users = User.query.all()
     scores = {}
+    ldbtype = "Total Score"
     for user in users:
         usertotal = []
         allscores = Post.query.filter_by(author=user).order_by(Post.date_posted.desc()).all()
@@ -125,12 +126,13 @@ def total_ldb():
         if total != 0:
             scores[user.username] = total
         scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
-    return render_template('ldb.html', scores=scores)
+    return render_template('ldb.html', scores=scores, ldbtype=ldbtype)
 
 @scores.route('/leaderboard/singles')
 def singles_ldb():
     users = User.query.all()
     scores = {}
+    ldbtype = "Singles Total"
     for user in users:
         usertotal = []
         allscores = Post.query.filter_by(author=user).order_by(Post.date_posted.desc()).all()
@@ -141,12 +143,13 @@ def singles_ldb():
         if total != 0:
             scores[user.username] = total
         scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
-    return render_template('ldb.html', scores=scores)
+    return render_template('ldb.html', scores=scores, ldbtype=ldbtype)
 
 @scores.route('/leaderboard/doubles')
 def doubles_ldb():
     users = User.query.all()
     scores = {}
+    ldbtype = "Doubles Total"
     for user in users:
         usertotal = []
         allscores = Post.query.filter_by(author=user).order_by(Post.date_posted.desc()).all()
@@ -157,4 +160,4 @@ def doubles_ldb():
         if total != 0:
             scores[user.username] = total
         scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
-    return render_template('ldb.html', scores=scores)
+    return render_template('ldb.html', scores=scores, ldbtype=ldbtype)
