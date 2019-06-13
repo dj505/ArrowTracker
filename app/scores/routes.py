@@ -125,3 +125,33 @@ def total_ldb():
         scores[user.username] = total
         scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
     return render_template('ldb_total.html', scores=scores)
+
+@scores.route('/leaderboard/singles')
+def singles_ldb():
+    users = User.query.all()
+    scores = {}
+    for user in users:
+        usertotal = []
+        allscores = Post.query.filter_by(author=user).order_by(Post.date_posted.desc()).all()
+        for score in allscores:
+            if score.type.startswith('s'):
+                usertotal.append(score.score)
+        total = sum(usertotal)
+        scores[user.username] = total
+        scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
+    return render_template('ldb_singles.html', scores=scores)
+
+@scores.route('/leaderboard/doubles')
+def doubles_ldb():
+    users = User.query.all()
+    scores = {}
+    for user in users:
+        usertotal = []
+        allscores = Post.query.filter_by(author=user).order_by(Post.date_posted.desc()).all()
+        for score in allscores:
+            if score.type.startswith('d'):
+                usertotal.append(score.score)
+        total = sum(usertotal)
+        scores[user.username] = total
+        scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
+    return render_template('ldb_doubles.html', scores=scores)
