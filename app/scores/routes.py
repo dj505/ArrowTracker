@@ -1,7 +1,7 @@
 from flask import (render_template, url_for, flash, redirect, request, abort, Blueprint, current_app)
 from flask_login import current_user, login_required
 from app import db, logging, raw_songdata
-from app.models import Post, WeeklyPost
+from app.models import Post, WeeklyPost, User
 from app.scores.forms import ScoreForm, WeeklyForm
 from app.scores.utils import save_picture, allowed_file
 import os
@@ -111,3 +111,17 @@ def weeklyscore(score_id):
     redgrades = ['f']
     score = WeeklyPost.query.get_or_404(score_id)
     return render_template('weeklyscore.html', score=score, bluegrades=bluegrades, goldgrades=goldgrades, redgrades=redgrades)
+
+@scores.route('/leaderboard/total')
+def total_ldb():
+    users = User.query.all()
+    scores = {}
+    for user in users:
+        usertotal = []
+        allscores = Post.query.filter_by(author=user).order_by(Post.date_posted.desc()).all()
+        for score in allscores:
+            usertotal.append(score.score)
+        total = sum(usertotal)
+        scores[user.username] = total
+        scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
+    return render_template('ldb_total.html', scores=scores)
