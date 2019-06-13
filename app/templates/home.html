@@ -23,16 +23,16 @@
     {% set count = namespace(a=0) %}
     {% for score in scores.items %}
       {% set count.a = count.a + 0.05 %}
-      <article class="media content-section animated fadeInLeft fast fastBoxShadow" style="overflow: auto; height: 100%; animation-delay: {{ count.a|float }}s;">
+      <article class="media content-section animated fadeInLeft fast fastBoxShadow" style="height: 100%; animation-delay: {{ count.a|float }}s;">
         <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
         <div class="media-body">
           <h2>
             <div>
               {% if score.song in songdata %}
-                <img class="rounded float-right" style="margin-left: 10pt;" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
+                <img id="content-desktop" class="rounded float-right" style="margin-left: 10pt;" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
               {% endif %}
-              <div>
-                <img class="rounded float-right"
+              <div id="thumb-desktop">
+                <img class="rounded float-right" id="content-desktop"
                   {% if score.lettergrade == "a" and score.stagepass == "True" %}
                      width="80pt" style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/sp_a.png') }}"
                   {% elif score.lettergrade == "s" and score.stagepass == "True" %}
@@ -59,7 +59,7 @@
           </h2>
           <div class="article-content">
             <div class="table-responsive">
-              <table class="table">
+              <table class="table" id="content-desktop">
                 <thead>
                   <tr>
                     <th>Difficulty</th>
@@ -92,6 +92,28 @@
                     {% elif score.ranked == "False" %}
                       <td>{{score.ranked|replace("False", "No")}}</td>
                     {% endif %}
+                  </tr>
+                </tbody>
+              </table>
+              <table class="table" id="content-mobile">
+                <thead>
+                  <tr>
+                    <th>Difficulty</th>
+                    <th>Letter Grade</th>
+                    <th>Score</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      {% if score.type != "None" %}
+                        {{score.type.capitalize()}} {{score.difficulty}}
+                      {% else %}
+                        <img width="50pt" src="{{ url_for('static', filename='diffballs/{}.png'.format(score.difficulty)) }}" />
+                      {% endif %}
+                    </td>
+                    <td>{{score.lettergrade.upper()}}</td>
+                    <td>{{score.score}}</td>
                   </tr>
                 </tbody>
               </table>
