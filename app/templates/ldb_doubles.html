@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+<head>
+  {% block head %}
+    <title>Arrow Tracker</title>
+    {% block meta %}
+      <meta property="og:title" content="Arrow Tracker: Song of the Week"/>
+      <meta property="og:description" content="A handy score tracking utility for Pump it Up!"/>
+      <meta property="og:url" content="https://arrowtracker.duckdns.org/">
+      <meta name="theme-color" content="#99beea">
+      <meta name="robots" content="index, nofollow">
+    {% endblock meta %}
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+      });
+    </script>
+  {% endblock head %}
+</head>
+{% block body %}
+  <hr />
+  <div class="jumbotron text-center">
+    <div class="animated fadeIn">
+      <h1 class="display-4">Doubles Total Leaderboard</h1>
+    </div>
+    <hr />
+    {% if scores != None %}
+      <div style="overflow: auto; max-width: 100%">
+        <table class="table table-striped animated fadeIn">
+          <th>Place</th>
+          <th>User</th>
+          <th>Total Score</th>
+          {% set count = namespace(a=0) %}
+          {% set place = namespace(b=0) %}
+          {% for user, total in scores.items() %}
+            {% set count.a = count.a + 0.03 %}
+            {% set place.b = place.b + 1 %}
+            <tr class="animated fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
+              <td>
+                {% if place.b == 1 %}
+                  <font color="#FFD700">{{ place.b }}</font>
+                {% elif place.b == 2 %}
+                  <font color="#C0C0C0">{{ place.b }}</font>
+                {% elif place.b == 3 %}
+                  <font color="#CD7F32">{{ place.b }}</font>
+                {% else %}
+                  {{ place.b }}
+                {% endif %}
+              </td>
+              <td>{{ user }}</td>
+              <td>{{ total }}</td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+    {% else %}
+      <h4>No scores submitted. Scores will display here when any are uploaded.</h4>
+    {% endif %}
+  </div>
+{% endblock body %}
