@@ -17,7 +17,6 @@
   {% endblock head %}
 </head>
 {% block body %}
-  <hr />
   <div class="jumbotron text-center">
     <div class="animated fadeIn">
       <h1 class="display-4">{{ ldbtype }} Leaderboard</h1>
@@ -26,30 +25,34 @@
     {% if scores != None %}
       <div style="overflow: auto; max-width: 100%">
         <table class="table table-striped animated fadeIn">
-          <th>Place</th>
-          <th>User</th>
-          <th>Total Score</th>
+          <thead>
+            <th>Place</th>
+            <th>User</th>
+            <th>Total Score</th>
+          </thead>
           {% set count = namespace(a=0) %}
           {% set place = namespace(b=0) %}
-          {% for user, total in scores.items() %}
-            {% set count.a = count.a + 0.03 %}
-            {% set place.b = place.b + 1 %}
-            <tr class="animated fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
-              <td>
-                {% if place.b == 1 %}
+          <tbody>
+            {% for user, total in scores.items() %}
+              {% set count.a = count.a + 0.03 %}
+              {% set place.b = place.b + 1 %}
+              <tr class="animated fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
+                <td>
+                  {% if place.b == 1 %}
                   <font color="#FFD700">{{ place.b }}</font>
-                {% elif place.b == 2 %}
+                  {% elif place.b == 2 %}
                   <font color="#C0C0C0">{{ place.b }}</font>
-                {% elif place.b == 3 %}
+                  {% elif place.b == 3 %}
                   <font color="#CD7F32">{{ place.b }}</font>
-                {% else %}
+                  {% else %}
                   {{ place.b }}
-                {% endif %}
-              </td>
-              <td>{{ user }}</td>
-              <td>{{ total }}</td>
-            </tr>
-          {% endfor %}
+                  {% endif %}
+                </td>
+                <td>{{ user }}</td>
+                <td>{{ total }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
         </table>
       </div>
     {% else %}
