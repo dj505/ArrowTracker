@@ -5,7 +5,7 @@
       {% if score.type == "None" %}
         <title>{{ score.song }} | {{ score.length }} {{score.difficulty}}</title>
       {% else %}
-        <title>{{ score.song }} | {{score.type[0].capitalize()}}{{score.difficulty}}</title>
+        <title>{{ score.song }} | {{score.type}} {{score.difficulty}}</title>
       {% endif %}
     {% endblock %}
     {% block meta %}
