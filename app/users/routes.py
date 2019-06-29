@@ -64,14 +64,16 @@ def dashboard():
             current_user.image_file = picture_file
         current_user.username = form.username.data
         current_user.email = form.email.data
+        current_user.bio = form.bio.data
+        current_user.favsong = form.favsong.data
         db.session.commit()
-#        rivals = form.rivals.data.split(',')
-#        update_rivals(rivals, id, current_user.id)
         flash('Account details updated!', 'success')
         return redirect(url_for('users.dashboard'))
     elif request.method == "GET":
         form.username.data = current_user.username
         form.email.data = current_user.email
+        form.bio.data = current_user.bio
+        form.favsong.data = current_user.favsong
     image_file = url_for('static', filename='profile_pics/' + current_user.image_file)
     return render_template("dashboard.html", title="Dashboard", image_file=image_file, form=form)
 
@@ -86,6 +88,12 @@ def user_posts(username):
     for score in scores.items:
         difficulty = str(score.difficulty)
     return render_template("user_posts.html", scores=scores, difficulty=difficulty, user=user)
+
+@users.route("/userpage/<string:username>")
+def user_page(username):
+    user = User.query.filter_by(username=username).first_or_404()
+    scores = Post.query.filter_by(author=user).order_by(Post.date_posted.desc()).limit(5).all()
+    return render_template("user_profile.html", scores=scores, user=user)
 
 @users.route("/reset_password", methods=["GET", "POST"])
 def reset_request():

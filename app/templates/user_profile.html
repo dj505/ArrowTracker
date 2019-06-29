@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+<head>
+  {% block head %}
+  {% block title %}<title>{{ user.username }}'s Profile</title>{% endblock %}
+  {% block meta %}
+    <meta property="og:title" content="Arrow Tracker: The PIU Score Tracker"/>
+    <meta property="og:description" content="A handy score tracking utility for Pump it Up!"/>
+    <meta property="og:url" content="https://arrowtracker.duckdns.org/">
+    <meta name="theme-color" content="#99beea">
+    <meta name="robots" content="none">
+  {% endblock meta %}
+  {% endblock %}
+</head>
+{% block body %}
+<div class="media">
+  <img class="rounded-circle account-img" src="{{ user.image_file }}">
+  <div class="media-body">
+    <h2 class="account-heading">{{ user.username }}</h2>
+  </div>
+</div>
+<hr>
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+       <h5 class="card-header">
+         Information
+       </h5>
+       <div class="card-body">
+         <h5><strong>Bio</strong></h5>
+         {{ user.bio }}
+         <hr>
+         <h5><strong>Favourite Song</strong></h5>
+         {{ user.favsong }}
+       </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <h5 class="card-header">
+          Recent Scores
+        </h5>
+        <div class="card-body">
+          <table class="table table-striped">
+          <th>Song</th>
+          <th>Score</th>
+          <th>Letter Grade</th>
+          {% for score in scores %}
+            <tr>
+              <td>{{ score.song }}</td>
+              <td>{{ score.score }}</td>
+              <td>{{ score.lettergrade.upper() }}</td>
+            </tr>
+          {% endfor %}
+          </table>
+          <a href="/user/{{ user.username }}" class="btn btn-primary" role="button" aria-pressed="True">View All</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}

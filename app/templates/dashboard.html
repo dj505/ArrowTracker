@@ -145,21 +145,33 @@
               {{ form.email(class="form-control form-control-lg") }}
             {% endif %}
           </div>
-          <!--
+          <hr>
           <div class="form-group">
-            {{ form.rivals.label(class="form-control-label") }}
-            {% if form.rivals.errors %}
-              {{ form.rivals(class="form-control form-control-lg is-invalid") }}
+            {{ form.bio.label(class="form-control-label") }}
+            {% if form.bio.errors %}
+              {{ form.bio(class="form-control form-control-lg is-invalid") }}
               <div class="invalid-feedback">
-                {% for error in form.rivals.errors %}
+                {% for error in form.bio.errors %}
                   <span>{{ error }}</span>
                 {% endfor %}
               </div>
             {% else %}
-              {{ form.rivals(class="form-control form-control-lg") }}
+              {{ form.bio(class="form-control form-control-lg") }}
             {% endif %}
           </div>
-          -->
+          <div class="form-group">
+            {{ form.favsong.label(class="form-control-label") }}
+            {% if form.favsong.errors %}
+              {{ form.favsong(class="form-control form-control-lg is-invalid") }}
+              <div class="invalid-feedback">
+                {% for error in form.favsong.errors %}
+                  <span>{{ error }}</span>
+                {% endfor %}
+              </div>
+            {% else %}
+              {{ form.favsong(class="form-control form-control-lg") }}
+            {% endif %}
+          </div>
           <hr>
           <div class="form-group">
             {{ form.picture.label() }}

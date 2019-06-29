@@ -27,8 +27,8 @@
               <h3 class="card-title">{{ user.username }}</h3>
             </div>
             <div style="display:inline; white-space:nowrap;">
-              <a href="{{ url_for('users.user_posts', username=user.username) }}" class="btn btn-secondary">View Page</a>
-              <!-- <a href="{{ url_for('users.user_posts', username=user.username) }}" class="btn btn-secondary">Add Rival</a> -->
+              <a href="{{ url_for('users.user_page', username=user.username) }}" class="btn btn-secondary">View Profile</a>
+              <a href="{{ url_for('users.user_posts', username=user.username) }}" class="btn btn-secondary">View Scores</a>
             </div>
           </div>
         </div>

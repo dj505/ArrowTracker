@@ -120,7 +120,7 @@
             </div>
           </div>
           <div class="article-metadata">
-            <a class="mr-2" href="{{ url_for('users.user_posts', username=score.author.username) }}">{{ score.author.username }}</a>
+            <a class="mr-2" href="{{ url_for('users.user_page', username=score.author.username) }}">{{ score.author.username }}</a>
             <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
           </div>
         </div>
