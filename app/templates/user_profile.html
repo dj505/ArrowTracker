@@ -51,7 +51,7 @@
             <th>Letter Grade</th>
             {% for score in scores %}
               <tr>
-                <td>{{ score.song }}</td>
+                <td><a href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a></td>
                 <td>{{ score.score }}</td>
                 <td>{{ score.lettergrade.upper() }}</td>
               </tr>
