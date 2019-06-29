@@ -24,7 +24,7 @@
   {% for score in scores.items %}
   {% set count.a = count.a + 0.05 %}
   <article class="media content-section animated fadeInLeft fast" style="overflow: auto; height: 100%; animation-delay: {{ count.a|float }}s;">
-    <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
+    <img src="{{ url_for('static', filename='profile_pics/' + user.image_file) }}" class="rounded-circle article-img">
     <div class="media-body">
       <div class="article-metadata">
         <a class="mr-2" href="{{ url_for('users.user_posts', username=score.author.username) }}">{{ score.author.username }}</a>
