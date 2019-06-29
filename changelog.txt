@@ -1,4 +1,11 @@
-Latest Update (2019-06-13)
+Latest Update (2019-06-29)
+- WE'RE BACK! The site is finally back online thanks to Cube's hosting!
+- Profile pages are live! To view:
+  - Click on the username attached to any post on the homepage
+  - Click on the "View Profile" button in the Members list
+- Users can now write a bio and pick their favourite song to display in their profile!
+
+Last Update (2019-06-13)
 - Added leaderboards!
   - Singles leaderboard displays total singles scores
   - Doubles leaderboard displays total doubles scores
@@ -7,7 +14,7 @@ Latest Update (2019-06-13)
   - Mobile site doesn't show song thumbnail or letter grade image
   - Mobile site also shows reduced table showing only difficulty, score, and grade
 
-Last Update (2016-06-10)
+Changes (2016-06-10)
 - Moved the changelog (yay, you found it!)
 - SO
 - MANY
