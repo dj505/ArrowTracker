@@ -12,14 +12,14 @@
   {% endblock %}
 </head>
 {% block body %}
-<div class="media">
+<div class="media animated fadeInDown fast" style="z-index: -1">
   <img class="rounded-circle account-img" src="{{ url_for('static', filename='profile_pics/' + user.image_file) }}">
   <div class="media-body">
     <h2 class="account-heading">{{ user.username }}</h2>
   </div>
 </div>
 <hr>
-<div class="jumbotron">
+<div class="jumbotron animated fadeInLeft fast">
   <div>
     <h3>Profile</h3>
   </div>
