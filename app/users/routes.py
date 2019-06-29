@@ -87,7 +87,7 @@ def user_posts(username):
     difficulty = None
     for score in scores.items:
         difficulty = str(score.difficulty)
-    return render_template("user_posts.html", scores=scores, difficulty=difficulty, user=user)
+    return render_template("user_posts.html", scores=scores, difficulty=difficulty, user=user, songdata=raw_songdata)
 
 @users.route("/userpage/<string:username>")
 def user_page(username):

@@ -22,60 +22,109 @@
   <hr class="my-4">
   {% set count = namespace(a=0) %}
   {% for score in scores.items %}
-  {% set count.a = count.a + 0.05 %}
-  <article class="media content-section animated fadeInLeft fast" style="overflow: auto; height: 100%; animation-delay: {{ count.a|float }}s;">
-    <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
-    <div class="media-body">
-      <div class="article-metadata">
-        <a class="mr-2" href="{{ url_for('users.user_posts', username=score.author.username) }}">{{ score.author.username }}</a>
-        <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
-      </div>
-      {% if score.image_file != "None" %}
-        <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }} ({{ score.length }})</a></h2><h4><span class="badge badge-success">Verified!</span></h4>
-      {% else %}
-        <h2><a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }} ({{ score.length }}</a></h2>
-      {% endif %}
-      <div class="article-content">
-        <div class="table-responsive">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Difficulty</th>
-                <th>Letter Grade</th>
-                <th>Score</th>
-                <th>Stage Pass</th>
-                <th>Platform</th>
-                <th>Ranked?</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  {% if score.type != "None" %}
-                    {{score.type.capitalize()}}
+    {% set count.a = count.a + 0.05 %}
+    <article class="media content-section animated fadeInLeft fast fastBoxShadow" style="height: 100%; animation-delay: {{ count.a|float }}s;">
+      <img src="{{ url_for('static', filename='profile_pics/' + score.author.image_file) }}" class="rounded-circle article-img">
+      <div class="media-body">
+        <h2>
+          <div>
+            {% if score.song in songdata %}
+              <img id="content-desktop" class="rounded float-right" style="margin-left: 10pt;" width="170pt" src="{{ url_for('static', filename='songthumbs/{}.png'.format(songdata[score.song]['id'])) }}">
+            {% endif %}
+            <div id="thumb-desktop">
+              <img class="rounded float-right" id="content-desktop"
+                {% if score.lettergrade == "a" and score.stagepass == "True" %}
+                   width="80pt" style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/sp_a.png') }}"
+                {% elif score.lettergrade == "s" and score.stagepass == "True" %}
+                   width="80pt" style="position: relative; top: 50%; transform: translateY(40%);" src="{{ url_for('static', filename='judgements/s.png') }}"
+                {% elif score.lettergrade == "ss" and score.stagepass == "True" %}
+                   width="90pt" style="position: relative; top: 50%; transform: translateY(60%);" src="{{ url_for('static', filename='judgements/ss.png') }}"
+                {% elif score.lettergrade == "sss" and score.stagepass == "True" %}
+                   width="80pt" style="position: relative; top: 50%; transform: translateY(50%);" src="{{ url_for('static', filename='judgements/sss.png') }}"
+                {% endif %}
+              />
+            </div>
+            <div class="float-left">
+              <a class="article-title" href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a>
+              <h3>
+                {{score.length}}
+              </h3>
+              {% if score.image_file != "None" and score.platform == "pad" %}
+                <h4><span class="badge badge-success">Verified!</span></h4>
+              {% elif score.image_file != "None" and score.platform != "pad" %}
+                <h4><span class="badge badge-info">Verified SF2!</span></h4>
+              {% endif %}
+            </div>
+          </div>
+        </h2>
+        <div class="article-content">
+          <div class="table-responsive">
+            <table class="table" id="content-desktop">
+              <thead>
+                <tr>
+                  <th>Difficulty</th>
+                  <th>Letter Grade</th>
+                  <th>Score</th>
+                  <th>Stage Pass</th>
+                  <th>Platform</th>
+                  <th>Ranked?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    {% if score.type != "None" %}
+                      {{score.type.capitalize()}} {{score.difficulty}}
+                    {% else %}
+                      <img width="50pt" src="{{ url_for('static', filename='diffballs/{}.png'.format(score.difficulty)) }}" />
+                    {% endif %}
+                  </td>
+                  <td>{{score.lettergrade.upper()}}</td>
+                  <td>{{score.score}}</td>
+                  {% if score.stagepass == "True" %}
+                    <td>{{score.stagepass|replace("True", "Yes")}}</td>
+                  {% elif score.stagepass == "False" %}
+                    <td>{{score.stagepass|replace("False", "No")}}</td>
                   {% endif %}
-                  {{score.difficulty}}
-                </td>
-                <td>{{score.lettergrade.upper()}}</td>
-                <td>{{score.score}}</td>
-                {% if score.stagepass == "True" %}
-                  <td>{{score.stagepass|replace("True", "Yes")}}</td>
-                {% elif score.stagepass == "False" %}
-                  <td>{{score.stagepass|replace("False", "No")}}</td>
-                {% endif %}
-                <td>{{score.platform.capitalize()|replace('Sf2-pad', 'StepF2 Pad')}}</td>
-                {% if score.ranked == "True" %}
-                  <td>{{score.ranked|replace("True", "Yes")}}</td>
-                {% elif score.ranked == "False" %}
-                  <td>{{score.ranked|replace("False", "No")}}</td>
-                {% endif %}
-              </tr>
-            </tbody>
-          </table>
+                  <td>{{score.platform.capitalize()|replace('Sf2-pad', 'StepF2 Pad')}}</td>
+                  {% if score.ranked == "True" %}
+                    <td>{{score.ranked|replace("True", "Yes")}}</td>
+                  {% elif score.ranked == "False" %}
+                    <td>{{score.ranked|replace("False", "No")}}</td>
+                  {% endif %}
+                </tr>
+              </tbody>
+            </table>
+            <table class="table" id="content-mobile">
+              <thead>
+                <tr>
+                  <th>Difficulty</th>
+                  <th>Letter Grade</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    {% if score.type != "None" %}
+                      {{score.type.capitalize()}} {{score.difficulty}}
+                    {% else %}
+                      <img width="50pt" src="{{ url_for('static', filename='diffballs/{}.png'.format(score.difficulty)) }}" />
+                    {% endif %}
+                  </td>
+                  <td>{{score.lettergrade.upper()}}</td>
+                  <td>{{score.score}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="article-metadata">
+          <a class="mr-2" href="{{ url_for('users.user_page', username=score.author.username) }}">{{ score.author.username }}</a>
+          <small class="text-muted">{{ score.date_posted.strftime('%Y-%m-%d') }}</small>
         </div>
       </div>
-    </div>
-  </article>
+    </article>
   {% endfor %}
   <ul class="pagination">
     {% for page_num in scores.iter_pages(left_edge=1, right_edge=1) %}
