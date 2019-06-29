@@ -93,24 +93,12 @@
       "DP4"
     ]
   },
-  "86 [Full Song]": {
-    "length": "Full Song",
-    "author": "Dasu",
-    "bpm": "167 BPM",
-    "genre": "WORLD MUSIC",
-    "id": "6",
-    "difficulties": [
-      "S16",
-      "S21",
-      "D23"
-    ]
-  },
   "86": {
     "length": "Arcade",
     "author": "Dasu",
     "bpm": "167 BPM",
     "genre": "WORLD MUSIC",
-    "id": "7",
+    "id": "6",
     "difficulties": [
       "S12",
       "S16",
@@ -118,6 +106,18 @@
       "D18",
       "D21",
       "DP3"
+    ]
+  },
+  "86 [Full Song]": {
+    "length": "Full Song",
+    "author": "Dasu",
+    "bpm": "167 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "7",
+    "difficulties": [
+      "S16",
+      "S21",
+      "D23"
     ]
   },
   "A nightmare": {
@@ -921,23 +921,12 @@
       "D18"
     ]
   },
-  "BBoom BBoom [Full Song]": {
-    "length": "Full Song",
-    "author": "MOMOLAND",
-    "bpm": "126 BPM",
-    "genre": "K-POP",
-    "id": "58",
-    "difficulties": [
-      "S17",
-      "D18"
-    ]
-  },
   "BBoom BBoom": {
     "length": "Arcade",
     "author": "MOMOLAND",
     "bpm": "126 BPM",
     "genre": "K-POP",
-    "id": "59",
+    "id": "58",
     "difficulties": [
       "S1",
       "S4",
@@ -950,6 +939,17 @@
       "D18",
       "DP2",
       "Co-Op2"
+    ]
+  },
+  "BBoom BBoom [Full Song]": {
+    "length": "Full Song",
+    "author": "MOMOLAND",
+    "bpm": "126 BPM",
+    "genre": "K-POP",
+    "id": "59",
+    "difficulties": [
+      "S17",
+      "D18"
     ]
   },
   "Be Alive (Raaban Inc. Mix)": {
@@ -2547,25 +2547,12 @@
       "SP2"
     ]
   },
-  "Dance on Fire: Retribution [Short Cut]": {
-    "length": "Short Cut",
-    "author": "Magic Hammer",
-    "bpm": "165 BPM",
-    "genre": "WORLD MUSIC",
-    "id": "157",
-    "difficulties": [
-      "S6",
-      "S15",
-      "D4",
-      "D16"
-    ]
-  },
   "Dance on Fire: Retribution": {
     "length": "Arcade",
     "author": "Magic Hammer",
     "bpm": "165 BPM",
     "genre": "WORLD MUSIC",
-    "id": "158",
+    "id": "157",
     "difficulties": [
       "S1",
       "S4",
@@ -2581,6 +2568,19 @@
       "D20",
       "SP4",
       "RT17"
+    ]
+  },
+  "Dance on Fire: Retribution [Short Cut]": {
+    "length": "Short Cut",
+    "author": "Magic Hammer",
+    "bpm": "165 BPM",
+    "genre": "WORLD MUSIC",
+    "id": "158",
+    "difficulties": [
+      "S6",
+      "S15",
+      "D4",
+      "D16"
     ]
   },
   "Dance Vibrations [Short Cut]": {
@@ -10703,7 +10703,7 @@
     "author": "Ashley Scared The Sky",
     "bpm": "210 BPM",
     "genre": "WORLD MUSIC",
-    "id": "659",
+    "id": "660",
     "difficulties": [
       "S5",
       "S10",
@@ -10714,16 +10714,6 @@
       "D14",
       "D18",
       "D22"
-    ]
-  },
-  "The Ark Sailing Over Truth [Full Song]": {
-    "length": "Full Song",
-    "author": "Ashley Scared The Sky",
-    "bpm": "210 BPM",
-    "genre": "WORLD MUSIC",
-    "id": "660",
-    "difficulties": [
-      "S18"
     ]
   },
   "The Best It's Gonna' Get": {

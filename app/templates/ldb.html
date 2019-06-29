@@ -24,35 +24,31 @@
     <hr />
     {% if scores != None %}
       <div style="overflow: auto; max-width: 100%">
-        <table class="table table-striped animated fadeIn">
-          <thead>
-            <th>Place</th>
-            <th>User</th>
-            <th>Total Score</th>
-          </thead>
+        <table class="table table-striped table-dark animated fadeIn">
+          <th>Place</th>
+          <th>User</th>
+          <th>Total Score</th>
           {% set count = namespace(a=0) %}
           {% set place = namespace(b=0) %}
-          <tbody>
-            {% for user, total in scores.items() %}
-              {% set count.a = count.a + 0.03 %}
-              {% set place.b = place.b + 1 %}
-              <tr class="animated table-striped fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
-                <td>
-                  {% if place.b == 1 %}
-                    <font color="#FFD700">{{ place.b }}</font>
-                  {% elif place.b == 2 %}
-                    <font color="#C0C0C0">{{ place.b }}</font>
-                  {% elif place.b == 3 %}
-                    <font color="#CD7F32">{{ place.b }}</font>
-                  {% else %}
-                    {{ place.b }}
-                  {% endif %}
-                </td>
-                <td>{{ user }}</td>
-                <td>{{ total }}</td>
-              </tr>
-            {% endfor %}
-          </tbody>
+          {% for user, total in scores.items() %}
+            {% set count.a = count.a + 0.03 %}
+            {% set place.b = place.b + 1 %}
+            <tr class="animated fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
+              <td>
+                {% if place.b == 1 %}
+                  <font color="#FFD700">{{ place.b }}</font>
+                {% elif place.b == 2 %}
+                  <font color="#C0C0C0">{{ place.b }}</font>
+                {% elif place.b == 3 %}
+                  <font color="#CD7F32">{{ place.b }}</font>
+                {% else %}
+                  {{ place.b }}
+                {% endif %}
+              </td>
+              <td>{{ user }}</td>
+              <td>{{ total }}</td>
+            </tr>
+          {% endfor %}
         </table>
       </div>
     {% else %}

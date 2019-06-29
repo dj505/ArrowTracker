@@ -1,3 +1,4 @@
+#!/usr/bin/env
 from app import create_app
 import weekly
 

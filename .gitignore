@@ -130,3 +130,9 @@ app/static/diffballs/*.png
 site.SQLALCHEMY_DATABASE_URI
 *.ttf
 _site_verification.html
+*.sock
+google*.html
+app/static/profile_pics/*.png
+app/static/profile_pics/*.jpg
+app/static/profile_pics/*.gif
+*.backup
