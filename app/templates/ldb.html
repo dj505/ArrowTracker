@@ -36,7 +36,7 @@
             {% for user, total in scores.items() %}
               {% set count.a = count.a + 0.03 %}
               {% set place.b = place.b + 1 %}
-              <tr class="animated fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
+              <tr class="animated table-striped fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
                 <td>
                   {% if place.b == 1 %}
                     <font color="#FFD700">{{ place.b }}</font>
