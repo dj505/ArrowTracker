@@ -49,8 +49,10 @@
             <th>Song</th>
             <th>Score</th>
             <th>Letter Grade</th>
+            {% set count = namespace(a=0) %}
             {% for score in scores %}
-              <tr>
+              {% set count.a = count.a + 0.03 %}
+              <tr class="animated fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
                 <td><a href="{{ url_for('scores.score', score_id=score.id) }}">{{ score.song }}</a></td>
                 <td>{{ score.score }}</td>
                 <td>{{ score.lettergrade.upper() }}</td>
