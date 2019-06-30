@@ -7251,6 +7251,7 @@
       "S9",
       "S13",
       "S15",
+      "S21",
       "HD15",
       "D11",
       "D14",
@@ -12393,5 +12394,158 @@
       "DP5",
       "Co-Op3"
     ]
-  }
+  },
+  "Starry Night": {
+    "length": "Arcade",
+    "author": "Mamamoo",
+    "bpm": "124 BPM",
+    "genre": "K-POP",
+    "id": "760",
+    "difficulties": [
+      "S1",
+      "S3",
+      "S5",
+      "S8",
+      "S14",
+      "S16",
+      "D7",
+      "D15",
+      "D17"
+    ]
+  },
+  "Gashina [Full Song]": {
+    "length": "Full Song",
+    "author": "Sunmi",
+    "bpm": "94 BPM",
+    "genre": "K-POP",
+    "id": "761",
+    "difficulties": [
+      "S15",
+      "S20",
+      "D21"
+    ]
+  },
+  "Can-can ~Orpheus in The Party Mix~": {
+    "length": "Arcade",
+    "author": "Sr. Lan Belmont",
+    "bpm": "195 BPM",
+    "genre": "Original",
+    "id": "762",
+    "difficulties": [
+      "S8",
+      "S13",
+      "S16",
+      "S19",
+      "S22",
+      "D12",
+      "D15",
+      "D18",
+      "D23"
+    ]
+  },
+  "Papasito (feat. KuTiNA)": {
+    "length": "Arcade",
+    "author": "Yakikaze & Cashew",
+    "bpm": "128 BPM",
+    "genre": "Original",
+    "id": "763",
+    "difficulties": [
+      "S6",
+      "S13",
+      "S15",
+      "S16",
+      "S20",
+      "D11",
+      "D14",
+      "D16",
+      "D18",
+      "D21",
+      "Co-Op2"
+    ]
+  },
+  "Fires of Destiny": {
+    "length": "Arcade",
+    "author": "Jehezukiel",
+    "bpm": "155 BPM",
+    "genre": "Original",
+    "id": "764",
+    "difficulties": [
+      "S6",
+      "S10",
+      "S16",
+      "S18",
+      "S20",
+      "D11",
+      "D18",
+      "D22"
+    ]
+  },
+  "The End of the World ft. Skizzo": {
+    "length": "Arcade",
+    "author": "MonstDeath",
+    "bpm": "150 BPM",
+    "genre": "Original",
+    "id": "765",
+    "difficulties": [
+      "S3",
+      "S5",
+      "S8",
+      "S17",
+      "D8",
+      "D17"
+    ]
+  },
+  "Forgotten Vampire": {
+    "length": "Arcade",
+    "author": "WyvernP",
+    "bpm": "137 BPM",
+    "genre": "Original",
+    "id": "766",
+    "difficulties": [
+      "S3",
+      "S6",
+      "S8",
+      "S13",
+      "S16",
+      "S18",
+      "D5",
+      "D11",
+      "D14",
+      "D17",
+      "D20",
+      "Co-Op2"
+    ]
+  },
+  "Poseidon [Short Cut]": {
+    "length": "Short Cut",
+    "author": "Quree",
+    "bpm": "160 BPM",
+    "genre": "Original",
+    "id": "767",
+    "difficulties": [
+      "S11",
+      "S14",
+      "S18",
+      "S21",
+      "D14",
+      "D21"
+    ]
+  },
+  "Conflict": {
+    "length": "Arcade",
+    "author": "Siromaru + Cranky",
+    "bpm": "160 BPM",
+    "genre": "Original",
+    "id": "768",
+    "difficulties": [
+      "S6",
+      "S11",
+      "S17",
+      "S19",
+      "S22",
+      "D13",
+      "D21",
+      "D24"
+    ]
+  },
 }
