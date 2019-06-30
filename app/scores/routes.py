@@ -3,7 +3,7 @@ from flask_login import current_user, login_required
 from app import db, logging, raw_songdata
 from app.models import Post, WeeklyPost, User
 from app.scores.forms import ScoreForm, WeeklyForm
-from app.scores.utils import save_picture, allowed_file
+from app.scores.utils import save_picture, allowed_file, return_completion
 import os
 from weekly import get_current_weekly, randomize_weekly
 
@@ -161,3 +161,9 @@ def doubles_ldb():
             scores[user.username] = total
         scores = {k:v for k, v in sorted(scores.items(), key=lambda x: x[1], reverse=True)}
     return render_template('ldb.html', scores=scores, ldbtype=ldbtype)
+
+@scores.route('/completion/<string:user>')
+@login_required
+def completion(user):
+    completion = return_completion(user, "singles")
+    return render_template('completion.html', completion=completion)
