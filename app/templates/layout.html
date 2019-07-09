@@ -42,9 +42,13 @@
       </div>
     </main>
     {% include 'includes/_footer.html' %}
-    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
     <script type="text/javascript">
       const swup = new Swup();
+
+      init();
+
+      swup.on('contentReplaced', init);
     </script>
   </body>
 </html>
