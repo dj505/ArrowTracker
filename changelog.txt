@@ -1,11 +1,16 @@
-Latest Update (2019-06-29)
+Latest Update (2018-07-09)
+- Big fixes and minor changes
+  - No need to refresh the submit score page to make difficulties show up!
+  - Edited popup besides Difficulties label on said page to better reflect its current state
+
+Last Update (2019-06-29)
 - WE'RE BACK! The site is finally back online thanks to Cube's hosting!
 - Profile pages are live! To view:
   - Click on the username attached to any post on the homepage
   - Click on the "View Profile" button in the Members list
 - Users can now write a bio and pick their favourite song to display in their profile!
 
-Last Update (2019-06-13)
+Changes (2019-06-13)
 - Added leaderboards!
   - Singles leaderboard displays total singles scores
   - Doubles leaderboard displays total doubles scores
