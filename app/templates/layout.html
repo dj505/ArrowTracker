@@ -54,7 +54,7 @@
 
       function init() {
         if (document.querySelector('#scoreform')) {
-          data = {{ songdata | tojson | safe }}
+          data = {% if songdata %}{{ songdata | tojson | safe }}{% endif %}
           var diffDrop = document.getElementById("difficultyDropdown");
           var song = document.getElementById("songDropdown");
 
