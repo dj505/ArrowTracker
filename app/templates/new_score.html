@@ -17,7 +17,7 @@
   {% endblock %}
 </head>
 {% block body %}
-  <div class="content-section">
+  <div class="content-section" id="scoreform">
     <form action="" method="POST" enctype = "multipart/form-data">
       {{ form.hidden_tag() }}
       <fieldset class="form-group">
@@ -144,28 +144,4 @@
       </div>
     </form>
   </div>
-  <script>
-    function init() {
-      data = {{ songdata | tojson | safe }}
-      var diffDrop = document.getElementById("difficultyDropdown");
-      var song = document.getElementById("songDropdown");
-
-      updateSelectedSong();
-
-      function updateSelectedSong() {
-        diffDrop.options.length = 0;
-
-        var strSong = song.options[song.selectedIndex].value;
-        var diffs = data[strSong]["difficulties"];
-
-        for(var i=0; i < diffs.length; i++) {
-          var option = document.createElement("OPTION"),
-            txt = document.createTextNode(diffs[i]);
-          option.appendChild(txt);
-          option.setAttribute("value",diffs[i]);
-          diffDrop.insertBefore(option,diffDrop.lastChild);
-        }
-      }
-    }
-  </script>
 {% endblock body %}
