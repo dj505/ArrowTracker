@@ -25,6 +25,9 @@
         <button style="margin: 2pt" class="btn btn-success" type="button" data-toggle="collapse" data-target="#premadePfp" aria-expanded="false">
           ArrowTracker Profile Images
         </button>
+        <button style="margin: 2pt" class="btn btn-success" type="button" data-toggle="collapse" data-target="#premadePfpPrime" aria-expanded="false">
+          Prime Profile Images
+        </button>
         <button style="margin: 2pt" class="btn btn-success" type="button" data-toggle="collapse" data-target="#premadePfpP2" aria-expanded="false">
           Prime 2 Profile Images
         </button>
@@ -58,6 +61,50 @@
             <button type="submit" class="btn btn-secondary" name="submit_button" value="default14.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/default14.jpg') }}" /></button>
             <button type="submit" class="btn btn-secondary" name="submit_button" value="default15.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/default15.jpg') }}" /></button>
           </div><br>
+        </form>
+      </div>
+      <div class="content-section collapse" id="premadePfpPrime">
+        <form action="{{ url_for('users.update_pfp') }}" method="POST">
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_0.jpg"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_0.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_1.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_1.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_2.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_2.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_3.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_3.png') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_4.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_4.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_5.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_5.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_6.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_6.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_7.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_7.png') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_8.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_8.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_9.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_9.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_10.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_10.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_11.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_11.png') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_12.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_12.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_13.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_13.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_14.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_14.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_15.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_15.png') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_16.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_16.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_17.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_17.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_18.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_18.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_19.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_19.png') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_20.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_20.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_21.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_21.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_22.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_22.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_23.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_23.png') }}" /></button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Default Profile Images" style="left: 64pt;">
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_24.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_24.png') }}" /></button>
+            <button type="submit" class="btn btn-secondary" name="submit_button" value="defaultprime_25.png"><img class="rounded" width="60pt" src="{{ url_for('static', filename='profile_pics/defaultprime_25.png') }}" /></button>
+          </div>
         </form>
       </div>
       <div class="content-section collapse" id="premadePfpP2">
