@@ -1,4 +1,4 @@
-Latest Update (2018-07-09)
+Latest Update (2019-07-09)
 - Big fixes and minor changes
   - No need to refresh the submit score page to make difficulties show up!
   - Edited popup besides Difficulties label on said page to better reflect its current state
