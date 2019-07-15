@@ -54,33 +54,6 @@
 
       const swup = new Swup();
 
-      function init() {
-        if (document.querySelector('#scoreform')) {
-          data = {% if songdata %}{{ songdata | tojson | safe }}{% endif %}
-          var diffDrop = document.getElementById("difficultyDropdown");
-          var song = document.getElementById("songDropdown");
-
-          updateSelectedSong();
-
-          function updateSelectedSong() {
-            diffDrop.options.length = 0;
-
-            var strSong = song.options[song.selectedIndex].value;
-            var diffs = data[strSong]["difficulties"];
-
-            for(var i=0; i < diffs.length; i++) {
-              var option = document.createElement("OPTION"),
-                txt = document.createTextNode(diffs[i]);
-              option.appendChild(txt);
-              option.setAttribute("value",diffs[i]);
-              diffDrop.insertBefore(option,diffDrop.lastChild);
-            }
-          }
-        }
-      }
-
-      init();
-
       swup.on('contentReplaced', init);
     </script>
   </body>
