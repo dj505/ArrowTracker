@@ -136,3 +136,26 @@ html.is-animating .transition-fade {
 html {
   scroll-behavior: smooth;
 }
+
+/* Sidebar */
+.sidenav {
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 68pt;
+  right: 10pt;
+  background: #3a3a3a;
+  overflow-x: hidden;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
