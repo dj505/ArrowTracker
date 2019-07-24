@@ -19,6 +19,7 @@
     <h1>Newest Scores</h1>
     <h4>{{ total }} Total Scores</h4>
   </div>
+  <div>
     <hr class="my-4">
     {% set count = namespace(a=0) %}
     {% for score in scores.items %}
@@ -125,6 +126,7 @@
           </div>
         </div>
       </article>
+    </div>
     {% endfor %}
     <ul class="pagination">
       {% for page_num in scores.iter_pages(left_edge=1, right_edge=1) %}
