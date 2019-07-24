@@ -2,6 +2,7 @@ Latest Update (2019-07-24)
 - Minor changes to the About page and footer
   - Added a Buy Me a Coffee button for site support!
   - Anyone can support the site using the button or the buymeacoff.ee/dj505 link!
+- Added a sidebar!
 
 Last Update (2019-07-09)
 - Big fixes and minor changes
