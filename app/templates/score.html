@@ -9,7 +9,7 @@
       {% endif %}
     {% endblock %}
     {% block meta %}
-      <meta property="og:title" content="{{ score.song }} {{score.type[0].capitalize()}}{{score.difficulty}}"/>
+      <meta property="og:title" content="{{ score.song }} {{score.difficulty}}"/>
       <meta property="og:description" content="Score: {{score.score}} | Grade: {{score.lettergrade.upper()}} | Author: {{score.author.username}}"/>
       <meta property="og:url" content="{{ request.url }}">
       {% if score.lettergrade in bluegrades and score.stagepass == "True" %}
