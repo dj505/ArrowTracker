@@ -22,10 +22,16 @@
     <h4>This site currently only supports Pump it Up! More games will be coming eventually!</h4>
     <hr class="my-4">
   <h3>Quick Links</h3>
-  <div class="btn-group" role="group" aria-label="Basic example">
+  <div class="btn-group" role="group" aria-label="Quick Links" style="padding-bottom:10pt">
     <a href="{{ url_for('scores.new_score') }}" class="btn btn-secondary">Submit Score</a>
     <a href="{{ url_for('main.home') }}" class="btn btn-secondary">Home</a>
     <a href="{{ url_for('users.dashboard') }}" class="btn btn-secondary">Dashboard</a>
+  </div>
+  <hr \>
+  <div>
+    {% include 'includes/_coffee_button.html' %}
+    <p class="legend" style="padding-top: 10pt">Arrow Tracker is completely free, open source, and will always be ad-free!<br \>
+    I hope you're enjoying the site, and any support would be greatly appreciated!</p>
   </div>
 </div>
 {% if not current_user.is_authenticated %}
