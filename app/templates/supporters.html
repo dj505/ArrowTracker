@@ -14,9 +14,25 @@
 {% block body %}
   <div class="jumbotron text-center animated fadeIn">
     <h2>Supporters</h2>
+    <h3>{{ total }} Total Supporters</h3>
     <p class="lead">
       Want to support the site and be part of this list? Click below!
     </p>
     {% include 'includes/_coffee_button.html' %}
+    <hr />
+    <table class="table table-striped table-dark animated fadeIn">
+      <th>Name</th>
+      <th>Amount</th>
+      {% set count = namespace(a=0) %}
+      {% set place = namespace(b=0) %}
+      {% for supporter in supporters.items() %}
+        {% set count.a = count.a + 0.03 %}
+        {% set place.b = place.b + 1 %}
+        <tr class="animated fadeInLeft fast" style="animation-delay: {{ count.a|float }}s;">
+          <td>{{ supporter[0] }}</td>
+          <td>{{ supporter[1]['amount'] }}</td>
+        </tr>
+      {% endfor %}
+    </table>
   </div>
 {% endblock %}

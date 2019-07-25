@@ -136,3 +136,4 @@ app/static/profile_pics/*.png
 app/static/profile_pics/*.jpg
 app/static/profile_pics/*.gif
 *.backup
+supporters.json
