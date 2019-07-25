@@ -34,6 +34,10 @@ Arrow Tracker is a functional online leaderboard and score tracker built for Pum
 * Andamiro (Prime 2 profile images)
 * [daneden's Animeate.css](https://github.com/daneden/animate.css)
 
+## Find Arrow Tracker useful?
+
+[Consider supporting!](https://www.buymeacoffee.com/dj505) Arrow Tracker is and will always be free, open source, and ad-free. Supporters will go in the site's list of supporters!
+
 ### DISCLAIMER
 
 I do not own any of the Pump it Up Prime 2 profile images, song banners, or song thumbnails used in this project. All copyrights there go to their respective owners. The rest of the site (everything outside of the `default` profile images and the things in `app/static/songthumbs`) is owned by myself and the contributors of this repository.
