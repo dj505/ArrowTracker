@@ -129,3 +129,10 @@ def members():
     users = User.query.all()
     total = db.engine.execute('select count(*) from User').scalar()
     return render_template('users.html', users=users, total=total)
+
+@users.route("/members/supporters")
+def supporters():
+    with open('supporters.json', 'r') as f:
+        users = json.loads(f)
+    total = len(users)
+    return render_template('supporters.html', users=users, total=total)

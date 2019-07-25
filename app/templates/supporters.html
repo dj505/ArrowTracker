@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+<head>
+  {% block head %}
+    <title>Supporters</title>
+    {% block meta %}
+      <meta property="og:title" content="Arrow Tracker: Supporters"/>
+      <meta property="og:description" content="A handy score tracking utility for Pump it Up!"/>
+      <meta property="og:url" content="https://arrowtracker.duckdns.org/">
+      <meta name="theme-color" content="#99beea">
+      <meta name="robots" content="none">
+    {% endblock meta %}
+  {% endblock %}
+</head>
+{% block body %}
+  <div class="jumbotron text-center animated fadeIn">
+    <h2>Supporters</h2>
+    <p class="lead">
+      Want to support the site and be part of this list? Click below!
+    </p>
+    {% include 'includes/_coffee_button.html' %}
+  </div>
+{% endblock %}
