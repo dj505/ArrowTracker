@@ -36,7 +36,8 @@ Arrow Tracker is a functional online leaderboard and score tracker built for Pum
 
 ## Find Arrow Tracker useful?
 
-[Consider supporting!](https://www.buymeacoffee.com/dj505) Arrow Tracker is and will always be free, open source, and ad-free. Supporters will go in the site's list of supporters!
+Consider supporting! Arrow Tracker is and will always be free, open source, and ad-free. Supporters will go in the site's list of supporters!
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y8106HR)
 
 ### DISCLAIMER
 
