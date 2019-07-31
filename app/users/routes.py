@@ -141,6 +141,6 @@ def supporters():
 @users.route("/api/incoming", methods=["POST"])
 def incoming_webhook():
     data = json.loads(request.data)
-    with open('webhook.txt', 'a') as f:
-        f.write(data)
+    with open('webhook.json', 'a') as f:
+        json.dumps(data, f)
     return "OK"
