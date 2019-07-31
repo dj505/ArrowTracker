@@ -137,3 +137,10 @@ def supporters():
         supporters = json.load(f)
     total = len(supporters)
     return render_template('supporters.html', supporters=supporters, total=total)
+
+@users.route("/api/incoming", methods=["POST"])
+def incoming_webhook():
+    data = json.loads(request.data)
+    with open('webhook.txt', 'w+') as f:
+        f.write(data)
+    return "OK"
